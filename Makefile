@@ -35,4 +35,4 @@ status:
 
 clean:
 	@echo "Cleaning build artifacts..."
-	@rm -rf $(GAME_DIR)/build $(ZIP_FILE)
+	@rm -rf $(GAME_DIR)/build $(GAME_DIR)/$(ZIP_FILE)

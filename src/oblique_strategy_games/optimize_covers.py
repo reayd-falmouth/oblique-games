@@ -5,10 +5,11 @@ from PIL import Image
 ASSETS_DIR = os.path.join(os.path.dirname(__file__), "assets/games")
 
 # Target size for covers (reduce dimensions)
-TARGET_SIZE = (200, 200)  # Adjust as needed
+TARGET_SIZE = (512, 512)  # Adjust as needed
+
 
 def optimize_pngs(root_dir):
-    """ Compress and resize all PNGs in the games directory. """
+    """Compress and resize all PNGs in the games directory."""
     for game_type in os.listdir(root_dir):
         game_type_path = os.path.join(root_dir, game_type)
         if not os.path.isdir(game_type_path):
@@ -33,6 +34,7 @@ def optimize_pngs(root_dir):
 
                 except Exception as e:
                     print(f"⚠ Error optimizing {cover_path}: {e}")
+
 
 # Run optimization
 if __name__ == "__main__":
