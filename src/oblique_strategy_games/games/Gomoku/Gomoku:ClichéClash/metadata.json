@@ -1,0 +1,24 @@
+{
+    "random_game": false,
+    "oblique_strategy": true,
+    "branding": true,
+    "task": "Develop a basic Gomoku game. Modify it by applying the oblique strategy: 'Don't be frightened of cliches'.",
+    "name": "Gomoku: Clich\u00e9 Clash",
+    "path": "ideas",
+    "game_type": "Gomoku",
+    "model": "gpt-4o-mini",
+    "branding_data": {
+        "short_description": "Gomoku: Clich\u00e9 Clash is a unique twist on the classic five-in-a-row game, injecting humor and creativity into gameplay through the implementation of fun clich\u00e9s.",
+        "detailed_description": "Gomoku: Clich\u00e9 Clash takes the traditional board game of Gomoku and transforms it by incorporating an array of humorous and whimsical clich\u00e9s into its mechanics. Players compete against one another to connect five of their pieces in a row\u2014horizontally, vertically, or diagonally. However, they can also use clich\u00e9-based power-ups, which can alter the state of the game in surprising and funny ways. For example, players may get a 'penny saved is a penny earned' bonus that allows an extra move, or a 'killing two birds' feature that lets them take two turns in succession. The game encourages players to embrace clich\u00e9s, resulting in a playful atmosphere where strategy intertwines with light-hearted fun. With both local multiplayer and online modes, Gomoku: Clich\u00e9 Clash promises engaging gameplay with a humorous twist, perfect for family gatherings or competitive friends.",
+        "tags": [
+            "Gomoku",
+            "board game",
+            "strategy",
+            "multiplayer",
+            "clich\u00e9",
+            "humor",
+            "arcade",
+            "casual"
+        ]
+    }
+}
