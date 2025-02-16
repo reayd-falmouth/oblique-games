@@ -1,0 +1,45 @@
+name: Deploy to Itch.io
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3.1.0
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Set up Python
+        uses: actions/setup-python@v4.4.0
+        with:
+          python-version: '3.x'
+          cache: 'poetry'
+
+      - name: Install Dependencies
+        run: make install
+
+      - name: Build Game
+        run: make build
+
+      - name: Create ZIP Archive
+        run: make zip
+
+      - name: Deploy to Itch.io
+        uses: robpc/itchio-upload-action@v1
+        with:
+          path: src/dummy/web.zip
+          project: ${{ secrets.ITCHIO_PROJECT }}  # Ensure this secret is set
+          channel: html5  # e.g., 'html5', 'windows', 'linux'
+          version: ${{ github.run_number }}-${{ github.run_id }}  # Generates a unique version
+          api-key: ${{ secrets.ITCHIO_API_KEY }}
+

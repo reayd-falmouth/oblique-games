@@ -1,0 +1,28 @@
+{
+    "randomize": false,
+    "oblique_strategy": true,
+    "cover": false,
+    "task": "A games compendium of video games reimagied with Brian Enos oblique strategies Modify it by applying the oblique strategy: 'Mechanicalize something idiosyncratic'.",
+    "path": "ideas",
+    "type": "GamesCompendium",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Idiosyncro-Mechanica",
+    "game_type": "GamesCompendium",
+    "branding_data": {
+        "short_description": "Idiosyncro-Mechanica is a collection of reimagined classic video games infused with Brian Eno's oblique strategies, focusing on the theme 'Mechanicalize something idiosyncratic'.",
+        "detailed_description": "Idiosyncro-Mechanica is a unique video game collection that transforms well-known games by applying Brian Eno's oblique strategy: 'Mechanicalize something idiosyncratic'. Each game in the compendium features an innovative twist, where distinctive and quirky elements are reinterpreted through mechanical systems. This creates an intriguing blend of familiar gameplay with unexpected mechanics, challenging players to adapt and explore new dimensions within classic frameworks. The games in Idiosyncro-Mechanica invite players to engage with creativity and strategic thinking, offering a fresh perspective on beloved genres.",
+        "tags": [
+            "Puzzle",
+            "Strategy",
+            "Experimental",
+            "Creative",
+            "Classic Games",
+            "Reimagined",
+            "Brian Eno",
+            "Oblique Strategies",
+            "Innovation"
+        ]
+    },
+    "errors": null
+}

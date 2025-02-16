@@ -1,0 +1,29 @@
+{
+    "randomize": false,
+    "oblique_strategy": true,
+    "cover": false,
+    "task": "A games compendium of video games reimagied with Brian Enos oblique strategies Modify it by applying the oblique strategy: 'Mechanicalize something idiosyncratic'. Modify it by applying the oblique strategy: 'Lowest common denominator check - single beat - single note - single riff'.",
+    "path": "ideas",
+    "type": "GamesCompendium",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Oblique Mechanics: Singular Beat",
+    "game_type": "GamesCompendium",
+    "branding_data": {
+        "short_description": "Oblique Mechanics: Singular Beat is a unique collection of reimagined video games, guided by Brian Eno's oblique strategies. Experience familiar games transformed by mechanical idiosyncrasies and minimalist beats.",
+        "detailed_description": "Oblique Mechanics: Singular Beat is a creative and experimental video game compendium that reinterprets classic games through the lens of Brian Eno's oblique strategies. Each game within the collection is transformed by the directive to 'Mechanicalize something idiosyncratic', resulting in gameplay that emphasizes mechanical precision and quirks. Additionally, the strategy 'Lowest common denominator check - single beat - single note - single riff' is applied, leading to a minimalist audio-visual style where each game is accompanied by a singular, repetitive beat or motif. This creates a meditative and focused gaming experience, inviting players to explore the familiar in entirely new ways. From rhythm games to puzzles, each entry in the compendium offers a unique take on simplicity and complexity, challenging players to find depth in minimalism.",
+        "tags": [
+            "Experimental",
+            "Puzzle",
+            "Rhythm",
+            "Minimalist",
+            "Artistic",
+            "Indie",
+            "Creative",
+            "Strategy",
+            "Innovative",
+            "Music"
+        ]
+    },
+    "errors": null
+}
