@@ -8,7 +8,8 @@ import moderngl
 from pygame.locals import *
 import asyncio
 
-DIRNAME = os.path.dirname(__file__)
+# ✅ Define ASSETS_DIR for Pygbag compatibility
+ASSETS_DIR = os.path.join(os.path.dirname(__file__), "assets")
 
 # Constants
 SCREEN_WIDTH, SCREEN_HEIGHT = 1000, 800  # 640, 360 itchio default
@@ -35,8 +36,8 @@ pygame.display.set_caption("Oblique Strategy Games")
 
 # Load Shader
 prog = ctx.program(
-    vertex_shader=open(f"{DIRNAME}/shaders/vertex.glsl").read(),
-    fragment_shader=open(f"{DIRNAME}/shaders/fragment.glsl").read(),
+    vertex_shader=open(f"{ASSETS_DIR}/shaders/vertex.glsl").read(),
+    fragment_shader=open(f"{ASSETS_DIR}/shaders/fragment.glsl").read(),
 )
 
 # Fullscreen Quad for Shader
@@ -58,15 +59,15 @@ DESCRIPTION_FONT_SIZE = BASE_FONT_SIZE - 20
 DETAILED_DESCRIPTION_FONT_SIZE = BASE_FONT_SIZE - 34
 METADATA_FONT_SIZE = int(BASE_FONT_SIZE / 2)
 TAGS_FONT_SIZE = BASE_FONT_SIZE - 28
-title_font = pygame.font.Font(f"{DIRNAME}/fonts/m6x11.ttf", TITLE_FONT_SIZE)
-description_font = pygame.font.Font(f"{DIRNAME}/fonts/m6x11.ttf", DESCRIPTION_FONT_SIZE)
-detailed_description_font = pygame.font.Font(f"{DIRNAME}/fonts/m6x11.ttf", DETAILED_DESCRIPTION_FONT_SIZE)
-metadata_font = pygame.font.Font(f"{DIRNAME}/fonts/m6x11.ttf", METADATA_FONT_SIZE)
-tags_font = pygame.font.Font(f"{DIRNAME}/fonts/m6x11.ttf", TAGS_FONT_SIZE)
+title_font = pygame.font.Font(f"{ASSETS_DIR}/fonts/m6x11.ttf", TITLE_FONT_SIZE)
+description_font = pygame.font.Font(f"{ASSETS_DIR}/fonts/m6x11.ttf", DESCRIPTION_FONT_SIZE)
+detailed_description_font = pygame.font.Font(f"{ASSETS_DIR}/fonts/m6x11.ttf", DETAILED_DESCRIPTION_FONT_SIZE)
+metadata_font = pygame.font.Font(f"{ASSETS_DIR}/fonts/m6x11.ttf", METADATA_FONT_SIZE)
+tags_font = pygame.font.Font(f"{ASSETS_DIR}/fonts/m6x11.ttf", TAGS_FONT_SIZE)
 
 
 # Load Games
-def load_games(root_dir=f"{DIRNAME}/games", shuffle=False):
+def load_games(root_dir=f"{ASSETS_DIR}/games", shuffle=False):
     games = []
     for game_type in os.listdir(root_dir):
         game_type_path = os.path.join(root_dir, game_type)
@@ -161,9 +162,10 @@ def render_wrapped_text(surface, text, position, font, box_fill=TRANSLUCENT_BLAC
 
 # Main Loop
 async def main():
+    global current_game_index, fade_alpha  # Declare fade_alpha as global
     running = True
     while running:
-        time_delta = clock.tick(FPS) / 1000.0
+        await asyncio.sleep(0)  # Required for async event loop (Pygbag)
         screen.fill((0, 0, 0))
 
         if games:
@@ -221,4 +223,7 @@ async def main():
     pygame.quit()
 
 
-asyncio.run(main())
+# Run the async game loop
+if __name__ == "__main__":
+    asyncio.run(main())
+
