@@ -1,0 +1,2 @@
+. !text !filter !merge !diff
+.itch/* !text !filter !merge !diff
