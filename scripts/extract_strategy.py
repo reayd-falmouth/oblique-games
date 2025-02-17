@@ -40,8 +40,7 @@ def update_metadata_file(file_path):
         print(f"Error processing {file_path}: {e}")
 
 
-def main():
-    root_directory = os.getcwd()  # Change this if needed
+def main(root_directory):
     metadata_files = find_metadata_files(root_directory)
 
     for metadata_file in metadata_files:
@@ -49,4 +48,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    target_directory = input("Enter the directory path to scan: ").strip()
+    if os.path.exists(target_directory):
+        main(target_directory)
+    else:
+        print("Invalid directory path. Please enter a valid path.")
+
