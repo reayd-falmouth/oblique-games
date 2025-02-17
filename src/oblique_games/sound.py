@@ -2,6 +2,7 @@ import pygame
 from oblique_games import ASSETS_DIR
 import time
 
+
 class SoundManager:
     """Handles game sound effects and background music."""
 
@@ -10,8 +11,7 @@ class SoundManager:
 
         # Load sounds
         self.background_hum = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/hum.ogg")
-        self.startup_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/startup"
-                                                f".ogg")
+        self.startup_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/startup" f".ogg")
         self.button_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/button.ogg")
         self.buzz_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/buzz.ogg")
         self.click_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/click.ogg")
@@ -71,5 +71,7 @@ class SoundManager:
 
         for _ in range(steps):
             current_volume += step_size
-            sound.set_volume(max(0.0, min(target_volume, current_volume)))  # Clamp between 0 and target
+            sound.set_volume(
+                max(0.0, min(target_volume, current_volume))
+            )  # Clamp between 0 and target
             time.sleep(step_delay)  # Pause to create fade-in effect

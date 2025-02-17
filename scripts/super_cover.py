@@ -13,7 +13,9 @@ def find_images(root_folder, image_name="cover.png"):
     return image_paths
 
 
-def tile_images(source_folder, output_file, image_size=(256, 256), final_size=(1024, 1024)):
+def tile_images(
+    source_folder, output_file, image_size=(256, 256), final_size=(1024, 1024)
+):
     # Get list of cover.png files recursively
     image_files = find_images(source_folder)
 
@@ -29,7 +31,7 @@ def tile_images(source_folder, output_file, image_size=(256, 256), final_size=(1
     # Create a blank canvas
     grid_width = grid_size * image_size[0]
     grid_height = grid_size * image_size[1]
-    canvas = Image.new('RGB', (grid_width, grid_height), (0, 0, 0))
+    canvas = Image.new("RGB", (grid_width, grid_height), (0, 0, 0))
 
     # Place images on the canvas
     for idx in range(grid_size * grid_size):
@@ -54,5 +56,9 @@ def tile_images(source_folder, output_file, image_size=(256, 256), final_size=(1
 
 
 # Example usage
-tile_images("./src/oblique_games/assets/games", ".itch/background.png", image_size=(1024, 1024), final_size=(1024,
-                                                                                                             1024))
+tile_images(
+    "./src/oblique_games/assets/games",
+    ".itch/background.png",
+    image_size=(1024, 1024),
+    final_size=(1024, 1024),
+)

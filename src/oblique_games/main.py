@@ -38,7 +38,7 @@ class Game:
         # Initialize Sound Manager
         self.sound_manager = SoundManager()
         self.sound_manager.play_background()  # Start looping background sound
-        self.sound_manager.play_startup()    # Play game startup sound
+        self.sound_manager.play_startup()  # Play game startup sound
 
         # Load assets
         self.games = load_games(f"{ASSETS_DIR}/games", shuffle=True)

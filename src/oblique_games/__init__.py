@@ -1,4 +1,5 @@
 import os, sys
+
 BROWSER_TITLE = "Oblique Games"
 # Constants
 SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
@@ -18,13 +19,17 @@ TEXT_BOX_PADDING = 10
 TEXT_BOX_WIDTH = SCREEN_WIDTH - 100
 FPS = 30
 
+
 # ✅ Define ASSETS_DIR for both Pygbag and PyInstaller compatibility
 def get_assets_dir():
     """Returns the correct path for assets, whether running as a script or PyInstaller package."""
-    if getattr(sys, "frozen", False):  # PyInstaller sets `sys.frozen` when running from .exe
+    if getattr(
+        sys, "frozen", False
+    ):  # PyInstaller sets `sys.frozen` when running from .exe
         return os.path.join(sys._MEIPASS, "assets")
     else:
         return os.path.join(os.path.dirname(__file__), "assets")
+
 
 ASSETS_DIR = get_assets_dir()  # ✅ Use dynamic asset directory
 
