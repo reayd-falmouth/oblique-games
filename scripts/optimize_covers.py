@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 # Path to games assets
-ASSETS_DIR = os.path.join(os.path.dirname(__file__), "assets/games")
+ASSETS_DIR = os.path.join(os.path.dirname(__file__), "../src/oblique_games/assets/games")
 
 # Target size for covers (reduce dimensions)
 TARGET_SIZE = (512, 512)  # Adjust as needed
