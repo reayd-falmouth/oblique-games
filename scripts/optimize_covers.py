@@ -29,7 +29,9 @@ def optimize_pngs(root_dir):
                         img = img.resize(TARGET_SIZE, Image.LANCZOS)
 
                         # Save optimized image
-                        img.save(cover_path, "PNG", optimize=True, quality=85)  # Reduce file size
+                        img.save(
+                            cover_path, "PNG", optimize=True, quality=85
+                        )  # Reduce file size
                         print(f"✅ Optimized: {cover_path}")
 
                 except Exception as e:

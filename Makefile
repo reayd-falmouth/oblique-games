@@ -18,6 +18,11 @@ checkin: ## Perform a check-in after formatting the code
 	  git commit -m "$(COMMIT_MESSAGE)"; \
 	  git push
 
+# Generate layer requirements file
+requirements: ## Generate layer requirements file
+	@echo "Generating requirements file..."
+	@poetry export --without-hashes -f requirements.txt -o $(GAME_DIR)/requirements.txt
+
 build:
 	@echo "Building the game with pygbag..."
 	@poetry run python -m pygbag --build $(GAME_DIR)
@@ -36,3 +41,11 @@ status:
 clean:
 	@echo "Cleaning build artifacts..."
 	@rm -rf $(GAME_DIR)/build $(GAME_DIR)/$(ZIP_FILE)
+
+run:
+	@echo "Running game..."
+	@python -m src.oblique_strategy_games.main
+
+black:
+	@echo "Formatting with black..."
+	@poetry run black .

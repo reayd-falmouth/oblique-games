@@ -19,5 +19,6 @@
             "Multiplayer",
             "Puzzle"
         ]
-    }
+    },
+    "strategy": "A line has two sides"
 }

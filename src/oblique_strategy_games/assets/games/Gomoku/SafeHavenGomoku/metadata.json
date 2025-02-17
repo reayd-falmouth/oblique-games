@@ -7,5 +7,6 @@
     "game_type": "Gomoku",
     "model": "gpt-4o",
     "name": "Safe Haven Gomoku",
-    "branding_data": null
+    "branding_data": null,
+    "strategy": " and use it as an anchor"
 }

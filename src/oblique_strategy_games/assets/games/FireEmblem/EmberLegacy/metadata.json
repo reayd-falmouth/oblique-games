@@ -23,5 +23,6 @@
             "Character Development"
         ]
     },
-    "errors": "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    "errors": "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+    "strategy": "Do the words need changing?"
 }

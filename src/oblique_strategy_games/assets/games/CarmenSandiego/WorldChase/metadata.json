@@ -24,5 +24,6 @@
             "Unpredictable"
         ]
     },
-    "errors": null
+    "errors": null,
+    "strategy": "Discover the recipes you are using and abandon them"
 }

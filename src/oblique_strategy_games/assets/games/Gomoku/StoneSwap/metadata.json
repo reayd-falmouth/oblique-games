@@ -22,5 +22,6 @@
             "Abstract",
             "Two Players"
         ]
-    }
+    },
+    "strategy": "Change instrument roles"
 }

@@ -24,5 +24,6 @@
             "Sections",
             "Transitions"
         ]
-    }
+    },
+    "strategy": "Are there sections? Consider transitions"
 }

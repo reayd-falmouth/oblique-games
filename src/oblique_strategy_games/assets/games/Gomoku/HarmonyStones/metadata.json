@@ -24,5 +24,6 @@
             "AI Opponents",
             "Colorful"
         ]
-    }
+    },
+    "strategy": "Children"
 }

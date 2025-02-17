@@ -25,5 +25,6 @@
             "Skill-based"
         ]
     },
-    "errors": null
+    "errors": null,
+    "strategy": "Do nothing for as long as possible"
 }
