@@ -1,4 +1,4 @@
-name: Release to Itch.io
+name: Build and Release to Itch.io
 
 on:
   workflow_dispatch:
@@ -7,7 +7,50 @@ on:
       - '*'  # Runs on any tag push
 
 jobs:
+  build:
+    name: Build Pygame Executable
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest]
+        include:
+          - os: windows-latest
+            artifact_name: oblique_games-windows
+            output_file: oblique-games.exe
+            channel: windows
+          - os: macos-latest
+            artifact_name: oblique_games-mac
+            output_file: oblique-games
+            channel: mac
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r src/oblique_games/requirements.txt
+          pip install pyinstaller pillow
+
+      - name: Build Executable
+        run: |
+          cd src/oblique_games
+          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets${{ runner.os == 'Windows' && ';' || ':' }}assets" main.py
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact_name }}
+          path: src/oblique_games/dist/${{ matrix.output_file }}
+
   release:
+    name: Release to Itch.io
+    needs: build  # Ensure build completes before releasing
     runs-on: ubuntu-latest
 
     steps:
@@ -30,9 +73,9 @@ jobs:
         uses: robpc/itchio-upload-action@v1
         with:
           path: build/windows/oblique-games.exe
-          project: ${{ secrets.ITCHIO_PROJECT }}  # Ensure this secret is set
+          project: ${{ secrets.ITCHIO_PROJECT }}
           channel: windows
-          version: ${{ github.ref_name }}  # Uses the tag name as the version
+          version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
 
       - name: Deploy macOS Build to Itch.io
