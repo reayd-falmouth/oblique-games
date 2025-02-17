@@ -53,4 +53,3 @@ if __name__ == "__main__":
         main(target_directory)
     else:
         print("Invalid directory path. Please enter a valid path.")
-

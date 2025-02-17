@@ -59,9 +59,15 @@ DETAILED_DESCRIPTION_FONT_SIZE = BASE_FONT_SIZE - 34
 METADATA_FONT_SIZE = int(BASE_FONT_SIZE / 2)
 TAGS_FONT_SIZE = BASE_FONT_SIZE - 28
 title_font = pygame.font.Font(f"{DIRNAME}/assets/fonts/m6x11.ttf", TITLE_FONT_SIZE)
-description_font = pygame.font.Font(f"{DIRNAME}/assets/fonts/m6x11.ttf", DESCRIPTION_FONT_SIZE)
-detailed_description_font = pygame.font.Font(f"{DIRNAME}/assets//fonts/m6x11.ttf", DETAILED_DESCRIPTION_FONT_SIZE)
-metadata_font = pygame.font.Font(f"{DIRNAME}/assets/fonts/m6x11.ttf", METADATA_FONT_SIZE)
+description_font = pygame.font.Font(
+    f"{DIRNAME}/assets/fonts/m6x11.ttf", DESCRIPTION_FONT_SIZE
+)
+detailed_description_font = pygame.font.Font(
+    f"{DIRNAME}/assets//fonts/m6x11.ttf", DETAILED_DESCRIPTION_FONT_SIZE
+)
+metadata_font = pygame.font.Font(
+    f"{DIRNAME}/assets/fonts/m6x11.ttf", METADATA_FONT_SIZE
+)
 tags_font = pygame.font.Font(f"{DIRNAME}/assets/fonts/m6x11.ttf", TAGS_FONT_SIZE)
 
 cover_path = f"{DIRNAME}/assets/img/banner/cover.png"
@@ -82,7 +88,6 @@ def render_shader():
     pygame.display.flip()
 
 
-
 # Main Loop
 async def main():
     global current_game_index
@@ -94,7 +99,6 @@ async def main():
         cover_image = pygame.image.load(cover_path).convert()
         cover_image = pygame.transform.scale(cover_image, VIRTUAL_RES)
         screen.blit(cover_image, (0, 0))
-
 
         for event in pygame.event.get():
             if event.type == QUIT:
