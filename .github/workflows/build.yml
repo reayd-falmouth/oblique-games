@@ -1,0 +1,66 @@
+name: Build Pygame Executable
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-windows:
+    name: Windows
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r src/oblique_games/requirements.txt
+          pip install pyinstaller pillow
+
+      - name: Build Windows Executable
+        run: |
+          cd src/oblique_games
+          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
+
+      - name: Upload Windows Executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: oblique_games-windows
+          path: src/oblique_games/dist/oblique-games.exe
+
+  build-mac:
+    name: macOS
+    runs-on: macos-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r src/oblique_games/requirements.txt
+          pip install pyinstaller pillow
+
+      - name: Build macOS Executable
+        run: |
+          cd src/oblique_games
+          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+
+      - name: Upload macOS Executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: oblique_games-mac
+          path: src/oblique_games/dist/oblique-games
