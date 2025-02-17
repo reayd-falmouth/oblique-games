@@ -1,12 +1,5 @@
-import json
-import os
-import random
 import asyncio
 import pygame
-import pygame_gui
-
-# ✅ Define ASSETS_DIR for Pygbag compatibility
-ASSETS_DIR = os.path.join(os.path.dirname(__file__), "assets")
 
 # Constants
 SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
@@ -26,80 +19,28 @@ TEXT_BOX_PADDING = 10
 TEXT_BOX_WIDTH = SCREEN_WIDTH - 100
 FPS = 30
 
-# Initialize pygame and pygame_gui
+# Initialize Pygame
 pygame.init()
-screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Game Browser")
-manager = pygame_gui.UIManager((SCREEN_WIDTH, SCREEN_HEIGHT))
-clock = pygame.time.Clock()
-
+pygame.display.set_caption("Oblique Strategy Games")
 
 # Load custom pixel fonts
-title_font = pygame.font.Font(f"{ASSETS_DIR}/fonts/m6x11.ttf", 48)
-description_font = pygame.font.Font(f"{ASSETS_DIR}/fonts/m6x11.ttf", 28)
-detailed_description_font = pygame.font.Font(f"{ASSETS_DIR}/fonts/m6x11.ttf", 14)
-metadata_font = pygame.font.Font(f"{ASSETS_DIR}/fonts/m6x11.ttf", 24)
-tags_font = pygame.font.Font(f"{ASSETS_DIR}/fonts/m6x11.ttf", 20)
+title_font = pygame.font.Font(f"assets/fonts/m6x11.ttf", 48)
+description_font = pygame.font.Font(f"assets/fonts/m6x11.ttf", 28)
+detailed_description_font = pygame.font.Font(f"assets/fonts/m6x11.ttf", 14)
+metadata_font = pygame.font.Font(f"assets/fonts/m6x11.ttf", 24)
+tags_font = pygame.font.Font(f"assets/fonts/m6x11.ttf", 20)
 
-# Options
-keep_width_mode = True  # Set to False for "Fit to screen" mode, True for "Keep width, clip height"
+# Load the image
+image_path = "assets/games/Bomberman/ChaosBomber/cover.png"
+image = pygame.image.load(image_path)
 
+# Set display mode to match image size
+screen = pygame.display.set_mode(image.get_size())
 
-def load_games(root_dir=f"{ASSETS_DIR}/games", shuffle=False):
-    games = []
-    for game_type in os.listdir(root_dir):
-        game_type_path = os.path.join(root_dir, game_type)
-        if os.path.isdir(game_type_path):
-            for game_name in os.listdir(game_type_path):
-                game_path = os.path.join(game_type_path, game_name)
-                metadata_file = os.path.join(game_path, "metadata.json")
-                cover_file = os.path.join(game_path, "cover.png")
+clock = pygame.time.Clock()
 
-                if os.path.exists(metadata_file) and os.path.exists(cover_file):
-                    with open(metadata_file, "r") as f:
-                        try:
-                            metadata = json.load(f)
-                        except json.JSONDecodeError:
-                            metadata = {}
-
-                    if isinstance(metadata, dict):
-                        branding_data = metadata.get("branding_data", {})
-                        if isinstance(branding_data, str):
-                            branding_data = {}
-
-                        games.append(
-                            {
-                                "type": metadata.get("game_type", "Unknown"),
-                                "name": metadata.get("name", game_name),
-                                "model": metadata.get("model", "Unknown"),
-                                "metadata": metadata,
-                                "branding_data": branding_data,
-                                "cover": cover_file,
-                            }
-                        )
-
-    if shuffle:
-        random.shuffle(games)
-
-    return games
-
-
-games = load_games(shuffle=True)
 current_game_index = 0
-total_games = len(games)
-cover_image = None
-background_image = None
-fade_alpha = 0
-
-
-# Load images dynamically
-def load_image(path, size=IMAGE_SIZE):
-    try:
-        image = pygame.image.load(path)
-        return pygame.transform.scale(image, size)
-    except pygame.error:
-        return None
-
+total_games = 0
 
 def render_wrapped_text(surface, text, position, font, box_fill=TRANSLUCENT_BLACK):
     words = text.split(" ")
@@ -132,122 +73,22 @@ def render_wrapped_text(surface, text, position, font, box_fill=TRANSLUCENT_BLAC
         y_offset += font.get_height() + 5
 
 
-def update_ui():
-    global cover_image, background_image, fade_alpha
-    if games:
-        game = games[current_game_index]
-        branding_data = game.get("branding_data", {})
-
-        cover_image = load_image(game["cover"]) if os.path.exists(game["cover"]) else None
-        background_image = load_image(game["cover"]) if os.path.exists(game["cover"]) else None
-        fade_alpha = 0  # Reset fade effect
-
-        if background_image:
-            img_width, img_height = background_image.get_size()
-            aspect_ratio = img_width / img_height
-
-            if keep_width_mode:
-                # Mode: Keep width, clip height
-                new_width = SCREEN_WIDTH
-                new_height = int((new_width / img_width) * img_height)
-
-                # Resize the image
-                background_image = pygame.transform.smoothscale(background_image, (new_width, new_height))
-
-                # Clip the top and bottom if necessary
-                if new_height > SCREEN_HEIGHT:
-                    crop_y = (new_height - SCREEN_HEIGHT) // 2
-                    background_image = background_image.subsurface((0, crop_y, SCREEN_WIDTH, SCREEN_HEIGHT))
-
-                background_x, background_y = 0, 0
-
-            else:
-                # Mode: Fit to screen while maintaining aspect ratio
-                if SCREEN_WIDTH / SCREEN_HEIGHT > aspect_ratio:
-                    new_height = SCREEN_HEIGHT
-                    new_width = int(new_height * aspect_ratio)
-                else:
-                    new_width = SCREEN_WIDTH
-                    new_height = int(new_width / aspect_ratio)
-
-                # Resize while maintaining aspect ratio
-                background_image = pygame.transform.smoothscale(background_image, (new_width, new_height))
-
-                # Center the image
-                background_x = (SCREEN_WIDTH - new_width) // 2
-                background_y = (SCREEN_HEIGHT - new_height) // 2
-
-            return background_x, background_y
-
-
 async def main():
-    global current_game_index, fade_alpha  # Declare fade_alpha as global
-    background_x, background_y = update_ui()
     running = True
     while running:
-        await asyncio.sleep(0)  # Required for async event loop (Pygbag)
-        screen.fill(BLACK)
-
-        if background_image:
-            faded_image = background_image.copy()
-            fade_alpha = min(150, fade_alpha + FADE_SPEED)
-            faded_image.set_alpha(fade_alpha)
-            screen.blit(faded_image, (background_x, background_y))
-
-        if games:
-            game = games[current_game_index]
-            branding_data = game.get("branding_data", {})
-            render_wrapped_text(
-                screen,
-                f"{game['metadata'].get('name', 'Unknown Game')}",
-                (50, 50),
-                title_font,
-            )
-            render_wrapped_text(
-                screen,
-                f"Game Type: {game.get('type', 'Unknown')}",
-                (50, 120),
-                metadata_font,
-            )
-            render_wrapped_text(screen, f"Model: {game.get('model', 'Unknown')}", (50, 170), metadata_font)
-            render_wrapped_text(
-                screen,
-                f"{branding_data.get('short_description', 'No description available')}",
-                (50, 230),
-                metadata_font,
-            )
-            # render_wrapped_text(screen, f"{branding_data.get('detailed_description', 'No description available')}", (50,
-            #                                                                                                         300),
-            #                     detailed_description_font)
-
-            # render_wrapped_text(screen, f"Tags: {', '.join(branding_data.get('tags', []))}", (50, 260), tags_font)
-            render_wrapped_text(
-                screen,
-                f"{current_game_index + 1} of {total_games}",
-                (SCREEN_WIDTH - 150, SCREEN_HEIGHT - 50),
-                metadata_font,
-                TRANSLUCENT,
-            )
-
-        # if cover_image:
-        #     screen.blit(cover_image, COVER_POSITION)
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
-            elif event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_RIGHT:
-                    current_game_index = (current_game_index + 1) % len(games)
-                    update_ui()
-                elif event.key == pygame.K_LEFT:
-                    current_game_index = (current_game_index - 1) % len(games)
-                    update_ui()
 
-        pygame.display.flip()
+        # Draw the image
+        screen.blit(image, (0, 0))
+        pygame.display.update()
 
-    pygame.quit()
+        await asyncio.sleep(0)  # Required for asyncio compatibility
+        clock.tick(60)
+
+    # pygame.quit()
 
 
-# Run the async game loop
-if __name__ == "__main__":
-    asyncio.run(main())
+asyncio.run(main())
