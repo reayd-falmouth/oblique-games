@@ -1,9 +1,10 @@
-GAME_DIR := src/oblique_strategy_games
+SRC_DIR := src/
+GAME_DIR := $(SRC_DIR)/oblique_games
 ITCH_USER := reayd-falmouth
-ITCH_GAME := oblique-strategy-games
+ITCH_GAME := oblique-games
 BUILD_DIR=$(GAME_DIR)/build
 ZIP_FILE=web.zip
-
+PYTHONPATH := $(PYTHONPATH):$(SRC_DIR)
 .PHONY: build deploy clean
 
 install:
@@ -44,7 +45,7 @@ clean:
 
 run:
 	@echo "Running game..."
-	@python -m src.oblique_strategy_games.main
+	@python -m src.oblique_games.main
 
 black:
 	@echo "Formatting with black..."

@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-windows:
-    name: Build Windows Executable
+    name: Windows
     runs-on: windows-latest
     steps:
       - name: Checkout Repository
@@ -23,22 +23,22 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install -r src/oblique_strategy_games/requirements.txt
+          pip install -r src/oblique_games/requirements.txt
           pip install pyinstaller
 
       - name: Build Windows Executable
         run: |
-          cd src/oblique_strategy_games
-          pyinstaller --onefile --windowed --name oblique_games --add-data "assets;assets" main.py
+          cd src/oblique_games
+          pyinstaller --onefile --windowed --name oblique-games --add-data "assets;assets" main.py
 
       - name: Upload Windows Executable
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-windows
-          path: src/oblique_strategy_games/dist/oblique_games.exe
+          path: src/oblique_games/dist/oblique-games.exe
 
   build-mac:
-    name: Build macOS Executable
+    name: macOS
     runs-on: macos-latest
     steps:
       - name: Checkout Repository
@@ -51,16 +51,16 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install -r src/oblique_strategy_games/requirements.txt
+          pip install -r src/oblique_games/requirements.txt
           pip install pyinstaller
 
       - name: Build macOS Executable
         run: |
-          cd src/oblique_strategy_games
-          pyinstaller --onefile --windowed --name oblique_games --add-data "assets:assets" main.py
+          cd src/oblique_games
+          pyinstaller --onefile --windowed --name oblique-games --add-data "assets:assets" main.py
 
       - name: Upload macOS Executable
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-mac
-          path: src/oblique_strategy_games/dist/oblique_games
+          path: src/oblique_games/dist/oblique-games

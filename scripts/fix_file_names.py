@@ -35,8 +35,8 @@ def clean_invalid_characters(root_dir):
                 print(f"Renamed directory: {old_path} -> {new_path}")
 
 
-# Run the script in the 'src/oblique_strategy_games/' directory
+# Run the script in the 'src/oblique_games/' directory
 if __name__ == "__main__":
-    root_directory = "src/oblique_strategy_games/"
+    root_directory = "src/oblique_games/"
     clean_invalid_characters(root_directory)
     print("Renaming complete!")
