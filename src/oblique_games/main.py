@@ -33,7 +33,8 @@ class Game:
 
         # Pause menu
         self.paused = False
-        self.pause_menu = load_games(f"{ASSETS_DIR}/img/", shuffle=True)
+        self.pause_menu = load_games(f"{ASSETS_DIR}/img/", shuffle=False)
+        self.paused_page = 1
 
         # Initialize Sound Manager
         self.sound_manager = SoundManager()
@@ -76,7 +77,7 @@ class Game:
 
         game = self.games[self.current_game_index]
         if self.paused:
-            game = self.pause_menu[0]
+            game = self.pause_menu[self.paused_page]
 
         metadata = game["metadata"]
         title = metadata.get("name", "Unknown Game")
@@ -175,6 +176,24 @@ class Game:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_p:
                 self.paused = not self.paused  # Toggle pause state
+                self.paused_page = 1
+                self.sound_manager.play_click_sound()  # Play sound on button press
+                if self.paused:
+                    # Stop background music and play pause menu music
+                    self.sound_manager.play_pause_menu_music()
+                    (
+                        self.background_x,
+                        self.background_y,
+                        self.background_image,
+                        self.fade_alpha,
+                    ) = update_ui(self.pause_menu, 1)
+                    return True
+
+                else:
+                    self.sound_manager.mute_pause_menu_music()
+            elif event.key == pygame.K_c:
+                self.paused = not self.paused  # Toggle pause state
+                self.paused_page = 0
                 self.sound_manager.play_click_sound()  # Play sound on button press
                 if self.paused:
                     # Stop background music and play pause menu music

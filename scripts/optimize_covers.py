@@ -42,4 +42,8 @@ def optimize_pngs(root_dir):
 
 # Run optimization
 if __name__ == "__main__":
-    optimize_pngs(ASSETS_DIR)
+    target_directory = input("Enter the directory path to scan: ").strip()
+    if os.path.exists(target_directory):
+        optimize_pngs(target_directory)
+    else:
+        print("Invalid directory path. Please enter a valid path.")
