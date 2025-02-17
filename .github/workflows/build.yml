@@ -16,10 +16,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Set up python
+        uses: actions/setup-python@v4.4.0
         with:
-          python-version: '3.9'
+          python-version-file: .python-version
 
       - name: Install Dependencies
         run: |
@@ -32,7 +32,7 @@ jobs:
           pyinstaller --onefile --windowed --name oblique_games --add-data "assets;assets" main.py
 
       - name: Upload Windows Executable
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: oblique_games-windows
           path: src/oblique_strategy_games/dist/oblique_games.exe
@@ -44,10 +44,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Set up python
+        uses: actions/setup-python@v4.4.0
         with:
-          python-version: '3.9'
+          python-version-file: .python-version
 
       - name: Install Dependencies
         run: |
@@ -60,7 +60,7 @@ jobs:
           pyinstaller --onefile --windowed --name oblique_games --add-data "assets:assets" main.py
 
       - name: Upload macOS Executable
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: oblique_games-mac
           path: src/oblique_strategy_games/dist/oblique_games
