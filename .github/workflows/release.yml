@@ -15,13 +15,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Download Windows Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: oblique_games-windows
           path: build/windows
 
       - name: Download macOS Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: oblique_games-mac
           path: build/mac
