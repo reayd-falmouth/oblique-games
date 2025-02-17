@@ -21,7 +21,9 @@ class Game:
 
     def __init__(self):
         pygame.init()
-        self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.DOUBLEBUF | pygame.OPENGL)
+        self.screen = pygame.display.set_mode(
+            (SCREEN_WIDTH, SCREEN_HEIGHT), pygame.DOUBLEBUF | pygame.OPENGL
+        )
         pygame.display.set_caption(BROWSER_TITLE)
         self.manager = pygame_gui.UIManager((SCREEN_WIDTH, SCREEN_HEIGHT))
         self.clock = pygame.time.Clock()
@@ -63,7 +65,9 @@ class Game:
         prompt = f"Prompt: {metadata.get('task', 'Unknown')}"
 
         branding_data = game.get("branding_data", {})
-        short_description = branding_data.get("short_description", "No description available")
+        short_description = branding_data.get(
+            "short_description", "No description available"
+        )
 
         game_info = [
             ("title", title, False),
@@ -86,16 +90,35 @@ class Game:
             if extra_space:
                 y_start += extra_spacing
 
-            render_wrapped_text(self.screen, text, (x_start, y_start), font, box_fill=TRANSLUCENT, max_width=max_width)
+            render_wrapped_text(
+                self.screen,
+                text,
+                (x_start, y_start),
+                font,
+                box_fill=TRANSLUCENT,
+                max_width=max_width,
+            )
             y_start += text_height + line_spacing
 
         tags_info = f"Tags: {', '.join(branding_data.get('tags', []))}"
         tags_position = (50, SCREEN_HEIGHT - 100)
-        render_wrapped_text(self.screen, tags_info, tags_position, self.fonts["tags"], box_fill=TRANSLUCENT)
+        render_wrapped_text(
+            self.screen,
+            tags_info,
+            tags_position,
+            self.fonts["tags"],
+            box_fill=TRANSLUCENT,
+        )
 
         page_info = f"{self.current_game_index + 1} of {self.total_games}"
         page_position = (SCREEN_WIDTH - 150, SCREEN_HEIGHT - 50)
-        render_wrapped_text(self.screen, page_info, page_position, self.fonts["metadata"], box_fill=TRANSLUCENT)
+        render_wrapped_text(
+            self.screen,
+            page_info,
+            page_position,
+            self.fonts["metadata"],
+            box_fill=TRANSLUCENT,
+        )
 
     @staticmethod
     def get_wrapped_text_height(text, font, max_width):
@@ -126,15 +149,24 @@ class Game:
 
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RIGHT:
-                self.current_game_index = (self.current_game_index + 1) % len(self.games)
+                self.current_game_index = (self.current_game_index + 1) % len(
+                    self.games
+                )
             elif event.key == pygame.K_LEFT:
-                self.current_game_index = (self.current_game_index - 1) % len(self.games)
+                self.current_game_index = (self.current_game_index - 1) % len(
+                    self.games
+                )
             elif event.key == pygame.K_s:
                 self.shader.toggle()  # Toggle shader on/off
             else:
                 return True
 
-            self.background_x, self.background_y, self.background_image, self.fade_alpha = update_ui(self.games, self.current_game_index)
+            (
+                self.background_x,
+                self.background_y,
+                self.background_image,
+                self.fade_alpha,
+            ) = update_ui(self.games, self.current_game_index)
 
         return True
 

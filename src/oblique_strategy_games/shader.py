@@ -31,12 +31,14 @@ class ShaderRenderer:
             self.vao = self.ctx.vertex_array(self.prog, vao_content, self.ibo)
 
             # Texture setup
-            self.screen_texture = self.ctx.texture(screen.get_size(), 3, pygame.image.tostring(screen, "RGB", 1))
+            self.screen_texture = self.ctx.texture(
+                screen.get_size(), 3, pygame.image.tostring(screen, "RGB", 1)
+            )
             self.screen_texture.repeat_x = False
             self.screen_texture.repeat_y = False
 
     def render(self, screen):
-        """ Renders the shader effect. """
+        """Renders the shader effect."""
         if not self.enabled:
             pygame.display.flip()
             return
@@ -54,5 +56,5 @@ class ShaderRenderer:
         pygame.display.flip()
 
     def toggle(self):
-        """ Toggles the shader on/off """
+        """Toggles the shader on/off"""
         self.enabled = not self.enabled

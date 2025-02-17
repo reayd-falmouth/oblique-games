@@ -49,3 +49,29 @@ run:
 black:
 	@echo "Formatting with black..."
 	@poetry run black .
+
+# Source directories for tests
+TESTS_SOURCE:=tests/
+
+# Detailed pytest target with coverage and cache clear
+test: ## Run pytest with coverage and clear cache
+	@echo "Running pytest with coverage and cache clear..."
+	@PYTHONPATH=$(GAME_DIR) poetry run pytest \
+		--cache-clear \
+		--cov=$(GAME_DIR) \
+		$(TESTS_SOURCE) \
+		--cov-report=term \
+		--cov-report=html
+
+PYLINT_OPTIONS ?=
+# --disable=all --enable=missing-function-docstring
+# Runs pylint checks
+pylint:  ## Runs pylint
+	@echo "Running pylint checks..."
+	@PYTHONPATH=$(SOURCE_PATH) poetry run pylint $(PYLINT_OPTIONS)  $(SOURCE_PATH)
+
+
+# Check code formatting using Black
+check-black: ## Check code formatting with Black
+	@echo "Checking code formatting with Black..."
+	@poetry run black --check .
