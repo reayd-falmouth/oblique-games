@@ -189,7 +189,7 @@ class Game:
 
                 else:
                     self.sound_manager.mute_pause_menu_music()
-            if not self.paused:
+            elif not self.paused:
                 if event.key == pygame.K_RIGHT:
                     self.current_game_index = (self.current_game_index + 1) % len(
                         self.games
@@ -200,10 +200,11 @@ class Game:
                         self.games
                     )
                     self.sound_manager.play_button_sound()  # Play sound on button press
+                else:
+                    self.sound_manager.play_buzz_sound()
+                    return True
             else:
-                self.sound_manager.play_buzz_sound()
                 return True
-
             (
                 self.background_x,
                 self.background_y,
