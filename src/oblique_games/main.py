@@ -1,5 +1,8 @@
+import os
+
 import pygame
 import pygame_gui
+
 from oblique_games import (
     SCREEN_WIDTH,
     SCREEN_HEIGHT,
@@ -9,11 +12,11 @@ from oblique_games import (
     TRANSLUCENT,
     FADE_SPEED,
 )
-
 from oblique_games.font import load_fonts, render_wrapped_text
-from oblique_games.helpers import load_games
-from oblique_games.ui import update_ui
+from oblique_games.helpers import load_games, process_game
 from oblique_games.shader import ShaderRenderer  # Import ShaderRenderer
+from oblique_games.sound import SoundManager  # Import the new class
+from oblique_games.ui import update_ui
 
 
 class Game:
@@ -28,11 +31,25 @@ class Game:
         self.manager = pygame_gui.UIManager((SCREEN_WIDTH, SCREEN_HEIGHT))
         self.clock = pygame.time.Clock()
 
+        # Pause menu
+        self.paused = False
+        self.pause_menu = load_games(f"{ASSETS_DIR}/img/", shuffle=True)
+
+        # Initialize Sound Manager
+        self.sound_manager = SoundManager()
+        self.sound_manager.play_background()  # Start looping background sound
+        self.sound_manager.play_startup()    # Play game startup sound
+
         # Load assets
         self.games = load_games(f"{ASSETS_DIR}/games", shuffle=True)
         self.total_games = len(self.games)
         self.current_game_index = 0
         self.fonts = load_fonts()
+
+        # Load the icon image
+        icon = pygame.image.load(f"{ASSETS_DIR}/img/icon/icon_64x64.png")
+        # Set the window icon
+        pygame.display.set_icon(icon)
 
         # UI state
         self.background_x, self.background_y, self.background_image, self.fade_alpha = (
@@ -58,6 +75,9 @@ class Game:
             return
 
         game = self.games[self.current_game_index]
+        if self.paused:
+            game = self.pause_menu[0]
+
         metadata = game["metadata"]
         title = metadata.get("name", "Unknown Game")
         game_type = f"Game Type: {game.get('type', 'Unknown')}"
@@ -111,6 +131,11 @@ class Game:
         )
 
         page_info = f"{self.current_game_index + 1} of {self.total_games}"
+
+        # Pause menu hack
+        if self.paused:
+            page_info = f"? of ?"
+
         page_position = (SCREEN_WIDTH - 150, SCREEN_HEIGHT - 50)
         render_wrapped_text(
             self.screen,
@@ -148,17 +173,39 @@ class Game:
             return False
 
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_RIGHT:
-                self.current_game_index = (self.current_game_index + 1) % len(
-                    self.games
-                )
-            elif event.key == pygame.K_LEFT:
-                self.current_game_index = (self.current_game_index - 1) % len(
-                    self.games
-                )
-            elif event.key == pygame.K_s:
-                self.shader.toggle()  # Toggle shader on/off
+            if event.key == pygame.K_p:
+                self.paused = not self.paused  # Toggle pause state
+                self.sound_manager.play_click_sound()  # Play sound on button press
+                if self.paused:
+                    # Stop background music and play pause menu music
+                    self.sound_manager.play_pause_menu_music()
+                    (
+                        self.background_x,
+                        self.background_y,
+                        self.background_image,
+                        self.fade_alpha,
+                    ) = update_ui(self.pause_menu, 0)
+                    return True
+
+                else:
+                    self.sound_manager.mute_pause_menu_music()
+            if not self.paused:
+                if event.key == pygame.K_RIGHT:
+                    if self.paused:
+                        return
+                    self.current_game_index = (self.current_game_index + 1) % len(
+                        self.games
+                    )
+                    self.sound_manager.play_button_sound()  # Play sound on button press
+                elif event.key == pygame.K_LEFT:
+                    if self.paused:
+                        return
+                    self.current_game_index = (self.current_game_index - 1) % len(
+                        self.games
+                    )
+                    self.sound_manager.play_button_sound()  # Play sound on button press
             else:
+                self.sound_manager.play_buzz_sound()
                 return True
 
             (

@@ -53,6 +53,7 @@ def update_ui(games: list, current_game_index: int, keep_width_mode=True):
         return 0, 0, None, 0  # Default values when no games are available
 
     game = games[current_game_index]
+
     background_image = (
         load_image(game["cover"]) if os.path.exists(game["cover"]) else None
     )
