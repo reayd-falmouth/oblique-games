@@ -29,7 +29,7 @@ jobs:
       - name: Build Windows Executable
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --add-data "assets;assets" main.py
+          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
 
       - name: Upload Windows Executable
         uses: actions/upload-artifact@v4
@@ -57,7 +57,7 @@ jobs:
       - name: Build macOS Executable
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --add-data "assets:assets" main.py
+          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
 
       - name: Upload macOS Executable
         uses: actions/upload-artifact@v4
