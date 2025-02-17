@@ -2,7 +2,7 @@ import pygame
 import os
 import json
 import random
-from . import IMAGE_SIZE
+from oblique_strategy_games import IMAGE_SIZE
 
 
 def load_image(path: str, size: tuple = IMAGE_SIZE) -> pygame.Surface | None:

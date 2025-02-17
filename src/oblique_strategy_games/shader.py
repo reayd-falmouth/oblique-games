@@ -3,7 +3,7 @@ import struct
 import moderngl
 import pygame
 
-from . import ASSETS_DIR
+from oblique_strategy_games import ASSETS_DIR
 
 
 class ShaderRenderer:

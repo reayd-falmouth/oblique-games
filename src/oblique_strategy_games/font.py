@@ -1,5 +1,5 @@
 import pygame
-from . import ASSETS_DIR, TEXT_BOX_WIDTH, TEXT_BOX_PADDING, TRANSLUCENT_BLACK, WHITE, BLACK
+from oblique_strategy_games import ASSETS_DIR, TEXT_BOX_WIDTH, TEXT_BOX_PADDING, TRANSLUCENT_BLACK, WHITE, BLACK
 
 
 def load_fonts() -> dict:

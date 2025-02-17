@@ -1,6 +1,6 @@
 import pygame
 import pygame_gui
-from . import (
+from oblique_strategy_games import (
     SCREEN_WIDTH,
     SCREEN_HEIGHT,
     BROWSER_TITLE,
@@ -10,10 +10,10 @@ from . import (
     FADE_SPEED,
 )
 
-from .font import load_fonts, render_wrapped_text
-from .helpers import load_games
-from .ui import update_ui
-from .shader import ShaderRenderer  # Import ShaderRenderer
+from oblique_strategy_games.font import load_fonts, render_wrapped_text
+from oblique_strategy_games.helpers import load_games
+from oblique_strategy_games.ui import update_ui
+from oblique_strategy_games.shader import ShaderRenderer  # Import ShaderRenderer
 
 
 class Game:

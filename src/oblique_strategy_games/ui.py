@@ -1,7 +1,7 @@
 import pygame
 import os
-from .helpers import load_image
-from . import SCREEN_WIDTH, SCREEN_HEIGHT
+from oblique_strategy_games.helpers import load_image
+from oblique_strategy_games import SCREEN_WIDTH, SCREEN_HEIGHT
 
 
 def resize_keep_width(background_image):
