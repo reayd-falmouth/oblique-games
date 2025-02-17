@@ -37,6 +37,8 @@ def clean_invalid_characters(root_dir):
 
 # Run the script in the 'src/oblique_games/' directory
 if __name__ == "__main__":
-    root_directory = "src/oblique_games/"
-    clean_invalid_characters(root_directory)
-    print("Renaming complete!")
+    target_directory = input("Enter the directory path to scan: ").strip()
+    if os.path.exists(target_directory):
+        clean_invalid_characters(target_directory)
+    else:
+        print("Invalid directory path. Please enter a valid path.")
