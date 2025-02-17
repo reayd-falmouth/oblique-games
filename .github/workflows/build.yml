@@ -24,7 +24,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r src/oblique_games/requirements.txt
-          pip install pyinstaller
+          pip install pyinstaller pillow
 
       - name: Build Windows Executable
         run: |
@@ -52,7 +52,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r src/oblique_games/requirements.txt
-          pip install pyinstaller
+          pip install pyinstaller pillow
 
       - name: Build macOS Executable
         run: |
