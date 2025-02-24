@@ -12,7 +12,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [windows-latest, macos-latest]
+        os: [windows-latest, macos-latest, ubuntu-latest]
         include:
           - os: windows-latest
             artifact_name: oblique_games-windows
@@ -22,6 +22,10 @@ jobs:
             artifact_name: oblique_games-mac
             output_file: oblique-games
             channel: mac
+          - os: ubuntu-latest
+            artifact_name: oblique_games-linux
+            output_file: oblique-games
+            channel: linux
 
     steps:
       - name: Checkout Repository
@@ -69,6 +73,12 @@ jobs:
           name: oblique_games-mac
           path: build/mac
 
+      - name: Download Linux Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: oblique_games-linux
+          path: build/linux
+
       - name: Deploy Windows Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
@@ -84,5 +94,14 @@ jobs:
           path: build/mac/oblique-games
           project: ${{ secrets.ITCHIO_PROJECT }}
           channel: mac
+          version: ${{ github.ref_name }}
+          api-key: ${{ secrets.ITCHIO_API_KEY }}
+
+      - name: Deploy Linux Build to Itch.io
+        uses: robpc/itchio-upload-action@v1
+        with:
+          path: build/linux/oblique-games
+          project: ${{ secrets.ITCHIO_PROJECT }}
+          channel: linux
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
