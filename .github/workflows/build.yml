@@ -55,12 +55,15 @@ jobs:
           pip install pyinstaller pillow
 
       - name: Build macOS Executable
+        env:
+          MACOSX_DEPLOYMENT_TARGET: 10.6
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+          pyinstaller --onefile --windowed --name oblique-games.app --icon=assets/img/icon/icon_64x64.png --add-data 
+          "assets:assets" main.py
 
       - name: Upload macOS Executable
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-mac
-          path: src/oblique_games/dist/oblique-games
+          path: src/oblique_games/dist/oblique-games.app
