@@ -59,8 +59,7 @@ jobs:
           MACOSX_DEPLOYMENT_TARGET: 10.6
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games.app --icon=assets/img/icon/icon_64x64.png --add-data 
-          "assets:assets" main.py
+          pyinstaller --onefile --windowed --name oblique-games.app --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
 
       - name: Upload macOS Executable
         uses: actions/upload-artifact@v4
