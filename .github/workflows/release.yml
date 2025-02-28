@@ -7,26 +7,9 @@ on:
       - '*'  # Runs on any tag push
 
 jobs:
-  build:
-    name: Build Pygame Executable
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [windows-latest, macos-latest, ubuntu-latest]
-        include:
-          - os: windows-latest
-            artifact_name: oblique_games-windows
-            output_file: oblique-games.exe
-            channel: windows
-          - os: macos-latest
-            artifact_name: oblique_games-mac
-            output_file: oblique-games
-            channel: mac
-          - os: ubuntu-latest
-            artifact_name: oblique_games-linux
-            output_file: oblique-games
-            channel: linux
-
+  build-windows:
+    name: Build Windows Executable
+    runs-on: windows-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -41,20 +24,133 @@ jobs:
           pip install -r src/oblique_games/requirements.txt
           pip install pyinstaller pillow
 
-      - name: Build Executable
+      - name: Build Windows Executable
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets${{ runner.os == 'Windows' && ';' || ':' }}assets" main.py
+          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
 
-      - name: Upload Artifact
+      - name: Upload Windows Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.artifact_name }}
-          path: src/oblique_games/dist/${{ matrix.output_file }}
+          name: oblique_games-windows
+          path: src/oblique_games/dist/oblique-games.exe
+
+  build-linux:
+    name: Build Linux Executable
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r src/oblique_games/requirements.txt
+          pip install pyinstaller pillow
+
+      - name: Build Linux Executable
+        run: |
+          cd src/oblique_games
+          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+
+      - name: Upload Linux Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: oblique_games-linux
+          path: src/oblique_games/dist/oblique-games
+
+  build-mac-x86_64:
+    name: Build macOS (Intel x86_64)
+    runs-on: macos-13  # Runs on Intel Mac
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r src/oblique_games/requirements.txt
+          pip install pyinstaller pillow
+
+      - name: Build macOS x86_64 Executable
+        run: |
+          cd src/oblique_games
+          arch -x86_64 pyinstaller --onefile --windowed --name oblique-games-x86_64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+
+      - name: Upload macOS x86_64 Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: oblique_games-mac-x86_64
+          path: src/oblique_games/dist/oblique-games-x86_64
+
+  build-mac-arm64:
+    name: Build macOS (Apple Silicon ARM64)
+    runs-on: macos-14  # Runs on Apple Silicon
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r src/oblique_games/requirements.txt
+          pip install pyinstaller pillow
+
+      - name: Build macOS ARM64 Executable
+        run: |
+          cd src/oblique_games
+          arch -arm64 pyinstaller --onefile --windowed --name oblique-games-arm64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+
+      - name: Upload macOS ARM64 Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: oblique_games-mac-arm64
+          path: src/oblique_games/dist/oblique-games-arm64
+
+  merge-mac-universal:
+    name: Create macOS Universal Binary
+    needs: [build-mac-x86_64, build-mac-arm64]  # Ensure both builds are ready
+    runs-on: macos-latest
+    steps:
+      - name: Download macOS x86_64 Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: oblique_games-mac-x86_64
+          path: build/mac
+
+      - name: Download macOS ARM64 Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: oblique_games-mac-arm64
+          path: build/mac
+
+      - name: Merge into Universal Binary
+        run: |
+          cd build/mac
+          lipo -create -output oblique-games-universal oblique-games-x86_64 oblique-games-arm64
+          chmod +x oblique-games-universal
+
+      - name: Upload macOS Universal Binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: oblique_games-mac-universal
+          path: build/mac/oblique-games-universal
 
   release:
     name: Release to Itch.io
-    needs: build  # Ensure build completes before releasing
+    needs: [build-windows, build-linux, merge-mac-universal]
     runs-on: ubuntu-latest
 
     steps:
@@ -64,17 +160,17 @@ jobs:
           name: oblique_games-windows
           path: build/windows
 
-      - name: Download macOS Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: oblique_games-mac
-          path: build/mac
-
       - name: Download Linux Artifact
         uses: actions/download-artifact@v4
         with:
           name: oblique_games-linux
           path: build/linux
+
+      - name: Download macOS Universal Binary
+        uses: actions/download-artifact@v4
+        with:
+          name: oblique_games-mac-universal
+          path: build/mac
 
       - name: Deploy Windows Build to Itch.io
         uses: robpc/itchio-upload-action@v1
@@ -82,15 +178,6 @@ jobs:
           path: build/windows/oblique-games.exe
           project: ${{ secrets.ITCHIO_PROJECT }}
           channel: windows
-          version: ${{ github.ref_name }}
-          api-key: ${{ secrets.ITCHIO_API_KEY }}
-
-      - name: Deploy macOS Build to Itch.io
-        uses: robpc/itchio-upload-action@v1
-        with:
-          path: build/mac/oblique-games
-          project: ${{ secrets.ITCHIO_PROJECT }}
-          channel: mac
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
 
@@ -102,3 +189,5 @@ jobs:
           channel: linux
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
+
+      - name

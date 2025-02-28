@@ -93,6 +93,38 @@ jobs:
           name: oblique_games-mac-x86_64
           path: src/oblique_games/dist/oblique-games-x86_64
 
+  build-mac-universal:
+    name: Merge macOS Universal Binary
+    needs: [build-mac-x86_64, build-mac-arm64]  # Waits for both Mac builds
+    runs-on: macos-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Download macOS x86_64 Executable
+        uses: actions/download-artifact@v4
+        with:
+          name: oblique_games-mac-x86_64
+          path: build/mac
+
+      - name: Download macOS ARM64 Executable
+        uses: actions/download-artifact@v4
+        with:
+          name: oblique_games-mac-arm64
+          path: build/mac
+
+      - name: Merge x86_64 and ARM64 into Universal Binary
+        run: |
+          cd build/mac
+          lipo -create -output oblique-games-universal oblique-games-x86_64 oblique-games-arm64
+          chmod +x oblique-games-universal
+
+      - name: Upload macOS Universal Binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: oblique_games-mac-universal
+          path: build/mac/oblique-games-universal
+
   build-linux:
     name: Linux
     runs-on: ubuntu-latest
