@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -38,11 +40,13 @@ jobs:
           path: src/oblique_games/dist/oblique-games.exe
 
   build-mac:
-    name: macOS (Universal Binary)
+    name: macOS
     runs-on: macos-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -54,25 +58,10 @@ jobs:
           pip install -r src/oblique_games/requirements.txt
           pip install pyinstaller pillow
 
-      - name: Build macOS Executables (x86_64 & arm64)
+      - name: Build macOS Executable
         run: |
           cd src/oblique_games
-
-          # Build for Intel Macs (x86_64)
-          arch -x86_64 pyinstaller --onefile --windowed --name oblique-games-x86_64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
-
-          # Build for Apple Silicon (arm64)
-          arch -arm64 pyinstaller --onefile --windowed --name oblique-games-arm64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
-
-      - name: Create Universal Binary
-        run: |
-          cd src/oblique_games/dist
-          
-          # Merge both architectures into a single universal binary
-          lipo -create -output oblique-games oblique-games-x86_64 oblique-games-arm64
-
-          # Make sure the final binary is executable
-          chmod +x oblique-games
+          pyinstaller --target-arch universal2 --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
 
       - name: Upload macOS Executable
         uses: actions/upload-artifact@v4
@@ -86,6 +75,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
