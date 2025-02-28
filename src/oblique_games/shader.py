@@ -1,6 +1,6 @@
 import struct
 
-import moderngl
+
 import pygame
 
 from oblique_games import ASSETS_DIR
@@ -9,9 +9,11 @@ from oblique_games import ASSETS_DIR
 class ShaderRenderer:
     def __init__(self, screen, enabled=True):
         self.enabled = enabled
-        self.ctx = moderngl.create_context()
 
         if self.enabled:
+            import moderngl
+            self.ctx = moderngl.create_context()
+
             # Load Shader
             self.prog = self.ctx.program(
                 vertex_shader=open(f"{ASSETS_DIR}/shaders/vertex.glsl").read(),

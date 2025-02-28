@@ -1,4 +1,4 @@
-import os
+import sys
 
 import pygame
 import pygame_gui
@@ -13,7 +13,7 @@ from oblique_games import (
     FADE_SPEED,
 )
 from oblique_games.font import load_fonts, render_wrapped_text
-from oblique_games.helpers import load_games, process_game
+from oblique_games.helpers import load_games
 from oblique_games.shader import ShaderRenderer  # Import ShaderRenderer
 from oblique_games.sound import SoundManager  # Import the new class
 from oblique_games.ui import update_ui
@@ -22,11 +22,21 @@ from oblique_games.ui import update_ui
 class Game:
     """Encapsulates game state and rendering logic."""
 
-    def __init__(self):
+    def __init__(self, shader_enabled: bool = True):
         pygame.init()
-        self.screen = pygame.display.set_mode(
-            (SCREEN_WIDTH, SCREEN_HEIGHT), pygame.DOUBLEBUF | pygame.OPENGL
-        )
+
+        # Conditionally set the display mode based on shader usage.
+        if shader_enabled:
+            self.screen = pygame.display.set_mode(
+                (SCREEN_WIDTH, SCREEN_HEIGHT),
+                pygame.DOUBLEBUF | pygame.OPENGL
+            )
+        else:
+            self.screen = pygame.display.set_mode(
+                (SCREEN_WIDTH, SCREEN_HEIGHT),
+                pygame.DOUBLEBUF
+            )
+
         pygame.display.set_caption(BROWSER_TITLE)
         self.manager = pygame_gui.UIManager((SCREEN_WIDTH, SCREEN_HEIGHT))
         self.clock = pygame.time.Clock()
@@ -58,7 +68,7 @@ class Game:
         )
 
         # Initialize ShaderRenderer
-        self.shader = ShaderRenderer(self.screen, enabled=True)
+        self.shader = ShaderRenderer(self.screen, enabled=shader_enabled)
 
     def draw_background(self):
         """Draws the background image with a fade effect."""
@@ -238,7 +248,9 @@ class GameLoop:
     """Manages the main game loop."""
 
     def __init__(self):
-        self.game = Game()
+        # Disable shader on macOS (sys.platform returns 'darwin' on macOS)
+        shader_enabled = sys.platform != "darwin"
+        self.game = Game(shader_enabled=shader_enabled)
         self.running = True
 
     def run(self):
@@ -250,10 +262,14 @@ class GameLoop:
             self.game.draw_background()
             self.game.draw_game_info()
 
-            # Render shader effect before flipping display
-            self.game.shader.render(self.game.screen)
+            # Use the shader if available; otherwise, flip display normally.
+            if self.game.shader:
+                self.game.shader.render(self.game.screen)
+            else:
+                pygame.display.flip()
 
         pygame.quit()
+
 
 
 if __name__ == "__main__":
