@@ -28,13 +28,11 @@ class Game:
         # Conditionally set the display mode based on shader usage.
         if shader_enabled:
             self.screen = pygame.display.set_mode(
-                (SCREEN_WIDTH, SCREEN_HEIGHT),
-                pygame.DOUBLEBUF | pygame.OPENGL
+                (SCREEN_WIDTH, SCREEN_HEIGHT), pygame.DOUBLEBUF | pygame.OPENGL
             )
         else:
             self.screen = pygame.display.set_mode(
-                (SCREEN_WIDTH, SCREEN_HEIGHT),
-                pygame.DOUBLEBUF
+                (SCREEN_WIDTH, SCREEN_HEIGHT), pygame.DOUBLEBUF
             )
 
         pygame.display.set_caption(BROWSER_TITLE)
@@ -269,7 +267,6 @@ class GameLoop:
                 pygame.display.flip()
 
         pygame.quit()
-
 
 
 if __name__ == "__main__":

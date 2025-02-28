@@ -12,6 +12,7 @@ class ShaderRenderer:
 
         if self.enabled:
             import moderngl
+
             self.ctx = moderngl.create_context()
 
             # Load Shader
