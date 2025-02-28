@@ -58,13 +58,13 @@ jobs:
         run: |
           cd src/oblique_games
           pyinstaller \
-            --onefile \
-            --windowed \
-            --name oblique-games-arm64 \
-            --icon=assets/img/icon/icon_64x64.png \ 
-            --add-data "assets:assets" main.py \
-            --hidden-import=platform \
-            --target-arch arm64
+          --hidden-import=platform \
+          --target-arch arm64 \
+          --onefile \
+          --windowed \
+          --name oblique-games-arm64 
+          --icon=assets/img/icon/icon_64x64.png \
+          --add-data "assets:assets" main.py
 
       - name: Upload macOS ARM64 Executable
         uses: actions/upload-artifact@v4
@@ -93,13 +93,13 @@ jobs:
         run: |
           cd src/oblique_games
           pyinstaller \
-            --onefile \
-            --windowed \
-            --name oblique-games-x86_64 \ 
-            --icon=assets/img/icon/icon_64x64.png \
-            --add-data "assets:assets" main.py \
-            --hidden-import=platform \
-            --target-arch arm64
+          --hidden-import=platform \
+          --target-arch x86_64 \
+          --onefile \
+          --windowed \
+          --name oblique-games-x86_64 \ 
+          --icon=assets/img/icon/icon_64x64.png \
+          --add-data "assets:assets" main.py
 
       - name: Upload macOS x86_64 Executable
         uses: actions/upload-artifact@v4
