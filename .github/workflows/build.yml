@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          lfs: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -39,14 +37,12 @@ jobs:
           name: oblique_games-windows
           path: src/oblique_games/dist/oblique-games.exe
 
-  build-mac:
-    name: macOS
-    runs-on: macos-latest
+  build-mac-arm64:
+    name: macOS (Apple Silicon)
+    runs-on: macos-14  # Ensures the runner is ARM64
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          lfs: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -58,16 +54,44 @@ jobs:
           pip install -r src/oblique_games/requirements.txt
           pip install pyinstaller pillow
 
-      - name: Build macOS Executable
+      - name: Build macOS ARM64 Executable
         run: |
           cd src/oblique_games
-          pyinstaller --target-arch universal2 --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+          pyinstaller --onefile --windowed --name oblique-games-arm64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
 
-      - name: Upload macOS Executable
+      - name: Upload macOS ARM64 Executable
         uses: actions/upload-artifact@v4
         with:
-          name: oblique_games-mac
-          path: src/oblique_games/dist/oblique-games
+          name: oblique_games-mac-arm64
+          path: src/oblique_games/dist/oblique-games-arm64
+
+  build-mac-x86_64:
+    name: macOS (Intel)
+    runs-on: macos-13  # Ensures the runner is x86_64
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r src/oblique_games/requirements.txt
+          pip install pyinstaller pillow
+
+      - name: Build macOS x86_64 Executable
+        run: |
+          cd src/oblique_games
+          pyinstaller --onefile --windowed --name oblique-games-x86_64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+
+      - name: Upload macOS x86_64 Executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: oblique_games-mac-x86_64
+          path: src/oblique_games/dist/oblique-games-x86_64
 
   build-linux:
     name: Linux
@@ -75,8 +99,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          lfs: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
