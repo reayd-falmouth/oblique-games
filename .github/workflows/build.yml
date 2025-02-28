@@ -57,7 +57,14 @@ jobs:
       - name: Build macOS ARM64 Executable
         run: |
           cd src/oblique_games
-          pyinstaller --hidden-import=platform --onefile --windowed --name oblique-games-arm64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+          pyinstaller \
+            --onefile \
+            --windowed \
+            --name oblique-games-arm64 \
+            --icon=assets/img/icon/icon_64x64.png \ 
+            --add-data "assets:assets" main.py \
+            --hidden-import=platform \
+            --target-arch arm64
 
       - name: Upload macOS ARM64 Executable
         uses: actions/upload-artifact@v4
@@ -85,7 +92,14 @@ jobs:
       - name: Build macOS x86_64 Executable
         run: |
           cd src/oblique_games
-          pyinstaller --hidden-import=platform --onefile --windowed --name oblique-games-x86_64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+          pyinstaller \
+            --onefile \
+            --windowed \
+            --name oblique-games-x86_64 \ 
+            --icon=assets/img/icon/icon_64x64.png \
+            --add-data "assets:assets" main.py \
+            --hidden-import=platform \
+            --target-arch arm64
 
       - name: Upload macOS x86_64 Executable
         uses: actions/upload-artifact@v4
@@ -116,7 +130,14 @@ jobs:
       - name: Merge x86_64 and ARM64 into Universal Binary
         run: |
           cd build/mac
+
+          # Create the universal binary
           lipo -create -output oblique-games-universal oblique-games-x86_64 oblique-games-arm64
+          
+          # Fix any broken shared library references
+          install_name_tool -change @rpath/Python @executable_path/Python oblique-games-universal
+          
+          # Ensure correct permissions
           chmod +x oblique-games-universal
 
       - name: Upload macOS Universal Binary
