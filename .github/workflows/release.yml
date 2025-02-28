@@ -167,14 +167,14 @@ jobs:
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
 
-      - name: Deploy macOS ARM64 Build to Itch.io
-        uses: robpc/itchio-upload-action@v1
-        with:
-          path: build/mac-arm64/oblique-games-arm64
-          project: ${{ secrets.ITCHIO_PROJECT }}
-          channel: mac
-          version: ${{ github.ref_name }}
-          api-key: ${{ secrets.ITCHIO_API_KEY }}
+#      - name: Deploy macOS ARM64 Build to Itch.io
+#        uses: robpc/itchio-upload-action@v1
+#        with:
+#          path: build/mac-arm64/oblique-games-arm64
+#          project: ${{ secrets.ITCHIO_PROJECT }}
+#          channel: mac
+#          version: ${{ github.ref_name }}
+#          api-key: ${{ secrets.ITCHIO_API_KEY }}
 
       - name: Deploy macOS x86_64 Build to Itch.io
         uses: robpc/itchio-upload-action@v1
