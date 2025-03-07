@@ -47,6 +47,7 @@ class Game:
 
         # Set initial ordering mode (True for random, False for lexographical)
         self.random_ordering_enabled = True
+        self.order_mode = "random"
 
         # Load the icon image
         icon = pygame.image.load(f"{ASSETS_DIR}/img/icon/icon_64x64.png")
@@ -213,13 +214,13 @@ class Game:
                 # Check for Ctrl+Arrow events first
                 if event.key == pygame.K_RIGHT and (event.mod & pygame.KMOD_CTRL):
                     if not self.random_ordering_enabled:
-                        current_name = self.games[self.current_game_index]["metadata"].get("name", "")
+                        current_name = self.games[self.current_game_index]["metadata"].get(self.order_mode, "")
                         if current_name:
                             current_letter = current_name[0].lower()
                             new_index = self.current_game_index
                             # Iterate forward to find a game with a different starting letter
                             for idx in range(self.current_game_index + 1, len(self.games)):
-                                name = self.games[idx]["metadata"].get("name", "")
+                                name = self.games[idx]["metadata"].get(self.order_mode, "")
                                 if name and name[0].lower() != current_letter:
                                     new_index = idx
                                     break
@@ -238,18 +239,18 @@ class Game:
 
                 elif event.key == pygame.K_LEFT and (event.mod & pygame.KMOD_CTRL):
                     if not self.random_ordering_enabled:
-                        current_name = self.games[self.current_game_index]["metadata"].get("name", "")
+                        current_name = self.games[self.current_game_index]["metadata"].get(self.order_mode, "")
                         if current_name:
                             current_letter = current_name[0].lower()
                             new_index = self.current_game_index
                             # Iterate backward to find a game with a different starting letter
                             for idx in range(self.current_game_index - 1, -1, -1):
-                                name = self.games[idx]["metadata"].get("name", "")
+                                name = self.games[idx]["metadata"].get(self.order_mode, "")
                                 if name and name[0].lower() != current_letter:
                                     # Found a game with a different letter; now locate the first game of that letter group
                                     target_letter = name[0].lower()
                                     for start_idx, game in enumerate(self.games):
-                                        game_name = game["metadata"].get("name", "")
+                                        game_name = game["metadata"].get(self.order_mode, "")
                                         if game_name and game_name[0].lower() == target_letter:
                                             new_index = start_idx
                                             break
@@ -278,23 +279,22 @@ class Game:
                     )
                     self.sound_manager.play_button_sound()  # Play sound on button press
                 elif event.key == pygame.K_o:
-                    # Toggle ordering mode
-                    self.random_ordering_enabled = not self.random_ordering_enabled
-                    if self.random_ordering_enabled:
-                        # Randomly reorder the list
-                        random.shuffle(self.games)
-                    else:
-                        # Lexicographical ordering based on game name
+                    # Cycle ordering mode: "random" -> "name" -> "type" -> "random"
+                    if self.order_mode == "random":
+                        self.order_mode = "name"
+                        self.random_ordering_enabled = False
                         self.games.sort(key=lambda game: game["metadata"].get("name", "").lower())
-                    self.current_game_index = 0  # Reset index after reordering
+                    elif self.order_mode == "name":
+                        self.order_mode = "game_type"
+                        self.random_ordering_enabled = False
+                        self.games.sort(key=lambda game: game["metadata"].get("game_type", "").lower())
+                    else:  # self.order_mode == "type"
+                        self.order_mode = "random"
+                        self.random_ordering_enabled = True
+                        random.shuffle(self.games)
+                    self.current_game_index = 0
                     self.total_games = len(self.games)
                     self.sound_manager.play_click_sound()
-                    (
-                        self.background_x,
-                        self.background_y,
-                        self.background_image,
-                        self.fade_alpha,
-                    ) = update_ui(self.games, self.current_game_index)
                 else:
                     self.sound_manager.play_buzz_sound()
                     return True
