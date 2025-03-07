@@ -210,6 +210,63 @@ class Game:
                 else:
                     self.sound_manager.mute_pause_menu_music()
             elif not self.paused:
+                # Check for Ctrl+Arrow events first
+                if event.key == pygame.K_RIGHT and (event.mod & pygame.KMOD_CTRL):
+                    if not self.random_ordering_enabled:
+                        current_name = self.games[self.current_game_index]["metadata"].get("name", "")
+                        if current_name:
+                            current_letter = current_name[0].lower()
+                            new_index = self.current_game_index
+                            # Iterate forward to find a game with a different starting letter
+                            for idx in range(self.current_game_index + 1, len(self.games)):
+                                name = self.games[idx]["metadata"].get("name", "")
+                                if name and name[0].lower() != current_letter:
+                                    new_index = idx
+                                    break
+                            else:
+                                # If not found, optionally wrap to the first game
+                                new_index = 0
+                            self.current_game_index = new_index
+                            self.sound_manager.play_button_sound()
+                            (
+                                self.background_x,
+                                self.background_y,
+                                self.background_image,
+                                self.fade_alpha,
+                            ) = update_ui(self.games, self.current_game_index)
+                            return True
+
+                elif event.key == pygame.K_LEFT and (event.mod & pygame.KMOD_CTRL):
+                    if not self.random_ordering_enabled:
+                        current_name = self.games[self.current_game_index]["metadata"].get("name", "")
+                        if current_name:
+                            current_letter = current_name[0].lower()
+                            new_index = self.current_game_index
+                            # Iterate backward to find a game with a different starting letter
+                            for idx in range(self.current_game_index - 1, -1, -1):
+                                name = self.games[idx]["metadata"].get("name", "")
+                                if name and name[0].lower() != current_letter:
+                                    # Found a game with a different letter; now locate the first game of that letter group
+                                    target_letter = name[0].lower()
+                                    for start_idx, game in enumerate(self.games):
+                                        game_name = game["metadata"].get("name", "")
+                                        if game_name and game_name[0].lower() == target_letter:
+                                            new_index = start_idx
+                                            break
+                                    break
+                            else:
+                                # If not found, optionally wrap-around to the last game
+                                new_index = len(self.games) - 1
+                            self.current_game_index = new_index
+                            self.sound_manager.play_button_sound()
+                            (
+                                self.background_x,
+                                self.background_y,
+                                self.background_image,
+                                self.fade_alpha,
+                            ) = update_ui(self.games, self.current_game_index)
+                            return True
+
                 if event.key == pygame.K_RIGHT:
                     self.current_game_index = (self.current_game_index + 1) % len(
                         self.games
