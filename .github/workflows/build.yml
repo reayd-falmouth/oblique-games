@@ -38,7 +38,7 @@ jobs:
       - name: Upload Windows Executable
         uses: actions/upload-artifact@v4
         with:
-          name: oblique_games-windows
+          name: $GAME_NAME-windows
           path: src/oblique_games/dist/${{ env.GAME_NAME }}.exe
 
   build-mac-arm64:
@@ -66,7 +66,7 @@ jobs:
       - name: Upload macOS ARM64 Executable
         uses: actions/upload-artifact@v4
         with:
-          name: oblique_games-mac-arm64
+          name: $GAME_NAME-mac-arm64
           path: src/oblique_games/dist/${{ env.GAME_NAME }}-arm64
 
   build-mac-x86_64:
@@ -94,7 +94,7 @@ jobs:
       - name: Upload macOS x86_64 Executable
         uses: actions/upload-artifact@v4
         with:
-          name: oblique_games-mac-x86_64
+          name: $GAME_NAME-mac-x86_64
           path: src/oblique_games/dist/${{ env.GAME_NAME }}-x86_64
 
   build-mac-universal:
@@ -108,13 +108,13 @@ jobs:
       - name: Download macOS x86_64 Executable
         uses: actions/download-artifact@v4
         with:
-          name: oblique_games-mac-x86_64
+          name: $GAME_NAME-mac-x86_64
           path: build/mac
 
       - name: Download macOS ARM64 Executable
         uses: actions/download-artifact@v4
         with:
-          name: oblique_games-mac-arm64
+          name: $GAME_NAME-mac-arm64
           path: build/mac
 
       - name: Merge x86_64 and ARM64 into Universal Binary
@@ -127,7 +127,7 @@ jobs:
       - name: Upload macOS Universal Binary
         uses: actions/upload-artifact@v4
         with:
-          name: oblique_games-mac-universal
+          name: $GAME_NAME-mac-universal
           path: build/mac/$GAME_NAME-universal
 
   build-linux:
@@ -155,5 +155,5 @@ jobs:
       - name: Upload Linux Executable
         uses: actions/upload-artifact@v4
         with:
-          name: oblique_games-linux
+          name: $GAME_NAME-linux
           path: src/oblique_games/dist/${{ env.GAME_NAME }}
