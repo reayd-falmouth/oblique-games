@@ -1,8 +1,6 @@
-import os
-
 import pygame
 import pygame_gui
-
+import random
 from oblique_games import (
     SCREEN_WIDTH,
     SCREEN_HEIGHT,
@@ -13,7 +11,7 @@ from oblique_games import (
     FADE_SPEED,
 )
 from oblique_games.font import load_fonts, render_wrapped_text
-from oblique_games.helpers import load_games, process_game
+from oblique_games.helpers import load_games
 from oblique_games.shader import ShaderRenderer  # Import ShaderRenderer
 from oblique_games.sound import SoundManager  # Import the new class
 from oblique_games.ui import update_ui
@@ -46,6 +44,9 @@ class Game:
         self.total_games = len(self.games)
         self.current_game_index = 0
         self.fonts = load_fonts()
+
+        # Set initial ordering mode (True for random, False for lexographical)
+        self.random_ordering_enabled = True
 
         # Load the icon image
         icon = pygame.image.load(f"{ASSETS_DIR}/img/icon/icon_64x64.png")
@@ -219,6 +220,24 @@ class Game:
                         self.games
                     )
                     self.sound_manager.play_button_sound()  # Play sound on button press
+                elif event.key == pygame.K_o:
+                    # Toggle ordering mode
+                    self.random_ordering_enabled = not self.random_ordering_enabled
+                    if self.random_ordering_enabled:
+                        # Randomly reorder the list
+                        random.shuffle(self.games)
+                    else:
+                        # Lexicographical ordering based on game name
+                        self.games.sort(key=lambda game: game["metadata"].get("name", "").lower())
+                    self.current_game_index = 0  # Reset index after reordering
+                    self.total_games = len(self.games)
+                    self.sound_manager.play_click_sound()
+                    (
+                        self.background_x,
+                        self.background_y,
+                        self.background_image,
+                        self.fade_alpha,
+                    ) = update_ui(self.games, self.current_game_index)
                 else:
                     self.sound_manager.play_buzz_sound()
                     return True
