@@ -101,7 +101,7 @@ jobs:
       - name: Upload macOS ARM64 Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${GAME_NAME}-mac-arm64
+          name: ${{ env.GAME_NAME }}-mac-arm64
           path: src/oblique_games/dist/${{ env.GAME_NAME }}-arm64
 
   build-mac-x86_64:
@@ -131,7 +131,7 @@ jobs:
       - name: Upload macOS x86_64 Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${GAME_NAME}-mac-x86_64
+          name: ${{ env.GAME_NAME }}-mac-x86_64
           path: src/oblique_games/dist/${{ env.GAME_NAME }}-x86_64
 
   release:
@@ -186,7 +186,7 @@ jobs:
       - name: Deploy macOS ARM64 Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: build/mac-arm64/${GAME_NAME}-arm64
+          path: build/mac-arm64/${{ env.GAME_NAME }}-arm64
           project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
           channel: mac
           version: ${{ github.ref_name }}
@@ -195,7 +195,7 @@ jobs:
       - name: Deploy macOS x86_64 Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: build/mac-x86_64/${GAME_NAME}-x86_64
+          path: build/mac-x86_64/${{ env.GAME_NAME }}-x86_64
           project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
           channel: mac
           version: ${{ github.ref_name }}
