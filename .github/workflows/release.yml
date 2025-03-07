@@ -174,29 +174,29 @@ jobs:
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
 
-      - name: Deploy Linux Build to Itch.io
-        uses: robpc/itchio-upload-action@v1
-        with:
-          path: build/linux/${{ env.GAME_NAME }}
-          project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
-          channel: linux
-          version: ${{ github.ref_name }}
-          api-key: ${{ secrets.ITCHIO_API_KEY }}
-
-      - name: Deploy macOS ARM64 Build to Itch.io
-        uses: robpc/itchio-upload-action@v1
-        with:
-          path: build/mac-arm64/${{ env.GAME_NAME }}-arm64
-          project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
-          channel: mac
-          version: ${{ github.ref_name }}
-          api-key: ${{ secrets.ITCHIO_API_KEY }}
-
-      - name: Deploy macOS x86_64 Build to Itch.io
-        uses: robpc/itchio-upload-action@v1
-        with:
-          path: build/mac-x86_64/${{ env.GAME_NAME }}-x86_64
-          project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
-          channel: mac
-          version: ${{ github.ref_name }}
-          api-key: ${{ secrets.ITCHIO_API_KEY }}
+#      - name: Deploy Linux Build to Itch.io
+#        uses: robpc/itchio-upload-action@v1
+#        with:
+#          path: build/linux/${{ env.GAME_NAME }}
+#          project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
+#          channel: linux
+#          version: ${{ github.ref_name }}
+#          api-key: ${{ secrets.ITCHIO_API_KEY }}
+#
+#      - name: Deploy macOS ARM64 Build to Itch.io
+#        uses: robpc/itchio-upload-action@v1
+#        with:
+#          path: build/mac-arm64/${{ env.GAME_NAME }}-arm64
+#          project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
+#          channel: mac
+#          version: ${{ github.ref_name }}
+#          api-key: ${{ secrets.ITCHIO_API_KEY }}
+#
+#      - name: Deploy macOS x86_64 Build to Itch.io
+#        uses: robpc/itchio-upload-action@v1
+#        with:
+#          path: build/mac-x86_64/${{ env.GAME_NAME }}-x86_64
+#          project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
+#          channel: mac
+#          version: ${{ github.ref_name }}
+#          api-key: ${{ secrets.ITCHIO_API_KEY }}
