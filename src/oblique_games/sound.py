@@ -10,7 +10,7 @@ class SoundManager:
         pygame.mixer.init()  # Initialize the sound system
 
         # Load sounds
-        self.background_hum = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/hum.ogg")
+        self.background_hum = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/underwater.ogg")
         self.startup_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/startup" f".ogg")
         self.button_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/button.ogg")
         self.buzz_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/buzz.ogg")

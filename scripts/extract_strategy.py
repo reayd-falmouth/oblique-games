@@ -40,16 +40,30 @@ def update_metadata_file(file_path):
         print(f"Error processing {file_path}: {e}")
 
 
-def main(root_directory):
+def extract_strategies(root_directory):
     metadata_files = find_metadata_files(root_directory)
 
     for metadata_file in metadata_files:
         update_metadata_file(metadata_file)
 
 
-if __name__ == "__main__":
-    target_directory = input("Enter the directory path to scan: ").strip()
+# Run optimization
+def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Extracts strategies in a given directory.")
+    parser.add_argument("--directory", type=str, help="Path to the directory containing errors.")
+
+    args = parser.parse_args()
+
+    # If the directory was not provided via CLI, ask for it interactively
+    target_directory = args.directory if args.directory else input("Enter the directory path to scan: ").strip()
+
+    # Validate the directory
     if os.path.exists(target_directory):
-        main(target_directory)
+        extract_strategies(target_directory)
     else:
         print("Invalid directory path. Please enter a valid path.")
+
+
+if __name__ == "__main__":
+    main()
