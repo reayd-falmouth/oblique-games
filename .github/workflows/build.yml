@@ -120,9 +120,9 @@ jobs:
       - name: Merge x86_64 and ARM64 into Universal Binary
         run: |
           cd build/mac
-          lipo -create -output ${GITHUB_WORKSPACE}/$GAME_NAME-universal GAME_NAME-x86_64 GAME_NAME-arm64
-          install_name_tool -change @rpath/Python @executable_path/Python ${GITHUB_WORKSPACE}/$GAME_NAME-universal
-          chmod +x ${GITHUB_WORKSPACE}/$GAME_NAME-universal
+          lipo -create -output ${GITHUB_WORKSPACE}/${{ env.GAME_NAME }}-universal ${{ env.GAME_NAME }}-x86_64 ${{ env.GAME_NAME }}-arm64
+          install_name_tool -change @rpath/Python @executable_path/Python ${GITHUB_WORKSPACE}/${{ env.GAME_NAME }}-universal
+          chmod +x ${GITHUB_WORKSPACE}/${{ env.GAME_NAME }}-universal
 
       - name: Upload macOS Universal Binary
         uses: actions/upload-artifact@v4
