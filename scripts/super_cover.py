@@ -56,9 +56,31 @@ def tile_images(
 
 
 # Example usage
-tile_images(
-    "./src/oblique_games/assets/games",
-    ".itch/background.png",
-    image_size=(1024, 1024),
-    final_size=(1024, 1024),
-)
+
+# Run optimization
+def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Creates a super cover image from a set of smaller images.")
+    parser.add_argument("--source-directory", type=str, help="Path to the directory containing the images.")
+    parser.add_argument("--output-directory", type=str, help="Path to the directory to save the file to.")
+
+    args = parser.parse_args()
+
+    # If the directory was not provided via CLI, ask for it interactively
+    source_directory = args.source_directory if args.source_directory else input("Enter the source directory path to scan: ").strip()
+    output_directory = args.output_directory if args.output_directory else input("Enter the output directory path to scan: ").strip()
+
+    # Validate the directory
+    if os.path.exists(source_directory) and os.path.exists(output_directory):
+        tile_images(
+            source_directory,
+            f"{output_directory}/background.png",
+            image_size=(1024, 1024),
+            final_size=(1024, 1024),
+        )
+    else:
+        print("Invalid directory path. Please enter a valid path.")
+
+
+if __name__ == "__main__":
+    main()
