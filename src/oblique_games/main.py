@@ -1,3 +1,4 @@
+import sys
 import pygame
 import pygame_gui
 import random
@@ -302,19 +303,24 @@ class Game:
                     )
                     self.sound_manager.play_button_sound()  # Play sound on button press
                 elif event.key == pygame.K_o:
+                    for game in self.games:
+                        name = game["metadata"].get("game_type", "")
+                        if not isinstance(name, str):
+                            print("Invalid name value:", name, "in game:", game)
+
                     # Cycle ordering mode: "random" -> "name" -> "type" -> "random"
                     if self.order_mode == "random":
                         self.order_mode = "name"
                         self.random_ordering_enabled = False
                         self.games.sort(
-                            key=lambda game: game["metadata"].get("name", "").lower()
+                            key=lambda game: str(game["metadata"].get("name", "")).lower()
                         )
                     elif self.order_mode == "name":
                         self.order_mode = "game_type"
                         self.random_ordering_enabled = False
                         self.games.sort(
-                            key=lambda game: game["metadata"]
-                            .get("game_type", "")
+                            key=lambda game: str(game["metadata"]
+                            .get("game_type", ""))
                             .lower()
                         )
                     else:  # self.order_mode == "type"
