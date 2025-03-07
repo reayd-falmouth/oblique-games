@@ -1,5 +1,8 @@
 name: Build Pygame Executable
 
+env:
+  GAME_NAME: oblique-aquatic-games
+
 on:
   workflow_dispatch:
   push:
@@ -30,17 +33,17 @@ jobs:
       - name: Build Windows Executable
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
+          pyinstaller --onefile --windowed --name ${{ env.GAME_NAME }} --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
 
       - name: Upload Windows Executable
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-windows
-          path: src/oblique_games/dist/oblique-games.exe
+          path: src/oblique_games/dist/${{ env.GAME_NAME }}.exe
 
   build-mac-arm64:
     name: macOS (Apple Silicon)
-    runs-on: macos-14  # Ensures the runner is ARM64
+    runs-on: macos-14
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -58,17 +61,17 @@ jobs:
       - name: Build macOS ARM64 Executable
         run: |
           cd src/oblique_games
-          pyinstaller --hidden-import=platform --target-arch arm64 --onefile --windowed --name oblique-games-arm64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+          pyinstaller --hidden-import=platform --target-arch arm64 --onefile --windowed --name ${{ env.GAME_NAME }}-arm64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
 
       - name: Upload macOS ARM64 Executable
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-mac-arm64
-          path: src/oblique_games/dist/oblique-games-arm64
+          path: src/oblique_games/dist/${{ env.GAME_NAME }}-arm64
 
   build-mac-x86_64:
     name: macOS (Intel)
-    runs-on: macos-13  # Ensures the runner is x86_64
+    runs-on: macos-13
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -86,17 +89,17 @@ jobs:
       - name: Build macOS x86_64 Executable
         run: |
           cd src/oblique_games
-          pyinstaller --hidden-import=platform --target-arch x86_64 --onefile --windowed --name oblique-games-x86_64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+          pyinstaller --hidden-import=platform --target-arch x86_64 --onefile --windowed --name ${{ env.GAME_NAME }}-x86_64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
 
       - name: Upload macOS x86_64 Executable
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-mac-x86_64
-          path: src/oblique_games/dist/oblique-games-x86_64
+          path: src/oblique_games/dist/${{ env.GAME_NAME }}-x86_64
 
   build-mac-universal:
     name: Merge macOS Universal Binary
-    needs: [build-mac-x86_64, build-mac-arm64]  # Waits for both Mac builds
+    needs: [build-mac-x86_64, build-mac-arm64]
     runs-on: macos-latest
     steps:
       - name: Checkout Repository
@@ -117,21 +120,15 @@ jobs:
       - name: Merge x86_64 and ARM64 into Universal Binary
         run: |
           cd build/mac
-
-          # Create the universal binary
-          lipo -create -output oblique-games-universal oblique-games-x86_64 oblique-games-arm64
-          
-          # Fix any broken shared library references
-          install_name_tool -change @rpath/Python @executable_path/Python oblique-games-universal
-          
-          # Ensure correct permissions
-          chmod +x oblique-games-universal
+          lipo -create -output ${GITHUB_WORKSPACE}/$GAME_NAME-universal oblique-games-x86_64 oblique-games-arm64
+          install_name_tool -change @rpath/Python @executable_path/Python ${GITHUB_WORKSPACE}/$GAME_NAME-universal
+          chmod +x ${GITHUB_WORKSPACE}/$GAME_NAME-universal
 
       - name: Upload macOS Universal Binary
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-mac-universal
-          path: build/mac/oblique-games-universal
+          path: build/mac/$GAME_NAME-universal
 
   build-linux:
     name: Linux
@@ -153,10 +150,10 @@ jobs:
       - name: Build Linux Executable
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+          pyinstaller --onefile --windowed --name ${{ env.GAME_NAME }} --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
 
       - name: Upload Linux Executable
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-linux
-          path: src/oblique_games/dist/oblique-games
+          path: src/oblique_games/dist/${{ env.GAME_NAME }}
