@@ -1,7 +1,6 @@
 import os
 import json
 
-
 def get_game_metadata(root_dir):
     games = {}
 
@@ -15,6 +14,9 @@ def get_game_metadata(root_dir):
                     game_name = data.get("name", "Unknown Game")
                     game_type = data.get("game_type", "Unknown Type")
 
+                    # Convert non-string game_types to strings
+                    game_type = str(game_type) if game_type is not None else "Unknown Type"
+
                     # Organize games by game_type
                     if game_type not in games:
                         games[game_type] = []
@@ -24,9 +26,9 @@ def get_game_metadata(root_dir):
                 print(f"Error reading {metadata_path}: {e}")
 
     # Sort game types and game names alphabetically
-    sorted_games = {gt: sorted(games[gt]) for gt in sorted(games)}
-    return sorted_games
+    sorted_games = {str(gt): sorted(games[gt]) for gt in sorted(games, key=str)}
 
+    return sorted_games
 
 def generate_html_list(games):
     html = "<ul>\n"
@@ -38,7 +40,6 @@ def generate_html_list(games):
     html += "</ul>"
     return html
 
-
 if __name__ == "__main__":
     # Prompt the user for the directory
     root_dir = input("Enter the root directory containing game metadata: ").strip()
@@ -48,7 +49,7 @@ if __name__ == "__main__":
         html_output = generate_html_list(game_data)
 
         # Save to file
-        output_file = os.path.join(".itch/itch_game_list.html")
+        output_file = os.path.join(root_dir, "itch_game_list.html")
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(html_output)
 
