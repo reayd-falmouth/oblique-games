@@ -22,7 +22,7 @@ def load_metadata(metadata_path: str) -> dict:
         return {}
 
     try:
-        with open(metadata_path, "r") as f:
+        with open(metadata_path, "r", encoding="utf-8") as f:
             metadata = json.load(f)
             return metadata if isinstance(metadata, dict) else {}
     except (json.JSONDecodeError, IOError):
