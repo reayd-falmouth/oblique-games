@@ -214,13 +214,19 @@ class Game:
                 # Check for Ctrl+Arrow events first
                 if event.key == pygame.K_RIGHT and (event.mod & pygame.KMOD_CTRL):
                     if not self.random_ordering_enabled:
-                        current_name = self.games[self.current_game_index]["metadata"].get(self.order_mode, "")
+                        current_name = self.games[self.current_game_index][
+                            "metadata"
+                        ].get(self.order_mode, "")
                         if current_name:
                             current_letter = current_name[0].lower()
                             new_index = self.current_game_index
                             # Iterate forward to find a game with a different starting letter
-                            for idx in range(self.current_game_index + 1, len(self.games)):
-                                name = self.games[idx]["metadata"].get(self.order_mode, "")
+                            for idx in range(
+                                self.current_game_index + 1, len(self.games)
+                            ):
+                                name = self.games[idx]["metadata"].get(
+                                    self.order_mode, ""
+                                )
                                 if name and name[0].lower() != current_letter:
                                     new_index = idx
                                     break
@@ -239,19 +245,28 @@ class Game:
 
                 elif event.key == pygame.K_LEFT and (event.mod & pygame.KMOD_CTRL):
                     if not self.random_ordering_enabled:
-                        current_name = self.games[self.current_game_index]["metadata"].get(self.order_mode, "")
+                        current_name = self.games[self.current_game_index][
+                            "metadata"
+                        ].get(self.order_mode, "")
                         if current_name:
                             current_letter = current_name[0].lower()
                             new_index = self.current_game_index
                             # Iterate backward to find a game with a different starting letter
                             for idx in range(self.current_game_index - 1, -1, -1):
-                                name = self.games[idx]["metadata"].get(self.order_mode, "")
+                                name = self.games[idx]["metadata"].get(
+                                    self.order_mode, ""
+                                )
                                 if name and name[0].lower() != current_letter:
                                     # Found a game with a different letter; now locate the first game of that letter group
                                     target_letter = name[0].lower()
                                     for start_idx, game in enumerate(self.games):
-                                        game_name = game["metadata"].get(self.order_mode, "")
-                                        if game_name and game_name[0].lower() == target_letter:
+                                        game_name = game["metadata"].get(
+                                            self.order_mode, ""
+                                        )
+                                        if (
+                                            game_name
+                                            and game_name[0].lower() == target_letter
+                                        ):
                                             new_index = start_idx
                                             break
                                     break
@@ -283,11 +298,17 @@ class Game:
                     if self.order_mode == "random":
                         self.order_mode = "name"
                         self.random_ordering_enabled = False
-                        self.games.sort(key=lambda game: game["metadata"].get("name", "").lower())
+                        self.games.sort(
+                            key=lambda game: game["metadata"].get("name", "").lower()
+                        )
                     elif self.order_mode == "name":
                         self.order_mode = "game_type"
                         self.random_ordering_enabled = False
-                        self.games.sort(key=lambda game: game["metadata"].get("game_type", "").lower())
+                        self.games.sort(
+                            key=lambda game: game["metadata"]
+                            .get("game_type", "")
+                            .lower()
+                        )
                     else:  # self.order_mode == "type"
                         self.order_mode = "random"
                         self.random_ordering_enabled = True
