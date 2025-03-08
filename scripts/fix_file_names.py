@@ -35,10 +35,23 @@ def clean_invalid_characters(root_dir):
                 print(f"Renamed directory: {old_path} -> {new_path}")
 
 
-# Run the script in the 'src/oblique_games/' directory
-if __name__ == "__main__":
-    target_directory = input("Enter the directory path to scan: ").strip()
+# Run optimization
+def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Cleans invalid chars in a given directory.")
+    parser.add_argument("--directory", type=str, help="Path to the directory containing errors.")
+
+    args = parser.parse_args()
+
+    # If the directory was not provided via CLI, ask for it interactively
+    target_directory = args.directory if args.directory else input("Enter the directory path to scan: ").strip()
+
+    # Validate the directory
     if os.path.exists(target_directory):
         clean_invalid_characters(target_directory)
     else:
         print("Invalid directory path. Please enter a valid path.")
+
+
+if __name__ == "__main__":
+    main()

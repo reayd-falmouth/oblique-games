@@ -1,5 +1,8 @@
 name: Build Pygame Executable
 
+env:
+  GAME_NAME: oblique-aquatic-games
+
 on:
   workflow_dispatch:
   push:
@@ -32,17 +35,17 @@ jobs:
       - name: Build Windows Executable
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
+          pyinstaller --onefile --windowed --name ${{ env.GAME_NAME }} --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
 
       - name: Upload Windows Executable
         uses: actions/upload-artifact@v4
         with:
-          name: oblique_games-windows
-          path: src/oblique_games/dist/oblique-games.exe
+          name: ${{ env.GAME_NAME }}-windows
+          path: src/oblique_games/dist/${{ env.GAME_NAME }}.exe
 
-  build-mac:
-    name: macOS
-    runs-on: macos-latest
+  build-mac-arm64:
+    name: macOS (Apple Silicon)
+    runs-on: macos-14
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -57,16 +60,77 @@ jobs:
           pip install -r src/oblique_games/requirements.txt
           pip install pyinstaller pillow
 
-      - name: Build macOS Executable
+      - name: Build macOS ARM64 Executable
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+          pyinstaller --hidden-import=platform --target-arch arm64 --onefile --windowed --name ${{ env.GAME_NAME }}-arm64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
 
-      - name: Upload macOS Executable
+      - name: Upload macOS ARM64 Executable
         uses: actions/upload-artifact@v4
         with:
-          name: oblique_games-mac
-          path: src/oblique_games/dist/oblique-games
+          name: ${{ env.GAME_NAME }}-mac-arm64
+          path: src/oblique_games/dist/${{ env.GAME_NAME }}-arm64
+
+  build-mac-x86_64:
+    name: macOS (Intel)
+    runs-on: macos-13
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r src/oblique_games/requirements.txt
+          pip install pyinstaller pillow
+
+      - name: Build macOS x86_64 Executable
+        run: |
+          cd src/oblique_games
+          pyinstaller --hidden-import=platform --target-arch x86_64 --onefile --windowed --name ${{ env.GAME_NAME }}-x86_64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+
+      - name: Upload macOS x86_64 Executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.GAME_NAME }}-mac-x86_64
+          path: src/oblique_games/dist/${{ env.GAME_NAME }}-x86_64
+
+  build-mac-universal:
+    name: Merge macOS Universal Binary
+    needs: [build-mac-x86_64, build-mac-arm64]
+    runs-on: macos-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Download macOS x86_64 Executable
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.GAME_NAME }}-mac-x86_64
+          path: build/mac
+
+      - name: Download macOS ARM64 Executable
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.GAME_NAME }}-mac-arm64
+          path: build/mac
+
+      - name: Merge x86_64 and ARM64 into Universal Binary
+        run: |
+          cd build/mac
+          lipo -create -output ${GITHUB_WORKSPACE}/${{ env.GAME_NAME }}-universal ${{ env.GAME_NAME }}-x86_64 ${{ env.GAME_NAME }}-arm64
+          install_name_tool -change @rpath/Python @executable_path/Python ${GITHUB_WORKSPACE}/${{ env.GAME_NAME }}-universal
+          chmod +x ${GITHUB_WORKSPACE}/${{ env.GAME_NAME }}-universal
+
+      - name: Upload macOS Universal Binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.GAME_NAME }}-mac-universal
+          path: build/mac/${{ env.GAME_NAME }}-universal
 
   build-linux:
     name: Linux
@@ -88,10 +152,10 @@ jobs:
       - name: Build Linux Executable
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+          pyinstaller --onefile --windowed --name ${{ env.GAME_NAME }} --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
 
       - name: Upload Linux Executable
         uses: actions/upload-artifact@v4
         with:
-          name: oblique_games-linux
-          path: src/oblique_games/dist/oblique-games
+          name: ${{ env.GAME_NAME }}-linux
+          path: src/oblique_games/dist/${{ env.GAME_NAME }}

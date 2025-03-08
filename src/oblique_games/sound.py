@@ -10,12 +10,12 @@ class SoundManager:
         pygame.mixer.init()  # Initialize the sound system
 
         # Load sounds
-        self.background_hum = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/hum.ogg")
+        self.background_hum = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/underwater.ogg")
         self.startup_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/startup" f".ogg")
         self.button_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/button.ogg")
         self.buzz_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/buzz.ogg")
         self.click_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/click.ogg")
-        self.pause_menu_music = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/music.ogg")
+        self.pause_menu_music = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/music-box.ogg")
 
         # Set volume levels (Optional: Adjust as needed)
         self.background_hum.set_volume(0.5)

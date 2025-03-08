@@ -76,3 +76,15 @@ pylint:  ## Runs pylint
 check-black: ## Check code formatting with Black
 	@echo "Checking code formatting with Black..."
 	@poetry run black --check .
+
+fixup_ideas:
+	@echo "Finding errors..."
+	@poetry run python scripts/find_errors.py --directory $(DIRECTORY)
+	@echo "Fixing file names..."
+	@poetry run python scripts/fix_file_names.py --directory $(DIRECTORY)
+	@echo "Extracting strategies..."
+	@poetry run python scripts/extract_strategy.py --directory $(DIRECTORY)
+	@echo "Creating super cover..."
+	@poetry run python scripts/super_cover.py --source-directory $(DIRECTORY) --output-directory $(DIRECTORY)
+	@echo "Optimizing covers..."
+	@poetry run python scripts/optimize_covers.py --directory $(DIRECTORY)
