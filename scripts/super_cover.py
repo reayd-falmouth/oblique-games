@@ -57,18 +57,38 @@ def tile_images(
 
 # Example usage
 
+
 # Run optimization
 def main():
     import argparse
-    parser = argparse.ArgumentParser(description="Creates a super cover image from a set of smaller images.")
-    parser.add_argument("--source-directory", type=str, help="Path to the directory containing the images.")
-    parser.add_argument("--output-directory", type=str, help="Path to the directory to save the file to.")
+
+    parser = argparse.ArgumentParser(
+        description="Creates a super cover image from a set of smaller images."
+    )
+    parser.add_argument(
+        "--source-directory",
+        type=str,
+        help="Path to the directory containing the images.",
+    )
+    parser.add_argument(
+        "--output-directory",
+        type=str,
+        help="Path to the directory to save the file to.",
+    )
 
     args = parser.parse_args()
 
     # If the directory was not provided via CLI, ask for it interactively
-    source_directory = args.source_directory if args.source_directory else input("Enter the source directory path to scan: ").strip()
-    output_directory = args.output_directory if args.output_directory else input("Enter the output directory path to scan: ").strip()
+    source_directory = (
+        args.source_directory
+        if args.source_directory
+        else input("Enter the source directory path to scan: ").strip()
+    )
+    output_directory = (
+        args.output_directory
+        if args.output_directory
+        else input("Enter the output directory path to scan: ").strip()
+    )
 
     # Validate the directory
     if os.path.exists(source_directory) and os.path.exists(output_directory):

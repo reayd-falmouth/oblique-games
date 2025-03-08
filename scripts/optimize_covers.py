@@ -43,13 +43,20 @@ def optimize_pngs(root_dir):
 # Run optimization
 def main():
     import argparse
+
     parser = argparse.ArgumentParser(description="Optimize PNGs in a given directory.")
-    parser.add_argument("--directory", type=str, help="Path to the directory containing PNGs.")
+    parser.add_argument(
+        "--directory", type=str, help="Path to the directory containing PNGs."
+    )
 
     args = parser.parse_args()
 
     # If the directory was not provided via CLI, ask for it interactively
-    target_directory = args.directory if args.directory else input("Enter the directory path to scan: ").strip()
+    target_directory = (
+        args.directory
+        if args.directory
+        else input("Enter the directory path to scan: ").strip()
+    )
 
     # Validate the directory
     if os.path.exists(target_directory):

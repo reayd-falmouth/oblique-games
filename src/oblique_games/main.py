@@ -309,15 +309,17 @@ class Game:
                         self.order_mode = "name"
                         self.random_ordering_enabled = False
                         self.games.sort(
-                            key=lambda game: str(game["metadata"].get("name", "")).lower()
+                            key=lambda game: str(
+                                game["metadata"].get("name", "")
+                            ).lower()
                         )
                     elif self.order_mode == "name":
                         self.order_mode = "game_type"
                         self.random_ordering_enabled = False
                         self.games.sort(
-                            key=lambda game: str(game["metadata"]
-                            .get("game_type", ""))
-                            .lower()
+                            key=lambda game: str(
+                                game["metadata"].get("game_type", "")
+                            ).lower()
                         )
                     else:  # self.order_mode == "type"
                         self.order_mode = "random"
