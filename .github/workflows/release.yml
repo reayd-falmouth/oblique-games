@@ -1,7 +1,7 @@
 name: Build and Release to Itch.io
 
 env:
-  ITCHIO_CHANNEL: reayd-falmouth
+  ITCHIO_USER: reayd-falmouth
   
 on:
   workflow_dispatch:
@@ -169,7 +169,7 @@ jobs:
         uses: robpc/itchio-upload-action@v1
         with:
           path: build/windows/${{ env.GAME_NAME }}.exe
-          project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
+          project: ${{ env.ITCHIO_USER }}/${{ env.GAME_NAME }}
           channel: windows
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
@@ -178,7 +178,7 @@ jobs:
         uses: robpc/itchio-upload-action@v1
         with:
           path: build/linux/${{ env.GAME_NAME }}
-          project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
+          project: ${{ env.ITCHIO_USER }}/${{ env.GAME_NAME }}
           channel: linux
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
@@ -187,7 +187,7 @@ jobs:
         uses: robpc/itchio-upload-action@v1
         with:
           path: build/mac-arm64/${{ env.GAME_NAME }}-arm64
-          project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
+          project: ${{ env.ITCHIO_USER }}/${{ env.GAME_NAME }}
           channel: mac
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
@@ -196,7 +196,7 @@ jobs:
         uses: robpc/itchio-upload-action@v1
         with:
           path: build/mac-x86_64/${{ env.GAME_NAME }}-x86_64
-          project: ${{ env.ITCHIO_CHANNEL }}/${{ env.GAME_NAME }}
+          project: ${{ env.ITCHIO_USER }}/${{ env.GAME_NAME }}
           channel: mac
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
