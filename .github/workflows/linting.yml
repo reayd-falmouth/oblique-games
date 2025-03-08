@@ -2,7 +2,7 @@ name: Linting
 
 on:
   pull_request:
-    branches: [ main, master ]
+    branches: [ main, aquatic ]
 
 jobs:
 

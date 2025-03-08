@@ -5,8 +5,8 @@ on:
   delete:
   pull_request:
     branches:
-      - master
       - main
+      - aquatic
 
 jobs:
   branch-naming-policy:
