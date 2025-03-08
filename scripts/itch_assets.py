@@ -1,6 +1,7 @@
 import os
 import json
 
+
 def get_game_metadata(root_dir):
     games = {}
 
@@ -15,7 +16,9 @@ def get_game_metadata(root_dir):
                     game_type = data.get("game_type", "Unknown Type")
 
                     # Convert non-string game_types to strings
-                    game_type = str(game_type) if game_type is not None else "Unknown Type"
+                    game_type = (
+                        str(game_type) if game_type is not None else "Unknown Type"
+                    )
 
                     # Organize games by game_type
                     if game_type not in games:
@@ -30,6 +33,7 @@ def get_game_metadata(root_dir):
 
     return sorted_games
 
+
 def generate_html_list(games):
     html = "<ul>\n"
     for game_type, game_names in games.items():
@@ -39,6 +43,7 @@ def generate_html_list(games):
         html += "    </ul>\n  </li>\n"
     html += "</ul>"
     return html
+
 
 if __name__ == "__main__":
     # Prompt the user for the directory

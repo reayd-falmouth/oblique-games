@@ -14,7 +14,6 @@ def find_metadata_files(root_dir):
     return metadata_files
 
 
-
 def fix_json_format(file_path):
     """Attempts to fix JSON formatting issues and rewrite the file."""
     try:
@@ -78,13 +77,20 @@ def find_errors(directory):
 # Run optimization
 def main():
     import argparse
+
     parser = argparse.ArgumentParser(description="Fix errors in a given directory.")
-    parser.add_argument("--directory", type=str, help="Path to the directory containing errors.")
+    parser.add_argument(
+        "--directory", type=str, help="Path to the directory containing errors."
+    )
 
     args = parser.parse_args()
 
     # If the directory was not provided via CLI, ask for it interactively
-    target_directory = args.directory if args.directory else input("Enter the directory path to scan: ").strip()
+    target_directory = (
+        args.directory
+        if args.directory
+        else input("Enter the directory path to scan: ").strip()
+    )
 
     # Validate the directory
     if os.path.exists(target_directory):
