@@ -5,16 +5,19 @@ on:
   push:
     branches:
       - main
-      - aquatic
   pull_request:
     branches:
       - main
-      - aquatic
 
 jobs:
-  build-windows:
-    name: Windows
-    runs-on: windows-latest
+  build:
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+        theme: [original, aquatic]
+    name: Build on ${{ matrix.os }} with theme ${{ matrix.theme }}
+    runs-on: ${{ matrix.os }}
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -29,69 +32,17 @@ jobs:
           pip install -r src/oblique_games/requirements.txt
           pip install pyinstaller pillow
 
-      - name: Build Windows Executable
+      - name: Copy games into source
+        run: |
+          make copy_games THEME=${{ matrix.theme }}
+
+      - name: Build Executable
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
+          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "$(if [ "$RUNNER_OS" == "Windows" ]; then echo 'assets;assets'; else echo 'assets:assets'; fi)" main.py
 
-      - name: Upload Windows Executable
+      - name: Upload Executable
         uses: actions/upload-artifact@v4
         with:
-          name: oblique_games-windows
-          path: src/oblique_games/dist/oblique-games.exe
-
-  build-mac:
-    name: macOS
-    runs-on: macos-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install Dependencies
-        run: |
-          pip install -r src/oblique_games/requirements.txt
-          pip install pyinstaller pillow
-
-      - name: Build macOS Executable
-        run: |
-          cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
-
-      - name: Upload macOS Executable
-        uses: actions/upload-artifact@v4
-        with:
-          name: oblique_games-mac
-          path: src/oblique_games/dist/oblique-games
-
-  build-linux:
-    name: Linux
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install Dependencies
-        run: |
-          pip install -r src/oblique_games/requirements.txt
-          pip install pyinstaller pillow
-
-      - name: Build Linux Executable
-        run: |
-          cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
-
-      - name: Upload Linux Executable
-        uses: actions/upload-artifact@v4
-        with:
-          name: oblique_games-linux
-          path: src/oblique_games/dist/oblique-games
+          name: oblique_games-${{ matrix.os }}-${{ matrix.theme }}
+          path: src/oblique_games/dist/oblique-games${{ (matrix.os == 'windows-latest') && '.exe' || '' }}
