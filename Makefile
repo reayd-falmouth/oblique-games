@@ -78,9 +78,7 @@ check-black: ## Check code formatting with Black
 	@poetry run black --check .
 
 THEME := original
-copy_games:
+copy_theme:
 	@echo "Copying games for $(VERSION)..."
 	@rm -rf $(GAME_DIR)/assets/games
-	-@mkdir $(GAME_DIR)/assets/games
-	@cp -rf $(SRC_DIR)/games/$(THEME)/* $(GAME_DIR)/assets/games/
-	@cp -rf $(SRC_DIR)/assets/$(THEME)/* $(GAME_DIR)/assets/
+	@cp -rf $(SRC_DIR)/theme/$(THEME)/* $(GAME_DIR)/

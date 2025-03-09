@@ -34,7 +34,7 @@ jobs:
 
       - name: Copy games into source
         run: |
-          make copy_games THEME=${{ matrix.theme }}
+          make copy_theme THEME=${{ matrix.theme }}
 
       - name: Set Executable Name
         run: echo "EXEC_NAME=oblique-${{ (matrix.theme == 'aquatic') && 'aquatic-' || '' }}games" >> $GITHUB_ENV
