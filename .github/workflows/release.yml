@@ -34,7 +34,7 @@ jobs:
 
       - name: Copy games into source
         run: |
-          make copy_theme THEME=${{ matrix.theme }}
+          make copy_games THEME=${{ matrix.theme }}
 
       - name: Set Executable Name
         run: echo "EXEC_NAME=oblique-${{ (matrix.theme == 'aquatic') && 'aquatic-' || '' }}games" >> $GITHUB_ENV
@@ -59,10 +59,20 @@ jobs:
         run: echo "ARCH=$(uname -m)" >> $GITHUB_ENV
         shell: bash
 
+      - name: Set OS Label
+        run: |
+          case "${{ matrix.os }}" in
+            ubuntu-latest) echo "OS_LABEL=linux" >> $GITHUB_ENV ;;
+            windows-latest) echo "OS_LABEL=windows" >> $GITHUB_ENV ;;
+            macos-13 | macos-14) echo "OS_LABEL=macOS" >> $GITHUB_ENV ;;
+            *) echo "OS_LABEL=${{ matrix.os }}" >> $GITHUB_ENV ;;
+          esac
+        shell: bash
+
       - name: Upload Executable
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.EXEC_NAME }}-${{ matrix.os }}-${{ env.ARCH || 'x86_64' }}-${{ matrix.theme }}
+          name: ${{ env.EXEC_NAME }}-${{ env.OS_LABEL }}-${{ env.ARCH || 'x86_64' }}-${{ matrix.theme }}
           path: src/oblique_games/dist/${{ env.EXEC_NAME }}${{ (runner.os == 'Windows') && '.exe' || '' }}
 
   release:
@@ -79,7 +89,7 @@ jobs:
       - name: Deploy Windows Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: oblique-${{ matrix.theme }}-games-windows-latest-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games.exe
+          path: oblique-${{ matrix.theme }}-games-windows-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games.exe
           project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
           channel: windows
           version: ${{ github.ref_name }}
@@ -88,7 +98,7 @@ jobs:
       - name: Deploy Linux Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: oblique-${{ matrix.theme }}-games-ubuntu-latest-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
+          path: oblique-${{ matrix.theme }}-games-linux-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
           project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
           channel: linux
           version: ${{ github.ref_name }}
@@ -97,7 +107,7 @@ jobs:
       - name: Deploy macOS ARM64 Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: oblique-${{ matrix.theme }}-games-macos-14-arm64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
+          path: oblique-${{ matrix.theme }}-games-macOS-arm64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
           project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
           channel: mac-arm64
           version: ${{ github.ref_name }}
@@ -106,8 +116,9 @@ jobs:
       - name: Deploy macOS x86_64 Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: oblique-${{ matrix.theme }}-games-macos-13-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
+          path: oblique-${{ matrix.theme }}-games-macOS-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
           project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
           channel: mac-x86_64
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
+
