@@ -36,18 +36,22 @@ jobs:
         run: |
           make copy_games THEME=${{ matrix.theme }}
 
+      - name: Set Executable Name
+        run: echo "EXEC_NAME=oblique-${{ (matrix.theme == 'aquatic') && 'aquatic-' || '' }}games" >> $GITHUB_ENV
+        shell: bash
+
       - name: Build Executable (Windows)
         if: runner.os == 'Windows'
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
+          pyinstaller --onefile --windowed --name ${{ env.EXEC_NAME }} --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
         shell: cmd
 
       - name: Build Executable (Linux/macOS)
         if: runner.os != 'Windows'
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+          pyinstaller --onefile --windowed --name ${{ env.EXEC_NAME }} --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
         shell: bash
 
       - name: Determine Architecture (macOS/Linux)
@@ -60,11 +64,11 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-${{ matrix.os }}-${{ matrix.theme }}
-          path: src/oblique_games/dist/oblique-games.exe
+          path: src/oblique_games/dist/${{ env.EXEC_NAME }}.exe
 
       - name: Upload Executable (Linux/macOS)
         if: runner.os != 'Windows'
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-${{ matrix.os }}-${{ env.ARCH }}-${{ matrix.theme }}
-          path: src/oblique_games/dist/oblique-games
+          path: src/oblique_games/dist/${{ env.EXEC_NAME }}
