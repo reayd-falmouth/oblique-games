@@ -13,7 +13,7 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [windows-latest, macos-latest, ubuntu-latest]
+        os: [windows-latest, macos-13, macos-14, ubuntu-latest]
         theme: [original, aquatic]
     name: Build on ${{ matrix.os }} with theme ${{ matrix.theme }}
     runs-on: ${{ matrix.os }}
@@ -36,13 +36,22 @@ jobs:
         run: |
           make copy_games THEME=${{ matrix.theme }}
 
-      - name: Build Executable
+      - name: Build Executable (Windows)
+        if: runner.os == 'Windows'
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "$(if [ "$RUNNER_OS" == "Windows" ]; then echo 'assets;assets'; else echo 'assets:assets'; fi)" main.py
+          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
+        shell: cmd
+
+      - name: Build Executable (Linux/macOS)
+        if: runner.os != 'Windows'
+        run: |
+          cd src/oblique_games
+          pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+        shell: bash
 
       - name: Upload Executable
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-${{ matrix.os }}-${{ matrix.theme }}
-          path: src/oblique_games/dist/oblique-games${{ (matrix.os == 'windows-latest') && '.exe' || '' }}
+          path: src/oblique_games/dist/oblique-games${{ (runner.os == 'Windows') && '.exe' || '' }}
