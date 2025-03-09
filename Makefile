@@ -1,8 +1,8 @@
-SRC_DIR := src/
+SRC_DIR := src
 GAME_DIR := $(SRC_DIR)/oblique_games
 ITCH_USER := reayd-falmouth
 ITCH_GAME := oblique-games
-BUILD_DIR=$(GAME_DIR)/build
+BUILD_DIR = $(GAME_DIR)/build
 ZIP_FILE=web.zip
 PYTHONPATH := $(PYTHONPATH):$(SRC_DIR)
 .PHONY: build deploy clean
@@ -76,3 +76,9 @@ pylint:  ## Runs pylint
 check-black: ## Check code formatting with Black
 	@echo "Checking code formatting with Black..."
 	@poetry run black --check .
+
+THEME := original
+copy_theme:
+	@echo "Copying games for $(VERSION)..."
+	@rm -rf $(GAME_DIR)/assets/games
+	@cp -rf $(SRC_DIR)/theme/$(THEME)/* $(GAME_DIR)/

@@ -11,7 +11,7 @@ class SoundManager:
 
         # Load sounds
         self.background_hum = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/hum.ogg")
-        self.startup_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/startup" f".ogg")
+        self.startup_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/startup.ogg")
         self.button_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/button.ogg")
         self.buzz_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/buzz.ogg")
         self.click_sound = pygame.mixer.Sound(f"{ASSETS_DIR}/audio/click.ogg")

@@ -2,23 +2,22 @@ name: Build and Release to Itch.io
 
 env:
   ITCHIO_USER: reayd-falmouth
-  
+
 on:
   workflow_dispatch:
-    inputs:
-      game_name:
-        description: "Name of the game (used in executable name and artifacts)"
-        required: true
   push:
     tags:
       - '*'  # Runs on any tag push
 
 jobs:
-  build-windows:
-    name: Build Windows Executable
-    runs-on: windows-latest
-    env:
-      GAME_NAME: ${{ github.event.inputs.game_name }}
+  build:
+    strategy:
+      matrix:
+        os: [windows-latest, macos-13, macos-14, ubuntu-latest]
+        theme: [original, aquatic]
+    name: Build on ${{ matrix.os }} with theme ${{ matrix.theme }}
+    runs-on: ${{ matrix.os }}
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -33,143 +32,65 @@ jobs:
           pip install -r src/oblique_games/requirements.txt
           pip install pyinstaller pillow
 
-      - name: Build Windows Executable
+      - name: Copy games into source
+        run: |
+          make copy_games THEME=${{ matrix.theme }}
+
+      - name: Set Executable Name
+        run: echo "EXEC_NAME=oblique-${{ (matrix.theme == 'aquatic') && 'aquatic-' || '' }}games" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Build Executable (Windows)
+        if: runner.os == 'Windows'
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name ${{ env.GAME_NAME }} --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
+          pyinstaller --onefile --windowed --name ${{ env.EXEC_NAME }} --icon=assets/img/icon/icon_64x64.png --add-data "assets;assets" main.py
+        shell: cmd
 
-      - name: Upload Windows Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ env.GAME_NAME }}-windows
-          path: src/oblique_games/dist/${{ env.GAME_NAME }}.exe
-
-  build-linux:
-    name: Build Linux Executable
-    runs-on: ubuntu-latest
-    env:
-      GAME_NAME: ${{ github.event.inputs.game_name }}
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install Dependencies
-        run: |
-          pip install -r src/oblique_games/requirements.txt
-          pip install pyinstaller pillow
-
-      - name: Build Linux Executable
+      - name: Build Executable (Linux/macOS)
+        if: runner.os != 'Windows'
         run: |
           cd src/oblique_games
-          pyinstaller --onefile --windowed --name ${{ env.GAME_NAME }} --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+          pyinstaller --onefile --windowed --name ${{ env.EXEC_NAME }} --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
+        shell: bash
 
-      - name: Upload Linux Artifact
+      - name: Determine Architecture (macOS/Linux)
+        if: runner.os != 'Windows'
+        run: echo "ARCH=$(uname -m)" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Set OS Label
+        run: |
+          case "${{ matrix.os }}" in
+            ubuntu-latest) echo "OS_LABEL=linux" >> $GITHUB_ENV ;;
+            windows-latest) echo "OS_LABEL=windows" >> $GITHUB_ENV ;;
+            macos-13 | macos-14) echo "OS_LABEL=macOS" >> $GITHUB_ENV ;;
+            *) echo "OS_LABEL=${{ matrix.os }}" >> $GITHUB_ENV ;;
+          esac
+        shell: bash
+
+      - name: Upload Executable
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.GAME_NAME }}-linux
-          path: src/oblique_games/dist/${{ github.event.inputs.game_name }}
-
-  build-mac-arm64:
-    name: Build macOS (Apple Silicon)
-    runs-on: macos-14  # Runs on Apple Silicon (arm64)
-    env:
-      GAME_NAME: ${{ github.event.inputs.game_name }}
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install Dependencies
-        run: |
-          arch -arm64 pip install -r src/oblique_games/requirements.txt
-          arch -arm64 pip install pyinstaller pillow
-
-      - name: Build macOS ARM64 Executable
-        run: |
-          cd src/oblique_games
-          arch -arm64 pyinstaller --onefile --windowed --name ${{ env.GAME_NAME }}-arm64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
-
-      - name: Upload macOS ARM64 Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ env.GAME_NAME }}-mac-arm64
-          path: src/oblique_games/dist/${{ env.GAME_NAME }}-arm64
-
-  build-mac-x86_64:
-    name: Build macOS (Intel)
-    runs-on: macos-13  # Runs on Intel Macs (x86_64)
-    env:
-      GAME_NAME: ${{ github.event.inputs.game_name }}
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install Dependencies
-        run: |
-          arch -x86_64 pip install -r src/oblique_games/requirements.txt
-          arch -x86_64 pip install pyinstaller pillow
-
-      - name: Build macOS x86_64 Executable
-        run: |
-          cd src/oblique_games
-          arch -x86_64 pyinstaller --onefile --windowed --name ${{ env.GAME_NAME }}-x86_64 --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
-
-      - name: Upload macOS x86_64 Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ env.GAME_NAME }}-mac-x86_64
-          path: src/oblique_games/dist/${{ env.GAME_NAME }}-x86_64
+          name: ${{ env.EXEC_NAME }}-${{ env.OS_LABEL }}-${{ env.ARCH || 'x86_64' }}-${{ matrix.theme }}
+          path: src/oblique_games/dist/${{ env.EXEC_NAME }}${{ (runner.os == 'Windows') && '.exe' || '' }}
 
   release:
     name: Release to Itch.io
-    needs: [build-windows, build-linux, build-mac-arm64, build-mac-x86_64]
+    needs: [build]
     runs-on: ubuntu-latest
-    env:
-      GAME_NAME: ${{ github.event.inputs.game_name }}
+    strategy:
+      matrix:
+        theme: [original, aquatic]
     steps:
-      - name: Download Windows Artifact
+      - name: Download Artifacts
         uses: actions/download-artifact@v4
-        with:
-          name: ${{ env.GAME_NAME }}-windows
-          path: build/windows
-
-      - name: Download Linux Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: ${{ env.GAME_NAME }}-linux
-          path: build/linux
-
-      - name: Download macOS ARM64 Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: ${{ env.GAME_NAME }}-mac-arm64
-          path: build/mac-arm64
-
-      - name: Download macOS x86_64 Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: ${{ env.GAME_NAME }}-mac-x86_64
-          path: build/mac-x86_64
 
       - name: Deploy Windows Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: build/windows/${{ env.GAME_NAME }}.exe
-          project: ${{ env.ITCHIO_USER }}/${{ env.GAME_NAME }}
+          path: oblique-${{ matrix.theme }}-games-windows-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games.exe
+          project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
           channel: windows
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
@@ -177,8 +98,8 @@ jobs:
       - name: Deploy Linux Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: build/linux/${{ env.GAME_NAME }}
-          project: ${{ env.ITCHIO_USER }}/${{ env.GAME_NAME }}
+          path: oblique-${{ matrix.theme }}-games-linux-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
+          project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
           channel: linux
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
@@ -186,17 +107,18 @@ jobs:
       - name: Deploy macOS ARM64 Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: build/mac-arm64/${{ env.GAME_NAME }}-arm64
-          project: ${{ env.ITCHIO_USER }}/${{ env.GAME_NAME }}
-          channel: mac
+          path: oblique-${{ matrix.theme }}-games-macOS-arm64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
+          project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
+          channel: mac-arm64
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
 
       - name: Deploy macOS x86_64 Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: build/mac-x86_64/${{ env.GAME_NAME }}-x86_64
-          project: ${{ env.ITCHIO_USER }}/${{ env.GAME_NAME }}
-          channel: mac
+          path: oblique-${{ matrix.theme }}-games-macOS-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
+          project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
+          channel: mac-x86_64
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
+
