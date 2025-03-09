@@ -98,7 +98,7 @@ jobs:
       - name: Deploy Windows Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: oblique-${{ matrix.theme }}-games-windows-x86_64-${{ matrix.theme }}/${{ env.ITCH_PROJECT }}.exe
+          path: ${{ env.ITCH_PROJECT }}-windows-x86_64-${{ matrix.theme }}/${{ env.ITCH_PROJECT }}.exe
           project: ${{ env.ITCHIO_USER }}/${{ env.ITCH_PROJECT }}
           channel: windows
           version: ${{ github.ref_name }}
@@ -107,7 +107,7 @@ jobs:
       - name: Deploy Linux Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: oblique-${{ matrix.theme }}-games-linux-x86_64-${{ matrix.theme }}/${{ env.ITCH_PROJECT }}
+          path: ${{ env.ITCH_PROJECT }}-linux-x86_64-${{ matrix.theme }}/${{ env.ITCH_PROJECT }}
           project: ${{ env.ITCHIO_USER }}/${{ env.ITCH_PROJECT }}
           channel: linux
           version: ${{ github.ref_name }}
@@ -116,7 +116,7 @@ jobs:
       - name: Deploy macOS ARM64 Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: oblique-${{ matrix.theme }}-games-macOS-arm64-${{ matrix.theme }}/${{ env.ITCH_PROJECT }}
+          path: ${{ env.ITCH_PROJECT }}-macOS-arm64-${{ matrix.theme }}/${{ env.ITCH_PROJECT }}
           project: ${{ env.ITCHIO_USER }}/${{ env.ITCH_PROJECT }}
           channel: mac-arm64
           version: ${{ github.ref_name }}
@@ -125,7 +125,7 @@ jobs:
       - name: Deploy macOS x86_64 Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: oblique-${{ matrix.theme }}-games-macOS-x86_64-${{ matrix.theme }}/${{ env.ITCH_PROJECT }}
+          path: ${{ env.ITCH_PROJECT }}-macOS-x86_64-${{ matrix.theme }}/${{ env.ITCH_PROJECT }}
           project: ${{ env.ITCHIO_USER }}/${{ env.ITCH_PROJECT }}
           channel: mac-x86_64
           version: ${{ github.ref_name }}
