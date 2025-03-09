@@ -77,20 +77,29 @@ jobs:
 
   release:
     name: Release to Itch.io
-    needs: [build]
+    needs: [ build ]
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        theme: [original, aquatic]
+        theme: [ original, aquatic ]
     steps:
       - name: Download Artifacts
         uses: actions/download-artifact@v4
+
+      - name: Set Itch.io Project Name
+        run: |
+          if [ "${{ matrix.theme }}" == "original" ]; then
+            echo "ITCH_PROJECT=oblique-games" >> $GITHUB_ENV
+          else
+            echo "ITCH_PROJECT=oblique-${{ matrix.theme }}-games" >> $GITHUB_ENV
+          fi
+        shell: bash
 
       - name: Deploy Windows Build to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
           path: oblique-${{ matrix.theme }}-games-windows-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games.exe
-          project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
+          project: ${{ env.ITCHIO_USER }}/${{ env.ITCH_PROJECT }}
           channel: windows
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
@@ -99,7 +108,7 @@ jobs:
         uses: robpc/itchio-upload-action@v1
         with:
           path: oblique-${{ matrix.theme }}-games-linux-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
-          project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
+          project: ${{ env.ITCHIO_USER }}/${{ env.ITCH_PROJECT }}
           channel: linux
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
@@ -108,7 +117,7 @@ jobs:
         uses: robpc/itchio-upload-action@v1
         with:
           path: oblique-${{ matrix.theme }}-games-macOS-arm64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
-          project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
+          project: ${{ env.ITCHIO_USER }}/${{ env.ITCH_PROJECT }}
           channel: mac-arm64
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
@@ -117,7 +126,7 @@ jobs:
         uses: robpc/itchio-upload-action@v1
         with:
           path: oblique-${{ matrix.theme }}-games-macOS-x86_64-${{ matrix.theme }}/oblique-${{ matrix.theme }}-games
-          project: ${{ env.ITCHIO_USER }}/oblique-${{ matrix.theme }}-games
+          project: ${{ env.ITCHIO_USER }}/${{ env.ITCH_PROJECT }}
           channel: mac-x86_64
           version: ${{ github.ref_name }}
           api-key: ${{ secrets.ITCHIO_API_KEY }}
