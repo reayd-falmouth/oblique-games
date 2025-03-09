@@ -50,8 +50,21 @@ jobs:
           pyinstaller --onefile --windowed --name oblique-games --icon=assets/img/icon/icon_64x64.png --add-data "assets:assets" main.py
         shell: bash
 
-      - name: Upload Executable
+      - name: Determine Architecture (macOS/Linux)
+        if: runner.os != 'Windows'
+        run: echo "ARCH=$(uname -m)" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Upload Executable (Windows)
+        if: runner.os == 'Windows'
         uses: actions/upload-artifact@v4
         with:
           name: oblique_games-${{ matrix.os }}-${{ matrix.theme }}
-          path: src/oblique_games/dist/oblique-games${{ (runner.os == 'Windows') && '.exe' || '' }}
+          path: src/oblique_games/dist/oblique-games.exe
+
+      - name: Upload Executable (Linux/macOS)
+        if: runner.os != 'Windows'
+        uses: actions/upload-artifact@v4
+        with:
+          name: oblique_games-${{ matrix.os }}-${{ env.ARCH }}-${{ matrix.theme }}
+          path: src/oblique_games/dist/oblique-games
