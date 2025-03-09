@@ -1,26 +1,28 @@
 {
     "randomize": false,
-    "ideation_technique": null,
+    "oblique_strategy": false,
     "cover": true,
-    "task": "A whirlpool in the ocean, devouring ships",
+    "task": "Swirling black and white vortex",
     "path": "ideas",
-    "game_type": "Menu",
+    "type": "Menu",
     "model": "reay-dpt-1o",
     "count": 1,
     "name": "Pause Menu",
-    "game_id": "PauseMenu_20250307135013",
+    "game_type": "Menu",
     "branding_data": {
-        "short_description": "Controls\n\nP: Pause\nLeft/Right Keys: Change channel\nO: Ordering\n?: Buzz",
-        "description": "Navigate the treacherous waters of a whirlpool in the ocean while managing your ship's crew and resources in 'Pause Menu'.",
-        "detailed_description": "In 'Pause Menu', players take on the role of a ship captain navigating through a volatile ocean plagued by a mysterious whirlpool that devours anything in its path. As the captain, you must strategically manage your crew, resources, and ship to survive the perils of the sea. Players will face various challenges such as unpredictable weather, enemy ships, and the constant threat of the whirlpool. With a unique pausing mechanic, players can stop time to make tactical decisions, issue commands, and coordinate their crew's efforts to keep the ship afloat. Every decision matters as it could mean the difference between survival and being swallowed by the ocean's fury.",
+        "short_description": "Controls\n\nP: Pause\nLeft/Right Keys: Change channel\n?: Buzz",
+        "detailed_description": "PauseMenu is an abstract puzzle game that challenges players to navigate a swirling black and white vortex. The game offers a unique experience where time and movement are interconnected. Players must strategically pause the vortex to solve puzzles, avoid obstacles, and unlock new paths. The minimalist art style and hypnotic visuals create an immersive environment, while the dynamic soundtrack adapts to the player's actions. Master the art of timing and precision to progress through increasingly complex levels in this mesmerizing adventure.",
         "tags": [
-            "Strategy",
-            "Simulation",
-            "Survival",
-            "Adventure",
-            "Nautical",
-            "Single-player",
-            "Time Management"
+            "Menu",
+            "Abstract",
+            "Trippy",
+            "UI",
+            "Elevator",
+            "Single Player",
+            "Atmospheric",
+            "Music",
+            "Black and White"
         ]
-    }
+    },
+    "errors": null
 }
