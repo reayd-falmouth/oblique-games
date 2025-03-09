@@ -83,3 +83,4 @@ copy_games:
 	@rm -rf $(GAME_DIR)/assets/games
 	-@mkdir $(GAME_DIR)/assets/games
 	@cp -rf $(SRC_DIR)/games/$(THEME)/* $(GAME_DIR)/assets/games/
+	@cp -rf $(SRC_DIR)/assets/$(THEME)/* $(GAME_DIR)/assets/
