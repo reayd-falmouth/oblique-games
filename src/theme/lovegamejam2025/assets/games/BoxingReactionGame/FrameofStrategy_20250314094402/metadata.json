@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/BoxingReactionGame/FrameofStrategy_20250314094402/cover.png",
+        "image_prompt": "Title: Frame of Strategy: Boxing Reaction Game\n\nStyle: Pixel Art\n\nDimensions: 1024x1024 pixels (Keeping in mind the itch.io requirements of minimum 315x250 and recommended 630x500)\n\nDescription:\n\nThe cover art should utilize the theme of 'Plan' and the oblique strategy: 'Make a blank valuable by putting it in an exquisite frame'.\n\nAt the center of the image, design a beautifully detailed pixel art frame. This frame should be ornate and intricate, implying its high value. Within this frame, depict a blank, pure white canvas. This canvas symbolizes the player's unwritten strategy, the plan they are yet to formulate, essentially making the blank canvas valuable by placing it in the exquisite frame.\n\nSurrounding the frame, create a pixel art representation of a boxing ring with a crowd in the background. There should be two pixelated boxers, one on the left and one on the right, both wearing boxing gloves and ready to fight. The expressions on their faces should be determined and focused, emphasizing the strategic element of the game. \n\nThe boxer on the left side should be depicted as if he is about to throw a punch, while the boxer on the right side should be in a defensive position, ready to react. This represents the 'Reaction Game' aspect, underscoring the need for quick thinking and planning. \n\nIn the lower portion of the cover, place the game title \"Frame of Strategy\" in bold, pixelated letters that match the overall art style. The title should be prominent and easy to read, even in thumbnail size for the itch.io platform.\n\nThe color palette should consist of dark, muted hues for the crowd to contrast with the brightly lit ring and boxers, making the central frame stand out. The frame itself should be in gold tones to emphasize its value, while the blank canvas inside it should be a pure, untouched white.\n\nThe overall style should be detailed yet readable as pixel art, with clear visual hierarchy guiding the viewer's eye towards the central frame and the boxing scenario."
+    },
+    "task": "Develop a basic 'Boxing Reaction Game' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Make a blank valuable by putting it in an exquisite frame'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Boxing Reaction Game",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Frame of Strategy",
+    "game_id": "FrameofStrategy_20250314094402",
+    "branding_data": {
+        "short_description": "A boxing reaction game with strategic timing and layered planning.",
+        "detailed_description": "Frame of Strategy is a unique boxing reaction game where players must not only rely on quick reflexes but also strategic planning to succeed. The theme 'Plan' is embodied in how players approach each opponent with a tailored strategy that unfolds through carefully timed moves and responses. By applying the oblique strategy 'Make a blank valuable by putting it in an exquisite frame,' the game introduces 'blank moments' where players must pause and plan their next move. Strategically framing these moments is key to winning matches, adding depth to the reactive nature of the gameplay. Players experience the tension and excitement of the ring, with each match requiring a mental and physical fight. Balancing pure reaction with strategic foresight is crucial in this finely-tuned boxing game.",
+        "tags": [
+            "Boxing",
+            "Reaction Game",
+            "Strategy",
+            "Planning",
+            "Timing",
+            "Sports",
+            "Unique Mechanics",
+            "Oblique Strategies"
+        ]
+    }
+}

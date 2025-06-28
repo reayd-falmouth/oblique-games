@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Bomberman/PlanBomber_20250314094941/cover.png",
+        "image_prompt": "Image Prompt:\n\nTitle: Plan Bomber\n\nSize: 1024x1024 (for high resolution) but ensure to design in a way that can be scaled down for itch.io cover requirements (minimum 315x250, recommended 630x500).\n\nStyle: Pixel Art - Retro Arcade Game\n\nTheme: Plan & Bomberman\n\nOblique Strategy: \"Destroy - nothing - the most important thing\"\n\nDetails:\n\n1. Foreground: The protagonist, a pixel art bomberman, should be located in the center of the cover. He's in a dynamic pose, holding a bomb above his head, ready to throw it. He wears a wide grin, showing his determination and excitement. The bomberman is pixelated, as a tribute to the classic Bomberman games. He should be colored in a vibrant palette (bright blues and whites) to stand out against the background.\n\n2. Midground: Around the bomberman, place pixelated blocks, walls, and enemies (in shades of grey and mute colors), representing the maze-like levels in the game. Some of the blocks are partially destroyed, showing the impact of the bombs. Here, integrate the oblique strategy. The blocks are destroyed, but they're not the most important thing - the bomberman and his plan are.\n\n3. Background: Behind the midground, depict a large, digital clock on a wall, with the time counting down to zero. This clock is the most important thing in the game - the plan's deadline - and is not destroyed. The clock should be designed in darker shades to create a sense of urgency and contrast against the more vibrant foreground.\n\n4. Border: A pixel art border that resembles an old arcade game screen. The top of the border should include the text \"Plan Bomber\" in capital, pixelated letters. The font should be bold and in bright colors (like red or orange) to catch the viewer's eye.\n\n5. Style Suggestion: Stick to an 8-bit pixel art aesthetic for that classic arcade feel. Despite the retro style, aim for a clean, readable design. The color scheme should be bright and engaging, with contrast between the foreground (vivid) and background (darker).\n\nRemember, the cover should be engaging and exciting, hinting at the strategic, bomb-throwing action within the game."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Destroy - nothing - the most important thing'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Plan Bomber",
+    "game_id": "PlanBomber_20250314094941",
+    "branding_data": {
+        "short_description": "Plan Bomber is a strategic twist on the classic 'Bomberman' game where players navigate mazes, lay bombs, and destroy key elements strategically in a theme of planning and execution.",
+        "detailed_description": "Plan Bomber takes the familiar bomb-laying mechanics of traditional 'Bomberman' games and introduces a unique twist with its 'Plan' theme. Players navigate through intricate mazes to strategically place bombs and execute plans that involve destroying key elements within the game environment. Inspired by the oblique strategy 'Destroy - nothing - the most important thing', players must decide what to spare and what to eliminate, adding a layer of depth to the strategic gameplay. With multiple levels, each designed to challenge the player's ability to plan and adapt, Plan Bomber requires not just speed and precision but also thoughtful decision-making.",
+        "tags": [
+            "Bomberman",
+            "Strategy",
+            "Puzzle",
+            "Maze",
+            "Planning",
+            "Destruction",
+            "Oblique Strategies",
+            "Arcade",
+            "Tactical"
+        ]
+    }
+}

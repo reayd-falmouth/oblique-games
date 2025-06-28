@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/FallingBlockPuzzle/TetrisArchitect_20250314093856/cover.png",
+        "image_prompt": "Title: Tetris Architect\n\nDimensions: 1024x1024 pixels\n\nTheme: Falling Block Puzzle Game with the theme 'Plan', modified by the oblique strategy: 'Allow an easement (an easement is the abandonment of a stricture)'\n\nDescription: The cover image should encapsulate the spirit of the game 'Tetris Architect', which combines the thrill of Tetris with the strategic planning of architecture. \n\nCentral to the image, place an architect's drafting table. The table is cluttered with pixelated blueprints and scale models of buildings. From these blueprints, Tetris blocks are falling, landing and integrating seamlessly into the scale models, signifying the creation process. \n\nThe architect, in pixel art style, should be on the right side of the cover. He's caught in the act of drawing, looking up towards the falling blocks, with a surprised and curious expression. His other hand hovers over a Tetris game console, suggesting he's controlling the falling blocks.\n\nTo incorporate the oblique strategy 'Allow an easement', depict a window behind the architect, softly illuminating the room and the drafting table. Outside the window, there's a city skyline made up of Tetris-shaped buildings, showcasing the easement of rules and the endless possibilities of creation.\n\nStyle Suggestions: Use a color palette of cool blues and greys, with pops of vibrant colors for the Tetris blocks. This should give a soothing, yet engaging visual appeal. Use shadows and light to emphasize the window and the falling Tetris blocks. The pixel art style should be detailed and precise to evoke the strategic and planning aspect of the game.\n\nEssential Cover Requirements for itch.io: Ensure the image's essential elements are within a central area of 630x500 pixels to meet itch.io's recommended dimensions, and that the main elements are visible even at the minimum size of 315x250 pixels. Ensure the game title and any important details are legible and prominent even at the smallest size."
+    },
+    "task": "Develop a basic 'Falling Block Puzzle' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Allow an easement (an easement is the abandonment of a stricture)'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Falling Block Puzzle",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Tetris Architect",
+    "game_id": "TetrisArchitect_20250314093856",
+    "branding_data": {
+        "short_description": "Tetris Architect is a falling block puzzle game with a strategic twist, inspired by architectural planning principles.",
+        "detailed_description": "Tetris Architect takes the classic falling block puzzle gameplay and introduces a strategic layer inspired by architectural design. Players not only need to fit the blocks together to clear lines but must also consider long-term planning as they strategically allow easements - opportunities to remove restrictions and freely adjust blocks. This unique mechanic creates a dynamic experience where players can 'abandon structures' allowing them to rethink their approach to building and design. The game challenges players to think several steps ahead, much like an architect planning a building, as they work to prevent over-filling the game area while crafting the perfect fit.",
+        "tags": [
+            "puzzle",
+            "strategy",
+            "falling block",
+            "architecture",
+            "planning",
+            "Tetris",
+            "creative",
+            "casual",
+            "single-player"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Bomberman/BombPla_20250314094822/cover.png",
+        "image_prompt": "Title: Bomb Pla\n\nSize: 1024x1024 pixels \n\nEssential Cover Requirements: The image must meet the minimum size requirements for itch.io, which is 315x250 pixels. However, for better visibility and quality, a recommended size of 630x500 pixels should be considered. \n\nImage Prompt:\n\nStart with a vibrant and explosive backdrop. Use saturated colors such as deep blues and fiery reds to create a sense of conflict and excitement. The background should be filled with pixelated explosions, smoke, and debris to represent the game's 'bombing' mechanics. \n\nIn the foreground, place the game's protagonist \u2013 a pixel art character inspired by the classic 'Bomberman', but with a unique twist. The character should be wearing a futuristic bomb suit, complete with a helmet and a utility belt filled with pixelated bombs. Make the character's eyes visible through the helmet, showing determination and focus. \n\nIn one hand, the character should be holding a pixelated bomb, ready to be thrown. The bomb can be designed as a classic black round bomb with a lit fuse, embracing the cliche and making it instantly recognizable. \n\nIn the other hand, our hero holds a set of blueprints or a map, representing the 'Plan' theme of the game. The pixelated plan could show a labyrinth-like layout, hinting at the game's strategic aspects.\n\nA bold, pixelated title \"Bomb Pla\" should be placed in the upper or lower part of the cover, depending on where there is more free space. The title should be designed in a pixel art style, using colors that contrast with the background to ensure it stands out. \n\nThe entire image should be rendered in a charming and colorful pixel art style, giving it a retro vibe that nods to the classic 'Bomberman' games while still appealing to modern audiences. \n\nRemember to leave some negative space for other necessary game information or branding, such as the developer's logo or the game's age rating. \n\nThis cover image should serve as an enticing invitation to the chaotic and strategic world of 'Bomb Pla', using classic gaming cliches to draw players in and pique their interest."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Don't be frightened of cliches'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Bomb Pla",
+    "game_id": "BombPla_20250314094822",
+    "branding_data": {
+        "short_description": "Bomb Pla: A strategic 'Bomberman' experience with a twist on classic clich\u00e9s.",
+        "detailed_description": "Bomb Pla is a strategic puzzle game that takes inspiration from the classic 'Bomberman' mechanics and infuses them with a thematic twist. In this game, players navigate through a maze-like environment, planting bombs to eliminate obstacles and opponents. The twist is the incorporation of the theme 'Plan', encouraging players to carefully strategize their moves, anticipate enemy actions, and utilize various power-ups effectively. Following the oblique strategy 'Don't be frightened of clich\u00e9s', Bomb Pla embraces familiar gaming concepts but recontextualizes them within a framework that promotes planning and strategy. The game\u2019s vibrant visuals and playful design humorously nod to classic gaming tropes, delivering a nostalgic but fresh experience for players.",
+        "tags": [
+            "Bomberman",
+            "Strategy",
+            "Puzzle",
+            "Classic",
+            "Retro",
+            "Maze",
+            "Multiplayer",
+            "Clich\u00e9s",
+            "Planning"
+        ]
+    }
+}

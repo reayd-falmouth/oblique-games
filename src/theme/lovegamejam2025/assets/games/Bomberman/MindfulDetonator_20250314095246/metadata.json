@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Bomberman/MindfulDetonator_20250314095246/cover.png",
+        "image_prompt": "Title: Mindful Detonator\n\nImage Size: 1024x1024 pixels\n\nStyle: Retro pixel art with a modern twist.\n\nTheme: Bomberman game with the theme 'Plan'\n\nOblique Strategy: Incorporate what you're really thinking about just now.\n\nPrompt:\n\nVisualize a pixel art game cover with a primary focus on a Bomberman character, a mindful detonator. He should be at the center of the image, holding a bomb in one hand, a blueprint of the game level in the other, signifying the theme 'Plan'. The Bomberman is not just about mindless destruction but also about strategizing and planning. \n\nThe character should be well detailed in pixel art, with a confident smirk, depicting his readiness to detonate but with a plan. His attire should be a fusion of a traditional Bomberman outfit and a general's uniform, combining elements of combat and strategy.\n\nThe bomb he's holding should have a lit fuse, adding a sense of urgency and danger to the cover. The blueprint should clearly depict a maze-like level design, typical of Bomberman games, complete with obstacles, power-ups, and enemies. \n\nIn the background, create a pixel art representation of a game level, with walls, enemies, and power-ups. The walls should be crumbling, indicating a recent explosion. The enemies should look surprised or scared, portraying the effectiveness of the Bomberman's plan.\n\nIncorporate elements of what you're thinking about right now into the cover. If you're thinking of a cup of coffee, maybe the Bomberman's bomb looks like a coffee bean, or there's a pixel art coffee cup on the blueprint. If you're thinking about nature, maybe the game level has a natural theme, with walls looking like trees or mountains, enemies looking like animals, etc. \n\nThe title of the game, 'Mindful Detonator', should be prominently displayed in pixelated text at the top of the cover. The text should be bold, with an exciting color like bright red or electric blue to grab attention.\n\nCover Requirements for itch.io: The image should still look clear, and the game title should still be readable when the image is downsized to the minimum size of 315x250 pixels. The recommended size is 630x500 pixels, so ensure all essential elements are distinguishable and the overall design is still appealing at this size."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'What are you really thinking about just now? Incorporate'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Mindful Detonator",
+    "game_id": "MindfulDetonator_20250314095246",
+    "branding_data": {
+        "short_description": "Mindful Detonator: A strategic bomberman game with a planning twist.",
+        "detailed_description": "Mindful Detonator is a strategic take on the classic Bomberman formula, challenging players to navigate mazes and eliminate obstacles with a mindful approach. Players must strategically place bombs to clear paths and defeat opponents, while also contemplating their real-time thoughts and intentions. The theme of 'Plan' is incorporated deeply into the gameplay, encouraging players to pause and think about their immediate thoughts and integrate these realizations into their bombing strategies. This introspective twist aims to enhance the traditional gaming experience, demanding not just quick reflexes but thoughtful planning and self-awareness.",
+        "tags": [
+            "Bomberman",
+            "Strategy",
+            "Puzzle",
+            "Mindfulness",
+            "Planning",
+            "Introspection",
+            "Maze",
+            "Tactical"
+        ]
+    }
+}

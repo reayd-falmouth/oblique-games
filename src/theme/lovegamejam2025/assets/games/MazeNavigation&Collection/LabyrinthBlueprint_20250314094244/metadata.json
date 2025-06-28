@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/MazeNavigation&Collection/LabyrinthBlueprint_20250314094244/cover.png",
+        "image_prompt": "Title: Labyrinth Blueprint\n\nTheme: Maze Navigation & Collection\n\nOblique Strategy: Discover the recipes you are using and abandon them\n\nImage Size: 1024x1024 pixels \n\nEssential Cover Requirements: Minimum 315x250 pixels, recommended 630x500 pixels for itch.io.\n\nImage Prompt:\n\nVisualize a top-down blueprint of a complex labyrinth. The labyrinth should be intricate and sprawling, with numerous twists and turns. Use a subdued color palette of blues, grays, and whites to give the impression of a traditional architectural blueprint.\n\nThe labyrinth is unfilled, signifying a 'plan'. Various maze navigation tools such as a compass, a map, and a pencil should be strategically placed around the blueprint, rendered in pixel art in a slightly brighter color to stand out against the blueprint's background. \n\nIn some corners of the labyrinth, scatter pixel-art representations of the items to be collected - keys, coins, treasure chests, etc. These should be in a golden color to stand out well against the blueprint. \n\nIn the center of the labyrinth, place a pixel-art representation of a grand prize - a glowing golden trophy or a majestic crown. \n\nIn one of the corners, you can place a pair of pixel-art glasses to signify the strategy of abandoning the usual path and looking at the maze with a fresh perspective.\n\nOn the top part of the cover, leave space for the game title 'Labyrinth Blueprint'. The title should be stylized in pixel art, using bold letters in a vibrant color, like red or orange, to stand out against the blueprint. \n\nStyle Suggestions:\n\nThe pixel art style should be detailed and intricate, with a strong emphasis on shadows and highlights to create a 3D effect. Use dithering to create gradients and textures. The overall style should evoke a sense of adventure and strategy, aligning with the game's theme. \n\nEnsure the layout and colors adhere to itch.io's cover requirements - it should be clear and impactful even at a smaller resolution of 315x250 pixels, while ideally looking its best at 630x500 pixels."
+    },
+    "task": "Develop a basic 'Maze Navigation & Collection' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Discover the recipes you are using and abandon them'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Maze Navigation & Collection",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Labyrinth Blueprint",
+    "game_id": "LabyrinthBlueprint_20250314094244",
+    "branding_data": {
+        "short_description": "Navigate mazes and collect items in Labyrinth Blueprint, where traditional strategies are left behind.",
+        "detailed_description": "Labyrinth Blueprint is a unique maze navigation game with a fresh twist on strategy and planning. Players are tasked with exploring intricate mazes to collect essential items while adhering to the overarching theme of 'Plan'. However, true to the game's spirit, players must identify and abandon familiar strategies, constantly adapting to new challenges and puzzles. The game encourages creativity and innovation, transforming the typical maze-solving experience into something extraordinary.",
+        "tags": [
+            "Maze",
+            "Puzzle",
+            "Strategy",
+            "Exploration",
+            "Innovation",
+            "Creativity",
+            "Navigation",
+            "Plan",
+            "Challenge",
+            "Adaptive"
+        ]
+    }
+}

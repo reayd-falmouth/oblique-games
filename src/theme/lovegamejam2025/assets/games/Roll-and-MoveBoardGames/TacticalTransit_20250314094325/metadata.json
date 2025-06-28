@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Roll-and-MoveBoardGames/TacticalTransit_20250314094325/cover.png",
+        "image_prompt": "Title: Tactical Transit\n\nImage Size: 1024x1024 pixels\n\nStyle: Pixel Art\n\nTheme: Roll-and-Move Board Games with the theme Plan\n\nOblique Strategy: Remove ambiguities and convert to specifics\n\nImage Description:\n\nThe image is a top-down view of an intricately designed, complex board game spread across the entire cover. The game board is a detailed cityscape with skyscrapers, parks, roads, and rivers. Each location on the board is a specific destination like the 'Bank', 'Supermarket', 'Hospital', or 'School' instead of ambiguous places to remove any ambiguities and convert them to specifics.\n\nIn the center of the board, there's a large die, mid-roll, with the numbers 1 to 6 visible in pixelated form. The die's movement implies action and chance, signifying the roll-and-move mechanism of the game.\n\nAround the game board, there are four game pieces, each a different color (blue, red, green, yellow), signifying multiplayer gameplay. Each game piece is a miniature pixel art of a public transit vehicle - a bus, a train, a ferry, and a bicycle, corresponding to the game's title, 'Tactical Transit'. \n\nAt the top of the image, in bold, pixelated letters, is the game's title 'Tactical Transit'. The title's color scheme matches the game pieces' colors, tying the elements together. Below the title, there's a smaller, less bold tagline, \"Plan, move, conquer the city.\"\n\nStyle Suggestions:\n\nThe pixel art should be vibrant and colorful to attract attention. Use a mix of bright and muted colors to create contrast and depth in the image. The cityscape should be detailed, but not overly complex, maintaining the charm and simplicity of pixel art. The game pieces and the die should be larger and more detailed than the rest of the elements to draw focus.\n\nEssential Cover Requirements for itch.io:\n\nEnsure the essential elements (title, game board, game pieces, and die) are clear and visible even when the image is scaled down to itch.io's minimum size of 315x250. The recommended size is 630x500, so design the layout with these dimensions in mind to ensure the image looks good at both sizes."
+    },
+    "task": "Develop a basic 'Roll-and-Move Board Games' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Remove ambiguities and convert to specifics'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Roll-and-Move Board Games",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Tactical Transit",
+    "game_id": "TacticalTransit_20250314094325",
+    "branding_data": {
+        "short_description": "Navigate a precise path with strategic dice rolls in Tactical Transit, a board game focused on planning and execution.",
+        "detailed_description": "Tactical Transit is a roll-and-move board game that challenges players to plan their routes meticulously in a bustling urban landscape. Players take turns rolling dice to progress their tokens along a well-defined path on the board. The goal is to reach the final destination before others by strategically planning each move and adapting to specific obstacles and opportunities along the way. The game emphasizes clear decision-making and foresight as players remove uncertainty from their journey, ensuring each move gets them closer to victory. Each route presents different challenges requiring tactical consideration, transforming the simple act of rolling dice into a strategic journey.",
+        "tags": [
+            "Board Game",
+            "Roll-and-Move",
+            "Strategy",
+            "Planning",
+            "Decision Making",
+            "Urban Theme",
+            "Tactical",
+            "Family Game"
+        ]
+    }
+}
