@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/FashionStylist/BalancedWardrobe_20250628054818/cover.png",
+        "image_prompt": "Title: Balanced Wardrobe\n\nImage Size: 1024x1024 pixels\n\nRequired Size for itch.io: Minimum 315x250 pixels, Recommended 630x500 pixels\n\nImage Details:\n\n1. Background: Create a digital pixel art representation of a chic, minimalist wardrobe. Ensure that the wardrobe is filled with a balanced variety of garments, showcasing different styles, colors, and textures. Don't stress one type of clothing more than another to adhere to the oblique strategy. \n\n2. Characters: In the center of the image, place a pixelated character of a fashion stylist. They should be holding a hanger with a piece of clothing in one hand, and a healthy snack like an apple or a bottle of water in the other, representing the game's theme of 'Healthy Habits'. \n\n3. Game Elements: Around the stylist, scatter a few pixel art icons representing both fashion and healthy habits. This could include a dress, a water bottle, a fruit, a dumbbell, etc. \n\n4. Title: Above the wardrobe, display the game's title 'Balanced Wardrobe' in bold, pixelated letters. The font should be stylish and readable, standing out against the wardrobe background. \n\n5. Color palette: Use a pastel color palette to give a soft, inviting feel to the image. Use the shades of pastel green, blue, pink, and yellow. Make sure all elements are equally highlighted, keeping in mind the oblique strategy.\n\n6. Style: The overall style should be a blend of modern minimalism and retro gaming, reflecting the game's fashion styling theme and pixel art aesthetic. \n\n7. Borders: Frame the image with a simple pixel border that complements the color palette and adds a sense of completion to the cover image.\n\nRemember to provide enough contrast between the game elements and the background for clear visibility and appeal. The aim is to create an inviting, balanced, and stylish game cover that represents the theme and gameplay of 'Balanced Wardrobe'."
+    },
+    "task": "Develop a basic 'Fashion Stylist' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Don't stress one thing more than another'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Fashion Stylist",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Balanced Wardrobe",
+    "game_id": "BalancedWardrobe_20250628054818",
+    "branding_data": {
+        "short_description": "Create balanced outfits that promote healthy habits in Balanced Wardrobe.",
+        "detailed_description": "Balanced Wardrobe is a unique Fashion Stylist game where players design and curate outfits that reflect healthy habits and a balanced lifestyle. With the central theme of 'Healthy Habits', players are encouraged to explore clothing choices that complement various aspects of well-being, such as comfort, functionality, and style. In line with the oblique strategy 'Don't stress one thing more than another', the game guides players to develop an outfit that balances aesthetics with practicality, encouraging a holistic approach to fashion. Players can participate in themed challenges, use resources wisely, and unlock new clothing items that fit the lifestyle of different characters. The game promotes not only fashion sense but also positive life choices through interactive gameplay and engaging storytelling.",
+        "tags": [
+            "Fashion",
+            "Simulation",
+            "Lifestyle",
+            "Healthy Habits",
+            "Strategy",
+            "Creative",
+            "Balance",
+            "Casual"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/CardSolitaire/HabitsofBalance_20250628053159/cover.png",
+        "image_prompt": "Title: Habits of Balance\n\nDimensions: 1024x1024 pixels \n\nStyle: Pixel Art\n\nTheme: Healthy Habits in a Card Solitaire game\n\nItch.io Requirements: The minimum size required for the cover image is 315x250, but 630x500 is recommended.\n\nDescription:\n\nThe game cover should be split into two halves, both contrasting yet complementing each other to embody the theme of balance. The left half should depict a dimly lit, cluttered room filled with pixel art representations of bad habits such as junk food, a messy desk, and a character slouched on a chair playing video games. The color palette for this side should lean towards darker, muted tones.\n\nThe right half should depict a bright, clean room filled with symbols of healthy habits. This could include a character doing yoga, a bowl of fresh fruits, a water bottle, a neat workspace, and a clock indicating a healthy sleep schedule. The color palette for this side should be vibrant and lively, featuring a lot of greens and blues to signify health and tranquility.\n\nIn the center, splitting the two halves, there should be a vertical line from which a deck of cards is being spread out. Each card should feature a pixel art image of a healthy habit, such as a fruit for a balanced diet, a running shoe for regular exercise, a book for continuous learning, etc.\n\nAt the top of the image, place the game's title \"Habits of Balance\" in bold, pixelated letters. The color of the title should transition from the darker tones on the left to the vibrant tones on the right, reflecting the transition from bad to healthy habits.\n\nStyle Suggestions:\n\nUse the pixel art style to your advantage to create a sense of nostalgia and simplicity. Make use of dithering techniques to enhance shadows and lighting, especially to distinguish between the darker and brighter halves of the cover. The contrast between the two halves should be clear but not overwhelming, reflecting the game's core message of balance.\n\nOblique Strategy:\n\nRemember the mistakes from the last design to improve on this one. Perhaps the previous design was too cluttered, lacked a clear focus, or didn't convey the game's theme effectively. Make sure this cover is visually engaging, neatly organized, and accurately represents the game's theme of healthy habits in a balanced lifestyle."
+    },
+    "task": "Develop a basic 'Card Solitaire' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'What mistakes did you make last time?'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Card Solitaire",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habits of Balance",
+    "game_id": "HabitsofBalance_20250628053159",
+    "branding_data": {
+        "short_description": "Habits of Balance is a card solitaire game themed around cultivating healthy habits, encouraging players to reflect on past missteps and promote positive change.",
+        "detailed_description": "Habits of Balance is a unique twist on the classic card solitaire game, infused with the compelling theme of healthy habits. As players engage in this solitaire challenge, they are prompted to reflect on previous mistakes in maintaining a balanced lifestyle, allowing them to strategize better and plan their moves with mindfulness. Each suit in the game represents a different aspect of healthy living, such as nutrition, exercise, mental well-being, and rest. The goal is to organize the deck in a way that brings balance to each area, while reflecting on and correcting strategies that didn't work in the past. This introspective gameplay not only entertains but encourages personal growth and development of healthier routines.",
+        "tags": [
+            "Card Game",
+            "Solitaire",
+            "Puzzle",
+            "Casual",
+            "Single Player",
+            "Strategy",
+            "Healthy Habits",
+            "Mindfulness",
+            "Self-Improvement"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/StarCraft/HabitcraftCosm_20250628051439/cover.png",
+        "image_prompt": "Title: Habitcraft Cosm \n\nDimensions: 1024x1024 pixels (Large cover image). For itch.io, the minimum requirement is 315x250 pixels, but a size of 630x500 pixels is recommended.\n\nImage Prompt Description:\n\nThe game cover image for 'Habitcraft Cosm' should reflect its unique theme of creating a StarCraft-styled game with a focus on healthy habits. The cover should be flipped upside down in alignment with the oblique strategy. \n\nStart with the color scheme, which should be vibrant and engaging, using a mix of deep blues and purples to represent the cosmos and bright greens and yellows to symbolize health and vitality. \n\nThe top of the cover (which is technically the bottom due to the upside-down orientation) should show a pixel art representation of a bustling, futuristic city. This city should be thriving with greenery, showcasing clean energy sources and active citizens to represent healthy habits. \n\nMoving towards the middle of the image, depict a pixelated space fleet launching from this green city into the cosmos. The spacecraft should be shaped like various fruits and vegetables, symbolizing the incorporation of healthy habits into the game's warfare strategy.\n\nThe bottom of the cover (technically the top due to the upside-down orientation) should be a vast, beautiful pixel art cosmos filled with stars, galaxies, and other celestial bodies. The game title 'Habitcraft Cosm' should be placed here, written in pixelated letters that mirror the style of the StarCraft logo but with a fresh, healthy twist like a leaf or an apple integrated into the design.\n\nFor the itch.io requirements, ensure that the central elements of the cover (the green city, the fruit and veggie spacecraft, and the cosmic backdrop) are visible and not cut off in the reduced size. \n\nStyle Suggestions:\n\nThe pixel art style for this game should be retro-inspired but with a modern twist. Think of classic games in the StarCraft series but with a brighter, more vibrant color palette and detailed pixel art that represents the game's unique focus on healthy habits. The title text should be bold and stand out against the cosmic backdrop, perhaps with a slight glow effect to really make it pop. \n\nRemember, the upside-down orientation is a creative challenge, not a constraint. Use it to create an interesting, engaging cover that catches the eye and piques curiosity."
+    },
+    "task": "Develop a basic 'StarCraft' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Turn it upside down'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "StarCraft",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habitcraft Cosm",
+    "game_id": "HabitcraftCosm_20250628051439",
+    "branding_data": {
+        "short_description": "Habitcraft Cosm is a 'StarCraft'-inspired strategy game focused on cultivating healthy habits in an upside-down galaxy.",
+        "detailed_description": "Habitcraft Cosm combines the strategic elements of classic 'StarCraft' gameplay with a unique twist: players must cultivate healthy habits to succeed. Set in an upside-down galaxy where chaos has inverted the natural order, players take command of factions dedicated to restoring balance through the power of positive routines. Manage resources, build strong communities, and defend against disruptive forces using an arsenal of healthy habit-based strategies. Whether it's organizing time efficiently, fostering team dynamics, or promoting wellness, each decision impacts the delicate balance of this topsy-turvy universe. Master the art of habit to conquer cosmological challenges and lead your faction to peace and prosperity.",
+        "tags": [
+            "strategy",
+            "real-time strategy",
+            "sci-fi",
+            "healthy habits",
+            "resource management",
+            "multiplayer",
+            "futuristic",
+            "upside down",
+            "galaxy"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

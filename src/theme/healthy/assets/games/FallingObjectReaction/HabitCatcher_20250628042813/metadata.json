@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/FallingObjectReaction/HabitCatcher_20250628042813/cover.png",
+        "image_prompt": "Title: Habit Catcher\n\nImage Size: 1024x1024 pixels\n\nCover Requirement: The image should be at least 315x250 pixels as per itch.io requirements, but for a more polished and professional look, the recommended size is 630x500 pixels.\n\nStyle: Vibrant, fun, and engaging pixel art style. The color palette should be bright and lively, using a variety of colors to represent different healthy habits. The pixel density should be moderate to ensure the image doesn't appear too cluttered or too sparse.\n\nImage Details:\n\n1. The Main Character: In the center of the image, depict a character wearing athletic gear (like a sweatband and trainers) with a net in their hands, appearing energetic and prepared to catch the falling objects.\n\n2. Falling Objects: Above the character, illustrate a variety of objects falling down, representing different healthy habits. These could include things like fresh fruits and vegetables, bottles of water, dumbbells, yoga mats, books, etc.\n\n3. The Two Sides: To represent the oblique strategy 'A line has two sides', split the background into two halves. On one side, depict a vibrant, sunny day with clear skies and lush green trees to signify the positive effects of adopting healthy habits. On the other side, portray a gloomy, cloudy atmosphere with wilted plants and dull colors to symbolize the negative consequences of neglecting healthy habits.\n\n4. Game Title: At the top of the image, place the game title \"Habit Catcher\" in bold, pixelated letters. Make it prominent and eye-catching, possibly using a color that contrasts with the background for better visibility.\n\n5. Details: Add some tiny pixelated details to bring the image to life, such as a small health bar in the corner, scores popping up from the caught objects, or a timer ticking down.\n\nRemember to keep the image detailed yet uncluttered, ensuring that the main character and falling objects are the focus. The final design should be vibrant, engaging, and clearly communicate the game's theme and objective."
+    },
+    "task": "Develop a basic 'Falling Object Reaction' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'A line has two sides'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Falling Object Reaction",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Catcher",
+    "game_id": "HabitCatcher_20250628042813",
+    "branding_data": {
+        "short_description": "Catch falling healthy habits with quick reactions in 'Habit Catcher'.",
+        "detailed_description": "'Habit Catcher' is a dynamic reaction game where players are tasked with catching falling objects representing healthy habits. Each level presents a refreshing challenge of balancing beneficial choices while avoiding pitfalls. The game embodies the oblique strategy 'A line has two sides' by introducing dual-choice mechanics: players must decide which side of the line to focus on, balancing between catching healthy objects and avoiding unhealthy ones. As objects fall, players swipe left or right to catch good habits such as apples, books, and water bottles, while dodging negative influences like junk food or bad habits. This engaging gameplay promotes quick thinking and habit recognition, all within a thematic and educational setting.",
+        "tags": [
+            "reaction game",
+            "strategy",
+            "educational",
+            "healthy habits",
+            "quick thinking",
+            "oblique strategies",
+            "decision making"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

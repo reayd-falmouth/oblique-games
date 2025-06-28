@@ -1,0 +1,34 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/BubbleWrapPopper/HealthyBurst_20250628054443/cover.png",
+        "image_prompt": "Image Prompt:\n\nSet your canvas to 1024x1024. The game cover should be designed in a way that it still looks good when scaled down to itch.io's minimum requirement of 315x250, and ideally, at their recommended size of 630x500.\n\nFor \"Healthy Burst\", think of a bright, vibrant color scheme- greens, yellows, and whites to mirror fresh and healthy habits. The pixel art style should be clean and minimalist, with sharp outlines and shaded details. \n\nStart with a background of a gradient sky. From the top, use a dark blue that fades into a lighter shade as it reaches the horizon. This fading system will bring depth to the image. \n\nAt the center, design an oversized hand, stylized and pixelated, as if it is popping a massive sheet of bubble wrap. This bubble wrap sheet should be in the shape of an apple or a heart to represent health. The popped bubbles could transform into small pixelated fruit or vegetable icons, signifying the healthy habits that are the game's theme. \n\nThe game title, \"Healthy Burst\", should be placed prominently at the top of the cover, written in bold, pixelated letters. Make sure these letters have a gradient effect, fading from a darker shade at the top to a lighter shade at the bottom, consider using a green gradient to match the healthy theme. \n\nTowards the bottom, add some small pixel art characters engaging in various healthy activities like jogging, eating fruit, or drinking water. These characters will visually communicate the game's theme and create an interesting detail that attracts the viewer's attention.\n\nEnsure all elements of the cover are distinguishable even when the image is scaled down to itch.io's recommended and minimum sizes. The game title and the central image of the hand popping the bubble wrap should still be clearly visible and attractive at a smaller scale."
+    },
+    "task": "Develop a basic 'Bubble Wrap Popper' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Consider different fading systems'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bubble Wrap Popper",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Healthy Burst",
+    "game_id": "HealthyBurst_20250628054443",
+    "branding_data": {
+        "short_description": "Healthy Burst: Pop virtual bubble wrap and learn healthy habits.",
+        "detailed_description": "Healthy Burst offers a unique twist on the classic bubble wrap popping game by combining it with the theme of developing healthy habits. Players are presented with a virtual bubble wrap grid, each bubble representing a piece of advice or fun fact related to healthy living, such as nutrition, exercise, mental wellness, or sleep. The oblique strategy 'Consider different fading systems' is incorporated by introducing a dynamic fading visual effect as bubbles are popped, revealing the message behind the bubble. Additionally, segments of the bubble wrap gradually fade away as the player progresses, symbolizing the transitory and evolving nature of personal growth toward healthier habits. As players pop bubbles, cheerful sounds and rewarding animations reinforce positive reinforcement, making the learning experience both enjoyable and educational.",
+        "tags": [
+            "Casual",
+            "Educational",
+            "Puzzle",
+            "Simulation",
+            "Health",
+            "Wellness",
+            "Casual Gaming",
+            "Interactive",
+            "Relaxing",
+            "Bubble Wrap",
+            "Habits",
+            "Healthy Lifestyle"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

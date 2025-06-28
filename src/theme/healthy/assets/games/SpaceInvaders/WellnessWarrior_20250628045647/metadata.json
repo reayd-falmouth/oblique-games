@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/SpaceInvaders/WellnessWarrior_20250628045647/cover.png",
+        "image_prompt": "Title: Wellness Warrior\n\nDimensions: 1024x1024 pixels which fits the itch.io cover requirements (minimum 315x250, recommended 630x500)\n\nImage Description:\n\nThe image will be a pixel art interpretation of a 'Space Invaders' type game, but with the theme of 'Healthy Habits'. The bottom of the image will depict our protagonist, the Wellness Warrior, who will be a stylized, pixelated character clad in fitness attire and armed with a shield and a sword. The shield would be in the shape of a vegetable, symbolizing the importance of a healthy diet, and the sword could be a water bottle, representing hydration.\n\nAbove the Wellness Warrior, there will be rows of pixelated 'invaders'. Instead of traditional aliens, these invaders will be unhealthy habits personified as junk food items, cigarettes, and soda cans. The background would be a simple starry night sky, with the game title \"Wellness Warrior\" in pixelated text at the top of the cover.\n\nStyle Suggestions:\n\n1. Colors: Use vibrant and contrasting colors to make the cover eye-catching. The Wellness Warrior could be in bright colors to symbolize energy and vitality, while the invaders can be in darker, more muted colors to represent the unhealthy habits. \n\n2. Aesthetic: The image should have a retro, pixel art aesthetic, paying homage to the original 'Space Invaders' game. \n\n3. Text: Use a bold, pixelated font for the game title. It should be large enough to be legible but should not overpower the main image.\n\n4. Oblique Strategy: 'Is it finished?': To incorporate this strategy, the image should evoke a sense of progress but not completion, implying that the battle against unhealthy habits is ongoing. This could be represented by showing our Wellness Warrior in the midst of the action, with some invaders defeated but many still remaining.\n\nRemember, the image should be detailed but not cluttered, maintaining a balance between complexity and clear, understandable imagery."
+    },
+    "task": "Develop a basic 'Space Invaders' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Is it finished?'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Space Invaders",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellness Warrior",
+    "game_id": "WellnessWarrior_20250628045647",
+    "branding_data": {
+        "short_description": "Wellness Warrior reimagines Space Invaders with a focus on healthy habits, where you fend off bad habits to maintain wellness.",
+        "detailed_description": "In Wellness Warrior, players embark on a cosmic journey to practice healthy habits and fend off detrimental ones. The game is inspired by the classic Space Invaders, where instead of alien threats, you face off against representations of unhealthy habits such as junk food and laziness. Your objective is to stay motivated and defend your wellbeing by shooting down these bad habits using healthy actions like water bottles, vegetables, and workout routines. Each level challenges you to protect a wellness meter that depletes when hit by negative influences. The oblique strategy 'Is it finished?' encourages players to reflect on their personal wellness journey, suggesting that maintaining health is a continuous process, not a finished task. With vibrant graphics and catchy tunes, Wellness Warrior aims to entertain while advocating for a healthier lifestyle.",
+        "tags": [
+            "Arcade",
+            "Space Invaders",
+            "Healthy Habits",
+            "Action",
+            "Single Player",
+            "Retro",
+            "Health Promotion",
+            "Oblique Strategy"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

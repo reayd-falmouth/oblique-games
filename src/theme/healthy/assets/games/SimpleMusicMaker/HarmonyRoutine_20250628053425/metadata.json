@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/SimpleMusicMaker/HarmonyRoutine_20250628053425/cover.png",
+        "image_prompt": "Title: Harmony Routine\n\nImage Prompt Description:\n\nFor the pixel art cover of Harmony Routine, the scene should capture the essence of a 'Simple Music Maker' game while highlighting themes of 'Healthy Habits' and 'Overt Resistance to Change'. The image should be 1024x1024 pixels, ensuring itch.io's cover requirements are met (minimum size: 315x250, recommended size: 630x500).\n\nImagine a beautifully pixelated room filled with various musical instruments - a keyboard, a guitar, a saxophone, and a set of drums. Each instrument is set up on a stand or held by a chair, ready for play. This room is the player's music studio, with soundproof walls, a music stand with sheet music, and a soft glow from a single hanging lamp.\n\nIn the center of the room, there's a character who represents the player. The character is a pixel figure with a clear posture of the 'Overt Resistance to Change' theme. He/she is stubborn, arms crossed, clearly rejecting the new-fangled, high-tech music equipment that is gathering dust in the corner. Instead, the character is focused on the old, traditional musical instruments, emphasizing the game's preference for the 'Simple Music Maker' theme.\n\nOn the floor, we see pixelated representations of healthy habits. There's a yoga mat with a water bottle, a plate of fresh fruits on a table, a set of dumbbells, and a potted plant for fresh air, subtly indicating that while the character is resisting change in their musical habits, they are not neglecting their health.\n\nStyle Suggestions:\n\nThe overall style should be nostalgic with a modern touch, using a color palette that is warm and inviting, but with a few muted, pastel shades to represent the modern, unused tools. The lighting should be soft, casting long, dramatic shadows that add depth and interest. The character design should be simple but expressive, with clear body language and facial expressions.\n\nThe title \"Harmony Routine\" should be at the top of the image in a large, bold, pixelated font. Below the title, there should be a tagline that reads: \"Create music, resist change, live healthily.\"\n\nThe bottom of the image should include a pixelated version of the developer's logo, and the right-hand corner should have a small pixel art icon indicating the game's rating."
+    },
+    "task": "Develop a basic 'Simple Music Maker' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Overtly resist change'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Simple Music Maker",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Harmony Routine",
+    "game_id": "HarmonyRoutine_20250628053425",
+    "branding_data": {
+        "short_description": "Create music while promoting healthy habits in Harmony Routine.",
+        "detailed_description": "Harmony Routine is a simple music maker game that intertwines the art of music creation with the theme of healthy living. Players are encouraged to develop and stick to healthy habits as they progress through the game, creating musical compositions using various virtual instruments and rhythms. The game concept emphasizes consistency and routine, and players are challenged with the oblique strategy of 'Overtly resist change.' This means they must maintain their musical and habitual routines without succumbing to frequent alterations. In Harmony Routine, players learn how discipline in both music and lifestyle can lead to harmonious outcomes.",
+        "tags": [
+            "Music",
+            "Casual",
+            "Educational",
+            "Lifestyle",
+            "Routine",
+            "Strategy",
+            "Simulation",
+            "Creative"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

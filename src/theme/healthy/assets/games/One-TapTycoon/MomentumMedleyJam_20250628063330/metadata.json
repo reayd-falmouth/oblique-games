@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/One-TapTycoon/MomentumMedleyJam_20250628063330/cover.png",
+        "image_prompt": "Title: Momentum Medley Jam\n\nSize: 1024x1024 pixels (Minimum 315x250, Recommended 630x500 for itch.io)\n\nStyle: Retro 8-bit pixel art style, vibrant colors, and clean, simple designs\n\nImage Prompt Details:\n\nThe cover image should be a detailed scene portraying a fun and energetic environment that perfectly represents the game’s theme of 'One-Tap Tycoon' game with the theme 'Healthy Habits', and the oblique strategy: 'Just carry on'.\n\n1. Background: The top half is a bright, pixelated blue sky with fluffy white clouds. A large, rising sun in the top-right corner emits radiant lines, symbolizing the start of a new day and the importance of persistence.\n\n2. Foreground: The lower half is split into three parts. On the left, depict an 8-bit park scene with pixelated trees, a running track, and people jogging, symbolizing the importance of regular exercise in maintaining healthy habits. In the middle, portray a bustling cityscape – a nod to the game's 'One-Tap Tycoon' aspect, with pixelated skyscrapers and bustling traffic. On the right, show a home scene with a character doing yoga, symbolizing mental health and relaxation.\n\n3. Main Characters: In the center, place a large, pixelated character tapping on a smartphone. The character should be smiling and energetic, reflecting the game's upbeat mood. Above the smartphone, show pixelated coins pouring out and cascading around the character, representing the tycoon element of the game.\n\n4. Title: At the top of the image, display the game title, 'Momentum Medley Jam', in bold, pixelated, multicolored letters.\n\n5. Other Elements: To reflect the 'Just carry on' strategy, include small motivational elements throughout the cover, such as a pixelated poster in the home scene with the words 'Carry On' or a runner wearing a shirt with a 'Keep Going' slogan.\n\nRemember to use vibrant colors to make the elements pop and create an inviting, fun, and engaging game cover. The style should be simple yet eye-catching, with a focus on the cheerful, positive aspects of maintaining healthy habits and persistence."
+    },
+    "task": "Develop a basic 'One-Tap Tycoon' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Just carry on'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "One-Tap Tycoon",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Momentum Medley Jam",
+    "game_id": "MomentumMedleyJam_20250628063330",
+    "branding_data": {
+        "short_description": "Momentum Medley Jam is a one-tap tycoon game about cultivating healthy habits and perseverance.",
+        "detailed_description": "Momentum Medley Jam is a delightful one-tap tycoon game that immerses players in the journey of building a thriving lifestyle centered around healthy habits. Set in a lively, vibrant world, players tap to invest in various healthy activities, ranging from simple exercises and balanced diets to mindful practices and community wellness projects. The game's unique twist comes from the 'Just carry on' strategy, encouraging players to focus on consistency and gradual improvement rather than instantaneous success. As players progress, they unlock new levels of wellness and receive motivational boosts that enhance their journey. With charming graphics and a soothing soundtrack, Momentum Medley Jam inspires players to carry on their path to health and happiness.",
+        "tags": [
+            "one-tap",
+            "tycoon",
+            "healthy habits",
+            "casual",
+            "perseverance",
+            "incremental",
+            "lifestyle",
+            "motivational"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

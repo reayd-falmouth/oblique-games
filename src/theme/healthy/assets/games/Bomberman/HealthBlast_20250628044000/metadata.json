@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Bomberman/HealthBlast_20250628044000/cover.png",
+        "image_prompt": "Title: Health Blast\n\nDetailed Image Prompt: \n\nImagine a pixel art game cover that embodies the fun, dynamic, and educational nature of 'Health Blast'. The overall style should be colorful, lively, and charming, with a touch of nostalgia reminiscent of classic arcade games. The image dimensions should be 1024x1024 pixels to ensure high resolution.\n\nThe central focus of the cover is our hero - a pixel art version of Bomberman, but with a twist. This Bomberman is not your usual character; he’s a health enthusiast. He's dressed in vibrant sportswear, carrying a pixelated apple-shaped bomb in one hand. His other hand is showing a thumbs-up sign.\n\nThe background should be a maze-like environment with walls made of junk food, like hamburgers, fries, and soda cans. The floor of the maze is a bright green, symbolizing the path of healthy habits. The corners of the cover can have pixelated icons of fruits and vegetables as power-ups, glowing with vitality.\n\nAt the top, place the game title 'Health Blast' in pixelated, bold letters, with a radiant gradient effect that transitions from green to blue, symbolizing a journey from health to victory. \n\nThe overall color palette should be bright and lively, with dominant colors like green for health, red for apples, yellow for junk food, and blue for the title, reinforcing the theme of healthy habits.\n\nFor the itch.io requirements, make sure that the central elements (Bomberman hero, apple bomb, and game title) are clearly visible and not distorted even when the image is scaled down to a minimum size of 315x250 pixels. The recommended size is 630x500 pixels, which should perfectly accommodate the central elements and some background details.\n\nThe cover should maintain immaculate consistency to the theme, with no elements out of place or deviating from the healthy habits message. Despite the whimsical and fun approach, the cover should consistently communicate the importance of healthy living, making it a perfect blend of entertainment and education."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Change nothing and continue with immaculate consistency'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Health Blast",
+    "game_id": "HealthBlast_20250628044000",
+    "branding_data": {
+        "short_description": "Health Blast is a 'Bomberman'-style game that promotes healthy habits in an explosive way.",
+        "detailed_description": "Health Blast combines classic 'Bomberman' gameplay with a unique theme centered around healthy habits. Players navigate through a maze filled with obstacles, strategically placing 'health bombs' to clear paths and defeat opponents. Each health bomb is themed around a healthy habit, such as exercising regularly or eating nutritious food, promoting awareness as players blast their way to victory. The game remains true to the original Bomberman mechanics while seamlessly integrating the health theme, embodying the strategy 'Change nothing and continue with immaculate consistency'. It encourages players to develop their strategies while reflecting on the importance of a healthy lifestyle.",
+        "tags": [
+            "Bomberman",
+            "Puzzle",
+            "Strategy",
+            "Health",
+            "Habits",
+            "Maze",
+            "Classic",
+            "Multiplayer",
+            "Arcade"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

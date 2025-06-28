@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Track&Field/HealthyRacesKidsChoir_20250628045813/cover.png",
+        "image_prompt": "Title: Healthy Races Kids Choir\n\nCover Image Size: 1024x1024 pixels\n\nStyle: Retro 8-bit pixel art for a nostalgic yet kid-friendly feel. Use bright, bold colors to draw attention and make the cover engaging for children.\n\nImage Description:\n\nIn the foreground, depict a diverse group of pixelated children in choir robes with their mouths open, singing into retro-style microphones. They should look joyful and energetic, their hands raised in the air as if they are in the middle of an enthusiastic performance. Use a variety of skin tones and hair colors to show diversity.\n\nBehind them, show a pixelated 'Track & Field' scene. Kids of different shapes and sizes should be participating in various activities like running, jumping, and throwing. Some should be drinking water, eating fruits, or stretching, emphasizing the 'Healthy Habits' theme. \n\nInclude a pixelated sun in the sky, radiating lines of light to symbolize vitality and health. The sun could be anthropomorphized, wearing sunglasses, and has a broad smile to make it more appealing to kids. \n\nAt the bottom of the scene, include the game title \"Healthy Races Kids Choir\" in bold, pixelated letters. The title should be easy to read and stand out against the background.\n\nStyle Suggestions:\n\nUse a color palette of bright greens, blues, and yellows to create a cheerful, energetic mood. Use darker shades for shadows and depth. The title should be in a contrasting color, perhaps a bold red or orange, to make it pop.\n\nEssential Cover Requirements for itch.io:\n\nEnsure that when scaled down to the minimum dimensions of 315x250 pixels (recommended 630x500 pixels), the title and main elements of the cover (choir kids and track & field activities) are still clearly visible and identifiable. The cover should still look attractive and readable even at smaller sizes."
+    },
+    "task": "Develop a basic 'Track & Field' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Children's voices - speaking - singing'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Track & Field",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Healthy Races Kids Choir",
+    "game_id": "HealthyRacesKidsChoir_20250628045813",
+    "branding_data": {
+        "short_description": "A fun and educational track & field game themed around healthy habits, featuring children’s voices and singing.",
+        "detailed_description": "Healthy Races Kids Choir is a unique track & field game that combines the excitement of athletic competition with a focus on healthy habits. In this game, players guide a team of animated characters through various sports events such as running, jumping, and throwing, each designed to teach and promote healthy living. What sets Healthy Races Kids Choir apart is its innovative use of sound, featuring children’s voices narrating tips about nutrition and exercise, as well as singing motivational songs to cheer on the players. The game creates an engaging atmosphere through its cheerful visuals, uplifting melodies, and educational content, making it an entertaining and informative experience for players of all ages.",
+        "tags": [
+            "Track & Field",
+            "Sports",
+            "Educational",
+            "Kids",
+            "Healthy Habits",
+            "Music",
+            "Narrative",
+            "Singing",
+            "Family-friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/LineDrawingPuzzle/HabitsUnchained_20250628053111/cover.png",
+        "image_prompt": "Title: Habits Unchained\n\nImage Dimensions: 1024x1024 pixels\n\nEssential Cover Requirements: The image should be a minimum of 315x250 pixels, but 630x500 pixels is recommended for itch.io. \n\nImage Description:\nThe image should be a highly stylized and abstract rendition of a \"Line Drawing Puzzle\". The main frame should depict a human brain, made up of numerous interconnected pixelated lines to represent the complexity of the puzzle. \n\nIn the center of the brain, a glowing pixelated line should be seen, symbolizing the formation of a new healthy habit. This line should be a different, brighter color than the rest of the brain to stand out, suggesting the puzzle's completion. \n\nThe background should be composed of pixelated clouds and stars, providing a dreamy, surreal atmosphere that contrasts with the detailed brain puzzle. \n\nThe game's title, \"Habits Unchained\", should be written in a bold, pixelated typography at the top or bottom of the image. The font should be in stark contrast with the background, ensuring it is easily readable.\n\nStyle Suggestions:\nUse a color palette with cool, soothing tones for the brain and background, such as blues and purples. The glowing line indicating the new habit should be in a warm, vibrant hue like orange or yellow to make it pop. \n\nAbandon Normal Instruments:\nIncorporate unexpected elements into the puzzle. Instead of traditional puzzle pieces or lines, use pixelated representations of healthy habits such as fruits, vegetables, water droplets, yoga poses, etc. These would add a unique twist to the concept and emphasize the game's theme.\n\nFinally, ensure that the image maintains a balance between complexity and simplicity, staying true to the pixel art aesthetic. The intricate brain puzzle should be engaging, yet not overwhelmingly detailed, keeping in mind the resolution constraints of the cover image."
+    },
+    "task": "Develop a basic 'Line Drawing Puzzle' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Abandon normal instruments'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Line Drawing Puzzle",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habits Unchained",
+    "game_id": "HabitsUnchained_20250628053111",
+    "branding_data": {
+        "short_description": "A line-drawing puzzle game themed around nurturing healthy habits with unconventional tools.",
+        "detailed_description": "In Habits Unchained, players engage with a unique line-drawing puzzle game that encourages the development of healthy habits through innovative and unconventional means. Departing from traditional mechanics, the game provides an abstract toolkit, where players use unexpected instruments to solve puzzles, symbolizing the breaking of old habits and the creation of new ones. Each level presents a different challenge tied to a healthy habit, requiring creative thinking and flexibility to navigate the abstract puzzles. The game combines artistic visual design and strategic gameplay to offer a refreshing take on personal growth and healthy living.",
+        "tags": [
+            "Puzzle",
+            "Line Drawing",
+            "Healthy Habits",
+            "Strategy",
+            "Abstract",
+            "Creative Thinking",
+            "Artistic",
+            "Innovative Gameplay"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

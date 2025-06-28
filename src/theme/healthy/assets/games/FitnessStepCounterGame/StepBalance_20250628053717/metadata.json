@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/FitnessStepCounterGame/StepBalance_20250628053717/cover.png",
+        "image_prompt": "Title: Step Balance\nTheme: Healthy Habits\n\nImage Prompt:\n\nVisualize a vibrant, pixel-art style cover image for a fitness step counter game with a 1024x1024 resolution. The central image should be a pair of pixelated sneakers in bright neon colors, stepping on top of a pixelated pedometer. The pedometer should have a large, easy-to-read number indicating steps walked. \n\nAround the sneakers, create an energetic, colorful environment, suggesting a cityscape with parks, a beach, mountains, and a trail in the woods, all in miniature. This represents the variety of places where you can walk. \n\nIncorporate the oblique strategy 'Do we need holes?' by adding small pixelated holes or potholes on the city streets, maybe a small molehill on the park path, and little caves in the mountains. These holes should be seen as challenges to avoid during the virtual walk, tying directly into the game mechanics.\n\nIn the top part of the image, place the title 'Step Balance' in bold, pixelated letters that stand out against the background. Underneath the title, in smaller pixel letters, add the tagline 'Develop Healthy Habits'.\n\nAs for the color palette, use bright and cheerful colors to inspire players to get moving. The sneakers could be a bold neon green, while the pedometer can be a contrasting blue. The environment can be filled with numerous shades of green, blue, and brown, with the cityscape in grey and pastel colors for buildings.\n\nRemember to create a smaller version of the cover image with a minimum resolution of 315x250, with recommended dimensions of 630x500 for itch.io. Ensure that the title and main elements (sneakers, pedometer, and environment) are still clearly visible and distinguishable in this smaller version.\n\nStyle Suggestions: \n\nThe pixel art style should be reminiscent of 90s video games, but with a modern, clean look. The overall feel should be fun, energetic, and inspiring, encouraging players to incorporate more walking into their daily routines."
+    },
+    "task": "Develop a basic 'Fitness Step Counter Game' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Do we need holes?'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Fitness Step Counter Game",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Step Balance",
+    "game_id": "StepBalance_20250628053717",
+    "branding_data": {
+        "short_description": "Step Balance: A unique fitness game promoting healthy habits through step counting and balance challenges.",
+        "detailed_description": "Step Balance is a fitness-oriented game designed to encourage players to maintain healthy habits by integrating physical activity into their daily routine. Set against the backdrop of colorful environments inspired by body balance and fitness, players navigate challenges by counting their steps in real life. The unique twist involves avoiding 'holes' - metaphorical pitfalls related to bad habits - by maintaining a consistent step count and balancing various virtual tasks throughout the day. Players earn rewards by completing balance challenges and are motivated to explore new environments as they develop healthier routines.",
+        "tags": [
+            "fitness",
+            "step counter",
+            "healthy habits",
+            "balance",
+            "physical activity",
+            "exercise",
+            "wellness",
+            "lifestyle",
+            "simulation",
+            "casual"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

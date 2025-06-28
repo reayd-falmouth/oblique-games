@@ -1,0 +1,28 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/SpaceSurvivalStrategy/GalacticHabitsShift_20250628042637/cover.png",
+        "image_prompt": "Image Prompt:\n\nThe game cover for 'Galactic Habits Shift' should be a 1024x1024 pixel art image, with a color palette that is reminiscent of classic space-themed games, yet with an updated, modern twist. The color scheme should include various shades of blues, purples, and blacks for the backdrop of space, with bright neon colors such as hot pink, lime green, and electric blue to highlight important elements and create contrast.\n\nIn the center of the image, depict a stylized pixelated space station in the shape of a DNA helix. This will serve as a metaphor for the healthy habits theme, as well as the space survival strategy aspect of the game. The station should be intricate and detailed, with various modules and compartments, each representing a different 'healthy habit'. \n\nSurrounding the station, depict various cosmic elements such as distant galaxies, nebulae, stars, and asteroids. This will add depth and a sense of grandeur and scale to the image. \n\nIn the foreground, show a pixelated astronaut with a futuristic tool in hand, working on the space station. This character represents the player, emphasizing the strategy and survival elements of the game.\n\nTo follow the oblique strategy, introduce an unexpected element. Arrange the cosmic elements in the background to subtly resemble the layout of a classic recipe, with the station as the 'main dish', and the stars and galaxies as 'ingredients'. This will add a touch of whimsy and creativity to the image, and encourage players to abandon their usual 'recipes' or strategies.\n\nThe game title should be presented in pixelated lettering at the top of the image, with a bold, contrasting color to make it stand out against the cosmic background. Ensure that the title is clearly visible and legible, even when the image is resized to meet the minimum itch.io cover requirements (315x250, recommended 630x500).\n\nStyle Suggestions:\n\n- Pixel art style: Retro, yet modern and polished.\n- Color scheme: Dark blues, purples, blacks for space backdrop; bright neon colors for highlights and contrast.\n- Typography: Bold, pixelated lettering for game title.\n\nRemember, the final image should not only be visually appealing and representative of the game, but also clear and legible at various sizes to meet itch.io's cover requirements."
+    },
+    "task": "Develop a basic 'Space Survival Strategy' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Discover the recipes you are using and abandon them'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Space Survival Strategy",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Galactic Habits Shift",
+    "game_id": "GalacticHabitsShift_20250628042637",
+    "branding_data": {
+        "short_description": "Galactic Habits Shift is a unique space survival strategy game that challenges players to rediscover and innovate their survival strategies by focusing on healthy living in a cosmic environment.",
+        "detailed_description": "Galactic Habits Shift is a groundbreaking space survival strategy game that immerses players in a mission to maintain a healthy lifestyle amidst the vastness of space. As the captain of a stranded spaceship, players must manage their crew's physical and mental well-being by adapting and abandoning conventional survival recipes and strategies. With resources dwindling and cosmic challenges looming, every decision demands creativity and innovation. Cultivate alternative food sources, devise unique exercise regimens, and explore mindfulness techniques to boost morale. This dynamic gameplay emphasizes the importance of healthy habits, forcing players to think outside the box and rewrite their approach to survival in the cosmos.",
+        "tags": [
+            "Space",
+            "Survival",
+            "Strategy",
+            "Healthy Lifestyle",
+            "Innovation",
+            "Creative Problem Solving"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

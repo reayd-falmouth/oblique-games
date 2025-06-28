@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Nethack/VeggieVenture_20250628045603/cover.png",
+        "image_prompt": "Title: Veggie Venture \n\nImage Size: 1024x1024 pixels\n\nCover Requirements: The image should be at minimum 315x250 pixels, but a size of 630x500 pixels is recommended for itch.io.\n\nImage Description: \n\nThe game cover should depict a vibrant and colorful world, filled with various vegetables that have been anthropomorphized into characters. The center of the image should hold a large garden maze with walls made from towering stalks of corn, recalling the dungeon crawler aesthetic of 'Nethack'. The maze should be teeming with adorable pixel art veggie heroes and villains. \n\nOur main character, a courageous carrot, is at the forefront, holding a sunflower seed shield and a spear made from a spring onion. He's looking up at his main antagonist - a menacing eggplant knight, lurking at the entrance of the maze. \n\nThe sky above the maze is half day, half night, representing the inconsistency principle. On the day side, the sun is a radiant tomato emitting sunbeams. On the night side, the moon is a glowing, crescent-shaped banana with stars shaped like small berries. \n\nIn the four corners of the image, there are pixelated icons symbolizing healthy habits. A water drop for hydration, a pair of running shoes for exercise, a bed for sufficient sleep, and a book for mental wellness. \n\nStyle Suggestions: \n\nThe pixel art should be colorful and inviting to encourage the idea of fun while developing healthy habits. It should evoke a sense of nostalgia for the classic era of pixel art games but with a modern twist. Use bold, saturated colors for the main elements to make them pop against the softer, pastel-colored background. \n\nThe text for the title should be in a pixelated font. It could be nestled in the sky, half in the day and half in the night, to further emphasize the theme of inconsistency. \n\nRemember to keep the image clear and not too cluttered, as it will need to be recognizable even at smaller sizes (315x250 pixels) for itch.io's minimum requirements."
+    },
+    "task": "Develop a basic 'Nethack' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'The inconsistency principle'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Nethack",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Veggie Venture",
+    "game_id": "VeggieVenture_20250628045603",
+    "branding_data": {
+        "short_description": "Explore dungeons and embrace healthy habits in 'Veggie Venture'.",
+        "detailed_description": "In 'Veggie Venture', players embark on a rogue-like journey through randomly generated dungeons with a focus on healthy choices! This game puts a unique twist on the classic 'Nethack' formula by incorporating a theme of 'Healthy Habits'. As players explore and face the dangers of the dungeon, they must maintain a balanced diet, exercise regularly, and make choices that ensure overall well-being. By applying the oblique strategy 'The inconsistency principle', the game introduces unexpected events or reversals that push players to rethink their strategies and adapt to varying challenges. This adds layers of unpredictability, encouraging players to be flexible and resourceful. Health meters, nutritious power-ups, and challenging puzzles make this adventure both engaging and educational.",
+        "tags": [
+            "rogue-like",
+            "dungeon crawler",
+            "healthy habits",
+            "strategy",
+            "randomly generated",
+            "unexpected events",
+            "adaptive gameplay"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

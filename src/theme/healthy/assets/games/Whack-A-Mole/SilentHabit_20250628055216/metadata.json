@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Whack-A-Mole/SilentHabit_20250628055216/cover.png",
+        "image_prompt": "Title: Silent Habit\n\nSize: 1024x1024 pixels (Ensure it fits the essential cover requirements of itch.io - minimum 315x250, recommended 630x500)\n\nTheme: 'Whack-A-Mole' game with the 'Healthy Habits' twist.\n\nOblique Strategy: 'Don't break the silence'\n\nStyle: Retro pixel art style with bold, vibrant colors. \n\nDetailed Prompt:\n\nImagine a serene and tranquil underground setting. The primary color palette should consist of various shades of brown, green, and blue to give a sense of calm and peace. A touch of red or orange can be used to highlight important elements.\n\nIn the center of the image, depict a large, pixelated mole hill with several holes. Emerging from these holes, instead of moles, visualize different symbols of unhealthy habits like junk food, cigarettes, and soda cans. The unhealthy habits should appear threatening to the tranquil scene, but not too menacing, keeping in line with the 'Don't break the silence' principle.\n\nOn the left side of the cover, illustrate a pixelated character holding a large mallet. The character should be in mid-swing, ready to whack the unhealthy habits. This character represents the player and should be designed to appear determined but peaceful, again adhering to the 'Don't break the silence' strategy.\n\nOn the right side, depict a pixel art scoreboard displaying a high score. The scoreboard should be styled in classic arcade fashion, adding to the retro feel of the game.\n\nAbove the mole hill, place the title of the game 'Silent Habit' in large, bold pixel letters. The title should be easily legible and stand out against the background. \n\nThe overall style of the cover should evoke a sense of nostalgia for classic arcade games while delivering the unique theme of the game."
+    },
+    "task": "Develop a basic 'Whack-A-Mole' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Don't break the silence'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Whack-A-Mole",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Silent Habit",
+    "game_id": "SilentHabit_20250628055216",
+    "branding_data": {
+        "short_description": "A unique take on 'Whack-A-Mole' where players practice healthy habits silently.",
+        "detailed_description": "Silent Habit is an innovative twist on the classic 'Whack-A-Mole' game, where the goal is to cultivate and practice healthy habits while maintaining silence. Players are tasked with swiftly clicking on rising moles that represent unhealthy habits, like junk food or laziness, and avoiding ones that symbolize good habits, such as exercising or eating vegetables. The challenge lies in making quick decisions without breaking the silence, which symbolizes staying focused and mindful. The peaceful backdrop encourages players to reflect on their daily choices quietly, promoting a meditative and thoughtful gaming experience.",
+        "tags": [
+            "Whack-A-Mole",
+            "Strategy",
+            "Puzzle",
+            "Mindfulness",
+            "Meditation",
+            "Healthy Lifestyle",
+            "Educational",
+            "Silent Gameplay"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

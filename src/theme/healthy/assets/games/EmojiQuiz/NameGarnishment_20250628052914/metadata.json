@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/EmojiQuiz/NameGarnishment_20250628052914/cover.png",
+        "image_prompt": "Image Prompt:\n\nThe game cover for 'Name Garnishment' should depict a vibrant, chaotic, and humorous scene of an 'Emoji Quiz' game in progress, centered around the theme of 'Healthy Habits'. The cover's dimensions should be 1024x1024 pixels, adhering to itch.io's minimum cover requirement of 315x250 pixels, and recommended size of 630x500 pixels. \n\nThe cover should be designed in a lively pixel art style with bold, bright colors that catch the eye. The main focus of the cover should be a large, central Emoji - a smiling apple indicating healthy eating habits. It should be drawn in a fun, exaggerated way, almost like a game show host. \n\nSurrounding the apple are other, smaller Emojis that appear to be playing the game - a confused eggplant, a laughing banana, a contemplative carrot, a surprised avocado, and a brooding broccoli. Each of these Emojis should have a pixelated speech bubble above their heads, filled with various health-related symbols - a dumbbell, a bicycle, a water bottle, a toothbrush, and a salad, respectively. \n\nThe twist here is that all these Emojis are not drawn by a professional artist but by 'unqualified' people. These should have an amateurish, quirky, and unpolished look to them, making the game seem more friendly, approachable, and inclusive. \n\nThe game's title, 'Name Garnishment', needs to be in bold, pixelated letters at the top of the cover, with colors that compliment the rest of the design.\n\nIn the bottom right corner, place a small pixel art representation of a smartphone, indicating that the game can be played on mobile devices. \n\nThe background should be a simple, single-color backdrop to prevent the cover from looking too busy and to allow the main elements to stand out. \n\nOverall, the cover should convey the fun, accessible, and health-focused nature of the game."
+    },
+    "task": "Develop a basic 'Emoji Quiz' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Use 'unqualified' people'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Emoji Quiz",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Name Garnishment",
+    "game_id": "NameGarnishment_20250628052914",
+    "branding_data": {
+        "short_description": "Test your knowledge of healthy habits in a fun Emoji Quiz.",
+        "detailed_description": "Name Garnishment is an engaging and educational Emoji Quiz game focused on promoting healthy habits. Embracing the oblique strategy of using 'unqualified' people, the game invites players from all walks of life to contribute their unique perspective on well-being. Players must decipher strings of emojis that represent different healthy habits, fostering a community-sourced wellness guide without relying on professional experts. The collaborative nature of the game brings a fresh and diverse outlook on maintaining a healthy lifestyle, encouraging everyone to share their own understanding and experiences.",
+        "tags": [
+            "Quiz",
+            "Educational",
+            "Casual",
+            "Emoji",
+            "Healthy Habits",
+            "Community",
+            "Puzzle",
+            "Trivia"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

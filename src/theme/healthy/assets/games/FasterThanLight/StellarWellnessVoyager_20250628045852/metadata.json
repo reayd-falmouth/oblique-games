@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/FTL:FasterThanLight/StellarWellnessVoyager_20250628045852/cover.png",
+        "image_prompt": "Title: Stellar Wellness Voyager\n\nImage Dimension: 1024x1024 pixels\n\nEssential Cover Requirements: The final image should be downsized to fit itch.io's minimum requirement of 315x250 pixels, however, aim for a resolution of 630x500 pixels for optimal clarity and detail.\n\nStyle Suggestions: The style should be a blend of retro pixel art with modern design elements. The color palette should be vibrant, using a mix of cool blues and purples to reflect the 'stellar' aspect, while incorporating greens and light yellows for the 'wellness' theme. The pixel art should look sleek and clean, but still have that recognizable old-school charm.\n\nImage Description:\n\n1. The central element of the cover is the spaceship, a pixel-art version of a futuristic wellness facility. It should be sleek and white, with visible sections for a gym, a meditation dome, and a greenhouse. The ship should be traveling at warp speed with stars streaking past in the background.\n\n2. Include a crew of diverse pixel art characters performing healthy habits in the spaceship windows. For instance, one could be doing yoga, another could be lifting weights, and one could be eating a green salad in the cafeteria.\n\n3. The upper half of the cover should display a stunning array of pixel stars, galaxies, and nebulae, conveying the vastness of space.\n\n4. The game title 'Stellar Wellness Voyager' should be prominently displayed in pixelated font at the bottom, with the 'Stellar' in a bold, starry font, and the 'Wellness Voyager' in a softer, rounded font to signify comfort and peace.\n\n5. Inspired by the oblique strategy, 'What mistakes did you make last time?' include a subtle, ghostly image of a previous spaceship wreck in the background, representing the lessons learned from past mistakes.\n\n6. The overall layout should have a sense of movement and dynamism, reflecting the FTL: Faster Than Light theme. The spaceship should not be static, but rather angled as if in mid-flight, with light streaks and star trails suggesting its high-speed voyage.\n\n7. The corners of the image should fade into a darker shade, creating a spotlight effect on the spaceship and game title. This will also add depth and contrast to the image.\n\nRemember to maintain a balance between detail and clarity, as the image will be downsized for itch.io's cover requirements."
+    },
+    "task": "Develop a basic 'FTL: Faster Than Light' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'What mistakes did you make last time?'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "FTL: Faster Than Light",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Stellar Wellness Voyager",
+    "game_id": "StellarWellnessVoyager_20250628045852",
+    "branding_data": {
+        "short_description": "Stellar Wellness Voyager is a tactical space simulation game where players manage a spaceship crew focused on maintaining healthy habits during long voyages.",
+        "detailed_description": "In Stellar Wellness Voyager, players take command of a starship crew embarking on exploration missions across the galaxy. Unlike typical survival space games, the focus here is on cultivating and maintaining the crew's healthy habits to ensure successful missions. Inspired by 'FTL: Faster Than Light', players must strategically allocate ship resources and balance physical, mental, and social well-being of the crew. Drawing from past errors, players must avoid previous mistakes in habit formation and crew management, ensuring a thriving environment. Encounter diverse challenges and prioritize health to drive the mission forward, all while making decisions that can lead to unpredictable outcomes.",
+        "tags": [
+            "space simulation",
+            "strategy",
+            "health management",
+            "turn-based",
+            "crew management",
+            "procedurally generated",
+            "indie game"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

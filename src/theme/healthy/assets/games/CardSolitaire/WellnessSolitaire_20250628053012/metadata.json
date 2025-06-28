@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/CardSolitaire/WellnessSolitaire_20250628053012/cover.png",
+        "image_prompt": "Title: Wellness Solitaire\n\nImage Description:\n\nThe image is a vibrant 1024x1024 pixel art game cover designed in a classic pixel art style, reminiscent of 16-bit games. The setting is a serene outdoor park at sunset, with a variety of healthy activities taking place. The park is divided into sections, each representing a different suite of cards and a different healthy habit. \n\nIn the top left corner, representing Hearts, is a group of pixel characters doing yoga on a lush, green lawn, symbolizing the habit of physical exercise. The Heart cards floating around them in a semi-circle, with each card depicting a different yoga posture.\n\nThe top right corner, symbolizing Diamonds, showcases a healthy eating scene. A pixel character is seen cooking at a barbecue grill, surrounded by various pixel fruits and vegetables. The Diamond cards, scattered around, feature different healthy foods.\n\nThe bottom left corner, representing Clubs, showcases a meditation scene. A pixel character is sitting cross-legged on a mat, meditating, with pixel art symbols of peace and tranquillity floating around. The Club cards are hovering around the character, each depicting a different meditation or mindfulness symbol.\n\nThe bottom right corner, symbolizing Spades, depicts a social interaction scene. Various pixel characters are seen talking, laughing, and enjoying a picnic. The Spade cards, scattered around, feature different social interaction symbols.\n\nIn the center of the image is a large pixel art depiction of a hand, holding a deck of cards. The top card is a king of hearts, subtly symbolizing self-love and care.\n\nStyle Suggestion:\n\nUse a bright and vibrant color palette that is soothing to the eyes. Implement a classic pixel art style, with a touch of modern elements for a sleek design. The pixel characters should be detailed and expressive. \n\nEssential Cover Requirements for itch.io:\n\nEnsure the image is at a minimum of 315x250, but for better quality, aim for the recommended 630x500. Make sure all important elements and the game title are clearly visible even at the smallest size. The game title, \"Wellness Solitaire,\" should be prominently displayed at the top or bottom of the image in bold, pixelated letters."
+    },
+    "task": "Develop a basic 'Card Solitaire' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Don't be frightened of cliches'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Card Solitaire",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellness Solitaire",
+    "game_id": "WellnessSolitaire_20250628053012",
+    "branding_data": {
+        "short_description": "Engage in a refreshing take on classic solitaire, themed around building healthy habits.",
+        "detailed_description": "Wellness Solitaire is a unique twist on the traditional card solitaire game. Embracing the oblique strategy, 'Don't be frightened of cliches', this game uses themes of healthy habits to create an engaging and motivational experience. Players must organize cards featuring various wellness activities, like hydration, exercise, and mindfulness, to complete the game. Card suits are replaced with categories of health, reinforcing positive routines. With soothing visuals and encouraging messages, Wellness Solitaire transforms the simple joy of card games into a reminder to indulge in self-care and well-being.",
+        "tags": [
+            "Card Game",
+            "Solitaire",
+            "Healthy Habits",
+            "Wellness",
+            "Self-Care",
+            "Strategy",
+            "Single Player",
+            "Motivational"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

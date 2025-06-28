@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/One-TapTycoon/HabitHer_20250628052453/cover.png",
+        "image_prompt": "Title: Habit Her\nSize: 1024x1024 pixels\nEssential Cover Requirements: Minimum 315x250, Recommended 630x500\n\nDetailed Image Prompt:\n\nThe game cover should be divided into two main scenes for a 'before and after' visual effect. \n\nOn the left side, visualize a pixelated representation of a woman looking gloomy and overwhelmed, living in a messy house with junk food containers, a couch potato lifestyle represented. Use darker, muted colors to represent this scene and make sure to make the woman look unhappy and unhealthy.\n\nOn the right side, imagine the same woman, but this time, she's healthy, energetic, and happy. She's doing exercises, eating healthy food, and living in a clean, well-organized space. Use vibrant, strong colors here to represent positive energy and healthy living. The woman's transformation should be the central focus, showcasing her journey from unhealthy to healthy habits.\n\nIn the middle, divide the two scenes with a bold, pixelated, vertical line that grows from a seed at the bottom to a healthy tree at the top. This represents the growth and progression of the woman's journey. The tree should be full of colorful fruits and a bright sun behind it, indicating the benefits of healthy habits.\n\nOverlay the game title, 'Habit Her', at the top center of the image. The font should be bold, pixelated, and eye-catching. Use contrasting colors for the title to make it stand out, like white with a dark outline.\n\nIn the lower right corner, add a pixelated button with the words 'Just Carry On' imprinted on it. This button should be glowing, symbolizing the continuous effort needed to maintain healthy habits, which is the core strategy of the game.\n\nStyle Suggestions:\n\nThe overall style of the cover should reflect a retro 8-bit pixel art aesthetic. The colors should be vibrant and engaging, with clear contrasts to highlight the transformation theme. The pixelation should not be too heavy; it should be just enough to provide a nostalgic feel without detracting from the main message."
+    },
+    "task": "Develop a basic 'One-Tap Tycoon' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Just carry on'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "One-Tap Tycoon",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Her",
+    "game_id": "HabitHer_20250628052453",
+    "branding_data": {
+        "short_description": "Embrace healthy habits to grow your wellness empire in Habit Her.",
+        "detailed_description": "Habit Her is a 'One-Tap Tycoon' game focusing on building a wellness-themed empire. Players engage with a simple, addictive one-tap interface to cultivate and manage various healthy habits, such as exercise, meditation, and nutrition. With the oblique strategy 'Just carry on,' the game encourages players to maintain steady progress and perseverance. Success depends on consistently expanding and upgrading your wellness activities, unlocking new habits, and witnessing the positive transformation of your virtual community. As you advance, you'll learn about the benefits of each habit, while being motivated to apply them in real life. Experience the rewarding journey of promoting a healthy lifestyle at your own pace, and see how small actions lead to impactful growth.",
+        "tags": [
+            "One-Tap",
+            "Tycoon",
+            "Simulation",
+            "Health",
+            "Wellness",
+            "Strategy",
+            "Casual",
+            "Educational",
+            "Incremental Game",
+            "Single Player"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

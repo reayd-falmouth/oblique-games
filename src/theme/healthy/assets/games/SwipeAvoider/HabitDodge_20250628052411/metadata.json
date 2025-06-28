@@ -1,0 +1,33 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/SwipeAvoider/HabitDodge_20250628052411/cover.png",
+        "image_prompt": "Title: 'Habit Dodge'\n\nFormat: Pixel Art Cover Image \n\nDimensions: 1024x1024 pixels\n\nEssential Cover Requirements: The image should be designed in a way that it retains its essence even when scaled down to a minimum of 315x250 pixels for itch.io, though a 630x500 pixel size is recommended.\n\nImage Description: \n\nThe centerpiece of the image should be a character in mid-action, dodging a variety of symbols representing unhealthy habits. This could include pixelated representations of junk food, cigarettes, and a couch (symbolizing a sedentary lifestyle). \n\nThe character should be positioned near the bottom of the frame, using a dynamic, exaggerated arching back pose to show the act of dodging. The character could be stylized with a sporty outfit, signifying a healthy lifestyle. \n\nAbove the character, there should be an array of these unhealthy symbols, seemingly falling from the top of the frame towards the character, giving a sense of action and urgency to the image. \n\nOn the top left corner, place the game's title 'Habit Dodge' in bold, pixelated letters. The title should pop out against the background but should not interfere with the main action of the image. \n\nStyle Suggestions: \n\nSince the game is about healthy habits, use bright, vibrant colors to create a positive and energetic atmosphere. The character should be designed in a way that they stand out against the background and unhealthy symbols, using contrasting colors. \n\nThe pixel art should be detailed and clean, ensuring to engage the viewer's attention. Use shading and texturing techniques to add depth to the image. The title should be in a funky, chunky pixel font to keep in line with the overall playful and energetic theme of the game. \n\nOblique Strategy: \n\n'Don't be afraid of things because they're easy to do'. Embrace the simplicity of the pixel art style and don't shy away from creating a straightforward and readable image. The cover should be easy to understand, yet engaging and dynamic. Don't overcomplicate the elements, instead, focus on making them visually appealing and relevant to the game's theme."
+    },
+    "task": "Develop a basic 'Swipe Avoider' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Don't be afraid of things because they're easy to do'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Swipe Avoider",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Dodge",
+    "game_id": "HabitDodge_20250628052411",
+    "branding_data": {
+        "short_description": "Swipe your way to healthy habits in Habit Dodge, a game where ease meets engagement.",
+        "detailed_description": "In Habit Dodge, players navigate a world of healthy habits through simple swipe controls. The goal is to dodge bad habits while collecting beneficial ones, such as fruits, exercise icons, and meditative elements. The game embraces the simplicity of its mechanics, encouraging players to line up their swipes with the flowing movements of maintaining a healthy lifestyle. Levels increase in complexity, adding new challenges while highlighting the ease of forming good habits. With vibrant visuals and motivational prompts, Habit Dodge offers a playful take on daily health improvements.",
+        "tags": [
+            "Casual",
+            "Mobile",
+            "Puzzle",
+            "Educational",
+            "Health",
+            "Swipe",
+            "Avoider",
+            "Simple Controls",
+            "Engaging",
+            "Positive Reinforcement",
+            "Lifestyles"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

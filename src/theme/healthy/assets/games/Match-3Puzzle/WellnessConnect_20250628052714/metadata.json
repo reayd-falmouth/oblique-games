@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Match-3Puzzle/WellnessConnect_20250628052714/cover.png",
+        "image_prompt": "Title: Wellness Connect\n\nImage Size: 1024x1024 pixels\n\nTheme: Healthy Habits Match-3 Puzzle Game with an (Organic) Machinery twist. \n\nCover Image Description:\n\nThe central image of the game cover should be a pixel art representation of a large \"organic\" machine, which is made up of various fruits, vegetables, and other health-related items. These could include apples, oranges, broccoli, water bottles, dumbbells, and more, all arranged in a way that they form the intricate parts of a machine. Show gears made of sliced fruits, conveyer belts of vegetables, and levers made of dumbbells.\n\nIn the foreground, there should be three main characters: a boy, a girl, and a cute pet, all made in pixel art style. They should be shown playing the match-3 puzzle game on a pixelated tablet, which displays fruits and vegetables as the game elements. The characters' expressions should be of excitement and concentration, highlighting the engaging nature of the game.\n\nThe game title \"Wellness Connect\" should be prominently displayed at the top of the cover in bold, vivid, pixelated font. The color scheme for the title should be a gradient of fresh and vibrant colors that represent health and wellness - think greens, oranges, and blues.\n\nIn the background, have a faint, pixelated pattern of various sports equipment and healthy foods to keep with the theme.\n\nItch.io Cover Requirements:\n\nEnsure that the essential elements of the cover art, such as the title and main characters, are clearly visible and well-detailed in a smaller resolution (minimum 315x250, recommended 630x500) as per itch.io requirements.\n\nStyle suggestions: \n\nMaintain a bright, vibrant color palette to emphasize the theme of health and wellness. Use a combination of bold and soft pixel art techniques to distinguish between the main elements and the background. The pixel art should be detailed but not too complicated, maintaining a fun, light-hearted, and engaging aesthetic."
+    },
+    "task": "Develop a basic 'Match-3 Puzzle' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: '(Organic) machinery'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Match-3 Puzzle",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellness Connect",
+    "game_id": "WellnessConnect_20250628052714",
+    "branding_data": {
+        "short_description": "Wellness Connect is a Match-3 Puzzle game themed around healthy habits, featuring a unique fusion of organic elements and mechanical gameplay.",
+        "detailed_description": "Wellness Connect is an engaging Match-3 Puzzle game that encourages players to adopt healthy habits through its unique gameplay. Set in a vibrant world where organic elements seamlessly blend with mechanical structures, players match symbols representing various healthy habits such as fruits, vegetables, exercise equipment, and mindfulness icons. The challenge is enhanced by the presence of organic machinery, where natural elements like vines and roots interact with mechanical gears and levers to create complex puzzles. As players progress, they unlock educational snippets and tips on maintaining a healthy lifestyle, making the game both fun and informative. The game's art style beautifully combines the natural and the mechanical, providing a visually stimulating experience that underlines the theme of balanced living.",
+        "tags": [
+            "Match-3",
+            "Puzzle",
+            "Healthy Habits",
+            "Organic Machinery",
+            "Educational",
+            "Family-friendly",
+            "Wellness",
+            "Casual",
+            "Innovative Gameplay"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

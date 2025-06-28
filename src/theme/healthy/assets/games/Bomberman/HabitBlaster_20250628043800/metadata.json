@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Bomberman/HabitBlaster_20250628043800/cover.png",
+        "image_prompt": "Title: Habit Blaster\n\nTheme: Healthy Habits Bomberman Game\n\nOblique Strategy: Cluster Analysis\n\nImage Specifications: 1024x1024 pixel art\n\nStyle Suggestions: Go for a vibrant and colorful 8-bit pixel art style. The image should be playful and engaging, using bold colors to draw attention. The art style should be reminiscent of classic arcade games, specifically Bomberman, but with a modern twist to make it fresh and appealing to young audiences.\n\nImage Description:\n\nThe cover image should be divided into two main clusters:\n1. The top half should depict a pixel-art character - our 'Healthy Habit Bomberman' - actively blasting away bad habits. The character should be in the center, looking determined, with a bomb in one hand. The bomb, instead of traditional fire, should be exploding with various symbols of healthy habits like fruits, vegetables, water bottles, running shoes, etc. \n2. The lower half should represent the bad habits that are being blasted away. It could include pixel representations of junk food, cigarettes, alcohol, a sedentary lifestyle (represented by a couch or TV), etc. These elements should look visibly distressed or in the process of being destroyed by the healthy habit bomb blast.\n\nThe game title 'Habit Blaster' should be prominently displayed at the top or bottom (as per the overall design flow) in bold, pixelated letters. It should be easy to read and stand out against the background.\n\nEssential Cover Requirements for itch.io:\nEven though the image will be 1024x1024, it should still look good and convey the game's theme and style when scaled down to itch.io's recommended size of 630x500 or minimum size of 315x250. To ensure this, important elements like the protagonist, the bomb, and the game's title should be clear and visible even in the smaller versions. Avoid adding too many small details that might get lost when the image is scaled down."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Cluster analysis'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Blaster",
+    "game_id": "HabitBlaster_20250628043800",
+    "branding_data": {
+        "short_description": "Engage in explosive fun while learning healthy habits in Habit Blaster.",
+        "detailed_description": "Habit Blaster is a unique twist on the classic Bomberman gameplay where players navigate maze-like arenas to plant 'habit bombs'. Each bomb represents a healthy habit, such as exercise, proper nutrition, or mindfulness, and players aim to cluster similar habits for bonus points. The oblique strategy of 'Cluster analysis' is applied by encouraging players to strategically group habit bombs for maximum impact. Compete against others or play solo to cultivate a virtual environment of healthy living! As you progress, unlock new levels and learn more about maintaining wellness while enjoying the thrill of explosive gameplay.",
+        "tags": [
+            "action",
+            "puzzle",
+            "healthy habits",
+            "Bomberman-like",
+            "strategy",
+            "educational",
+            "multiplayer",
+            "cluster analysis"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

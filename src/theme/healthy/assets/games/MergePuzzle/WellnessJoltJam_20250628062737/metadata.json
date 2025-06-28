@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/MergePuzzle/WellnessJoltJam_20250628062737/cover.png",
+        "image_prompt": "Title: Wellness Jolt Jam\n\nImage Details:\nThe cover image should be a 1024x1024 pixel art designed to fit the itch.io cover requirements of minimum 315x250 pixels, and ideally 630x500 pixels. \n\nDesign:\nThe main theme of the game is 'Healthy Habits' within a 'Merge Puzzle' game setup. The cover should showcase this theme vividly. \n\nForeground:\nIn the foreground, illustrate a character in mid-action of merging two items symbolizing healthy habits. One hand could be holding a vibrant, pixelated apple (symbolizing nutritious eating), and the other hand could be holding a pixelated dumbbell (symbolizing exercise). As they merge in the middle, there should be a bright jolt of energy, playing into the title 'Wellness Jolt Jam'.\n\nBackground:\nThe background should be a stylized representation of a healthy environment. Consider a pixelated outdoor scene with trees, a sunny sky with fluffy pixel clouds, and a park with people jogging or doing yoga. \n\nStyle Suggestions: \n1. Use bright, energetic colors to bring out the energetic and positive theme of the game. \n2. The style should be retro pixel art, giving a nod to classic arcade games. \n3. The elements should be clear and easily distinguishable even when scaled down.\n\nShort Circuit Oblique Strategy:\nThis strategy suggests an unexpected or abrupt change in the process. In this context, you could introduce a short circuit in the merging process of the two healthy habit items. Instead of the expected perfect merge, there could be pixel sparks flying out, or the character could have a surprised expression. This adds an element of unpredictability and excitement to the game cover.\n\nText:\nPosition the game title 'Wellness Jolt Jam' at the top of the cover in bold, pixelated font. At the bottom, include the tagline: 'Merge your way to Healthy Habits!' in a slightly smaller pixelated font. \n\nThe cover should be vibrant, engaging, and accurately represent the fun, healthy theme of the game."
+    },
+    "task": "Develop a basic 'Merge Puzzle' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Short circuit'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Merge Puzzle",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellness Jolt Jam",
+    "game_id": "WellnessJoltJam_20250628062737",
+    "branding_data": {
+        "short_description": "Merge healthy habits in this electrifying puzzle game.",
+        "detailed_description": "Wellness Jolt Jam is a 'Merge Puzzle' game designed around the theme of 'Healthy Habits'. Players merge identical pieces representing various healthy activities, like exercising, meditating, and eating fruits, to form more comprehensive wellness practices. The twist comes with the 'Short circuit' mechanic: merging pieces in certain combinations creates a spark that rapidly advances the player's progress, emulating an electrifying boost to their wellness journey. This adds a layer of strategy as players decide the best moments to trigger these wellness surges for maximum effect. The game is both educational and exciting, offering a unique blend of strategy and fun aligned with health-positive messages.",
+        "tags": [
+            "Puzzle",
+            "Merge Game",
+            "Strategy",
+            "Healthy Habits",
+            "Wellness",
+            "Short Circuit Mechanic",
+            "Educational",
+            "Casual"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Monopoly/WellnessWealth_20250628045424/cover.png",
+        "image_prompt": "Title: Wellness Wealth \n\nSize: 1024x1024 pixels\n\nTheme: Healthy Habits Monopoly Game\n\nStyle: Pixel Art\n\nImage Prompt:\n\nStart with a detailed, pixelated version of a Monopoly board that has been adapted to the theme of 'Healthy Habits'. The usual property spaces are replaced by different healthy habits like 'Exercise', 'Healthy Eating', 'Meditation', 'Hydration', 'Sleep', etc. Each space should have an icon symbolizing the habit, like a dumbbell for exercise or a water bottle for hydration.\n\nInstead of houses and hotels, have symbols of progress like a growing plant or a rising sun to represent growth in these habits. Chance and Community Chest cards are replaced by 'Wellness' and 'Wealth' cards, offering opportunities for both gains and losses based on healthy or unhealthy decisions.\n\nIn the center of the board, where the logo or name of the game usually resides, place a large blank space. This blank space is made valuable by surrounding it with an exquisite pixel art frame. The frame should be ornate and eye-catching, decorated with elements related to health and wellness like fruits, vegetables, water droplets, sun rays, etc. \n\nColor Palette: Use bright and lively colors to invoke a sense of energy and wellness. Greens for nature, blues for hydration, yellows for energy, and so on.\n\nEssential Cover Requirements: The key elements such as the title of the game and the main elements of the artwork should be clearly visible and identifiable even when scaled down to itch.io's minimum size of 315x250. The main focus, the exquisitely framed blank space, should be placed in such a way that it remains noticeable even at 630x500, the recommended size by itch.io."
+    },
+    "task": "Develop a basic 'Monopoly' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Make a blank valuable by putting it in an exquisite frame'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Monopoly",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellness Wealth",
+    "game_id": "WellnessWealth_20250628045424",
+    "branding_data": {
+        "short_description": "Play 'Wellness Wealth', a Monopoly-style game promoting healthy habits.",
+        "detailed_description": "'Wellness Wealth' combines the classic mechanics of Monopoly with a compelling theme focused on cultivating healthy habits. Players navigate around a board reminiscent of the classic game, purchasing properties themed around wellness activities such as yoga studios, meditation retreats, and organic farms. The twist comes from the 'Oblique Strategy' - mundane properties can become highly valuable by acquiring 'Wellness Frames', which enhance their worth and impact. Invest wisely in fitness centers and juice bars, manage your resources, and aim to become the ultimate advocate for a healthy lifestyle. Modifying the traditional formula, chance cards encourage players with rewards for maintaining balance and healthy routines. 'Wellness Wealth' is a fun and educational experience that emphasizes the importance of self-care in an engaging, interactive format.",
+        "tags": [
+            "Board Game",
+            "Strategy",
+            "Educational",
+            "Health and Wellness",
+            "Family Friendly",
+            "Resource Management",
+            "Fitness"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

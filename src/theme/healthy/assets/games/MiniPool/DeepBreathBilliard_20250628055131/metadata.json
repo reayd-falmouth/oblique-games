@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/MiniPool/DeepBreathBilliard_20250628055131/cover.png",
+        "image_prompt": "Title: Deep Breath Billiard\n\nDimensions: 1024x1024 pixels for the main image, with the necessary adjustments to meet itch.io requirements (minimum 315x250, recommended 630x500).\n\nStyle: The pixel art style should be bright and colorful, with a touch of retro nostalgia. The style should be detailed but playful, to reflect the game's casual and fun nature. \n\nPrompt:\n\nThe cover image should illustrate a surreal underwater billiard scene. At the center of the image, a large, vividly colored, pixelated pool table. The table should be octagonal, to break away from the conventional rectangular pool tables, and its color should be a vibrant sea green to represent the aquatic theme. \n\nOn the table, there's an ongoing pool game. The balls should be a variety of fruits (like apples, oranges, strawberries, etc.) to symbolize the 'Healthy Habits' theme. The cue stick is a long, slender bamboo stalk with a deep-sea diver at the far end, poised to take a shot. \n\nThe deep-sea diver, our character 'Deep Breath Billiard', is wearing a vintage scuba suit with a prominent helmet. He's taking a deep breath, visible by a few pixel bubbles making their way up. This image should encapsulate the 'Breathe more deeply' strategy. \n\nThe background should be a beautiful undersea landscape, filled with pixelated aquatic plants, corals, and a few fish. The color palette for the background should be various shades of blue, to create an impression of depth and immersion. \n\nTowards the top of the image, the game's title 'Deep Breath Billiard' should be present in pixelated bold letters, in a color that stands out against the blue background, perhaps a bright yellow or coral pink.\n\nAt the bottom right corner of the image, there should be a small pixel art of a heart and a pair of lungs to subtly represent the connection between health and deep breathing. \n\nThe overall style should be whimsical yet captivating, with a careful balance between detail and simplicity, typical of pixel art. The composition should guide the viewer's eye around the image, creating a narrative that aligns with the game's theme and mechanics. \n\nThis detailed, surreal pixel art cover will be an eye-catching representation of the game's unique, health-centered theme and gameplay."
+    },
+    "task": "Develop a basic 'Mini Pool' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Breathe more deeply'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Mini Pool",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Deep Breath Billiard",
+    "game_id": "DeepBreathBilliard_20250628055131",
+    "branding_data": {
+        "short_description": "A billiards game that combines pool with healthy breathing habits.",
+        "detailed_description": "Deep Breath Billiard is a unique twist on the classic mini pool game, inspired by the theme of healthy habits. Players engage in traditional billiards gameplay, but with an innovative mechanic: each shot is taken by practicing deep breathing techniques. This approach encourages mindfulness and relaxation, as players must control their breath to steady their aim and improve focus. The game creatively integrates wellness into entertainment, promoting breathing exercises as a fun component of the gameplay. With its calming soundtrack and gentle reminders to breathe, Deep Breath Billiard provides a refreshing, health-oriented experience to the classic game of billiards.",
+        "tags": [
+            "billiards",
+            "mini pool",
+            "healthy habits",
+            "mindfulness",
+            "breathing techniques",
+            "casual game",
+            "relaxation",
+            "wellness",
+            "oblique strategies"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

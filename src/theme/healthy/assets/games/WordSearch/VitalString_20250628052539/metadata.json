@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/WordSearch/VitalString_20250628052539/cover.png",
+        "image_prompt": "Title: Vital String\n\nDimensions: 1024x1024 pixels, with consideration for itch.io's essential cover requirements of at least 315x250 pixels and a recommended size of 630x500 pixels.\n\nImage Description:\n\n1. Background: Create a pixel art backdrop of a vibrant, digital world. The color palette should consist of deep blues and purples, with bright neon accents to evoke a sense of vast, interconnected cyberspace.\n\n2. Foreground: A stylized, pixel art image of a human spine should be the focal point. The spine should be twisting and turning dynamically, as if being manipulated or altered. This is the embodiment of the oblique strategy 'Twist the spine'. The spine should have a metallic sheen, indicating a merger of biology and technology.\n\n3. Overlay: Superimpose a pixel art word search grid over the spine. The words in the grid should be related to healthy habits, like 'Exercise', 'Nutrition', 'Hydrate', 'Meditate', etc. Show a few words being highlighted or selected, indicating the game in action. \n\n4. Game Title: The game's title, 'Vital String', should be at the top of the image. Use a pixel art font, with a 3D effect to make it stand out. The font color should be a bright neon shade to match the accents in the background.\n\n5. Logo and Tagline: In the bottom right corner, place the game studio's logo. Include a tagline underneath the game title, such as \"Find your path to health.\"\n\nStyle Suggestions:\n\n1. Retro-futuristic: The pixel art style should be reminiscent of 80s and 90s video games, but with a modern, cyberpunk twist.\n\n2. Neon accents: Use bright, neon colors to highlight important elements and create a sense of energy and dynamism.\n\n3. Metallic textures: Use pixel shading techniques to create a metallic texture for the spine and the word search grid.\n\n4. 3D effects: Use pixel art techniques to give the title and the spine a 3D effect, enhancing the depth and complexity of the image."
+    },
+    "task": "Develop a basic 'Word Search' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Twist the spine'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Word Search",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Vital String",
+    "game_id": "VitalString_20250628052539",
+    "branding_data": {
+        "short_description": "Engage in a 'Word Search' game themed around 'Healthy Habits' with a unique twist.",
+        "detailed_description": "Vital String is a themed 'Word Search' game centered on 'Healthy Habits', designed to promote wellness and positivity. The classic puzzle experience is elevated through the use of the artistic strategy 'Twist the spine', which offers a unique challenge by altering the traditional linear word paths into more dynamic and complex patterns. Players must use their problem-solving skills to find words associated with healthful living, including nutrition, exercise, mindfulness, and rest, as they navigate through a woven tapestry of interconnected letters. The gameplay encourages learning and reflection on lifestyle choices while providing a fresh twist on a beloved pastime.",
+        "tags": [
+            "Word Search",
+            "Puzzle",
+            "Education",
+            "Health",
+            "Mindfulness",
+            "Lifestyle",
+            "Brain Teaser",
+            "Creative Design"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

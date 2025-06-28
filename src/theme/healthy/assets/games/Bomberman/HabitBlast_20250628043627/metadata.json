@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Bomberman/HabitBlast_20250628043627/cover.png",
+        "image_prompt": "Image Prompt:\n\nThe game cover for 'Habit Blast' should reflect the theming of a 'Bomberman'-style game centered around 'Healthy Habits'. The image size should be 1024x1024 pixels, which fits the itch.io's essential cover requirements (minimum 315x250, recommended 630x500).\n\nCover Content:\n1. Central Figure: The protagonist should be a pixel rendition of a fit and active character, with a bomb in one hand. However, instead of a traditional bomb, it's a stylized 'habit bomb' that has elements of healthy habits. For instance, the bomb could be shaped like an apple or a water bottle, symbolizing healthy eating and hydration, respectively.\n\n2. Background: The background should be a maze-like setup, similar to a classic Bomberman game. Instead of bricks and stones, the barriers could be unhealthy habits, like junk food, cigarettes, and lethargy (represented by a couch or a TV).\n\n3. Enemies: The enemies in the game are unhealthy habits personified. These could be monsters shaped like a burger, a packet of cigarettes, a soda can, etc.\n\n4. Power-Ups: Scattered around the maze, there should be pixel representations of power-ups. These could be fruits, vegetables, or gym equipment, symbolizing the healthy habits the player can pick up.\n\nOblique Strategy - Discard an Axiom: In typical Bomberman games, bombs are destructive. Discard this axiom and make bombs constructive in this game, symbolizing the destruction of bad habits and the creation of good ones.\n\nStyle Suggestions:\n1. Color Palette: Use bright and colorful tones to make the artwork vibrant and appealing. The protagonist, power-ups, and healthy habit bombs can be in shades of green, symbolizing health and wellness. The enemies and barriers can have darker, duller tones to contrast with the vibrant healthy elements.\n\n2. Pixel Art Style: The art style should be retro-inspired, paying homage to the original Bomberman games. However, it should also have a modern touch, with smooth transitions and detailed pixel art.\n\nRemember, the image should be clear and appealing even when scaled down to the smallest size required by itch.io (315x250)."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Discard an axiom'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Blast",
+    "game_id": "HabitBlast_20250628043627",
+    "branding_data": {
+        "short_description": "Habit Blast is a Bomberman-inspired game focused on promoting healthy habits.",
+        "detailed_description": "Habit Blast is a unique twist on the classic Bomberman-style gameplay, promoting healthy habits in a fun and engaging way. In this game, players navigate through maze-like levels, planting 'habit bombs' that release positive energy waves instead of explosions. The game discards the traditional axiom of destruction, swapping it for construction and building positive routines. Each level represents different aspects of a healthy lifestyle, such as nutrition, fitness, and mental well-being. Players must strategically place their habit bombs to clear unhealthy obstacles and influence NPCs to adopt healthier practices. Complete challenges by fostering a healthier environment and unlocking new levels and power-ups that symbolize various health benefits.",
+        "tags": [
+            "Bomberman",
+            "Healthy Habits",
+            "Puzzle",
+            "Strategy",
+            "Education",
+            "Maze",
+            "Positive Gameplay",
+            "Health"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

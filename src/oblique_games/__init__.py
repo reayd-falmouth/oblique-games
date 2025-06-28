@@ -1,6 +1,5 @@
-import os, sys
+import os, sys, json
 
-BROWSER_TITLE = "Oblique Games"
 # Constants
 SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
 VIRTUAL_RES = (160, 120)
@@ -34,3 +33,16 @@ def get_assets_dir():
 ASSETS_DIR = get_assets_dir()  # ✅ Use dynamic asset directory
 
 # ✅ Now ASSETS_DIR works in both local and PyInstaller environments
+
+def _load_browser_title(default="Oblique Games"):
+    """Try to read 'browser_title' from assets/config.json, else return default."""
+    cfg_path = os.path.join(ASSETS_DIR, "config.json")
+    try:
+        with open(cfg_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data.get("browser_title", default)
+    except (IOError, ValueError, KeyError):
+        return default
+
+# instead of a constant, load it at import time
+BROWSER_TITLE = _load_browser_title()

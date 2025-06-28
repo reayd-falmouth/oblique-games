@@ -1,0 +1,33 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/RiddleGame/Brain&BrawnQuestfest_20250628063205/cover.png",
+        "image_prompt": "Title: Brain & Brawn Questfest\n\nImage Dimensions: 1024x1024 pixels\n\nitch.io Cover Requirements: Minimum 315x250, Recommended 630x500\n\nImage Prompt Description:\n\nThe cover art should be a pixel art representation of a grand adventure in the land of Healthville, a place where healthy habits are integrated into the environment and lifestyle. There should be two protagonists, representing 'Brain' and 'Brawn', standing in the middle of the scene. \n\n'Brain' is a frail looking character with glasses, holding a book titled 'Riddles' in one hand and a magnifying glass in the other. His eyes should sparkle with intelligence and curiosity. 'Brawn' is a muscular character holding a dumbbell in one hand and a fresh apple in the other, symbolizing physical strength and healthy eating. His strong posture should reflect his physical fitness.\n\nThe background should show different aspects of a healthy lifestyle. On one side, there should be a hill with people jogging, someone meditating under a tree, and a farmer's market filled with fruits and vegetables. On the other side, there should be a large library, a complex maze (representing the riddles), and a group of people playing chess.\n\nFollowing the oblique strategy of 'Faced with a choice, do both', the game cover should show that Brain & Brawn are not mutually exclusive but work together in this quest. The two characters should be standing back to back, showing their unity and shared purpose.\n\nStyle Suggestions:\n\nUse bright and energetic colors to represent the vibrancy of a healthy lifestyle. The color palette should be dominated by greens, blues, and yellows, with some warm earth tones for balance. The pixel art style should be detailed but charming, with a touch of nostalgia. \n\nThe title of the game should be in bold, pixelated letters at the top of the image. It should be in a contrasting color to stand out against the background. The font should be fun and inviting, reflecting the adventurous and playful spirit of the game."
+    },
+    "task": "Develop a basic 'Riddle Game' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Faced with a choice, do both (given by Dieter Roth)'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Riddle Game",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Brain & Brawn Questfest",
+    "game_id": "Brain&BrawnQuestfest_20250628063205",
+    "branding_data": {
+        "short_description": "Engage in a riddle-solving adventure promoting healthy habits in Brain & Brawn Questfest.",
+        "detailed_description": "Brain & Brawn Questfest is an interactive riddle-solving game that immerses players in a world focused on promoting healthy habits. With each level presenting a unique riddle related to nutrition, exercise, and mental well-being, players must solve challenges to progress through a vibrant world filled with puzzles that advocate dual solutions—exemplified by the strategy 'Faced with a choice, do both.' As players tackle each puzzle, they must apply this philosophy, integrating multiple healthy choices simultaneously. Discover the best ways to balance diet and exercise through engaging gameplay that encourages a holistic approach to health.",
+        "tags": [
+            "Riddle Game",
+            "Puzzle",
+            "Strategy",
+            "Educational",
+            "Healthy Habits",
+            "Nutrition",
+            "Exercise",
+            "Mental Well-being",
+            "Interactive",
+            "Adventure",
+            "Single Player"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

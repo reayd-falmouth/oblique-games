@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/MergePuzzle/FreshComb_20250628054742/cover.png",
+        "image_prompt": "Image Prompt:\n\nVisualize a vibrant pixel art cover for the game 'Fresh Comb'. The cover should be designed in a 1024x1024 format to ensure high quality, while also meeting the minimum cover requirements for itch.io (minimum 315x250, recommended 630x500). \n\nThe primary theme is a 'Merge Puzzle' game centered around 'Healthy Habits'. Therefore, the cover should encapsulate elements of merging puzzles and healthy habits in an engaging and visually appealing manner. \n\nThe central image should be a large, pixelated comb with a fresh, shiny appearance, symbolizing the game's title. This comb should be composed of smaller puzzle pieces that fit together, indicating the merge puzzle aspect of the game.\n\nSurrounding the central comb, illustrate various health-related items such as fruits, vegetables, water bottles, running shoes, etc. These items should also be pixelated and brightly colored to draw attention. Each item should be depicted as composed of smaller puzzle pieces.\n\nTo incorporate the oblique strategy of 'Do the washing up', include images of soap bubbles floating around the comb and health items. Additionally, you could show a few puzzle pieces being cleaned or soaked in a pixelated bowl of water, ready to be merged. \n\nFor colors, use a bright, healthy palette of greens, blues, and yellows, with pops of reds and oranges for the fruits and vegetables. The background should be a soft, gradient blue, like a clear sky, to make the colorful objects pop.\n\nFor typography, use bold, pixelated letters for the game title 'Fresh Comb'. Place it at the top of the image, with a contrasting color to the background to make it stand out. \n\nStyle Suggestions:\n\nThe style should be reminiscent of classic 8-bit or 16-bit games to maintain the pixel art aesthetic. However, the image should be detailed and visually rich, with each puzzle piece distinctly visible. The style should be playful and lively, appealing to a wide range of audiences."
+    },
+    "task": "Develop a basic 'Merge Puzzle' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Do the washing up'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Merge Puzzle",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Fresh Comb",
+    "game_id": "FreshComb_20250628054742",
+    "branding_data": {
+        "short_description": "Fresh Comb: A 'Merge Puzzle' game promoting healthy habits by rewarding players for 'cleaning up' their game board.",
+        "detailed_description": "Fresh Comb is a unique 'Merge Puzzle' game where players combine identical healthy habit items on the board to form purified, upgraded versions of themselves. Set in a vibrant and refreshing atmosphere, the game encourages players to maintain cleanliness and organization akin to 'doing the washing up.' Players are rewarded for clearing and merging items, keeping their boards 'squeaky clean.' As players progress, they unlock new challenges and tools that represent good health practices, teaching positive habits in a fun, engaging way.",
+        "tags": [
+            "Puzzle",
+            "Merge",
+            "Casual",
+            "Educational",
+            "Healthy Habits",
+            "Cleaning",
+            "Family-friendly",
+            "Single Player"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

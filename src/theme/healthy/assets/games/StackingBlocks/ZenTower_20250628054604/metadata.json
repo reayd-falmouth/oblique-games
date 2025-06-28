@@ -1,0 +1,28 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/StackingBlocks/ZenTower_20250628054604/cover.png",
+        "image_prompt": "Title: Zen Tower\n\nImage Size: 1024x1024 pixels\n\nEssential Cover Requirements for Itch.io: Minimum 315x250 pixels, Recommended 630x500 pixels\n\nImage Prompt:\n\nVisualize a tranquil, serene scene set on a floating island. The main focus is a delicately stacked tower of blocks, each block signifying a healthy habit. The tower is situated in the center of the image with an ethereal backdrop of a setting sun casting a warm glow over the scene. The blocks are subtly etched with pixel symbols representing different healthy habits such as a running figure for exercise, a broccoli for healthy eating, a book for mental wellness, a water droplet for hydration, and a crescent moon for a good sleep schedule.\n\nThe tower of blocks is impossibly tall, challenging the laws of gravity and physics, in line with the oblique strategy 'Into the Impossible'. It appears to touch the sky, symbolizing the limitless potential of maintaining healthy habits. The floating island is lush with pixelated flora and fauna, underlining the theme of health and wellness. \n\nIn the foreground, a simple, stylized, pixelated character is seen placing a block (depicting a heart, symbolizing mental health and emotional well-being) on top of the tower. The character radiates a zen-like calmness, reinforcing the game's title, 'Zen Tower'. \n\nThe color palette should be soothing and calming, using soft shades of greens, blues, and purples for the background and vibrant, contrasting colors for the blocks. The game's title, 'Zen Tower', is placed at the top of the cover in pixelated, bold letters, standing out against the tranquil backdrop.\n\nStyle Suggestion:\n\nOpt for a minimalist pixel art style, keeping the blocks and character simple and easy to comprehend. The background can be more detailed to contrast with the simplicity of the foreground. The overall style should convey tranquility, balance, and zen-like calmness, reflecting the game's theme and title."
+    },
+    "task": "Develop a basic 'Stacking Blocks' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Into the impossible'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Stacking Blocks",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Zen Tower",
+    "game_id": "ZenTower_20250628054604",
+    "branding_data": {
+        "short_description": "Zen Tower is a unique 'Stacking Blocks' game with a focus on Healthy Habits, challenging players to build impossible structures.",
+        "detailed_description": "Zen Tower is an innovative twist on the classic 'Stacking Blocks' game, designed to encourage players to think about Healthy Habits in a creative and engaging way. The game challenges players to stack a variety of blocks, each representing a different healthy habit, to build a tower as tall and stable as possible. However, embracing the concept of 'Into the impossible', players must often work with bizarre and unexpected scenarios that defy traditional stacking logic, pushing the boundaries of strategy and creativity. With each level, the challenge increases as players encounter unique obstacles and physics-defying mechanics. The goal is to balance physical structure building with the metaphorical stacking of daily healthy habits, promoting mindfulness and well-being.",
+        "tags": [
+            "Stacking Blocks",
+            "Healthy Habits",
+            "Puzzle",
+            "Strategy",
+            "Creative Thinking",
+            "Impossible Challenges"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

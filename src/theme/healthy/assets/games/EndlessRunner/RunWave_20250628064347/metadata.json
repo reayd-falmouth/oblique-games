@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/EndlessRunner/RunWave_20250628064347/cover.png",
+        "image_prompt": "Title: 'Run Wave'\n\nImage Size: 1024x1024 pixels\n\nStyle Suggestions: Pixel art, bright and vivid colors, elements of retro gaming aesthetics.\n\nImage Description:\n\nThe primary scene of the cover portrays a dynamic and colorful world, inspired by the theme 'Healthy Habits'. The main character, a youthful, fit, pixelated figure is running energetically on a wave that's shaped like a radio frequency wave, symbolizing the 'Run Wave' title and the oblique strategy 'Think of the radio'. \n\nThe runner is shown in mid-stride, with one arm stretched forward and the other one back, indicating motion. The runner's attire should be lively - a green t-shirt and blue shorts, symbolizing the 'healthy habits' theme.\n\nThe wave is seen in a vibrant gradient of blues and purples, creating a sense of depth. It starts from a radio set on the left, extending towards the right of the image, showcasing an endless path. \n\nHealthy habits are depicted through pixelated icons scattered along the wave, including fruits, vegetables, a water bottle, a yoga mat, etc. The runner collects these items, symbolized by a small group of icons trailing behind him. \n\nThe top part of the image features the game title, 'Run Wave,' in bold, pixelated letters, with colors matching the wave. The title should be prominent, eye-catching, and easy to read. \n\nCover Requirements for itch.io:\n\nAlthough the full image is 1024x1024, make sure the essential elements - the runner, the wave, and the title - fit within a central area of 630x500 pixels, the recommended size for itch.io. The minimum requirement is 315x250 pixels, so ensure the game title and main character are visible and identifiable even at this smaller scale. \n\nThe cover should be visually appealing, engaging, and convey the game's theme and style effectively, making it stand out in the itch.io storefront."
+    },
+    "task": "Develop a basic 'Endless Runner' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Think of the radio'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Endless Runner",
+    "model": "gpt-4o",
+    "count": 8,
+    "name": "Run Wave",
+    "game_id": "RunWave_20250628064347",
+    "branding_data": {
+        "short_description": "Run Wave is an endless runner game promoting healthy habits with a musical twist.",
+        "detailed_description": "Run Wave is a unique endless runner game where players control a character running through vibrant environments themed around healthy living. The game incorporates elements of exercise, nutrition, and mindfulness in its challenges. Inspired by the oblique strategy 'Think of the radio', the game features an innovative soundtrack mechanics where actions affect the music, with different health choices creating a dynamic and interactive auditory experience. Collect healthy items, avoid junk food, and keep running to the beat of wholesome living while the soundscape adapts to enhance engagement.",
+        "tags": [
+            "endless runner",
+            "healthy habits",
+            "music mechanics",
+            "interactive soundtrack",
+            "exercise",
+            "nutrition",
+            "mindfulness",
+            "dynamic audio",
+            "rhythm-based gameplay",
+            "casual gaming"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

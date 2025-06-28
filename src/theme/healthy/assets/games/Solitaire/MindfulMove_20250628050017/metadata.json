@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Solitaire/MindfulMove_20250628050017/cover.png",
+        "image_prompt": "Title: Mindful Move\n\nImage Size: 1024x1024 pixels\n\nStyle: Pixel Art\n\nCover Requirements: The image should fit within the minimum requirements of 315x250 and ideally within the recommended size of 630x500 for itch.io. The main elements of the image should be clearly visible even at the smallest size.\n\nDetailed Description:\n\nThe image prompt is for a game named 'Mindful Move', a unique take on the classic card game 'Solitaire'. The game is themed around 'Healthy Habits'. In order to embrace the oblique strategy of 'Discover the recipes you are using and abandon them', the game introduces innovative elements that break from the traditional rules of Solitaire.\n\nThe cover should reflect this innovative spirit and the theme of healthy habits. Imagine a pixel art representation of a classic Solitaire game layout - a green table with stacks of cards. However, instead of traditional playing cards, the cards are replaced with pixel art representations of items related to healthy habits. \n\nThe deck could include cards such as a yoga mat, an apple, a bicycle, a water bottle, a pair of running shoes, a meditation symbol, etc., all in vibrant, eye-catching colors. At the bottom of the cover, in bold pixel art letters, is the game's title 'Mindful Move'. \n\nTo further emphasize the theme and the oblique strategy, include elements that break from the traditional Solitaire layout: perhaps some cards are floating in the air, some stacks are arranged in non-linear patterns, or there are other surreal elements that signify moving beyond the traditional 'recipes' of the game. \n\nStyle Suggestions: \n\nThe overall style should be fun, colorful and playful. Use bold, bright colors for the cards to make them stand out against the green table. The title 'Mindful Move' could be in a calming color like soft blue or lavender, to contrast with the vibrant cards and to tie in with the theme of mindfulness. \n\nThe pixel art should be detailed enough to clearly distinguish the items on the cards, even at the smallest size. The surreal elements breaking from the traditional layout can be a bit more abstract, to spark curiosity and interest. \n\nThink about using shading and highlighting techniques to give depth to the pixel art and create a 3D effect. This can make the image more visually appealing and draw the viewer's attention."
+    },
+    "task": "Develop a basic 'Solitaire' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Discover the recipes you are using and abandon them'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Solitaire",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Mindful Move",
+    "game_id": "MindfulMove_20250628050017",
+    "branding_data": {
+        "short_description": "Mindful Move is a rejuvenated take on the classic Solitaire with a twist, promoting healthy habits and mindfulness.",
+        "detailed_description": "Mindful Move reshapes the traditional game of Solitaire by integrating elements that encourage players to engage with healthy habits and mindfulness. Instead of using a standard deck, the game features cards that represent healthy activities and mindful exercises, such as stretching, hydration breaks, and meditation instructions. The oblique strategy 'Discover the recipes you are using and abandon them' is applied by randomizing the game rules and card functions each time it's played, encouraging players to adapt and learn new ways to win. Mindful Move challenges players to not just aim for victory, but also to reflect on personal well-being throughout the gameplay.",
+        "tags": [
+            "Solitaire",
+            "Card Game",
+            "Mindfulness",
+            "Healthy Habits",
+            "Strategy",
+            "Single Player",
+            "Casual",
+            "Indie",
+            "Innovative Mechanics"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

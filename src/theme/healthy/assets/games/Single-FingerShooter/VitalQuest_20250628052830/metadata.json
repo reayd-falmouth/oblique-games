@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Single-FingerShooter/VitalQuest_20250628052830/cover.png",
+        "image_prompt": "Title: Vital Quest \n\nTheme: 'Single-Finger Shooter' game with the theme 'Healthy Habits'\n\nImage Size: 1024x1024 pixels\n\nStyle: Retro pixel-art aesthetic, vibrant and engaging colors with a touch of minimalism. \n\nDescription: \n\nThe cover art should encapsulate the essence of the game - pushing the player on a healthy habits journey through a single-finger shooter game. Considering the oblique strategy 'Only one element of each kind', the cover art should depict a variety of unique elements pertaining to the game.\n\nForeground: The main character, a pixel art version of a finger, stands at the bottom of the cover. It should be depicted as a determined hero, shooting out beams of light, representing healthy habits. Each beam of light can be different, symbolizing the different healthy habits like eating fruits, exercising, drinking water, etc. \n\nMiddle ground: A variety of pixel art enemies, each representing an unhealthy habit, should be seen being hit by the beams of light. There should be only one representation for each unhealthy habit, like junk food, laziness, soda, etc. \n\nBackground: A pixel art scenario of the human body should be represented, showing various body parts like the brain, heart, lungs, etc., each one being lit up as the unhealthy habits are defeated. This could be depicted using bright, appealing colors to represent the positive influence of healthy habits.\n\nTop: The game title, 'Vital Quest', should be prominently displayed in an engaging pixel art font. \n\nBorders: To meet the itch.io requirements (minimum 315x250, recommended 630x500), ensure that the main elements of the cover art are outlined within these dimensions. Vital details like the game title and main character should fall within this area to ensure they are seen in the thumbnail.\n\nColor Palette: Utilize vibrant and contrasting colors to make the cover visually arresting. Use greens for health, reds for danger/unhealthy elements, and blues for the body, creating a dynamic contrast.\n\nThe cover should convey the message of the game in a fun and engaging way, inviting players to embark on this 'Vital Quest' towards healthy habits."
+    },
+    "task": "Develop a basic 'Single-Finger Shooter' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Only one element of each kind'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Single-Finger Shooter",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Vital Quest",
+    "game_id": "VitalQuest_20250628052830",
+    "branding_data": {
+        "short_description": "Embark on a journey to nurture healthy habits in a unique shooter game with a twist.",
+        "detailed_description": "Vital Quest is a unique 'Single-Finger Shooter' where players advance through levels by nurturing healthy habits. Each encounter transforms harmful items into beneficial ones as players shoot to replace bad habits with good. Incorporating the oblique strategy 'Only one element of each kind,' players must strategically choose the right actions at the right time, as each level only allows one of each element like food, exercise, or rest. This mechanic encourages thoughtful gameplay and strategy, making every action crucial in the quest for a healthier lifestyle.",
+        "tags": [
+            "Shooter",
+            "Single-Finger",
+            "Strategy",
+            "Health",
+            "Habit Formation",
+            "Minimalist",
+            "Puzzle"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

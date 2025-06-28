@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/SpottheDifference/WellbeingWisdom_20250628054309/cover.png",
+        "image_prompt": "Title: Wellbeing Wisdom\n\nImage Dimensions: 1024x1024 pixels (for creation), but ensure it can be resized to minimum 315x250 pixels and optimally to 630x500 pixels (for itch.io cover requirements)\n\nStyle: Pixel Art - Aim for a vibrant and colorful tone, using a palette that suggests health and positivity. Use soft edges to give a friendly and welcoming vibe, and keep the pixel size small enough to give a good amount of detail, but large enough to give that retro pixel-art feel.\n\nImage Description:\n\nThe main image is divided into two contrasting halves. Each half should be a similar scene but with distinct differences, reflecting the 'Spot the Difference' game theme, and showcasing the impact of 'Healthy Habits.'\n\nLeft Half: Depict an unhealthy environment. It can include a character slouched in front of a TV with junk food scattered around, a dingy room with little to no sunlight, and a visibly wilted houseplant.\n\nRight Half: Show the same character and room, but with healthier habits. The character can be doing yoga or some exercise, the room is bright with sunlight, there's fresh fruit on the table instead of junk food, and the houseplant is flourishing.\n\nCenter: The game title 'Wellbeing Wisdom' in bold, cheerful pixel font, placed in the center acting as a divider between the two halves. Include some pixelated sparkles around the title to make it stand out.\n\nBottom: Along the bottom, in smaller text, place a tagline or game description. \n\nTop Right: Place a small pixel art icon indicating that it's a 'Spot the Difference' game to give immediate context to the viewer.\n\nRemember the oblique strategy 'Accept advice'. This could be manifested visually by including small advice bubbles or tooltips in the healthy half of the image, indicating what changes have been made from the unhealthy scene.\n\nThis contrast should clearly communicate the game's theme and mechanics, while the pixel art style gives it a retro, gamey feel."
+    },
+    "task": "Develop a basic 'Spot the Difference' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Accept advice'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Spot the Difference",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellbeing Wisdom",
+    "game_id": "WellbeingWisdom_20250628054309",
+    "branding_data": {
+        "short_description": "A 'Spot the Difference' game focused on promoting healthy habits through subtle differences in lifestyle scenes.",
+        "detailed_description": "Wellbeing Wisdom is an engaging 'Spot the Difference' game with a unique twist of promoting healthy habits. Players are presented with pairs of images depicting everyday scenes related to wellness, such as eating, exercising, and meditating. Each scene contains subtle differences that players must identify. In line with the strategy 'Accept advice', each time a player correctly spots a difference, they receive a helpful tip or piece of advice regarding healthy living. This not only makes the game entertaining but also educational, as players learn about good practices for maintaining physical and mental well-being. Perfect for players looking to relax while gaining insightful health advice.",
+        "tags": [
+            "Puzzle",
+            "Educational",
+            "Casual",
+            "Health",
+            "Wellness",
+            "Lifestyle",
+            "Family-friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

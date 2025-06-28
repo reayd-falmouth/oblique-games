@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Side-to-SideShooters/WholesomeWarrior_20250628042505/cover.png",
+        "image_prompt": "Title: Wholesome Warrior \n\nImage Dimensions: 1024x1024 pixels\n\nStyle: Retro pixel art with vibrant, cheerful colors\n\nDetailed Prompt:\n\nThe cover will be divided into two main sections. The top section will feature the game's title \"Wholesome Warrior\" in bold, pixelated letters, with a gradient ranging from sunny yellow to leafy green, symbolizing energy and health.\n\nThe bottom section will showcase the game's protagonist, the \"Wholesome Warrior\", in action. The character is a pixelated, chibi-style hero with a radiant smile, holding a shield that resembles a dinner plate filled with colorful fruits and vegetables. He's dressed in workout attire, emphasizing the theme of healthy habits.\n\nThe warrior is engaged in battle against opponents representing unhealthy habits. These opponents can include pixelated monsters like a fast food monster, a soda can robot, and a cigarette dragon. The warrior is using his shield to deflect projectiles, symbolizing unhealthy food and habits, coming his way. \n\nIn line with the oblique strategy of 'Cut a vital connection', one of the warrior's main weapons - a sword made of pure water - is broken and lying on the ground, indicating that the warrior must rely solely on his shield of healthy food to fight off the unhealthy habits. This implies a message of resilience, adaptability, and the power of healthy habits.\n\nThe background should be a sunny, pixelated landscape with a clear blue sky, rolling green hills, and a radiant sun, reinforcing the game's cheerful and wholesome atmosphere.\n\nStyle Suggestions:\n\n1. Stick to a vibrant color palette including lots of greens, blues, and yellows to convey a sense of health and vitality.\n2. Use shading to add depth to the pixel art and make the characters and objects stand out.\n3. Experiment with bold, contrasting colors to highlight the battle between the Wholesome Warrior and the unhealthy habits.\n\nEssential Requirements for itch.io Cover: \n\nThe image should be also available in at least a minimum size of 315x250 pixels, although 630x500 pixels is recommended for better visibility and clarity. Make sure the title and main elements are clearly visible even at smaller sizes."
+    },
+    "task": "Develop a basic 'Side-to-Side Shooters' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Cut a vital connection'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Side-to-Side Shooters",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wholesome Warrior",
+    "game_id": "WholesomeWarrior_20250628042505",
+    "branding_data": {
+        "short_description": "Wholesome Warrior is a side-to-side shooter game promoting healthy habits as players battle unhealthy lifestyle choices.",
+        "detailed_description": "In Wholesome Warrior, players take on the role of a health-conscious hero battling various unhealthy habits personified as enemy characters. The gameplay involves moving side-to-side across the screen, dodging obstacles and shooting down foes such as Junk Food Juggernauts and Laziness Leviathans. The theme 'Healthy Habits' is central, guiding players to make positive choices. However, a whimsical twist is implemented: the player's traditional health bar is replaced with motivation levels, emphasizing a psychological connection rather than physical damage. 'Cut a vital connection' strategy is used by removing the typical link between taking physical hits and game progress, encouraging players to stay motivated by collecting healthful boosts and completing mini-challenges, emphasizing the mental aspects of maintaining healthy habits.",
+        "tags": [
+            "side shooter",
+            "health",
+            "wellness",
+            "motivational",
+            "arcade",
+            "strategy",
+            "educational",
+            "action"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

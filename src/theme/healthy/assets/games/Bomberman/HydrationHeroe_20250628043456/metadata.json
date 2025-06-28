@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Bomberman/HydrationHeroe_20250628043456/cover.png",
+        "image_prompt": "Title: Hydration Hero - Bomberman Edition\n\nDimensions: 1024x1024 pixels (For itch.io, the image should be scaled down to a minimum of 315x250 pixels, preferably 630x500 pixels)\n\nStyle: Retro 8-bit pixel art\n\nDetailed Description:\n\nThe cover image should be vibrant yet soothing to the eyes with a predominant use of blues and greens to evoke a sense of freshness and well-being, reminiscent of classic 8-bit games.\n\nForeground: \nThe main character, the Hydration Hero, should be positioned in the center. This character is a Bomberman-style figure made of water droplets, carrying a water bottle instead of a bomb. He should have a determined, ready-for-action expression. To his left and right, there should be pixel art representations of fruits and vegetables, signifying healthy habits. Some could be apples, oranges, carrots, or broccoli. These can be scattered randomly but should not overwhelm the central character.\n\nMiddle ground:\nThe Hydration Hero should be standing on a grid-like green field, symbolizing the Bomberman game's layout. The field should have water bottles instead of bombs and fruits instead of power-ups, reinforcing the theme of hydration and healthy eating habits. \n\nBackground: \nIn the backdrop, there should be a rising sun casting a soft glow over the scene, to represent the dawn of a new, healthier day. The sky can be filled with pixelated clouds. To incorporate the 'Water' strategy, a waterfall can be included in the background, cascading into a serene river that borders the grid field. \n\nBorder:\nA simple, clean border should frame the image, with the game’s title 'Hydration Hero' at the top and 'Bomberman Edition' at the bottom in bold pixelated letters.\n\nOverall, the style should be evocative of classic arcade games, but with a fresh and healthy twist. The rich, vibrant colors and engaging pixelated visuals should draw players in and make them eager to engage with the game's themes of hydration and healthy habits."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Water'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Hydration Heroe",
+    "game_id": "HydrationHeroe_20250628043456",
+    "branding_data": {
+        "short_description": "Hydration Heroe is a creative twist on the classic 'Bomberman' gameplay, emphasizing healthy hydration habits.",
+        "detailed_description": "Hydration Heroe combines the classic maze-like strategy of 'Bomberman' with a unique health-conscious twist. Set in a vibrant world where the importance of staying hydrated is paramount, players take on the role of Hydration Heroe, navigating through various challenging levels. Instead of using bombs, players utilize refreshing water balloons to clear obstacles and defeat opponents. Throughout the game, players collect different types of water-related power-ups, such as mineral water for speed boosts and purification tablets for enhanced water balloon effects. The game promotes healthy hydration habits, encouraging players to 'drink' virtual water to keep their character energized. Additionally, themed levels highlight different aspects of hydration, such as desert droughts and urban water reserves, offering educational facts about the benefits of water consumption. With its engaging gameplay, colorful graphics, and a meaningful message, Hydration Heroe offers both fun and learning for all ages.",
+        "tags": [
+            "Puzzle",
+            "Strategy",
+            "Family-Friendly",
+            "Educational",
+            "Health",
+            "Hydration",
+            "Action",
+            "Maze",
+            "Casual"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

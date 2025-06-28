@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Robotron:2084/WashBot2040_20250628051100/cover.png",
+        "image_prompt": "Title: Wash Bot 2040\n\nDimension: 1024x1024 pixels\n\nStyle: Retro Pixel Art\n\nTheme: Healthy Habits meet 'Robotron: 2084'. Integrate the concept of \"Doing the washing up\" as an oblique strategy.\n\nDetailed Description:\n\nThe cover image should depict a pixel art scene set in the year 2040. The center of the frame should be dominated by our hero, the Wash Bot 2040, a charmingly retro-styled robot reminiscent of classic games like 'Robotron: 2084'. The robot should be designed with a shiny metal body in a mix of vibrant blues and cool greys, giving it a clean, sanitary feel. It should have two arms, one equipped with a scrubbing brush and the other a high-pressure water hose, emphasizing the washing up theme.\n\nThe background should show a futuristic kitchen filled with dirty dishes and utensils scattered all around, symbolizing chaos. The kitchen should have a variety of futuristic appliances, but keep them in a retro-futuristic style to match the aesthetics of the robot and the game. Include some high-tech elements like holographic displays or floating utensils to emphasize the year 2040.\n\nIn one corner of the cover, show a small family watching the Wash Bot in awe, underscoring the game's focus on healthy habits. They should be designed in a way that shows their gratitude and relief, maybe with one of them giving a thumbs up to the Wash Bot.\n\nThe game title \"Wash Bot 2040\" should be written in large, bold pixelated letters at the top of the cover. The letters could be in a gradient of blue to match the color of the Wash Bot and to keep the overall color palette cohesive.\n\nThe cover should be designed in 1024x1024 pixels but also keep in mind the essential cover requirements for itch.io (minimum 315x250, recommended 630x500). Make sure the central elements like the Wash Bot, the title, and the main action can be clearly recognized even in the smaller resolution.\n\nStyle Suggestions:\n\nMaintain a retro pixel art style throughout the design. Use a vibrant color palette with a lot of blues, greys, and pops of contrasting colors like yellows or pinks for the futuristic elements. The chosen colors should evoke a sense of cleanliness and healthiness, reflecting the game's theme. The pixel art should be detailed but not overly complex, keeping the nostalgia of the 'Robotron: 2084' game."
+    },
+    "task": "Develop a basic 'Robotron: 2084' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Do the washing up'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Robotron: 2084",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wash Bot 2040",
+    "game_id": "WashBot2040_20250628051100",
+    "branding_data": {
+        "short_description": "A fast-paced arcade shooter focused on instilling healthy habits through cleaning tasks.",
+        "detailed_description": "'Wash Bot 2040' is a thrilling arcade game inspired by the classic 'Robotron: 2084'. Players control a robot in a post-apocalyptic world where good habits are key to survival. As hordes of unhealthy habit creatures invade, your task is to clean up the world using your washing tools. Armed with detergent blasters and scrubbing shields, your goal is to cleanse each level of grime and negativity. The unique twist is inspired by the oblique strategy 'Do the washing up,' turning mundane cleaning tasks into a battle for health. Collect power-ups related to healthy living while navigating intense action, and stay alert for bosses that challenge your cleaning prowess with chaotic messes. The game emphasizes the importance of cleanliness and health in a fun, engaging manner.",
+        "tags": [
+            "Arcade",
+            "Shooter",
+            "Action",
+            "Cleaning",
+            "Healthy Habits",
+            "Retro",
+            "Robotron: 2084",
+            "Oblique Strategies",
+            "Single Player"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

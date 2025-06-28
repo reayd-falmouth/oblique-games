@@ -10,8 +10,11 @@ PYTHONPATH := $(PYTHONPATH):$(SRC_DIR)
 install:
 	@poetry install --no-root
 
+pre_commit:
+	find . -type f -name '*Zone.Identifier*' -delete
+
 # Check-in code after formatting
-checkin: ## Perform a check-in after formatting the code
+checkin: pre_commit  ## Perform a check-in after formatting the code
     ifndef COMMIT_MESSAGE
 		$(eval COMMIT_MESSAGE := $(shell bash -c 'read -e -p "Commit message: " var; echo $$var'))
     endif

@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/DotConnect/VitalDisconnect_20250628054144/cover.png",
+        "image_prompt": "Title: Vital Disconnect\n\nDimensions: 1024x1024 pixels \n\nEssential Cover Requirements: The cover image should meet the minimum size requirements for itch.io, which is 315x250 pixels, although a size of 630x500 pixels is recommended.\n\nImage Description:\n\nThe main focus of the image is a stylized digital brain, formed from pixelated dots and lines that represent a 'Dot Connect' game. The brain is situated in the center of the cover. Each section of the brain corresponds to a different healthy habit like eating well, exercising, reading, and meditation. The healthy habits are symbolized with their corresponding pixel art icons (e.g., an apple for healthy eating, a book for reading, a dumbbell for exercise, etc.). \n\nIn the middle of the brain, there is a significant disconnection or break in the line, symbolizing the 'Vital Disconnect'. This break could be further emphasized by a pixelated spark or small explosion at the point of disconnection to draw the eye and highlight the game's theme.\n\nThe game's title, 'Vital Disconnect', is displayed in bold pixelated letters at the top of the cover, while the bottom area holds smaller text with the game's tagline or brief description.\n\nStyle Suggestions:\n\nThe color scheme should be bright and engaging, using contrasting colors to differentiate each section of the brain. The disconnected line could be in a contrasting color to make it stand out. \n\nThe style of the pixel art should be a blend of retro and modern, appealing to fans of classic pixel games while also feeling fresh and relevant. The text should also be in pixel art style, and it should be large and clear enough to read even at the smaller itch.io thumbnail size. \n\nConsider adding a subtle pixelated background texture or pattern to add depth and interest without distracting from the main image. \n\nFinally, make sure all elements of the cover are harmonious and tell a compelling visual story about the game's theme and mechanics."
+    },
+    "task": "Develop a basic 'Dot Connect' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Cut a vital connection'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Dot Connect",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Vital Disconnect",
+    "game_id": "VitalDisconnect_20250628054144",
+    "branding_data": {
+        "short_description": "Connect dots to form healthy habits but challenge yourself by breaking key links in 'Vital Disconnect'.",
+        "detailed_description": "Vital Disconnect is an innovative twist on the classic 'Dot Connect' puzzle game with a theme centered around 'Healthy Habits'. Players are tasked with connecting dots in sequences that represent various healthy habits, such as regular exercise, balanced diet, and mindfulness. However, to embody the oblique strategy 'Cut a vital connection', certain critical connections will occasionally break, forcing players to rethink and adapt their strategies to achieve their goal. This engaging aspect adds a layer of cognitive challenge, prompting players to find alternative paths and reinforcing the game's theme of overcoming obstacles to build and maintain healthy habits.",
+        "tags": [
+            "Puzzle",
+            "Strategy",
+            "Healthy Habits",
+            "Brain Teaser",
+            "Adaptation",
+            "Oblique Strategies",
+            "Cognitive Challenge"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

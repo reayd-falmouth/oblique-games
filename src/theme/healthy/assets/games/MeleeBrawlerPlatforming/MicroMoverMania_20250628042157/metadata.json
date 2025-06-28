@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/MeleeBrawlerPlatforming/MicroMoverMania_20250628042157/cover.png",
+        "image_prompt": "Title: Micro Mover Mania\n\nTheme: Healthy Habits\n\nDimensions: 1024x1024 pixels (minimum 315x250, recommended 630x500 for itch.io)\n\nStyle: Pixel Art\n\nImage Prompt:\n\nVisualize a scene where our protagonist, a brave miniature hero armed with a toothbrush sword and a shield made from an apple slice, is standing on a giant toothbrush platform. The platform is floating in a sea of fizzy soda, symbolizing unhealthy habits. The hero is engaged in a fierce battle against monstrous germs and viruses, all pixelated and grotesquely designed, depicting unhealthy habits.\n\nThe protagonist should be depicted in the middle of the cover, in a dynamic action pose, ready to strike the enemies with his toothbrush sword. He is adorned in an armor made of vegetables and fruits, symbolizing the 'healthy habits'. An aura of light should surround him, marking him as the heroic figure in the game.\n\nThe enemies are swarming from the top and the bottom of the cover. They are pixelated germs and viruses, each unique in its design, representing different unhealthy habits like junk food, lack of exercise, etc. They should look menacing and ready to attack the hero.\n\nIn the background, use a gradient of colors starting from a sickly green at the bottom (symbolizing unhealthy habits) to a bright, vibrant blue at the top (symbolizing healthy habits). This gradient will follow the 'Infinitesimal gradations' strategy, showing a gradual transition from unhealthy to healthy.\n\nIn the foreground, place the game's title 'Micro Mover Mania' in bold, outlined pixelated letters. The title should be placed at a slight angle, adding to the chaos and action-filled theme of the game.\n\nStyle Suggestions:\n\n1. Use bright, contrasting colors to make the elements stand out, especially the hero.\n2. Keep the pixel art detailed but clean, ensuring each element is recognizable and engaging.\n3. Make sure to keep the gradient subtle, showing a slow transition from unhealthy to healthy, following the 'Infinitesimal gradations' strategy.\n4. Blend the title seamlessly into the scene, making it a part of the action, not just an addition.\n\nRemember, the image should be engaging and exciting, inviting players to join the hero in his quest for promoting healthy habits."
+    },
+    "task": "Develop a basic 'Melee Brawler Platforming' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Infinitesimal gradations'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Melee Brawler Platforming",
+    "model": "gpt-4o",
+    "count": 1,
+    "name": "Micro Mover Mania",
+    "game_id": "MicroMoverMania_20250628042157",
+    "branding_data": {
+        "short_description": "Embark on a platforming brawl where every small action counts towards building healthy habits.",
+        "detailed_description": "Micro Mover Mania is a lively melee brawler platforming game that encourages players to develop healthy habits through fun and engaging gameplay. Set in a vibrant world full of energetic challenges, players must navigate a series of intricate platforms that introduce the concept of 'Infinitesimal gradations', where every tiny step and movement contributes to success. The game emphasizes the importance of small actions leading to significant outcomes, mirroring real-life healthy habits. Players can battle a variety of quirky enemies using melee combat while mastering the art of precise movement and decision-making. With a focus on gradual improvement, Micro Mover Mania offers a unique blend of platforming action and motivational life lessons.",
+        "tags": [
+            "platformer",
+            "brawler",
+            "healthy habits",
+            "incremental progress",
+            "melee combat",
+            "action",
+            "motivation",
+            "educational",
+            "family-friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

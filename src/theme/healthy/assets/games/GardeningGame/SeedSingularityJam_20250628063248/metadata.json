@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/GardeningGame/SeedSingularityJam_20250628063248/cover.png",
+        "image_prompt": "Title: Seed Singularity Jam\n\nImage Size: 1024x1024 pixels\n\nStyle: Pixel Art\n\nTheme: Healthy Habits\n\nPrompt Details:\nThe image should depict a tranquil garden scene at sunset, framed by a pixelated wooden fence. The garden is filled with various types of pixelated plants including leafy greens, tomatoes, carrots, and flowers. In the middle, there's a young, pixel art character holding a watering can, nurturing the plants. The character should have a healthy glow to reflect the theme of 'Healthy Habits'. \n\nThere are multiple seed packets scattered on the ground beside the character, each bearing a unique pixelated symbol representing the plant it will grow into. One seed is dramatically highlighted by a beam of light coming from above, representing the 'Seed Singularity'. \n\nIn the sky, there's a pixel art sun setting, casting warm hues of red, orange, and yellow across the scene. The 'Seed Singularity Jam' title is displayed in pixel art letters at the top of the image in a bold, earthy color that contrasts with the sky. \n\nThe image should adhere to the oblique strategy: 'You can only make one dot at a time'. This means each pixel should be carefully placed and considered, creating an image that is both minimalist and detailed.\n\nStyle Suggestions:\nUse a bright, warm color palette to emphasize the healthy, vibrant nature of the garden. The pixel art style should be charming and detailed, with each pixel playing a critical role in the overall image. \n\nEssential Cover Requirements for itch.io:\nEnsure that the core elements of the design - the character, the highlighted seed, and the game title - are clearly visible and well-composed in the minimum size of 315x250 pixels. The recommended size is 630x500 pixels, so consider this when designing to ensure the cover is effective at both sizes."
+    },
+    "task": "Develop a basic 'Gardening Game' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'You can only make one dot at a time'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Gardening Game",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Seed Singularity Jam",
+    "game_id": "SeedSingularityJam_20250628063248",
+    "branding_data": {
+        "short_description": "Immerse yourself in Seed Singularity Jam, a unique gardening game that emphasizes healthy habits and mindful planting, one dot at a time.",
+        "detailed_description": "Seed Singularity Jam is a delightful gardening game where players cultivate a virtual garden, focusing on promoting healthy habits and mindfulness. The game uniquely challenges players by allowing them to plant and nurture their garden one plant at a time, symbolizing the concept of 'one dot at a time'. This mechanic encourages deliberate decision-making and patience, reflecting the slow and thoughtful process of forming lasting, healthy habits. Players must choose which seeds to plant, attend to each seed's needs, monitor their virtual garden's ecosystem, and watch as their careful planning blossoms into a lush, diverse environment. As they progress, players unlock tips on healthy lifestyle choices, integrating real-world benefits into their virtual gardening journey.",
+        "tags": [
+            "Gardening",
+            "Simulation",
+            "Healthy Habits",
+            "Mindfulness",
+            "Strategy",
+            "Casual",
+            "Slow-paced",
+            "Single player",
+            "Relaxing",
+            "Educational"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

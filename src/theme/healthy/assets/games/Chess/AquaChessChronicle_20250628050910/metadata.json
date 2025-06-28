@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Chess/AquaChessChronicle_20250628050910/cover.png",
+        "image_prompt": "Title: Aqua Chess Chronicle\nResolution: 1024x1024 pixels\nPlatform requirements: Minimum resolution of 315x250 pixels, recommended resolution of 630x500 pixels for itch.io.\n\nImage Description:\nImagine a chess board that's seen from an isometric view. But this is no ordinary chess board. Instead of a regular flat surface, it's a dynamic, floating body of water. The squares on the board are of varying shades of blue, representing different water depths. The pieces are not just black and white, but different shades of turquoise and navy blue, representing the healthy habit of drinking water.\n\nIn one corner of the board, there's a small waterfall cascading into the board, serving as a source of the water squares. Around the board, there are lush green plants, symbolizing the healthy habit of nature interaction. The plants are pixelated, but with a touch of 3D effect to make them pop out. \n\nOn the top part of the image, against a pixelated sky with fluffy clouds, there's the game title 'Aqua Chess Chronicle' in bold, pixelated letters. The font color alternates between different shades of blue to match the overall 'water' theme. \n\nOn the bottom right corner of the image, there's the developer's logo, also in pixel art. It should be noticeable, but not too distracting from the main scene.\n\nStyle Suggestions:\nThe style should lean towards a fantasy pixel art aesthetic, with vibrant colors to highlight the theme of 'healthy habits' and 'water'. The water and plants should have a shiny, almost glowing effect, to emphasize their importance for health. The chess pieces could have a slightly transparent effect, making them look like they're made of water.\n\nIt's vital to maintain a balance between the detailed elements and the simplicity characteristic of pixel art. The colors should be harmonious, mainly focusing on different shades of blue and green. The lighting should be soft, with the light source coming from the upper left corner, casting subtle shadows and giving depth to the scene."
+    },
+    "task": "Develop a basic 'Chess' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Water'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Chess",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Aqua Chess Chronicle",
+    "game_id": "AquaChessChronicle_20250628050910",
+    "branding_data": {
+        "short_description": "Aqua Chess Chronicle combines classic chess with a 'Healthy Habits' theme, focusing on hydration.",
+        "detailed_description": "Aqua Chess Chronicle reinvents the classic game of chess by integrating a theme that promotes healthy habits, specifically focusing on the importance of water and hydration. Each piece and square on the board is visually represented with elements of water, like streams, raindrops, and fountains. The game introduces new mechanics where players earn 'Hydration Points' by strategically placing pieces on water-rich squares, which can then be used for special moves or abilities. This unique twist not only challenges players' strategic thinking but also subtly conveys the significance of maintaining good hydration in daily life.",
+        "tags": [
+            "Chess",
+            "Strategy",
+            "Board Game",
+            "Healthy Habits",
+            "Water Theme",
+            "Educational",
+            "Family Friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

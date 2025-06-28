@@ -1,0 +1,28 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Turn-BasedCityBuilding/HealthyHoriz_20250628042855/cover.png",
+        "image_prompt": "Title: Healthy Horiz\n\nDimensions: 1024x1024 pixels \n\nStyle: Pixel Art \n\nItch.io Cover Requirements: Minimum 315x250, Recommended 630x500\n\nImage Prompt:\n\nStart with a vibrant color palette full of greens, blues, yellows, and whites to symbolize health, cleanliness, and liveliness. \n\nThe main focus of the cover should be a turn-based city in the process of development. The city should be depicted in an isometric view. Show different stages of development from a primitive, unhealthy city to a developed, healthy city. The city should be designed in a circular pattern, moving from the center to the outskirts, following the oblique strategy of 'Go slowly all the way round the outside'.\n\nIn the center, the city should be grimy and polluted, with factories emitting smoke, littered streets, and grey buildings. As we move outwards, show the progression of the city transforming into a healthier environment. Use a gradual color transition from greys and dull colors to vibrant and lively ones. \n\nThe midway point should show buildings being constructed with cranes and workers. Show people exercising in parks, cycling on the streets, and engaging in other healthy activities. The outermost rim should depict a utopian city with clean energy windmills, green parks, solar panels on rooftops, and people happily coexisting. \n\nOn the top of the image, in pixelated letters, place the game title 'Healthy Horiz'. The title should be in a bold, vibrant color that stands out from the background, possibly a bright yellow or white. Add a small tagline below the title that reads 'Turn the grim into a gym!'\n\nIn the lower right corner, leave space for company logo and age rating. \n\nRemember to keep the image clear and legible at smaller sizes to meet Itch.io cover requirements."
+    },
+    "task": "Develop a basic 'Turn-Based City Building' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Go slowly all the way round the outside'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Turn-Based City Building",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Healthy Horiz",
+    "game_id": "HealthyHoriz_20250628042855",
+    "branding_data": {
+        "short_description": "Build a city focused on promoting healthy habits through strategic turn-based gameplay.",
+        "detailed_description": "Healthy Horiz is a turn-based city building game where players are tasked with constructing a thriving city centered around the theme of healthy habits. The gameplay involves strategically planning out a city layout that promotes wellness and well-being among its citizens. Each turn, players make decisions on expanding their city, placing buildings, and developing infrastructure that supports healthy lifestyles such as parks, gyms, and organic food markets. The oblique strategy 'Go slowly all the way round the outside' is integrated into the game by encouraging players to initially focus on developing the city's periphery before working inward, ensuring a balance between growth and sustainability. Players must carefully manage resources and plan for long-term development to create a harmonious and healthy urban environment.",
+        "tags": [
+            "City Building",
+            "Turn-Based Strategy",
+            "Health and Wellness",
+            "Simulation",
+            "Resource Management",
+            "Strategic Planning"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

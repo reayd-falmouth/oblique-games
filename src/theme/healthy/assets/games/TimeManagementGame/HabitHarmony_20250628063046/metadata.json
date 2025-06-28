@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/TimeManagementGame/HabitHarmony_20250628063046/cover.png",
+        "image_prompt": "Image Prompt:\nFor the pixel art cover image of the game 'Habit Harmony', envision a lively and vibrant scene that embodies the essence of time management and healthy habits. The image should be 1024x1024 pixels to accommodate the itch.io requirements (minimum 315x250, recommended 630x500). \n\nThe scene should be set in a calm, serene home environment, with a large, antique clock as the central element, symbolizing the theme of time management. The clock should have multiple hands, each pointing towards different healthy habits. These could include a balanced diet, a physical exercise routine, a good sleep pattern, meditation, and more. \n\nThe cover should feature pixelated characters engaging in these healthy habits. For instance, one character could be doing yoga, while another could be cooking a healthy meal, and yet another could be sleeping peacefully. \n\nTo enhance the 'Lowest common denominator check - single beat - single note - single riff' oblique strategy, the clock could have musical notes around it, each representing a different healthy habit. This serves as a metaphor that every single note (or habit) contributes to the harmony of our daily routine. \n\nStyle Suggestions:\nIn terms of style, opt for a vibrant color palette to make the cover appealing and engaging. Use distinct pixel art styles for characters and objects for a retro gaming vibe. The pixel art should be detailed and well-crafted to portray the different activities clearly. \n\nThe title 'Habit Harmony' should be positioned at the top of the cover, in bold, large pixelated letters. Choose a font that complements the overall retro aesthetic of the game. The game's tagline, if any, can be placed at the bottom of the image."
+    },
+    "task": "Develop a basic 'Time Management Game' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Lowest common denominator check - single beat - single note - single riff'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Time Management Game",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Harmony",
+    "game_id": "HabitHarmony_20250628063046",
+    "branding_data": {
+        "short_description": "Cultivate healthy habits through a simple yet engaging time management game.",
+        "detailed_description": "Habit Harmony is a time management game designed to help players cultivate healthy habits. Players must manage their in-game day by scheduling activities to promote well-being, such as exercise, healthy eating, meditation, and proper rest. The game applies the oblique strategy of 'Lowest common denominator check - single beat - single note - single riff' by focusing on simplifying the game's mechanics and visuals to a minimalistic design. This allows players to focus on the core mechanics of habit-building without distractions. Each successful daily routine completion rewards players with better personal stats and the ability to unlock more complex routines, reinforcing the importance of building a foundation on simple, singular habits.",
+        "tags": [
+            "Time Management",
+            "Healthy Habits",
+            "Minimalistic",
+            "Educational",
+            "Casual",
+            "Single Player",
+            "Wellness"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}
