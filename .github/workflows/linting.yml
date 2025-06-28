@@ -28,3 +28,8 @@ jobs:
       - name: Check code with black
         continue-on-error: false
         run: make check-black
+
+      - name: Build Python extension
+        run: |
+          poetry run python setup.py clean --all
+          poetry run python setup.py build_ext --inplace

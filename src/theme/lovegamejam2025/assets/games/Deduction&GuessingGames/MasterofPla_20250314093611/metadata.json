@@ -1,0 +1,27 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Deduction&GuessingGames/MasterofPla_20250314093611/cover.png",
+        "image_prompt": "Title: Master of Pla\n\nGame Theme: Deduction & Guessing Games with a Plan\n\nOblique Strategy: 'Make an exhaustive list of everything you might do and do the last thing on the list'\n\nImage Size: 1024x1024 pixels\n\nEssential Cover Requirements: Minimum 315x250 pixels, Recommended 630x500 pixels for itch.io\n\nImage Prompt:\n\nVisualize a grand strategy room with a large table in the center. The room has a rustic charm with wooden floorboards and bookshelves filled with ancient strategy books lining the walls. A chandelier hangs from the ceiling, casting a warm light over the room. \n\nOn the table, lay out a massive, detailed map of the game world, filled with continents, seas, landmarks, and points of interest. Over the map, there are multiple chess pieces, symbolizing the strategic element of the game. One hand, adorned with a royal signet ring, is placing the last piece on the map, indicating the final move or plan, in line with the oblique strategy.\n\nFloating above the table, there should be a thought bubble containing an exhaustive list of possible moves. The last item on the list should be highlighted, showing that it's the chosen action. \n\nAs a nod to the deduction and guessing game theme, sprinkle some hidden clues and cryptic symbols throughout the cover. This could be in the form of coded messages in the books, secret paths on the map, or subtle manipulations of the chess pieces.\n\nThis cover image should be rendered in pixel art, with heavy use of shadows and light to create a suspenseful atmosphere. Stick to a warm and muted color palette to give a sense of antiquity and nostalgia. Make sure to use detailed pixel art for the map and chess pieces to emphasize the strategic planning part of the game.\n\nThe game's title, \"Master of Pla,\" should be placed at the top of the image in bold, pixelated letters. It should be visible and readable, standing out against the background. The title's color should contrast with the warm background tones, possibly a cool color like blue or green.\n\nBear in mind that while the cover image should be 1024x1024 pixels, the main elements should be visible and understandable even at the minimum size of 315x250 pixels for itch.io. Therefore, ensure that the main elements of your design - the strategy room, the map, the hand, and the title - are clear and prominent."
+    },
+    "task": "Develop a basic 'Deduction & Guessing Games' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Make an exhaustive list of everything you might do and do the last thing on the list'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Deduction & Guessing Games",
+    "model": "gpt-4o",
+    "count": 1,
+    "name": "Master of Pla",
+    "game_id": "MasterofPla_20250314093611",
+    "branding_data": {
+        "short_description": "Uncover the hidden plan in a deduction and guessing game.",
+        "detailed_description": "Master of Pla is a unique deduction and guessing game where players must decipher a concealed plan using strategic probing. Players generate an exhaustive list of inquiries or actions they might undertake in their quest for the truth, and employ the final item on their list to crack the puzzle. The game challenges players to think through all possible tactics before focusing their efforts on a singular, decisive strategy. By honing their ability to prioritize, players elevate their mastery in both deduction and strategic foresight.",
+        "tags": [
+            "deduction",
+            "guessing game",
+            "strategy",
+            "puzzle",
+            "plan",
+            "tactical thinking"
+        ]
+    }
+}

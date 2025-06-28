@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Turn-BasedTactics(Small-Scale)/TacticalHarmony_20250314094045/cover.png",
+        "image_prompt": "Image Prompt:\n\nEnvision a 1024x1024 pixel art game cover for 'Tactical Harmony.' This image should depict a small-scale, turn-based tactics game with the theme of planning and strategy. \n\nForeground:\nAt the front of the picture, a group of pixelated characters stand in a semi-circle around a map of the battleground. The characters should vary in class, showcasing a warrior with a sword and shield, a mage with a staff, an archer with a bow, and a rogue with daggers. Each character should be in a different stance, denoting their readiness for the upcoming battle. The map on the table should be intricate, with small flags marking strategic points.\n\nMidground:\nBehind these characters, an array of small pixelated enemies looms, representing the opposing force. These enemies could be a mix of mythical beasts or enemy warriors, each appearing threatening and fearsome. \n\nBackground:\nThe backdrop should be a grand war room, dimly lit by pixelated torches, creating a moody and tense atmosphere. The walls should be adorned with various weapons and shields, and a large window shows a view of the looming battleground.\n\nStyle Suggestions:\nUse a color palette that consists of rich, deep tones for the room and intense, vibrant colors for the characters to make them stand out. Pay attention to the lighting, using it to create contrast and depth. \n\nOblique Strategy:\nTo apply the oblique strategy \"Fill every beat with something,\" ensure every pixel contributes to the overall narrative of the game. Each detail should tell a story of strategic planning, from the expressions on the characters' faces to the items scattered around the room.\n\nCover Requirements:\nThe cover will be uploaded to itch.io, so ensure that the most important elements - the characters and the map - are clearly visible and legible even when the cover is downsized to the minimum requirement of 315x250 pixels. For the best results, it's recommended to design the cover at 630x500 pixels before scaling up to 1024x1024 pixels."
+    },
+    "task": "Develop a basic 'Turn-Based Tactics (Small-Scale)' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Fill every beat with something'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Turn-Based Tactics (Small-Scale)",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Tactical Harmony",
+    "game_id": "TacticalHarmony_20250314094045",
+    "branding_data": {
+        "short_description": "Tactical Harmony is a turn-based tactics game that emphasizes intricate planning and constant action.",
+        "detailed_description": "Tactical Harmony is a small-scale turn-based tactics game where players must fill every move and decision with purposeful action. The game revolves around the theme of 'Plan,' encouraging players to think several steps ahead as they command their squad on complex battlefields. Each turn presents an opportunity for strategic deployment and tactical maneuvers, ensuring that no moment is wasted. Players must coordinate their team's actions to create a harmonious flow in battles, overcoming opponents by outsmarting them with well-orchestrated plans. The game's unique twist of 'filling every beat with something' challenges players to utilize every turn and resource effectively, balancing offensive and defensive strategies to achieve victory.",
+        "tags": [
+            "Turn-Based Tactics",
+            "Strategy",
+            "Small-Scale Battles",
+            "Planning",
+            "Military",
+            "Tactical",
+            "Strategic Management",
+            "Resource Management",
+            "Board Game-Like"
+        ]
+    }
+}

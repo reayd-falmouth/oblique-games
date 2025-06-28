@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Bomberman/BlastBlueprint_20250314095021/cover.png",
+        "image_prompt": "Title: Blast Blueprint\n\nImage Dimensions: 1024x1024 pixels (minimum 315x250, recommended 630x500 for itch.io)\n\nStyle: Retro pixel art with vibrant colors\n\nCover Image Prompt:\n\nVisualize a scene that encapsulates the fusion of two themes: planning and (organic) machinery with influence from the classic Bomberman game. \n\nForeground: \nPlace a Bomberman character at the bottom right corner, shown in mid-stride, leaving a trail of pixelated blueprints that are morphing into bombs behind him as he moves. The character should be shown holding a blueprint in one hand and a bomb in the other. The bombs should be pixelated and styled with a mechanical yet organic twist, imagine something like a cross between a traditional bomb and a plant seed or flower bud, indicating that the bombs are part of an (organic) machinery system.\n\nMidground: \nDesign a labyrinthine grid-like map reminiscent of the classic Bomberman game. The grid should be filled with destructible and indestructible blocks. The destructible blocks should be depicted as pixelated sketches or drafts, while the indestructible ones are finished, mechanical, organic structures, showing that the plan has been executed.\n\nBackground: \nDepict a large, intricate blueprint serving as the backdrop, populated with symbols, measurements, and diagrams. Incorporate elements of (organic) machinery into the blueprint, such as gears that resemble plant leaves or flowers, conveyer belts with vine-like structures, etc. \n\nPalette: \nUse a color palette that reflects the game's retro style and the organic machinery theme. Opt for contrasting colors to make the main elements (Bomberman, bombs, blueprints) pop. The blueprint could be in a soft blue hue, while the Bomberman and bombs could be vibrant red and green, respectively. \n\nTypography: \nThe game title 'Blast Blueprint' should be prominently placed at the top center of the cover. Use a pixelated font that complements the retro aesthetic of the game. The title can be in a bold color that contrasts with the background for maximum impact.\n\nEnsure all elements (graphics, title, and potential game description or tagline) are clearly visible even when the image is scaled down to the minimum size of 315x250 for itch.io."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Plan'. Modify it by applying the oblique strategy: '(Organic) machinery'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Blast Blueprint",
+    "game_id": "BlastBlueprint_20250314095021",
+    "branding_data": {
+        "short_description": "Blast Blueprint: A strategic bomberman game with mechanical twists.",
+        "detailed_description": "Blast Blueprint takes the classic Bomberman mechanics and remixes them with a strategic, organic machinery theme. Players navigate through a mechanical world filled with clockwork structures and plan their every move to outsmart opponents. Utilize bombs and power-ups to destroy obstacles and open paths, all while managing the organic machines scattered throughout the levels. The twist comes in the form of animated machinery that shifts the layout, creating dynamic and unpredictable environments. As you progress, decipher the blueprint of each level to uncover hidden shortcuts and strategic vantage points. The theme of 'plan' is central to gameplay, as players must carefully strategize to plant their bombs effectively and manipulate the ever-changing terrain to their advantage.",
+        "tags": [
+            "Bomberman",
+            "Strategy",
+            "Puzzle",
+            "Machinery",
+            "Dynamic Environments",
+            "Multiplayer",
+            "Tactical",
+            "Action",
+            "Plan"
+        ]
+    }
+}

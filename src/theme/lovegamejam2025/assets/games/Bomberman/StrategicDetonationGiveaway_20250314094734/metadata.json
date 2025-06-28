@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Bomberman/StrategicDetonationGiveaway_20250314094734/cover.png",
+        "image_prompt": "Title: Strategic Detonation Giveaway\n\nTheme: Bomberman game with a planning strategy\n\nImage Size: Recommended 1024x1024 pixels\n\nStyle Suggestions: Retro Pixel Art, Vibrant Color Palette\n\nDetailed Image Prompt:\n\nThe cover image should capture the essence of the game which is a blend of the classic Bomberman gameplay with a strategic planning element. The setting is a maze-like battlefield, filled with breakable walls and power-ups. The main character, a pixelated Bomberman with a cunning smile, should be at the center of the cover, holding a bomb that's about to explode.\n\nIn the background, lay out a labyrinth-style game map filled with pixelated walls, power-ups, and enemies. The walls should have cracks to emphasise their destructible nature. Power-ups can have a slightly glowing effect to make them stand out. Enemies should look menacing but in a cartoony way.\n\nThe Bomberman should have a thought bubble above his head, where he is planning his next move. This could be represented with a mini-map of the labyrinth, a dotted line showing his planned path, and an X marking the spot where he plans to detonate a bomb.\n\nTo represent the 'Give the game away' oblique strategy, include a pixelated gift box in one corner of the cover. The gift box should be open, with the game's logo emerging from it, representing the idea of the game being a 'giveaway'.\n\nThe cover should have a vibrant color palette. Give the main character, enemies, and power-ups strong, contrasting colors to make them stand out against the maze background. The background can be in more muted tones to make the foreground elements pop.\n\nThe game's title, 'Strategic Detonation Giveaway', should be in bold, pixelated letters at the top of the cover. The title's color should align with the overall color scheme but still be easily readable. \n\nEssential Cover Requirements for itch.io:\n\n- The minimum image size should be 315x250 pixels, but it is recommended to use 630x500 pixels for better visibility. \n- Make sure all essential elements, such as the main character, enemies, the gift box, and the game title, are clearly visible even at the minimum size.\n- Ensure the image conveys the game's fun, strategic, and giveaway aspects even when viewed in smaller sizes."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Give the game away'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Strategic Detonation Giveaway",
+    "game_id": "StrategicDetonationGiveaway_20250314094734",
+    "branding_data": {
+        "short_description": "Strategic Detonation Giveaway is a 'Bomberman'-like game where players plan their moves to strategically detonate bombs, but with a twist that involves unexpected giveaways.",
+        "detailed_description": "Strategic Detonation Giveaway puts a clever spin on the classic 'Bomberman' formula with its theme centred on strategic planning. In this game, players navigate a grid-based arena where they must strategically place bombs to eliminate obstacles and opponents. The twist lies in the oblique strategy 'Give the game away', where players are incentivized to share their resources and benefits with opponents. This unique mechanic encourages cooperation and unexpected alliances, as players must balance their offensive strategies with opportunities to aid opponents. The game challenges players to think several moves ahead and adapt to the dynamic environment as alliances shift and evolve. With every match unpredictable, Strategic Detonation Giveaway offers a fresh and engaging take on strategic multiplayer gameplay.",
+        "tags": [
+            "Bomberman",
+            "Strategy",
+            "Multiplayer",
+            "Puzzle",
+            "Cooperation",
+            "Planning",
+            "Grid-based",
+            "Dynamic gameplay",
+            "Unexpected alliances",
+            "Innovation"
+        ]
+    }
+}

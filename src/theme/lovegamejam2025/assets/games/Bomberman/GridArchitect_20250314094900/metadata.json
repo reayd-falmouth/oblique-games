@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Bomberman/GridArchitect_20250314094900/cover.png",
+        "image_prompt": "Title: Grid Architect\n\nImage Size: The pixel art image should be 1024x1024 pixels. It should also meet the essential cover requirements for itch.io, with a minimum size of 315x250 pixels and a recommended size of 630x500 pixels.\n\nStyle suggestion: The style should be retro, reminiscent of 16-bit era gaming, with a color palette of soft pastels for a modern touch. Use contrasting colors to highlight important elements. The pixel art should be detailed and crisp, with a strong focus on geometric shapes and patterns to reflect the 'grid' concept.\n\nImage Description:\n\n1. Foreground: Depict a pixelated character reminiscent of the 'Bomberman' protagonist but with a twist to represent the 'engineer' aspect. The character should be wearing a hard hat and carrying blueprints under one arm. In the other hand, hold a bomb that resembles a puzzle piece, signifying the planning aspect of the game.\n\n2. Midground: The character should be standing on a grid that looks like an architectural drafting table. The grid should be filled with a variety of elements from the Bomberman game - walls, destructible and indestructible blocks, power-ups, and enemies. Some areas of the grid should be completed and filled with color, while others are blank or only have outlines, indicating the 'building' process.\n\n3. Background: Behind the character and the grid, depict a city skyline made up of pixelated buildings of varying heights. The buildings should be made up of blocks like in a grid, reflecting the theme of the game.\n\n4. Game Title: The game title 'Grid Architect' should be placed at the top of the cover art in bold, pixelated letters. The font should be geometric and blocky, complementing the overall theme.\n\n5. Border: A thin border that resembles a measuring tape can frame the entire image, further emphasizing the engineering and planning aspects.\n\nRemember to maintain a balance between the busy, detailed sections and some open, less cluttered spaces for visual relief."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'You are an engineer'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Grid Architect",
+    "game_id": "GridArchitect_20250314094900",
+    "branding_data": {
+        "short_description": "Grid Architect: A strategic twist on the classic Bomberman game where players engineer traps and pathways.",
+        "detailed_description": "Grid Architect is a strategic reimagining of the classic Bomberman formula with an intriguing theme centered around planning and engineering. In this game, players assume the role of a skilled engineer trapped in a futuristic grid-like maze. The objective is to outmaneuver opponents by strategically placing bombs and constructing pathways that can lead to victory. Utilizing a unique blend of explosive traps and tactical block placements, players must think two steps ahead, as the grid constantly shifts and evolves based on players' actions. Success in Grid Architect requires a keen mind and a penchant for engineering solutions on the fly, as players navigate through a dynamically changing environment that rewards strategic planning and quick adaptability.",
+        "tags": [
+            "Bomberman",
+            "strategy",
+            "puzzle",
+            "engineering",
+            "maze",
+            "multiplayer",
+            "tactical",
+            "action",
+            "grid-based"
+        ]
+    }
+}

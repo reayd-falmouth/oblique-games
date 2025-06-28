@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Bomberman/BombPlanDu_20250314095144/cover.png",
+        "image_prompt": "Title: Bomb Plan Du\n\nImage Specifications: 1024x1024 pixels (for optimal quality), with minimum dimensions of 315x250 pixels and recommended dimensions of 630x500 pixels (for itch.io cover requirements).\n\nPrompt Description:\n\nThe background should be a pixelated cityscape at night, with towering skyscrapers silhouetted against a deep indigo sky dotted with a few twinkling stars. \n\nIn the center of the image, create two distinctive characters to represent the 'choice' and the concept of 'doing both'. The first character should be a classic 'Bomberman' figure, clad in a white suit with blue accents, a spherical black bomb in one hand, and a blueprint or 'plan' unfurled in the other. This character should be facing the viewer with a determined expression. \n\nThe second character should be a mirror image of the first, but with inverted colors for a 'negative' effect. This character holds a white bomb and a plan, with a mischievous smirk, embodying the chaos that can come from the same plan. \n\nBetween the two characters, a large bomb with a lit fuse should be placed, symbolizing the game's core mechanic. The bomb should be designed in a way that it looks like both characters are holding it, emphasizing the 'do both' strategy. \n\nAround the characters, small pixel art icons of power-ups, extra bombs, flame icons, and speed boosts should be scattered, giving a hint of the gameplay. \n\nThe game title, \"Bomb Plan Du\", should be prominently displayed at the top of the cover in a bold, pixelated font that mirrors the game's aesthetic. \n\nStyle Suggestions:\n\nThe style should be retro-inspired pixel art, paying homage to classic 'Bomberman' games. However, incorporate modern elements to keep the design fresh and appealing to today's audience. Use contrasting colors to distinguish between the two characters and the cityscape background; consider using a color scheme of white, black, blue, and indigo with pops of red and yellow for the bomb and its fuse. The overall image should be vibrant and dynamic, enticing potential players with its intriguing concept and visually striking design."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Faced with a choice, do both (given by Dieter Roth)'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Bomb Plan Du",
+    "game_id": "BombPlanDu_20250314095144",
+    "branding_data": {
+        "short_description": "A strategic 'Bomberman' inspired game where players execute dual plans to outmaneuver opponents and plant bombs in creative ways.",
+        "detailed_description": "Bomb Plan Du is a strategic, multiplayer game inspired by the classic 'Bomberman' but with a twist of strategy and duality. Set in a thematic world of plans and schemes, players take on the role of cunning strategists who must simultaneously execute two plans to outsmart and outbomb their opponents. Incorporating the oblique strategy 'Faced with a choice, do both (given by Dieter Roth)', players are encouraged to embrace dual tactics, planting bombs while cleverly navigating through dynamic mazes. The game features a unique mechanics system where players set up two types of bombs or traps, activating them with precise timing to achieve victory. With its plan-centered theme, Bomb Plan Du challenges players to think ahead and adapt quickly to changing circumstances, offering a thrilling and cerebral take on the beloved bomb-placing genre.",
+        "tags": [
+            "strategy",
+            "multiplayer",
+            "action",
+            "puzzle",
+            "bombs",
+            "dual mechanics",
+            "maze",
+            "competitive",
+            "tactics",
+            "Bomberman-inspired"
+        ]
+    }
+}

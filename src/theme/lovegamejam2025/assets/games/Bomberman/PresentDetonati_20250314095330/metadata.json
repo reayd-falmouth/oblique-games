@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Bomberman/PresentDetonati_20250314095330/cover.png",
+        "image_prompt": "Title: Present Detonati\n\nImage Size: 1024x1024 pixels.\n\nStyle: Pixel Art\n\nConcept: \n\nThe concept for this cover image is to embody the essence of the classic 'Bomberman' game, with a contemporary spin that encapsulates the theme of 'Plan' and the oblique strategy 'Trust in the you of now.' \n\nDesign Description:\n\nThe central character is a pixelated bomberman, standing tall and confident at the center of the cover. He's equipped with a bomb in one hand and a blueprint in the other, signifying the theme of 'Plan.' The bomberman is dressed in modern attire instead of the traditional bomberman suit, reflecting the oblique strategy 'Trust in the you of now.' \n\nThe bomberman's eyes should be focused and determined, representing the player's need to trust their instincts and plan their moves carefully. The background should be a maze-like grid, a signature element from the classic Bomberman games, filled with pixelated blocks and power-ups.\n\nIn the upper half of the image, behind the Bomberman, a large, digital clock is ticking down, emphasizing the urgency and time-bound nature of the game. The title 'Present Detonati' is boldly displayed at the top in pixelated letters, and at the bottom, there's a tagline that reads 'Trust your plan, detonate the present.'\n\nColor Palette:\n\nThe color palette should be vibrant and energetic, with a mix of bright colors like red, yellow, and blue, contrasted against darker shades for the background and the maze. The digital clock can be in a neon green to make it pop out.\n\nRendering:\n\nThe pixel art should be detailed and sharp, with a balance between tradition and modernity. Despite the pixel art style, the bomberman's expression should be clearly visible, and the urgency of the situation should be palpable.\n\nCover Requirements for itch.io:\n\nWhile the original image is 1024x1024, ensure that the key elements - the Bomberman, the bomb, the blueprint, and the digital clock - are clearly visible and central in a smaller, minimum size of 315x250. For the recommended size of 630x500, the title and tagline should also be clearly legible."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Trust in the you of now'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Title: Present Detonati",
+    "game_id": "Title:PresentDetonati_20250314095330",
+    "branding_data": {
+        "short_description": "Navigate mazes and plant bombs in Present Detonati, a strategic twist on the classic Bomberman inspired by the theme of 'plan' and the oblique strategy of trusting your instincts.",
+        "detailed_description": "Present Detonati is a strategic maze-navigation game where players control a character that plants bombs to destroy obstacles and enemies. Building on the classic Bomberman formula, the game introduces a unique thematic twist centered around the concept of 'plan' and the oblique strategy 'Trust in the you of now.' Players must rely on their intuition to make quick decisions on bomb placement and movement, adapting their strategy dynamically rather than sticking rigidly to pre-prepared plans. Each level challenges players to trust their immediate judgment and instincts, creating a thrilling and mentally engaging experience. The game features a variety of levels with increasing complexity and diverse enemies, requiring players to think on their feet and adjust their approach based on the current situation.",
+        "tags": [
+            "Bomberman",
+            "strategy",
+            "maze",
+            "bomb",
+            "plan",
+            "intuition",
+            "tactical",
+            "real-time decision making",
+            "action",
+            "puzzle"
+        ]
+    }
+}

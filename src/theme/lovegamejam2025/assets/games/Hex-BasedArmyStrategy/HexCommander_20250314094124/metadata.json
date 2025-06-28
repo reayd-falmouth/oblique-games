@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Hex-BasedArmyStrategy/HexCommander_20250314094124/cover.png",
+        "image_prompt": "Title: Hex Commander\n\nImage Size: 1024x1024 pixels\n\nTheme: Hex-Based Army Strategy Game with the theme 'Plan'\n\nStyle Suggestions: Pixel Art Retro Style\n\nImage Description:\n\nAt the center of the cover image, depict a hexagonal map of a battlefield viewed from a bird's eye perspective. The battlefield should be segmented into numerous hexagonal \"tiles\". Each tile should have a distinct texture or color, representing different terrain types- grasslands, mountains, waters, and forests.\n\nIn the lower half of the battlefield, place pixelated miniature representations of a diverse army. It could include knights, archers, pikemen, catapults, or magical units, each unit occupying its hexagonal tile. They are arranged in a strategic formation, ready to march into battle.\n\nOn the upper half of the battlefield, show the opposing army, mirroring the diversity of units, but with a different color scheme to differentiate friend from foe. They are positioned in a chaotic arrangement, in stark contrast to the player's well-organized troops.\n\nTo apply the oblique strategy 'Abandon normal instruments', replace some of the traditional medieval army units with unconventional ones. For instance, instead of knights, there could be robotic soldiers. Instead of catapults, there could be alien spacecrafts. This adds an unexpected twist to the game's setting and strategy.\n\nOn top of the pixelated battlefield, overlay a semi-transparent layer of a hexagonal grid, reinforcing the game's tactical nature.\n\nIn the upper part of the cover, reserve space for the title 'Hex Commander', standing out in bold pixelated letters, possibly with a metallic or stone texture to convey the hard strategy element of the game.\n\nEssential Cover Requirements for itch.io:\n\nEnsure that the most important elements of the cover (title, hexagonal map, diverse armies) are clearly visible and identifiable even when the image is scaled down to the minimum size of 315x250 pixels. For the recommended size of 630x500 pixels, try to maintain the image's quality and legibility without any significant loss in detail."
+    },
+    "task": "Develop a basic 'Hex-Based Army Strategy' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Abandon normal instruments'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Hex-Based Army Strategy",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Hex Commander",
+    "game_id": "HexCommander_20250314094124",
+    "branding_data": {
+        "short_description": "Hex Commander is a strategic hex-based game where traditional army units are replaced with unconventional tools of war.",
+        "detailed_description": "In Hex Commander, players engage in a strategic battle on a hexagonal grid, aiming to outmaneuver their opponents not with standard military units, but with unique and unusual 'instruments' of war. Inspired by the oblique strategy 'Abandon normal instruments', this game challenges players to think outside conventional warfare tactics. Whether deploying propaganda balloons or units that manipulate enemy morale, Hex Commander requires creative planning and adaptation to the ever-evolving battlefield. The theme 'Plan' is central, as players must devise unconventional strategies to achieve victory in a world where traditional approaches are obsolete.",
+        "tags": [
+            "strategy",
+            "hex-based",
+            "tactical",
+            "unconventional warfare",
+            "creative planning",
+            "indie",
+            "turn-based",
+            "experimental"
+        ]
+    }
+}

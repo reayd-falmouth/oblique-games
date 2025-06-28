@@ -1,0 +1,28 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Multi-LevelClimbing/ReachPeak_20250314093935/cover.png",
+        "image_prompt": "Title: Reach Peak\n\nImage Size: 1024x1024 pixels\n\nEssential Cover Requirements: Minimum 315x250, Recommended 630x500 (for itch.io)\n\nDetailed Image Description: \n\nThe main theme of the pixel art cover image should be a 'Multi-Level Climbing' game with the essential elements of 'Plan' deeply integrated. The central image should depict a large, mysterious mountain peak that extends upwards, disappearing into the top edge of the image. The mountain should be rendered in different shades of blue, giving it a cool, lofty, and unreachable aura.\n\nBreaking the traditional axiom of 2D games, instead of having the levels run from left to right, in this case, the levels would be vertically arranged, symbolizing the climbing aspect of the game. Each level should be represented as a separate ledge or plateau on the mountain, with each plateau showcasing different obstacles or challenges; such as a rickety wooden bridge, an icy path, a dark cave, or a steep cliff.\n\nAt the bottom of the mountain, there should be a tiny pixelated character, equipped with climbing gear. The character will be looking up at the peak, symbolising the start of the journey. A dotted line should be winding its way up from the character towards the peak of the mountain, representing the 'Plan' theme of the game.\n\nStyle Suggestions:\n\nThe color palette should be rich but slightly muted, giving a sense of adventure and mystery. The character and obstacles should be detailed enough to evoke curiosity but should maintain the minimalist aesthetic of pixel art. \n\nThe title, 'Reach Peak', should be positioned at the top of the cover, using a bold, pixelated font that can be clearly read against the mountain's blue shades. The bottom part of the cover may contain the game's tagline or developer's name, fitting the pixel art theme and harmonizing with the overall color scheme.\n\nRemember to maintain the itch.io essential cover requirements, ensuring that the main elements of the cover are clearly visible even in a scaled-down version of 315x250 pixels, and ideally in the recommended size of 630x500 pixels."
+    },
+    "task": "Develop a basic 'Multi-Level Climbing' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Discard an axiom'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Multi-Level Climbing",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Reach Peak",
+    "game_id": "ReachPeak_20250314093935",
+    "branding_data": {
+        "short_description": "Reach Peak is a strategic climbing game where players ascend various levels by discarding traditional routes.",
+        "detailed_description": "Reach Peak challenges players to rethink conventional climbing strategies as they aim to reach the summit of multiple levels. The central theme, 'Plan', encourages players to meticulously strategize their ascent. By applying the oblique strategy 'Discard an axiom', the game innovates by removing expected linear paths, compelling players to find new, creative approaches to scale the heights. Players must navigate unexpected obstacles and use their wits to discover unconventional routes, testing their planning and adaptability skills.",
+        "tags": [
+            "Strategy",
+            "Puzzle",
+            "Climbing",
+            "Innovation",
+            "Strategic Planning",
+            "Creative Problem Solving",
+            "Non-linear"
+        ]
+    }
+}

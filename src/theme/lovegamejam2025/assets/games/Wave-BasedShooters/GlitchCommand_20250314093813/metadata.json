@@ -1,0 +1,28 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Wave-BasedShooters/GlitchCommand_20250314093813/cover.png",
+        "image_prompt": "Title: Glitch Command\n\nTheme: Wave-Based Shooters Game with the theme 'Plan'\n\nPrompt:\n\nEnvisage a pixel art game cover for 'Glitch Command'. The cover should be designed in a 1024x1024 pixel resolution to allow for optimal detail and clarity. Remember the essential cover requirements for itch.io, which are a minimum of 315x250, but ideally aim for the recommended 630x500 to ensure the cover scales properly on different platforms.\n\nThe cover should depict a vibrant, chaotic battlefield set in a digital world. In the foreground, create a pixelated commando, our protagonist, standing tall. He should be visibly glitching, with parts of his body pixelating out, emphasizing the game's glitch theme. Use hues of blue and purple for the glitching effects, contrasting against the darker colors of the battlefield. \n\nIn the background, visualize an endless wave of enemies approaching. These enemies should be a mix of various pixelated, glitchy creatures and machines, all looking menacing and ready for battle. Show the enemies in mid-action, some firing, some running, and some exploding, creating a sense of action and urgency.\n\nIn the middle ground, sketch a holographic, pixelated strategic plan that the commando is using to fight against the waves of enemies. This could be represented by a detailed mini-map, dotted lines indicating troop movements, or pixelated symbols representing different strategies.\n\nTo emphasize the flaws, make the glitches appear disruptive but also artistically appealing. This could be achieved by having some glitch effects distort parts of the environment or the enemies, adding an element of unpredictability and chaos to the scene.\n\nThe game title \"Glitch Command\" should be prominently displayed in bold, pixelated lettering at the top or bottom of the cover. Use colors that contrast with the background for the title to make it stand out.\n\nStyle Suggestions:\n\nUtilize a pixel art style that is detailed and complex to build a rich, immersive scene. Play with different shades and tints to create depth and perspective. Use contrasting colors to highlight the key elements of the cover, such as the protagonist, the enemies, and the strategic plan. The glitch effects can be stylized to look like digital noise or signal interference, adding to the overall aesthetic of the game."
+    },
+    "task": "Develop a basic 'Wave-Based Shooters' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Emphasize the flaws'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Wave-Based Shooters",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Glitch Command",
+    "game_id": "GlitchCommand_20250314093813",
+    "branding_data": {
+        "short_description": "Survive waves of enemies and navigate flawed plans in Glitch Command.",
+        "detailed_description": "Glitch Command is a wave-based shooter where players are tasked with surviving relentless enemy waves while executing and adapting to 'planned' strategies that contain intentional flaws. Set in a digital realm, each level presents a plan that players must follow, but each plan has deliberate glitches or inconsistencies that players need to identify and overcome to succeed. The game uniquely challenges players to embrace these imperfections, turning obstacles into opportunities for creative problem-solving. Stay alert, as every glitch can lead to unexpected advantages or dire consequences.",
+        "tags": [
+            "Wave-Based Shooter",
+            "Plan",
+            "Strategy",
+            "Glitches",
+            "Action",
+            "Problem Solving",
+            "Creative Thinking"
+        ]
+    }
+}

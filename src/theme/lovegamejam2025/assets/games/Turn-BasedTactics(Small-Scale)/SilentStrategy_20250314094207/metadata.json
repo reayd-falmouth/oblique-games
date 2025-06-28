@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Turn-BasedTactics(Small-Scale)/SilentStrategy_20250314094207/cover.png",
+        "image_prompt": "Title: Silent Strategy\n\nImage Size: 1024x1024 pixels\n\nStyle: Pixel art with a muted color palette of blues, grays, and blacks to convey a sense of silence, strategy, and suspense. The style should be retro-inspired, reminiscent of the 16-bit era, with a modern touch for uniqueness.\n\nImage Prompt:\n\n1. The main focus of the image should be a pixelated representation of a chessboard with a mix of different chess pieces representing the different units in the game. Each of these units should be stylized to fit the game's aesthetic, showing off their unique abilities.\n\n2. The chessboard should be placed on a wooden table, lit by a single spotlight from above. The rest of the background should be shrouded in darkness for contrast and to draw attention to the game board.\n\n3. There should be two hands hovering over the board, one with a chess piece between its fingers. These hands represent the players in the silent, strategic battle. The hands should be stylized and pixelated, with one of them holding a knight piece, ready to make a move.\n\n4. Have a pair of pixelated earplugs lying on the table next to the board as a nod to the oblique strategy \"Put in earplugs\". The earplugs could be bright red or yellow to stand out against the muted color scheme.\n\n5. In the darkest corner of the image, subtly incorporate a digital clock with the time running out to add a sense of urgency and tension.\n\n6. The game title \"Silent Strategy\" should be prominently displayed at the top or bottom of the cover in pixelated text. Use a font that feels strategic and silent, perhaps a minimalist, sleek font.\n\nCover Requirements for itch.io:\n\nThe cover image must be at least 315x250 pixels, but a size of 630x500 pixels is recommended for better clarity. Ensure that the core elements of your design (game board, hands, earplugs) are clearly visible and centered even when the image is scaled down to these sizes. Try to position the title so that it remains legible and uncluttered at the smaller dimensions."
+    },
+    "task": "Develop a basic 'Turn-Based Tactics (Small-Scale)' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Put in earplugs'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Turn-Based Tactics (Small-Scale)",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Silent Strategy",
+    "game_id": "SilentStrategy_20250314094207",
+    "branding_data": {
+        "short_description": "A tactical turn-based game focused on strategic planning where auditory cues are intentionally absent.",
+        "detailed_description": "Silent Strategy is a turn-based tactics game that emphasizes strategic planning and decision-making on a small-scale battlefield. Players command a team of operatives, each with unique abilities, to outmaneuver and defeat their opponents. The game's key twist is the absence of auditory cues during gameplay. Players must rely entirely on visual information and pre-planned strategies as they face various tactical challenges. This unique mechanic encourages players to focus on precise planning and adaptation to changing scenarios, highlighting the importance of contemplative decision-making in an environment devoid of sound.",
+        "tags": [
+            "Turn-Based Tactics",
+            "Strategy",
+            "Planning",
+            "Silent",
+            "Puzzle",
+            "Small Scale",
+            "Obstacle",
+            "Tactical"
+        ]
+    }
+}
