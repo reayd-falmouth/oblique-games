@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/MazeNavigation&Collection/PathtoWellne_20250628042420/cover.png",
+        "image_prompt": "Title: Path to Wellne\n\nImage Specifications:\n- Image Size: 1024x1024 pixels (Ensure the image also looks good at a minimum size of 315x250 pixels and a recommended size of 630x500 pixels for itch.io)\n- Pixel Art Style: Fun, colorful, and engaging to attract a wide range of audiences. Use bright colors to emphasize key elements and darker shades for the background or less important elements.\n\nComposition:\n- Background: Depict a complex yet engaging maze, representing the path to wellness. The maze should be filled with lush greens and blues to invoke a sense of tranquility and serenity. Make the maze walls look like vines or green hedges.\n- Foreground: Place the main character at the entrance of the maze. The character should be a pixelated human figure, perhaps holding a map or compass, ready to navigate the maze. \n- Collection Items: Randomly spread throughout the maze, show pixel art representations of various healthy habits – a fruit for healthy eating, a water bottle for hydration, a running shoe for exercise, a book for mental wellness, etc. These items should be in vibrant colors to stand out against the maze.\n- Oblique Strategy - 'Accept Advice': Show the character receiving advice from a wise old tree or a talking animal at the beginning of the maze. The advice could be represented in a speech bubble with a pixelated text like \"Balance is the key!\"\n\nTypography:\n- Game Title: Place 'Path to Wellne' at the top or bottom of the cover. The title should be in bold, friendly, and easy-to-read pixelated font. Make sure to use colors that contrast with the background for clarity.\n- Prominent Features: If there is any tagline or significant game feature, it should also be included underneath the title or at a suitable empty space, ensuring it doesn't clutter the overall design.\n\nRemember, the goal is to make the cover art engaging and representative of the game's core theme: Navigating through the maze of wellness by adopting healthy habits."
+    },
+    "task": "Develop a basic 'Maze Navigation & Collection' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Accept advice'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Maze Navigation & Collection",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Path to Wellness",
+    "game_id": "PathtoWellne_20250628042420",
+    "branding_data": {
+        "short_description": "Navigate mazes, collect healthy habits, and seek advice to complete the Path to Wellne.",
+        "detailed_description": "Path to Wellness is a delightful and educational maze navigation game focused on cultivating healthy habits. Players guide a character through various mazes filled with healthy snacks, exercise equipment, and mindfulness activities, collecting these positive habits while avoiding unhealthy temptations. The game incorporates an innovative mechanic where players can 'accept advice' from in-game friendly health advisors. This advice can lead to shortcuts, reveal hidden paths, or provide new strategies for collecting habits more efficiently. With charming visuals and engaging gameplay, Path to Wellness encourages players to reflect on their real-life choices while having fun.",
+        "tags": [
+            "Maze",
+            "Puzzle",
+            "Education",
+            "Health",
+            "Casual",
+            "Strategy",
+            "Family-friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

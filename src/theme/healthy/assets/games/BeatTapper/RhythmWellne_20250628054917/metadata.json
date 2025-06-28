@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/BeatTapper/RhythmWellne_20250628054917/cover.png",
+        "image_prompt": "Image Prompt:\n\nFor the pixel art cover image of the game 'Rhythm Wellne', imagine a vibrant scene that encapsulates the essence of rhythm, wellness, and healthy habits. \n\nThe central character should be a lively, pixelated figure exuding energy, mid-dance on a colorful dance floor. This character could be surrounded by bright music notes and rhythmic waves, symbolizing the 'Beat Tapper' aspect of the game. \n\nUnderneath the dance floor, incorporate the game's healthy habits theme by displaying a variety of pixelated healthy foods, fitness equipment, and wellness symbols like a heart, a water bottle, or a yoga mat. \n\nThe game's title, 'Rhythm Wellne', should be prominently displayed at the top of the cover in a bold, pixelated font. To depict the easement, slightly blur or soften the edges of the title, giving it a sense of movement and flow, symbolizing the abandonment of strictures.\n\nStyle Suggestions:\n\nThe overall aesthetic should be colorful and energetic, using a palette of bright, saturated hues. Use contrasting colors between elements to make them pop and draw the viewer's eye. For instance, use cool blues and purples for the dance floor, warm yellows and reds for the music notes, and a variety of colors for the healthy habits symbols.\n\nThe pixel art should be detailed and clear, with each element clearly distinguishable. Use shading and varying pixel densities to create depth and texture.\n\nCover Requirements for itch.io:\n\nEnsure that the cover image is a minimum size of 315x250, but aim to create it in 1024x1024 for the best visual impact. The recommended size for itch.io is 630x500, so ensure that your design will scale down well to this size without losing any important details. The title 'Rhythm Wellne' should remain legible and the main elements of the design should still be clearly visible at the smaller size."
+    },
+    "task": "Develop a basic 'Beat Tapper' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Allow an easement (an easement is the abandonment of a stricture)'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Beat Tapper",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Rhythm Wellness",
+    "game_id": "RhythmWellne_20250628054917",
+    "branding_data": {
+        "short_description": "Rhythm Wellness is a beat tapping game promoting healthy habits through engaging rhythm challenges.",
+        "detailed_description": "Rhythm Wellness is a unique beat tapping game centered around the theme of 'Healthy Habits'. Players are tasked with tapping along to the rhythm of various health-themed music tracks, each designed to promote well-being and self-care. In a twist on traditional rhythm games, Rhythm Wellness introduces 'easements' where the game subtly relaxes the precision required for success, allowing players to focus more on enjoying the music and learning about healthy habits without the pressure of perfect timing. This approach encourages an accessible and stress-free gaming experience, making Rhythm Wellness an inviting way to understand and integrate health and wellness activities into everyday life.",
+        "tags": [
+            "rhythm game",
+            "beat tapping",
+            "healthy habits",
+            "music",
+            "educational",
+            "relaxing",
+            "accessible gameplay",
+            "casual",
+            "self-care",
+            "well-being"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

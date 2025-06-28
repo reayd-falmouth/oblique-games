@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/FashionStylist/HabitualTrendsetting_20250628054650/cover.png",
+        "image_prompt": "Image Prompt:\n\nStart by visualizing a 1024x1024 square canvas for the pixel art cover image of 'Habitual Trendsetting'. The game is about fashion styling and healthy habits, so aim to depict the fusion of these two themes. Imagine a vibrant, colorful, and trendy scene that effectively communicates the game's concept.\n\nIn the foreground, create a pixel-art version of a fashion stylist - an elegantly dressed character with a measuring tape around their neck, holding a sketchpad in one hand and a pencil in the other. The character should have a stylish, modern hairstyle and wear a trendy outfit, perhaps a colorful blazer or a chic dress.\n\nNow, twist the traditional idea of a fashion stylist by incorporating elements of healthy habits. The character could be standing on a yoga mat, emphasizing the importance of exercise. Next to the stylist, place a small table with items like a water bottle, an apple, a sketch of a dress made from fruits and vegetables, and a pair of running shoes. This will suggest that the stylist designs clothes inspired by healthy habits and lifestyles.\n\nIn the background, depict a fashion studio with a large window revealing a garden outside, filled with fruit trees and a small vegetable patch, further reinforcing the healthy habits theme. The studio should include a sewing machine, a rack of clothes, and a mirror. Remember to use bright, attractive colors to make the scene lively and captivating.\n\nFinally, the game title 'Habitual Trendsetting' should be placed at the top of the image in bold, stylish pixel letters. It should stand out against the background, perhaps by using a contrasting color or adding a subtle shadow effect.\n\nStyle Suggestions:\n\nAdopt a clean and simple pixel art style with a bright, bold color palette. Use a lot of greens, blues, and yellows to emphasize the healthy habits theme. The character should be detailed and expressive to draw attention and create a strong focal point.\n\nCover Requirements:\n\nEnsure that the most essential elements, including the game title and the main character, fit within the minimum size of 315x250 pixels for itch.io. The recommended size is 630x500 pixels, so try to design the scene in a way that it still looks appealing and coherent even when scaled down to this size."
+    },
+    "task": "Develop a basic 'Fashion Stylist' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Discover the recipes you are using and abandon them'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Fashion Stylist",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habitual Trendsetting",
+    "game_id": "HabitualTrendsetting_20250628054650",
+    "branding_data": {
+        "short_description": "Embrace healthy habits while revolutionizing fashion trends.",
+        "detailed_description": "Habitual Trendsetting invites players to become pioneering fashion stylists with a twist. In this game, it's not just about what looks good but how it integrates with healthy lifestyles. Players can design outfits, create accessories, and style models with a focus on promoting wellness, sustainability, and positive life choices. The game breaks away from traditional rules, encouraging creativity and exploration by abandoning conventional fashion 'recipes' in favor of innovative combinations. Players must think outside the box to incorporate healthful practices into their designs, such as using eco-friendly fabrics or accessories that promote mindfulness. As players advance, they unlock new challenges and learn to seamlessly blend fashion with healthy living.",
+        "tags": [
+            "Fashion",
+            "Creativity",
+            "Healthy Living",
+            "Sustainability",
+            "Puzzle",
+            "Lifestyle",
+            "Innovative Gameplay",
+            "Stylist Game"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

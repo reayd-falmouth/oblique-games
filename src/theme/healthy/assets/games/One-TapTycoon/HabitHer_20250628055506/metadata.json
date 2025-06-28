@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/One-TapTycoon/HabitHer_20250628055506/cover.png",
+        "image_prompt": "Title: Habit Her\n\nImage Specifications: The image should be created with a resolution of 1024x1024 pixels to ensure high-quality graphics. However, the design should also be mindful of the minimum (315x250) and recommended (630x500) image ratios for itch.io to make sure essential cover elements are visible and effective at those sizes.\n\nTheme: The game is a 'One-Tap Tycoon' game with the theme of 'Healthy Habits'. The cover should reflect this theme, illustrating the concept of building and managing a health empire.\n\nImage Description:\n\n1. Main Character: At the center of the image, design a strong, pixel-art heroine (Habit Her), who is energetic and courageous. She should be depicted in a dynamic pose, as if she's running or jumping, symbolizing her active lifestyle. The character should have a vibrant color palette to make her stand out.\n\n2. Background: The background should feature a cityscape representing a health empire. This could include pixel-art buildings like a gym, a health food store, a park, etc., all with a consistent, slightly muted color scheme to ensure the main character stands out.\n\n3. One-Tap Elements: To highlight the 'One-Tap Tycoon' aspect, include visual cues like pixel-art coins or health icons flowing from the establishments towards the heroine as she taps on a smartphone she's holding.\n\n4. Courage Theme: Amplify the theme of 'Courage' by depicting challenging elements in the background like tall mountains or a path filled with obstacles, and the heroine overcoming them with a determined expression.\n\nStyle Suggestions: Opt for a retro pixel-art aesthetic with vibrant colors for the character and a slightly toned-down palette for the background to create a contrast. The style should be fun and appealing, with a clear focus on the heroine's strength and the health empire she's building.\n\nRemember, the cover should be engaging, exciting, and clearly communicate the game's unique selling points - Healthy habits, One-tap mechanics, and the empowering theme of courage. Make sure all these elements are clearly visible and effective even at the minimum itch.io cover size."
+    },
+    "task": "Develop a basic 'One-Tap Tycoon' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Courage!'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "One-Tap Tycoon",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Her",
+    "game_id": "HabitHer_20250628055506",
+    "branding_data": {
+        "short_description": "Embark on a courageous journey to build your healthy empire in Habit Her, the 'One-Tap Tycoon' game where each tap fosters better wellness habits.",
+        "detailed_description": "Habit Her is a unique take on the 'One-Tap Tycoon' genre where players are tasked with developing a virtual empire centered around healthy living and wellness habits. Inspired by the oblique strategy 'Courage!', the game encourages players to step out of their comfort zones and make bold decisions to improve their virtual community's overall health. Players can upgrade facilities, initiate community wellness challenges, and educate their in-game citizens on the importance of healthy habits. Through simple one-tap gameplay, each decision impacts the growth of their health-centric empire, fostering a playful yet powerful message on building a better lifestyle. Embrace the courage to lead your community to wellness success!",
+        "tags": [
+            "One-Tap Tycoon",
+            "Healthy Habits",
+            "Courage",
+            "Simulation",
+            "Wellness",
+            "Strategy",
+            "Casual Game"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

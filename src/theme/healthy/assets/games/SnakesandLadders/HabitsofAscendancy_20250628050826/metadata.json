@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/SnakesandLadders/HabitsofAscendancy_20250628050826/cover.png",
+        "image_prompt": "Title: Habits of Ascendancy - Healthy Habits Edition\n\nStyle: Pixel Art, Retro, Minimalistic\n\nDimensions: \nIdeal - 1024x1024 pixels \nMinimum - 315x250 pixels\nRecommended - 630x500 pixels\n\nImage Prompt Details:\n\n1. The core image of the game cover should depict an intricate \"Snakes and Ladders\" board game layout, but with each box representing a different habit. Positive habits serve as ladders, and negative habits serve as snakes. \n\n2. The ladders should be perceived as green, healthy vines, symbolizing growth, with leaves sprouting out. Each ladder begins from a box illustrating a healthy habit - like eating fruits, exercising, reading, etc. \n\n3. The snakes are represented as junk food, cigarettes, and other unhealthy habits, depicted in a menacing, dark, pixel art style. They should be protruding from boxes that illustrate negative habits - like eating junk food, smoking, being lazy, etc.\n\n4. Emphasize the flaws: As per the oblique strategy, highlight the negative consequences of the unhealthy habits, showing the player being dragged down by the snakes with a distressed expression. \n\n5. The game title, \"Habits of Ascendancy\" should be in bold, pixelated letters at the top of the cover. Underneath it, in a smaller, slimmer font, include \"Healthy Habits Edition.\"\n\n6. The bottom of the cover should feature a line of pixelated characters ready to start the game, each with a unique design and a mix of emotions, from determined to anxious.\n\n7. The overall color palette should be vibrant and lively, with the positive elements in greens and blues, the negative elements in reds and browns, and the background in a neutral tone to let the game board stand out.\n\n8. The cover should have a retro, 8-bit feel to it, reminiscent of classic arcade games, but with a modern twist to attract today's audience. \n\n9. Keep the borders clean and minimalistic, allowing the intricate game board and characters to be the primary focus. \n\n10. Optional: If there is space, include the developer's name/logo in one of the lower corners in a discrete yet readable style."
+    },
+    "task": "Develop a basic 'Snakes and Ladders' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Emphasize the flaws'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Snakes and Ladders",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habits of Ascendancy",
+    "game_id": "HabitsofAscendancy_20250628050826",
+    "branding_data": {
+        "short_description": "A 'Snakes and Ladders' inspired game promoting healthy habits, with a twist on highlighting negative behaviors.",
+        "detailed_description": "Habits of Ascendancy is a unique take on the classic game of 'Snakes and Ladders', designed to promote healthy habits while adding a twist. Players will navigate a board filled with ladders leading to healthier choices and snakes that represent negative behaviors. What sets this version apart is its emphasis on 'Emphasize the flaws'. Instead of solely rewarding healthy behaviors, the game draws attention to the consequences of poor habits, making players more aware of their impact. The board features colorful illustrations and educational messages that highlight the importance of making better choices in everyday life.",
+        "tags": [
+            "board game",
+            "educational",
+            "family-friendly",
+            "strategy",
+            "healthy habits",
+            "self-improvement",
+            "awareness",
+            "oblique strategies"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

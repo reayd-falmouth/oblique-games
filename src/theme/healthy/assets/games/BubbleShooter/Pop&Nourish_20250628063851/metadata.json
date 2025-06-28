@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/BubbleShooter/Pop&Nourish_20250628063851/cover.png",
+        "image_prompt": "Title: Pop & Nourish\n\nImage Dimensions: 1024x1024 pixels\n\nStyle: Pixel Art Cover Image\n\nPlatform: itch.io (minimum 315x250, recommended 630x500)\n\nDescription:\nImagine a vibrant, colorful, and playful cover image that captures the essence of a Bubble Shooter game with a twist of healthy habits. It's okay to embrace cliches; in fact, let's use them to our advantage to create a familiar yet enticing game cover.\n\nThe image should be divided into two halves. The top half represents the 'Pop' aspect of the game, featuring a lively bubble shooter scene. The bottom half represents the 'Nourish' aspect, showcasing healthy foods and habits.\n\nTop Half:\nThe top half of the image should be filled with bright, multicolored bubbles, creating a dynamic and engaging scene. The bubbles should be in mid-air, just about to be popped by a pixel art representation of a cannon-like shooter at the bottom center, aimed upwards. Don't be afraid of cliches, place a high score board on the top right corner, a life line represented by hearts on the top left, and a power-up icon floating in the bubble array.\n\nBottom Half:\nThe bottom half of the image should portray a vibrant, healthy scene. Show a lush green garden with pixelated fruits and vegetables growing. Include cliche elements like a watering can, a bright sun, and a rainbow. In the center, place a pixelated character happily holding a basket of colorful fruits and veggies.\n\nThe game's title, \"Pop & Nourish,\" should be prominently displayed in bold, pixelated letters at the top of the image, with a smaller subtitle underneath it: \"A Bubble Shooter Game Promoting Healthy Habits.\"\n\nStyle Suggestions:\nThe color scheme should be bright and inviting, with a lot of primary and secondary colors. The pixel art style should be detailed and well-defined, but still retain a sense of simplicity and charm. Use shading and highlights to add depth to the image, making it visually appealing. Use a thick, bold, pixelated font for the title and subtitle to stand out against the vibrant background. \n\nEnsure that the image maintains its quality and clarity when scaled down to the minimum size of 315x250 for itch.io's requirements."
+    },
+    "task": "Develop a basic 'Bubble Shooter' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Don't be frightened of cliches'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bubble Shooter",
+    "model": "gpt-4o",
+    "count": 8,
+    "name": "Pop & Nourish",
+    "game_id": "Pop&Nourish_20250628063851",
+    "branding_data": {
+        "short_description": "Pop bubbles while learning healthy habits in Pop & Nourish, a themed Bubble Shooter game.",
+        "detailed_description": "Pop & Nourish is a Bubble Shooter game that creatively integrates the theme of 'Healthy Habits'. Players aim and shoot colorful bubbles to align them and clear the board, just like in classic Bubble Shooter games. What makes Pop & Nourish unique is that each bubble is themed around a healthy habit, such as exercise, hydration, balanced diets, and mindfulness. As players progress through levels, they encounter new healthy habits, gaining tips and educational snippets to incorporate these habits into daily life. The game embraces the cliche of self-improvement games by employing familiar mechanics and visuals but emphasizes a positive message of well-being and personal growth. Enjoyable, educational, and encouraging, Pop & Nourish provides both fun and inspiration for living a healthier lifestyle.",
+        "tags": [
+            "Bubble Shooter",
+            "Healthy Habits",
+            "Puzzle",
+            "Educational",
+            "Casual",
+            "Color Matching",
+            "Self-improvement",
+            "Mindfulness",
+            "Family-friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

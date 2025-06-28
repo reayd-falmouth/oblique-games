@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Frogger/HabitHopper_20250628051357/cover.png",
+        "image_prompt": "Title: Habit Hopper\n\nDimensions: 1024x1024 pixels for the main image. Also prepare a smaller version meeting itch.io's essential cover requirements - minimum size of 315x250 pixels and a recommended size of 630x500 pixels.\n\nDescription: \n\nThe cover for 'Habit Hopper' is a lively, vibrant pixel art illustration. The central figure is a distinctive, green frog with a determined expression, sitting on a lily pad. The frog is equipped with a backpack, symbolizing its readiness for the journey of developing healthy habits. \n\nThe background consists of a pixelated interpretation of a river, reminiscent of the classic Frogger game. But instead of cars and logs, the river is filled with obstacles symbolizing unhealthy habits such as junk food, cigarettes, and a couch (symbolizing inactivity). \n\nOn the other side of the river, there's a vibrant, lush bank representing healthy habits. There are pixel representations of fruits, vegetables, water bottles, sneakers (symbolizing exercise), and a book (symbolizing continuous learning).\n\nThe game title, 'Habit Hopper', is displayed prominently at the top in bold, playful pixelated font. The developer's logo goes at the bottom right corner. \n\nStyle Suggestions:\n\n1. The color palette should be bright, energetic, and inviting, using shades of green to depict the frog and healthy habits, and contrasting them with the duller colors for unhealthy habits.\n\n2. The pixel art should be detailed enough to clearly distinguish between different elements, but not overly complex - remember the charm of pixel art lies in its simplicity and minimalism.\n\n3. The font for the game title should be bold and easy to read, even in the smaller version of the cover. It should also have a retro feel to it, complementing the pixel art style.\n\nOblique Strategy - 'Is it finished?': \n\nTo incorporate this oblique strategy, make sure that the image has a dynamic, in-progress feel to it. This could be achieved by showing the frog mid-jump, with some of the unhealthy habits already behind it, to indicate that the journey towards healthy habits is continuous and ever-evolving."
+    },
+    "task": "Develop a basic 'Frogger' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Is it finished?'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Frogger",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Hopper",
+    "game_id": "HabitHopper_20250628051357",
+    "branding_data": {
+        "short_description": "Guide your frog across busy roads and rivers to reach the healthy habit zones safely.",
+        "detailed_description": "Habit Hopper is a delightful twist on the classic 'Frogger' game, centered around cultivating healthy habits. Players navigate their frog character through a series of bustling roads and treacherous rivers to reach safe zones, each promoting a different healthy habit such as exercising, eating balanced meals, and practicing mindfulness. Inspired by the oblique strategy 'Is it finished?', the game playfully questions the journey towards achieving perfection in one's habits, encouraging players to reflect on their own progress in a fun and engaging way. With vibrant graphics and dynamic challenges, Habit Hopper entertains while subtly nudging players towards self-improvement.",
+        "tags": [
+            "Classic Arcade",
+            "Puzzle",
+            "Educational",
+            "Healthy Habits",
+            "Retro",
+            "Family Friendly",
+            "Single Player"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

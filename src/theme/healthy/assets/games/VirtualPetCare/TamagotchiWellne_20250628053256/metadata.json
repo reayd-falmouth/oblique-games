@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/VirtualPetCare/TamagotchiWellne_20250628053256/cover.png",
+        "image_prompt": "Image Prompt:\n\nFor the 'Tamagotchi Wellne' game, envision a nostalgic, yet modern pixel art cover image that instantly conveys the theme of 'Virtual Pet Care' and 'Healthy Habits'. The cover image should be 1024x1024 pixels in resolution to ensure high quality, but also make sure it meets the minimum cover requirements for itch.io (315x250 pixels, recommended 630x500 pixels).\n\nThe main focus of the image should be a vibrant, pixelated Tamagotchi device in the center. The Tamagotchi screen displays a cute, smiling pixelated creature, radiating health and happiness. It's exercising with a tiny dumbbell in one hand (to represent 'Healthy Habits') and eating an apple in the other.\n\nThe Tamagotchi device is styled in a retro design (to represent the 'Use an old idea' strategy). It's a nod to the original Tamagotchis of the 90s, with a rectangular shape and three simple buttons beneath the screen.\n\nThe background is styled as a pixelated living room scene, with a comfortable couch, a shelf with books, and a window revealing a sunny day outside. This setting suggests a homey, casual gaming atmosphere.\n\nIn the lower third of the image, place the game title 'Tamagotchi Wellne'. Use a pixel font for the game title to match the overall style, with colors that contrast well against the background for readability. Consider a brighter color, like white or bright yellow, for the title to make it stand out.\n\nStyle Suggestions:\n\n1. Use a limited color palette to maintain the retro, nostalgic feel. Bright, bold colors can be used to highlight important elements like the Tamagotchi device and game title. \n2. Keep the pixel art simple and charming. It doesn't need to be overly complex or detailed. The emphasis should be on the Tamagotchi and its healthy habits.\n3. The overall style should be cheerful and inviting, encouraging players to engage with the game and take care of their virtual pet.\n4. Textures can be used subtly to give depth to the image without distracting from the main elements. \n\nRemember to keep the image clear and readable at smaller sizes to meet itch.io's cover requirements."
+    },
+    "task": "Develop a basic 'Virtual Pet Care' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Use an old idea'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Virtual Pet Care",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Tamagotchi Wellness",
+    "game_id": "TamagotchiWellne_20250628053256",
+    "branding_data": {
+        "short_description": "Care for your virtual pet by fostering healthy habits in Tamagotchi Wellne.",
+        "detailed_description": "Tamagotchi Wellness is a modern twist on the classic virtual pet game, inspired by the retro Tamagotchi experience. This game focuses on cultivating healthy habits both for your digital pet and yourself. Players are tasked with daily activities such as feeding nutritious food, ensuring exercise, and maintaining a regular sleep schedule. By successfully managing these tasks, players encourage their virtual pet to grow and thrive. The game bridges the gap between nostalgic digital pet care and modern wellness practices, promoting a balanced lifestyle through engaging gameplay.",
+        "tags": [
+            "Virtual Pet",
+            "Simulation",
+            "Health",
+            "Wellness",
+            "Nostalgia",
+            "Casual",
+            "Family",
+            "Retro-inspired",
+            "Lifestyle"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

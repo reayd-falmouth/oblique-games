@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/ClassicSnake/VeganViperVenture_20250628064307/cover.png",
+        "image_prompt": "Title: Vegan Viper Venture\n\nSize: 1024x1024 pixels (as required, also ensuring it can be resized to itch.io's minimum 315x250 and recommended 630x500)\n\nImage Details:\n\n1. Central Focus: A green pixelated viper with an apple in its mouth. The apple should be bright red to contrast with the Viper's green color and should be at the center of the cover to draw attention. \n\n2. Background: Create a vibrant jungle-themed background. The jungle should be dense with pixelated trees, vines, and fruits like bananas, berries, and oranges hanging from the branches. The color palette should include various shades of green with a hint of other colors for variety and depth.\n\n3. Game Title: Place the game title 'Vegan Viper Venture' at the top of the cover in bold, pixelated letters. The font color should be a combination of white and red to stand out against the green background.\n\n4. Additional Elements: Include smaller pixel animals like monkeys, birds, and insects in the background. These creatures should be engaged in various healthy activities like eating fruits, exercising, or playing to align with the 'Healthy Habits' theme.\n\n5. Style: Since the game has a classic 'Snake' feel, maintain a retro, 8-bit art style for the entire cover. This will not only pay homage to the original 'Snake' game but also create a sense of nostalgia among players.\n\n6. Oblique Strategy: Considering the strategy 'What would your closest friend do?' imagine the viper as your friend. The viper should look friendly and approachable, not menacing. Give it big, bright eyes and a happy expression, as if it's inviting you to join in on the fun and learn about healthy habits. \n\n7. Borders: Frame the cover with a pixelated border. The color of the border should be a contrasting color, like yellow or blue, to highlight the game cover.\n\nRemember to maintain a balance between the elements to avoid cluttering the cover and ensure visibility in smaller icon views."
+    },
+    "task": "Develop a basic 'Classic Snake' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'What would your closest friend do?'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Classic Snake",
+    "model": "gpt-4o",
+    "count": 8,
+    "name": "Vegan Viper Venture",
+    "game_id": "VeganViperVenture_20250628064307",
+    "branding_data": {
+        "short_description": "Experience a healthy twist on the classic snake game in Vegan Viper Venture, where you guide a snake through nutritious adventures influenced by friendly advice.",
+        "detailed_description": "Vegan Viper Venture is a creative rendition of the classic snake game with a theme centered around healthy habits. As the player, you control a lively snake on a mission to consume only the healthiest snacks, like fruits and vegetables, while navigating through increasingly challenging levels. The game incorporates an oblique strategy where decisions and power-ups are inspired by what your closest friend would advise in promoting a healthy lifestyle. This adds an unexpected layer of strategy, as you'll encounter levels where health-related dialogues influence gameplay, prompting players to adopt beneficial eating habits and strategic movements reminiscent of friendly advice. Embark on this nutritious journey and embrace a vibrant world where your snake grows stronger and longer with every healthy bite.",
+        "tags": [
+            "Snake Game",
+            "Healthy Habits",
+            "Strategy",
+            "Indie",
+            "Puzzle",
+            "Single-player",
+            "Retro",
+            "Educational"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/DigDug/WellnessWarrior_20250628050100/cover.png",
+        "image_prompt": "Title: Wellness Warrior\n\nImage Size: 1024x1024 pixels\n\nStyle: Pixel Art\n\nImage Prompt:\n\nVisualize a scene where a pixel art warrior, armed with a golden trident, is standing at the entrance of an underground cave. The entrance should resemble the human digestive system, signifying that the game is about health and wellness. The warrior should be dressed in ancient Greek attire, signifying that they are a Wellness Warrior. \n\nThe warrior is ready to venture inside the cave, but the door is shut, and they are listening from the outside. The warrior should be standing in a pose that shows they are listening carefully, perhaps with a hand cupped to their ear. \n\nThe cave door should have intricate pixel art carvings of fruits, vegetables, and other healthy foods, symbolizing the healthy habits theme. The background should portray a lush green forest, representing nature and wellbeing.\n\nDig Dug elements could be included in the form of enemies lurking in the shadows of the forest, resembling fast food items and sedentary lifestyle symbols. These elements should look menacing but should be subtle enough not to dominate the scene. \n\nThe title \"Wellness Warrior\" should be written in bold pixel art letters at the top of the cover. The color scheme should be vibrant, with a lot of greens and natural tones to emphasize the wellness theme. \n\nCover Requirements for itch.io:\n\nThe image should be a minimum of 315x250 pixels, but it is recommended to have it at 630x500 pixels. The pixel art should be designed in such a way that it maintains its quality and details even when scaled down to the recommended size for itch.io. The important details such as the Wellness Warrior, the cave entrance, and the game title should be visible and clear even at smaller sizes."
+    },
+    "task": "Develop a basic 'Dig Dug' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Shut the door and listen from outside'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Dig Dug",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellness Warrior",
+    "game_id": "WellnessWarrior_20250628050100",
+    "branding_data": {
+        "short_description": "Wellness Warrior is a classic arcade-style digging game themed around promoting healthy habits.",
+        "detailed_description": "In Wellness Warrior, players navigate through underground levels filled with obstacles and enemies, reminiscent of the classic 'Dig Dug'. The unique twist is the theme centered on healthy habits. Players dig through mazes collecting various health-related items such as fruits, vegetables, and fitness gear to boost their score and energy. The challenge is to complete each level by clearing a path and reaching the exit without getting caught by unhealthy habits, represented as enemies. Inspired by the oblique strategy 'Shut the door and listen from outside', the game incorporates stealth elements where players must listen for approaching threats and strategically choose when to dig and when to hide, enhancing the core gameplay with an auditory dimension.",
+        "tags": [
+            "Arcade",
+            "Puzzle",
+            "Classic",
+            "Stealth",
+            "Health",
+            "Strategy",
+            "Digging Game",
+            "Retro"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

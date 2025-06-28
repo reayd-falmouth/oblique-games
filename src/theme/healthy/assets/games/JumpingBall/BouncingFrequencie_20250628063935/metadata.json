@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/JumpingBall/BouncingFrequencie_20250628063935/cover.png",
+        "image_prompt": "Image Prompt:\n\nTitle: Bouncing Frequencies\n\nImage Dimensions: 1024x1024 pixels\n\nCover Requirements for itch.io: Minimum 315x250, Recommended 630x500\n\nStyle: Retro pixel art style, vibrant colors\n\nDetailed Description:\n\nThe main visual focus of the cover is a brightly colored pixelated bouncing ball in the center, styled to resemble a classic disco ball with a mix of blue and silver hues. The ball is designed to look like it's bouncing in a continuous upward motion, leaving a trail of pixelated musical notes and sound waves behind it as it moves, symbolizing 'frequencies'. \n\nAround the ball, illustrate a pixelated environment that represents a variety of healthy habits. On one corner, show a pixelated apple tree, with a few apples fallen to the ground, symbolizing the habit of eating healthy. On the opposite corner, depict a pixelated bicycle leaning against a wall, symbolizing physical activity. \n\nIn the background, create a pixelated skyline with an array of colorful buildings in the far distance. Above the skyline, fill the sky with a gradient of warm, inviting colors like pink, orange and yellow, indicating a sunrise or sunset, which could hint at the importance of regular sleep.\n\nTo incorporate the 'Think of the radio' oblique strategy, include a large, vintage pixelated radio tower in the background image, perhaps on a hill or a tall building. The radio tower is emitting pixelated sound waves that are in sync with the bouncing ball, creating a visual connection between the tower and the ball.\n\nThe game's title \"Bouncing Frequencies\" is in bold, pixelated letters at the top of the cover image. The font is retro, perhaps inspired by 80s arcade games, and is colored in a gradient matching the sky's color scheme.\n\nThe bottom of the cover includes a small pixelated display of the recommended and minimum pixel dimensions for itch.io, reminding the viewer of the platform's requirements."
+    },
+    "task": "Develop a basic 'Jumping Ball' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Think of the radio'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Jumping Ball",
+    "model": "gpt-4o",
+    "count": 8,
+    "name": "Bouncing Frequencie",
+    "game_id": "BouncingFrequencie_20250628063935",
+    "branding_data": {
+        "short_description": "Help a ball navigate through healthy habits by bouncing to radio-inspired tunes.",
+        "detailed_description": "Bouncing Frequencie is a vibrant and engaging game where players control a dynamic ball that jumps through levels inspired by healthy habits. The game is set to energetic radio-themed soundtracks that motivate the player. Each level represents a different healthy habit or lifestyle change, such as drinking water, exercising, or eating fruits. Players must time their jumps to the rhythm of the radio tunes, collecting icons representing these healthy choices while avoiding obstacles that symbolize unhealthy habits. The rhythmic gameplay combined with a healthy living theme makes for an educational yet entertaining experience.",
+        "tags": [
+            "Arcade",
+            "Platformer",
+            "Rhythm",
+            "Education",
+            "Health",
+            "Music",
+            "Casual",
+            "Single-player"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

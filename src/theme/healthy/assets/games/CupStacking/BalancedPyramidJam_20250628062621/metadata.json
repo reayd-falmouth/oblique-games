@@ -1,0 +1,33 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/CupStacking/BalancedPyramidJam_20250628062621/cover.png",
+        "image_prompt": "Image Prompt:\n\nTitle: \"Balanced Pyramid Jam\"\n\nSize: 1024x1024 pixels \n\nEnsure the image also meets the minimum requirements for itch.io: 315x250 pixels, with a recommended size of 630x500 pixels.\n\nStyle: Pixel art with a vibrant, retro color palette. The style should be reminiscent of early 8-bit and 16-bit video games, but with a modern edge. The pixel art should be detailed and polished, with a focus on creating an image that will stand out among other game covers.\n\nComposition: The cover should depict a dynamic scene of cup stacking, but with a unique twist to incorporate the theme of 'Healthy Habits'. The cup pyramid should be massive, towering over a small, pixelated character holding a cup at the bottom of the image, showing the scope of their task. The cups should be in various bright colors representing different types of fruits and vegetables (an old idea of representing healthy habits). \n\nThe pyramid should be balanced precariously, with a few cups toppling off the sides to show the challenge of the game. The character should look determined, emphasizing the game's focus on perseverance and strategy. \n\nIn the background, include a stylized pixel art version of a kitchen or a dining room, emphasizing the theme of everyday healthy habits. \n\nTypography: The game's title, \"Balanced Pyramid Jam\", should be at the top of the image in large, bold pixelated letters that match the color scheme of the cups. \n\nFinally, add a small, stylized pixel art logo for itch.io at the bottom right corner of the cover, indicating the platform where the game is available."
+    },
+    "task": "Develop a basic 'Cup Stacking' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Use an old idea'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Cup Stacking",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Balanced Pyramid Jam",
+    "game_id": "BalancedPyramidJam_20250628062621",
+    "branding_data": {
+        "short_description": "Balance cups to build a pyramid while promoting healthy habits.",
+        "detailed_description": "Balanced Pyramid Jam is a unique cup stacking game that challenges players to build balanced cup pyramids while learning about healthy habits. Inspired by the nostalgic idea of classic arcade stacking games, this version combines entertainment with education. Players must strategically stack cups of various sizes and colors to form a stable pyramid as quickly as possible. Along the way, they encounter fun facts and tips about maintaining a healthy lifestyle, such as proper hydration, balanced diets, and regular exercise. The game features various levels of difficulty, competitive time trials, and a colorful, engaging art style that appeals to players of all ages.",
+        "tags": [
+            "cup stacking",
+            "strategy",
+            "educational",
+            "healthy habits",
+            "arcade",
+            "balance",
+            "single-player",
+            "multiplayer",
+            "family-friendly",
+            "old idea",
+            "fun facts"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

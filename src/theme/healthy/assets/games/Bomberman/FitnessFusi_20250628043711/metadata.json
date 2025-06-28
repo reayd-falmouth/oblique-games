@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Bomberman/FitnessFusi_20250628043711/cover.png",
+        "image_prompt": "Title: Fitness Fusi\n\nImage Size: 1024x1024 px\n\nStyle Suggestion: Pixel Art\n\nTheme: 'Healthy Habits' fused with 'Bomberman' style gameplay, further modified by applying the oblique strategy: '(Organic) machinery'.\n\nDetailed Description:\n\nThe image should depict a pixel art version of a healthy, fit character, inspired by the design of Bomberman, in an energetic pose at the center. The character should be sweating, demonstrating exertion, and wearing sporty attire, complete with sneakers and a sweatband. This character should be placed on a grid-like background, reminiscent of the classic Bomberman game, with the grids made up of different physical activities such as yoga mats, jump ropes, and weights.\n\nTo incorporate the 'Organic Machinery' strategy, the game elements should be intertwined with natural elements. For example, weights could be made of rocks, jump ropes could be vines, and the yoga mat could be a patch of green grass. This fusion of natural elements with the fitness theme would represent the 'organic machinery'. \n\nThe title of the game 'Fitness Fusi' should be in bold, pixelated letters at the top of the image, with the letters appearing as if they're carved out of vegetables or fruits, further pushing the healthy habits theme. \n\nThe bottom section should be reserved for additional text, logos, or game-related information, if any. Make sure to maintain good contrast and legibility.\n\nEssential Cover Requirements for itch.io: The image should be at least 315x250 px, but ideally, it should be 630x500 px for the best appearance on itch.io. Ensure the key elements of the cover, such as the main character and title, are visible and identifiable even at the smallest size."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: '(Organic) machinery'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Fitness Fusi",
+    "game_id": "FitnessFusi_20250628043711",
+    "branding_data": {
+        "short_description": "Bomb your way to a healthier lifestyle in Fitness Fusi, where organic machinery builds better habits.",
+        "detailed_description": "Fitness Fusi is a creatively reimagined version of the classic 'Bomberman' game, infused with the theme of 'Healthy Habits' and inspired by the oblique strategy of '(Organic) machinery'. In this game, players navigate through dynamic environments designed to resemble different facets of a healthy lifestyle. Instead of bombs, players use 'Health Explosions' to clear paths and eliminate obstacles. These explosions represent bursts of positive energy—like organic food, hydration, and exercise—that help overcome unhealthy habits, depicted as obstacles in the game. Levels are designed to simulate aspects of healthy living, such as gyms, kitchens stocked with nutritious food, and tranquil gardens. With each level, players gain experience in developing healthy routines while interacting with environments and machinery that organically integrate healthful activities into the gameplay.",
+        "tags": [
+            " Bomberman",
+            "Puzzle",
+            "Arcade",
+            "Healthy Habits",
+            "Organic Machinery",
+            "Fitness",
+            "Lifestyle",
+            "Strategy",
+            "Single Player",
+            "Multiplayer"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

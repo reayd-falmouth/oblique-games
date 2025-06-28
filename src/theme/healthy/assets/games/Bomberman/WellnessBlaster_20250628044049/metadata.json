@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Bomberman/WellnessBlaster_20250628044049/cover.png",
+        "image_prompt": "Title: Wellness Blaster\nDimensions: 1024x1024 pixels\nEssential Cover Requirements for itch.io: minimum 315x250, recommended 630x500\n\nImage Description:\nStart with a pixel art game cover that has a central character, a muscular figure with a charming grin, dressed in a vibrant jogging suit. This character, our 'Wellness Blaster', is planting a flag that reads 'Health is Wealth' on top of a broccoli hill. The broccoli hill itself should be filled with pixelated details, giving it the appearance of a labyrinth similar to those found in 'Bomberman' games.\n\nSurrounding the broccoli hill, create an environment filled with pixel art representations of various healthy habits. This could include a lake made of water droplets, with a small pixel art character doing yoga on a mat next to it. There could also be a forest of fruit trees, with pixel characters picking fruits and engaging in physical activities like jumping, running, and even playing 'Bomberman'-like games with fruits instead of bombs.\n\nIn the sky above, design a shining sun with a clock in the center, symbolizing the importance of time management and regularity in maintaining healthy habits. This also subtly ties in with the 'Take a Break' oblique strategy, reminding players to take regular breaks.\n\nIn the corners of the cover, make pixelated representations of the four essential elements of wellness: a heart for physical wellness, a brain for mental wellness, a pair of hands shaking for social wellness, and a serene landscape for environmental wellness. \n\nStyle Suggestions:\nThe style of the pixel art should be vibrant, inviting, and fun to attract players of all ages. Use a bright color palette with plenty of greens, blues, and other lively colors. The pixel art should be detailed but still maintain a certain simplicity, keeping in line with the nostalgic, retro look of classic 'Bomberman' games.\n\nEnsure that the overall composition of the image is balanced and eye-catching, making the 'Wellness Blaster' character and the 'Health is Wealth' flag the key focal points. This will also help when resizing the cover for itch.io requirements. The key elements should remain clear and distinguishable even at the minimum size of 315x250."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Take a break'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellness Blaster",
+    "game_id": "WellnessBlaster_20250628044049",
+    "branding_data": {
+        "short_description": "Wellness Blaster is a 'Bomberman' inspired game where players promote healthy habits in a strategic maze.",
+        "detailed_description": "Wellness Blaster takes the classic Bomberman mechanics and infuses them with a theme of healthy living. Set in a vibrant maze, players control a character who strategically places 'wellness bombs' to clear paths and overcome obstacles. Each 'bomb' promotes a positive habit such as eating fruits or exercising. The game encourages players to 'take a break' with special power-ups that allow moments of relaxation and rejuvenation, essential for maintaining peak performance. The emphasis on balance and self-care amidst the explosive fun offers a unique twist on traditional gameplay.",
+        "tags": [
+            "Bomberman",
+            "Strategy",
+            "Maze",
+            "Healthy Habits",
+            "Puzzle",
+            "Casual",
+            "Family-Friendly",
+            "Wellness",
+            "Educational",
+            "Indie"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

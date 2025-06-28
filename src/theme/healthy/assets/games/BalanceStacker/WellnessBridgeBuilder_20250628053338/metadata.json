@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/BalanceStacker/WellnessBridgeBuilder_20250628053338/cover.png",
+        "image_prompt": "Title: Wellness Bridge Builder\n\nImage Dimensions: 1024x1024 pixels (Maintain aspect ratio for itch.io requirements of minimum 315x250 pixels and recommended 630x500 pixels.)\n\nImage Prompt:\n\nImagine a pixel art game cover that showcases the theme of the game - 'Healthy Habits'. To begin with, visualize a split scenario divided by a river in the center of the image. \n\nOn one side of the river, sketch a barren land with pixelated characters looking gloomy and sluggish, symbolizing unhealthy habits. Their world should have a grayscale color scheme, with the landscape including dilapidated buildings, junk food, and couches, symbolizing sedentary lifestyles.\n\nOn the other bank, depict a vibrant and flourishing land filled with energy and positivity. Use bright and lively colors like green, blue, and yellow for this side. Include elements like parks, fruits, vegetables, bikes, and running tracks to symbolize healthy habits. The characters should look happy, active, and fit, living in colorful, well-constructed buildings.\n\nIn between these two scenarios, place a bridge composed of various healthy habits, like fruits, vegetables, water bottles, running shoes, yoga mats, etc., meticulously stacked on one another. This bridge is the 'Balance Stacker' and the 'Wellness Bridge Builder'. \n\nTo incorporate the oblique strategy, 'Bridges - build - burn', show pixelated characters on the unhealthy side, building the bridge, getting healthier, and crossing over to the vibrant side. Simultaneously, show that the unhealthy elements are burning away or fading on the unhealthy side as the characters cross the bridge.\n\nStyle Suggestions:\n\n1. Stick with a vibrant pixel art style for the healthy side to contrast with the grayscale unhealthy side.\n2. Use animated pixel art to emphasize the dynamic elements like building the bridge and burning the unhealthy items.\n3. The title of the game should be in bold, pixelated typography at the top of the image while maintaining a balance with the artwork.\n4. The bottom of the image should have space for game details or additional text. \n\nEnsure that the key elements of the game cover (title, bridge, and contrast between the two sides) are distinguishable even at smaller sizes to meet the itch.io cover requirements."
+    },
+    "task": "Develop a basic 'Balance Stacker' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Bridges - build - burn'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Balance Stacker",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellness Bridge Builder",
+    "game_id": "WellnessBridgeBuilder_20250628053338",
+    "branding_data": {
+        "short_description": "Stack and balance objects to build bridges promoting healthy habits.",
+        "detailed_description": "In Wellness Bridge Builder, players engage in a strategic stacking game where they must carefully balance and build bridges out of various healthy habit-themed items, such as fruits, exercise equipment, and relaxation tools. The game challenges players to construct stable bridges while incorporating and understanding the significance of these healthful elements. Each level presents unique obstacles and environments where players have to decide which items to 'build' the bridge with and which to 'burn' by discarding them wisely, teaching the importance of maintaining but also sometimes letting go of certain habits. The goal is to creatively and strategically complete each stage with the strongest and most effective bridge promoting overall wellness.",
+        "tags": [
+            "Puzzle",
+            "Strategy",
+            "Educational",
+            "Health",
+            "Stacking",
+            "Balance",
+            "Bridges",
+            "Wellness",
+            "Creative Problem Solving"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

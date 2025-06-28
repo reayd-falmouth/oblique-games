@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/InteriorDesignGame/ZenHabitatJam_20250628064015/cover.png",
+        "image_prompt": "Title: Zen Habitat Jam \n\nImage Size: 1024x1024 pixels\n\nStyle: Retro-modern pixel art, with a calming color palette made up of shades of green, blue, and earth tones. It should have a clean design with a good balance between detail and simplicity to maintain the Zen atmosphere. \n\nDescription: \nThe cover art should be an isometric pixel art interpretation of a serene and balanced room, filled with elements promoting healthy habits. \n\nIn the foreground, place a character sitting on a yoga mat, in a meditative pose, surrounded by plants that symbolize a green, healthy environment. The character could be a stylized pixel art human or a cute, abstract creature to add a unique touch. \n\nThe room should have large windows with sunlight streaming in, showing a beautiful Zen garden outside, implying the connection between indoor and outdoor spaces. The furniture, mainly in the mid-ground, should be modern, minimalist, and sustainable - depicting eco-friendly materials like bamboo or recycled wood. \n\nIn the background, create a bookshelf with books, a pixel art stereo playing soft music, and an easel with a half-finished painting, indicating mental stimulation and relaxation. \n\nIn one corner of the room, show a small, tidy kitchen area with fresh fruits and vegetables, indicating the importance of healthy eating. \n\nIncorporating the oblique strategy 'Discard an axiom,' the room should not follow the traditional layout of a home. For instance, you could place the bed hanging from the ceiling or even floating, breaking the axiom that beds always need to be on the floor. \n\nFor the game title, use a pixel art font with a soft glow effect at the top or bottom of the cover, ensuring that it stands out but doesn't clash with the overall aesthetic. The font color should complement the overall color scheme of the cover.\n\nEssential Cover Requirements: The cover should be able to be resized to a minimum dimension of 315x250 pixels and a recommended size of 630x500 pixels for itch.io without losing its core details or visual appeal. The essential elements - the character, Zen room, and title - must still be clearly visible and recognizable at these sizes."
+    },
+    "task": "Develop a basic 'Interior Design Game' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Discard an axiom'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Interior Design Game",
+    "model": "gpt-4o",
+    "count": 8,
+    "name": "Zen Habitat Jam",
+    "game_id": "ZenHabitatJam_20250628064015",
+    "branding_data": {
+        "short_description": "Design interiors while embracing healthy lifestyle choices in Zen Habitat Jam.",
+        "detailed_description": "Zen Habitat Jam is an innovative interior design game that encourages players to create beautiful spaces while promoting healthy living habits. The game challenges the conventional rule of following traditional design norms by discarding a key axiom of symmetry in interior design. Players must design unique and harmonious spaces that focus on health-promoting themes such as natural light, ergonomic furniture, air-purifying plants, and calming color palettes. With its emphasis on creativity and well-being, Zen Habitat Jam offers a tranquil and inspiring experience, encouraging players to think outside the box and prioritize a healthy lifestyle in their designs.",
+        "tags": [
+            "Interior Design",
+            "Healthy Habits",
+            "Creativity",
+            "Relaxation",
+            "Puzzle",
+            "Symmetry",
+            "Ergonomic",
+            "Plants",
+            "Well-being"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

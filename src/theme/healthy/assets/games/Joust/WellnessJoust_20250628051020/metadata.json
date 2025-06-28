@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Joust/WellnessJoust_20250628051020/cover.png",
+        "image_prompt": "Title: Wellness Joust Pixel Art Game Cover\n\nDimensions: 1024x1024 pixels for cover art, ensuring it can be resized to a minimum of 315x250 pixels and a recommended size of 630x500 pixels for itch.io requirements.\n\nStyle: Retro pixel art with vibrant colors and a clean, neat presentation in line with the 'Tidy up' strategy. The artwork should have a modern, minimalist aesthetics to signify the cleanliness associated with healthy habits.\n\nImage Composition:\n\nBackground: A bright, clean and vibrant pixelated sky with fluffy pixel clouds, symbolizing a clear mind and positivity. The bottom half should depict a well-kept, lush green pixel art park to represent the environment's cleanliness and wellness.\n\nMain Characters: Two pixelated knights in shining armor riding on broomsticks instead of traditional jousting horses. The broomsticks symbolize the 'Tidy up' strategy and the knights represent the players of the game. One knight should be colored in bright, energetic colors like orange or yellow, while the other should have a calming color palette, like cool blues or greens, signifying different aspects of wellness - physical activity and mental calmness.\n\nAction: The knights should be mid-joust, their lances aimed at each other. Instead of traditional lances, they should hold oversized toothbrushes, symbolizing the theme of healthy habits.\n\nForeground: A pixel art game title 'Wellness Joust' should be at the bottom of the image, with large, bold pixel letters that stand out against the background. The title should be bright and colorful, matching the vibrant aesthetic of the artwork.\n\nAdditionally, make sure to leave enough clean, uncluttered space for additional text or logos that may need to be added later. The overall look should be fun, playful, and inviting, with a clear emphasis on cleanliness and health."
+    },
+    "task": "Develop a basic 'Joust' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Tidy up'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Joust",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellness Joust",
+    "game_id": "WellnessJoust_20250628051020",
+    "branding_data": {
+        "short_description": "Engage in aerial duels promoting healthy habits in the unique Wellness Joust experience.",
+        "detailed_description": "Wellness Joust combines the classic arcade excitement of mounted knights with a modern theme of healthy living. Players control a knight armed with a lance, riding atop a whimsical mount. The goal is to outmaneuver opponents in mid-air duels within arenas symbolizing different healthy habits such as balanced diet, regular exercise, and meditation. The twist is the 'Tidy Up' mechanic, where players must clear arenas of unhealthy elements, such as junk food or clutter, to power up and gain the advantage over rivals. Each victorious match helps to instill educational tips about forming and maintaining healthy habits, making it not only fun but educational.",
+        "tags": [
+            "Arcade",
+            "Action",
+            "Educational",
+            "Health",
+            "Multiplayer",
+            "Retro",
+            "Family-Friendly",
+            "Strategy"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

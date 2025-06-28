@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/WouldYouRather/CruxCelestial_20250628064141/cover.png",
+        "image_prompt": "Image Prompt:\n\nFor the pixel art cover of 'Crux Celestial', imagine a scene that captures the essence of the game's celestial theme through its reversed lens. \n\nThe central element of the picture should be a massive, brilliantly illuminated celestial body. This could be a bright star, a nebula, or a galaxy, rendered in beautiful pixelated detail. This celestial body should almost fill the center of the image, its light radiating out in all directions, illuminating the darkness of the space around it.\n\nIn the foreground, the player's character, a silhouette against the celestial light, should be seen. The character may be depicted as a lone astronaut, standing on an alien planet, looking up at the celestial body in awe, emphasizing the game's epic scale and sense of wonder.\n\nIn the top left corner of the cover, place the title 'Crux Celestial' in bold, pixelated letters. The font should be simple yet futuristic, with a glow that complements the celestial body's radiant light.\n\nIn terms of style, opt for a retro, 8-bit or 16-bit pixel art aesthetic. The color palette should predominantly consist of dark blues, purples, and blacks for the space background, with bright whites, yellows, and pinks for the celestial body. The contrast between the bright celestial body and the dark space should create a striking, dramatic effect.\n\nThe image should be created in a 1024x1024 pixel resolution to meet the high-resolution needs of most modern displays, but it should also look good when scaled down to the minimum 315x250 and recommended 630x500 pixel dimensions required by itch.io. To ensure this, place all important elements (like the character and celestial body) in the center and make sure they are clearly visible and recognizable even at smaller sizes. \n\nThe reversal aspect should be reflected in the concept of the character looking towards the celestial body, emphasizing the paradox of searching for answers in the vastness of space while standing on an alien planet - a reverse of the usual exploration narrative where we look for answers on alien planets while standing on Earth."
+    },
+    "task": "Develop a basic 'Would You Rather' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Reverse'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Would You Rather",
+    "model": "gpt-4o",
+    "count": 8,
+    "name": "Crux Celestial",
+    "game_id": "CruxCelestial_20250628064141",
+    "branding_data": {
+        "short_description": "Crux Celestial is a 'Would You Rather' game centered around healthy habits, with a twist of reverse choices.",
+        "detailed_description": "Crux Celestial challenges players to choose between reversed 'Would You Rather' scenarios related to healthy habits. Instead of picking the most appealing option, players must think critically about the consequences of each choice. The game encourages reflection on personal well-being by presenting thought-provoking reversed dilemmas, such as choosing between less healthy options to gain insight into the importance of making healthier decisions daily. Through its unique reverse perspective, Crux Celestial aims to promote better awareness and understanding of healthy lifestyle choices.",
+        "tags": [
+            "Healthy Habits",
+            "Would You Rather",
+            "Reverse Choices",
+            "Lifestyle",
+            "Decision Making",
+            "Strategy",
+            "Educational"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

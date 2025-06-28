@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/BubbleWrapPopper/MindfulPopping_20250628052752/cover.png",
+        "image_prompt": "Image Prompt:\n\nTitle: Mindful Popping - \"Transform your stress into a game!\"\n\nSetting: A calming zen room atmosphere with a minimalist design.\n\n1. Dimensions: The image should be 1024x1024 pixels, making sure all the essential elements are within the 630x500 pixels to comply with itch.io requirements. \n\n2. Central Focus: The main focus should be a pair of hands (in pixel art style) that are popping a large sheet of bubble wrap. The hands should appear relaxed yet engaged, emphasizing the soothing aspect of the activity.\n\n3. Around the hands, show small bubbles floating upwards, representing the popped bubbles. These should be of various sizes and should appear light and free, embodying the concept of 'easement'. \n\n4. Style & Color Palette: Use a soft color palette for the overall image with different shades of blue, grey, white, and hints of green. The style should be a blend of minimalism and pixel art, representing simplicity and the digital nature of the game. \n\n5. Background: In the background, incorporate elements of a zen room such as a small pixel bonsai tree, a burning incense stick, and a soft light source to create a calming atmosphere. Use gradients and shadows to create depth in the image.\n\n6. Typography: Position the title \"Mindful Popping\" at the top of the image. The font should be bold yet playful, mirroring the game's light-hearted approach to stress relief.\n\n7. Lower Part: At the bottom, leave some space for the game's description and the company's logo.  \n\nRemember, the game's theme is about healthful habits and stress relief, so the cover should reflect tranquility and simplicity, with an easement from the intensity that usually comes with gaming."
+    },
+    "task": "Develop a basic 'Bubble Wrap Popper' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Allow an easement (an easement is the abandonment of a stricture)'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bubble Wrap Popper",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Mindful Popping",
+    "game_id": "MindfulPopping_20250628052752",
+    "branding_data": {
+        "short_description": "Experience stress relief by popping virtual bubble wrap while promoting healthy habits in 'Mindful Popping'.",
+        "detailed_description": "Mindful Popping is a stress-relief game where players pop virtual bubble wrap with a unique twist: promoting healthy habits. Embrace mindfulness as you explore various bubble wrap patterns inspired by healthy living themes such as balanced diets, regular exercise, and adequate sleep. Each pop reminds you to take a step back, breathe, and focus on well-being. Applying the oblique strategy 'Allow an easement', the game offers an open-ended experience, encouraging players to abandon rigid gameplay structures and enjoy a relaxing and meditative popping session at their own pace. The result is a soothing interplay between popping fun and real-life health inspirations.",
+        "tags": [
+            "bubble wrap",
+            "mindfulness",
+            "healthy habits",
+            "stress relief",
+            "casual game",
+            "meditative",
+            "relaxation",
+            "well-being",
+            "open-ended gameplay"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

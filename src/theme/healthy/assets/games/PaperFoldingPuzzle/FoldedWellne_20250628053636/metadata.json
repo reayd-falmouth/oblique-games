@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/PaperFoldingPuzzle/FoldedWellne_20250628053636/cover.png",
+        "image_prompt": "Title: Folded Wellne\n\nArt Style: Pixel art with a modern-retro mix that brings out a vibrant and playful color palette. The pixel art should be detailed enough to clearly represent the objects but retain a touch of minimalism to keep the design clean and appealing. \n\nImage Size: The image should be 1024x1024 pixels. Please ensure that the key elements of the design are clearly visible even when the image is resized to the minimum requirements of itch.io (315x250, recommended 630x500).\n\nImage Description:\n\nThe image should have a central focus on a hand, depicted in pixel art, in the process of folding an origami paper. The origami paper should be filled with pixelated icons representing healthy habits like a water bottle, a fruit, a bicycle, a pair of dumbbells, and a sleep icon. \n\nThe paper should be seen in the transformation process from a flat sheet to a heart shape, symbolizing that these healthy habits contribute to overall heart health. \n\nOn the upper part of the image, include the title of the game, 'Folded Wellne', in pixelated text. The text should be bold, and easy to read, even when resized. Preferably use a contrasting color to the background for the title.\n\nBackground: \n\nThe background should be a simple, single color or a gradient, so as not to distract from the main image. It could be in shades of blue or green to signify tranquility and health.\n\nTo apply the oblique strategy, 'Mechanicalize something idiosyncratic', include a small pixelated mechanical hand at the bottom corner, mimicking the main hand's action. The mechanical hand could be folding a metallic sheet, and instead of healthy icons, it has gears and wires. This will add an element of surprise and interest to the cover art.\n\nThe pixel art style should be consistent throughout the image, and the image should be engaging, fun, and clearly communicate the theme and concept of the game."
+    },
+    "task": "Develop a basic 'Paper Folding Puzzle' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Mechanicalize something idiosyncratic'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Paper Folding Puzzle",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Folded Wellness",
+    "game_id": "FoldedWellne_20250628053636",
+    "branding_data": {
+        "short_description": "Fold paper into unique shapes to promote healthy habits in Folded Wellne.",
+        "detailed_description": "Folded Wellness is a creative and educational puzzle game where players engage in the art of paper folding, known as origami, to cultivate healthy habits. Each level presents a unique health-related challenge that players solve by folding paper into intricate shapes representing various wellness concepts such as balanced meals, exercise routines, and mindful practices. Inspired by the oblique strategy 'Mechanicalize something idiosyncratic,' the game introduces a mechanical twist to the traditional, personalized art of folding by incorporating precise, step-by-step guidelines and automated folding sequences. Players must follow mechanical instructions to bring their health-inspired paper sculptures to life, combining logic with creativity to master the folds. This engaging gameplay promotes wellness education while providing a satisfying puzzle-solving experience.",
+        "tags": [
+            "Puzzle",
+            "Education",
+            "Origami",
+            "Healthy Habits",
+            "Creative",
+            "Mechanical Puzzles",
+            "Wellness",
+            "Mindfulness",
+            "Innovative Gameplay"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

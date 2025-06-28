@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/2048Puzzle/HabitEchoe_20250628053557/cover.png",
+        "image_prompt": "Title: Habit Echoe\n\nDimensions: 1024x1024 pixels (For itch.io, ensure a scaled down version that fits within the recommended 640x500 pixels, but not less than the minimum 315x250 pixels)\n\nStyle: Pixel Art\n\nDescription:\n\nThe cover image for the game 'Habit Echoe' will feature a futuristic, 2048 puzzle game embedded within a setting that promotes healthy habits. The overall color scheme should be composed of vibrant and inviting colors like yellow, green, and light blue that are associated with health and vitality.\n\nForeground: In the center, depict a large, pixelated '2048' tile. The tile should be golden and shiny, radiating light, signifying the goal of the game. Around this central tile, arrange a few other tiles in different colors and numbers, creating the impression of an ongoing game.\n\nMidground: Around the puzzle game, illustrate various elements representing healthy habits. For instance, pixelated icons of a water bottle, an apple, a pair of running shoes, a bicycle, a yoga mat, etc. These icons should be arranged in an orbit around the game, symbolizing the integration of these habits into daily life.\n\nBackground: Model the background as an acoustic spectrum analyzer. Use vertical lines in varying heights and colors, creating a sense of rhythm and movement. This represents the 'Feedback recordings into an acoustic situation' oblique strategy. The spectrum analyzer lines should appear as if they are responding to the game in the center, highlighting the echo concept.\n\nTop: The game's title, 'Habit Echoe', should be placed at the top of the cover image in bold, chunky pixel art letters. The font color should be a contrasting color to the background, such as white or light grey, for visibility.\n\nRemember to maintain the pixel art style throughout, giving the cover a cohesive and retro feel."
+    },
+    "task": "Develop a basic '2048 Puzzle' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Feedback recordings into an acoustic situation'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "2048 Puzzle",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Echoe",
+    "game_id": "HabitEchoe_20250628053557",
+    "branding_data": {
+        "short_description": "Habit Echoe is a themed '2048 Puzzle' game that integrates healthy habits and acoustic feedback.",
+        "detailed_description": "In Habit Echoe, players engage with a classic '2048 Puzzle' game infused with the concept of developing healthy habits. Each tile represents a different healthy activity, such as exercising or eating well. As tiles merge, they reinforce these habits, generating new combined activities. The unique twist is the incorporation of acoustic feedback, where each successful merge plays a recorded encouragement or piece of advice, creating an immersive auditory environment. This sonic landscape evolves as players progress, encouraging positive reinforcement and deeper engagement with the game's theme of wellness.",
+        "tags": [
+            "Puzzle",
+            "2048",
+            "Healthy Habits",
+            "Acoustic Feedback",
+            "Casual",
+            "Strategy",
+            "Educational",
+            "Positive Reinforcement",
+            "Sound Design"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

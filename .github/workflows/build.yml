@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         os: [windows-latest, macos-13, macos-14, ubuntu-latest]
-        theme: [original, aquatic]
+        theme: [original, aquatic, healthy]
     name: Build on ${{ matrix.os }} with theme ${{ matrix.theme }}
     runs-on: ${{ matrix.os }}
 
@@ -37,7 +37,7 @@ jobs:
           make copy_theme THEME=${{ matrix.theme }}
 
       - name: Set Executable Name
-        run: echo "EXEC_NAME=oblique-${{ (matrix.theme == 'aquatic') && 'aquatic-' || '' }}games" >> $GITHUB_ENV
+        run: echo "EXEC_NAME=oblique-${{ (matrix.theme == 'aquatic') && 'aquatic-' || (matrix.theme == 'healthy') && 'healthy-' || '' }}games" >> $GITHUB_ENV
         shell: bash
 
       - name: Build Executable (Windows)

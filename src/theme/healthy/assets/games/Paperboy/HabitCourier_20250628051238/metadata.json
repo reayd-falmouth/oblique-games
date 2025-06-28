@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Paperboy/HabitCourier_20250628051238/cover.png",
+        "image_prompt": "Title: \"Habit Courier\"\n\nDimensions: 1024x1024 pixels (Recommended size for itch.io: 630x500 pixels or minimum size: 315x250 pixels)\n\nImage Description: \n\nThe primary focus of the cover art is a pixel art depiction of a young, energetic paperboy in the center, riding a retro-styled bicycle. He is wearing a bright-colored cap and a messenger bag filled with newspapers. The newspapers, however, are replaced with icons symbolizing healthy habits, such as an apple, a dumbbell, a water bottle, a toothbrush, and a book, to symbolize the game's theme of promoting positive habits. \n\nThe paperboy is positioned on a vibrant pixelated street in a suburban neighborhood at dawn, with the sun peeking over the horizon, casting a warm glow over the scene. The houses on either side of the street are stylized and colorful, each with a mailbox out front.\n\nTo consider the oblique strategy, divide the cover into three sections: the top section showcasing the game's title in 8-bit styled font, the middle section featuring the main artwork, and the bottom section displaying the creator or company's name.\n\nTransitions between these sections are represented by using different color schemes. The top section uses sky colors with the title popping out in contrasting shades. The middle section uses warmer colors, highlighting the action of the scene, and the bottom section uses a gradient of the sky, fading to a darker shade, making the text stand out.\n\nStyle Suggestions:\n\n1. Retro Charm: Use a vibrant color palette and 8-bit pixel art style to capture the charm of retro video games. \n\n2. Depth and Shadows: Apply a sense of depth through the use of detailed pixel shadows and highlights. \n\n3. Iconography: Replace traditional items like newspapers with symbolic icons that represent healthy habits. \n\n4. Typography: Use pixelated typography for the game title and creator/company's name, keeping it in line with the retro gaming aesthetic. \n\n5. Transitions: Use color gradients and varying pixel density to create smooth transitions between the different sections of the cover art."
+    },
+    "task": "Develop a basic 'Paperboy' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Are there sections? Consider transitions'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Paperboy",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Courier",
+    "game_id": "HabitCourier_20250628051238",
+    "branding_data": {
+        "short_description": "Ride through neighborhoods delivering health-themed newspapers and promoting healthy habits.",
+        "detailed_description": "In Habit Courier, step into the shoes of a young newspaper delivery rider tasked with spreading the message of healthy living. As you cycle through vibrant neighborhoods, your aim is to deliver health-themed newspapers to subscribers' doorsteps while avoiding obstacles and handling various challenges. The game is divided into sections representing different neighborhoods, each with unique characteristics and challenges. Seamless transitions occur as you travel between areas, adding variety and pacing to your route. Earn points by delivering to specific targets and complete levels by achieving daily delivery goals. Encounter various neighborhood themes that emphasize different aspects of a healthy lifestyle, from nutritious eating to regular exercise. Navigate cleverly and fine-tune your timing to ensure that every resident receives their dose of healthy encouragement.",
+        "tags": [
+            "Arcade",
+            "Casual",
+            "Cycling",
+            "Healthy Lifestyle",
+            "Strategy",
+            "Skill-based",
+            "Action",
+            "Single-player",
+            "Family-friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

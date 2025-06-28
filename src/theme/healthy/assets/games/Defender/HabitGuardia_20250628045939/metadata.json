@@ -1,0 +1,28 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Defender/HabitGuardia_20250628045939/cover.png",
+        "image_prompt": "Title: Habit Guardia\n\nDimension: 1024x1024 pixels\n\nTheme: Healthy Habits\n\nStyle: Pixel art\n\nFor the game 'Habit Guardia', the cover image should embody the concept of defending healthy habits. The pixel art cover should be vibrant, filled with colors that are pleasing to the eye, but not overly flashy. Bright pastel colors could be used to give the cover a lively yet calming feel. \n\nFollowing the oblique strategy of 'Only one element of each kind', the cover should include various unique elements that represent different aspects of healthy habits. For instance:\n\n1. A central character, standing tall and confident, wielding a shield with a heart emblem on it, symbolizing the defender of healthy habits.\n\n2. A variety of unique enemies that the character is defending against, each symbolizing a different unhealthy habit. For example, a pixel art burger monster for unhealthy eating, a cigarette monster for smoking, etc.\n\n3. In the background, an image of a castle or fortress, symbolizing the stronghold of healthy habits. \n\n4. The game title 'Habit Guardia' should be prominently displayed at the top or bottom of the cover, rendered in pixel art with a bold, readable font.\n\nEach of these elements should be represented only once to adhere to the 'Only one element of each kind' oblique strategy. The various elements should be arranged in a way that creates a balanced composition and tells a story about the game's theme. \n\nRemember to create a version of the cover that fits the essential cover requirements for itch.io (minimum 315x250, recommended 630x500) to ensure it displays properly on the platform."
+    },
+    "task": "Develop a basic 'Defender' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Only one element of each kind'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Defender",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Guardia",
+    "game_id": "HabitGuardia_20250628045939",
+    "branding_data": {
+        "short_description": "Defend your healthy lifestyle against bad habits in 'Habit Guardia'.",
+        "detailed_description": "Habit Guardia is a unique spin on the classic 'Defender' arcade game, designed to promote healthy habits. Players control a guardian character who protects their Healthy Zone from encroaching bad habits. The twist? In line with the oblique strategy 'Only one element of each kind', players can only use one type of defense against each type of threat, requiring strategic planning and quick reflexes. As bad habits like laziness, junk food, and procrastination approach, players must choose the correct counter: exercise, balanced diet, or time management. Featuring colorful graphics and engaging gameplay, Habit Guardia challenges players to maintain a balanced life through strategic thinking and timely actions.",
+        "tags": [
+            "Arcade",
+            "Defender",
+            "Strategy",
+            "Health",
+            "Educational",
+            "Singleplayer"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

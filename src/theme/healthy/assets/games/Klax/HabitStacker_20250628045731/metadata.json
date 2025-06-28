@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Klax/HabitStacker_20250628045731/cover.png",
+        "image_prompt": "Title: Habit Stacker\n\nImage Details: \n\nThe main image should be a captivating pixel art representation of a 'Klax' styled game screen, which is a classic tile-matching puzzle video game. The game screen should display a matrix of different healthy habits such as eating fruits, doing exercises, drinking water, and sleeping well. These habits should be represented as different pixel art icons or symbols in the matrix. The game screen should also include a score counter, game level, and 'next habit' preview in pixel art style to give it a realistic game feel.\n\nIncorporating the oblique strategy prompt, add an element that represents what you're thinking about right now. This could be a pixel art representation of a thought bubble hovering above the game screen, containing a mini pixel scene of your current thought, maybe a cup of coffee, a book, or a music note, etc.\n\nStyle Suggestions:\n\nThe overall color scheme should be vibrant and engaging, using a range of bright colors to differentiate between the different habits. The background could be a deep blue to contrast with the brightly colored pixel art icons. Aim for a retro, 8-bit style that harkens back to the early days of arcade and console gaming. \n\nDimensions and Requirements:\n\nThe image should be of high resolution (1024x1024 pixels) to ensure it looks clear and crisp. However, it should also meet itch.io's cover requirements of a minimum 315x250 pixels and a recommended size of 630x500 pixels. To achieve this, ensure that the main elements of your design are clear and identifiable even when the image is scaled down. The game title 'Habit Stacker' should be prominently displayed and readable at all scales."
+    },
+    "task": "Develop a basic 'Klax' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'What are you really thinking about just now? Incorporate'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Klax",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Stacker",
+    "game_id": "HabitStacker_20250628045731",
+    "branding_data": {
+        "short_description": "Match colored tiles to promote healthy habits in the thrilling puzzle game: Habit Stacker.",
+        "detailed_description": "Habit Stacker is a unique twist on the classic tile-matching game 'Klax', themed around promoting healthy habits. Players are tasked with stacking colored tiles that each represent a positive lifestyle activity such as exercising, eating vegetables, meditating, and more. Each successful stack scores points and triggers affirmations or tips about that specific habit. The game asks players to reflect on their current lifestyle and challenges them to incorporate more healthy actions into their daily routines. With increasing difficulty levels, Habit Stacker encourages players to consider what they're genuinely thinking about and integrate those reflections into gameplay, fostering a mindful approach to both gaming and daily life.",
+        "tags": [
+            "Puzzle",
+            "Tile-matching",
+            "Klax",
+            "Healthy Living",
+            "Mindfulness",
+            "Reflection",
+            "Strategy",
+            "Educational"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Carcassonne/HabitGrid_20250628051314/cover.png",
+        "image_prompt": "Title: Habit Grid\n\nSize: 1024x1024 pixels\n\nStyle: Pixel Art\n\nConcept:\nThe cover image for the game 'Habit Grid' should encapsulate the theme 'Healthy Habits' while also giving a nod to the basic gameplay mechanics of 'Carcassonne'. Given the oblique strategy of 'You are an engineer', the design should incorporate elements that evoke a sense of planning, construction, and systematic progress.\n\nCover Image Description:\n\n1. Central Scene: The central scene should depict a grid (representing the Habit Grid game board) filled with various pixel art tiles. These tiles should reflect a variety of healthy habits - a tile showing a pixel character jogging, another showing a character eating a healthy meal, a tile showing a character reading a book, etc.\n\n2. Surrounding Environment: The grid should be situated on a blueprint paper (signifying the 'engineer' aspect) with strategic plans and sketches around it. Include a few pencils, rulers, and other engineering tools scattered around the blueprint.\n\n3. Characters: Include a few pixel art characters interacting with the grid. They could be seen placing tiles on the grid, signifying the gameplay mechanics of 'Carcassonne'. The characters should be dressed like engineers or architects - hard hats, blueprint rolls, etc.\n\n4. Title: The game title 'Habit Grid' should be prominently placed at the top of the cover image. It should be in a bold, pixelated font that complements the overall visual theme.\n\n5. Background: The background should be a simple, solid color to keep the focus on the detailed central scene.\n\nStyle Suggestions:\n\n1. Use a limited color palette of pastel shades to give the cover a soft, inviting look.\n2. The pixel art style should be detailed but not overly complex - remember, the charm of pixel art lies in its simplicity and nostalgic appeal.\n\nFinal Image Requirements:\n\nThe final image should be 1024x1024 pixels, to match most standard screen resolutions. However, please make sure that the essential elements of the cover (title, central scene, main characters) are clearly visible even when the image is scaled down to itch.io's minimum requirement of 315x250 pixels, and optimally at 630x500 pixels."
+    },
+    "task": "Develop a basic 'Carcassonne' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'You are an engineer'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Carcassonne",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Grid",
+    "game_id": "HabitGrid_20250628051314",
+    "branding_data": {
+        "short_description": "Habit Grid is a strategic tile-laying game where players build a city promoting healthy habits.",
+        "detailed_description": "Habit Grid takes the classic mechanics of the 'Carcassonne' board game and enhances them with a theme focused on healthy living. Players assume the role of engineers designing a city grid where each tile represents various aspects of healthy habits, such as exercise areas, nutrition zones, and mindfulness spaces. As they draw and place tiles, players strategically capture areas to earn points by promoting and maintaining a balanced lifestyle within the city. The game encourages strategic thinking and planning as players compete to build the most health-centric urban layout, leveraging their engineering mindset to optimize space and resources.",
+        "tags": [
+            "board game",
+            "strategy",
+            "tile-laying",
+            "healthy habits",
+            "city building",
+            "engineering",
+            "Carcassonne-inspired",
+            "multiplayer"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

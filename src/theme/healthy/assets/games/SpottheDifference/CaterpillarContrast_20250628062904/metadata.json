@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/SpottheDifference/CaterpillarContrast_20250628062904/cover.png",
+        "image_prompt": "Title: Caterpillar Contrast\nDimensions: 1024x1024 pixels (minimum size 315x250, recommended size 630x500 for itch.io)\n\nImage Prompt:\n\nThe main theme of your pixel art cover should be a vibrant, lush garden scene, filled with a variety of healthy fruits and vegetables growing in abundance. The scene should be split into two similar halves, visually representing a 'Spot the Difference' game themed around 'Healthy Habits'. \n\nOn the left side, depict a caterpillar that has been munching on junk food such as pixelated burgers, candy, and soda cans, looking visibly unwell and sad. The colors on this side should be slightly muted, with unhealthy habits represented by litter like empty chip bags or soda cans scattered on the ground.\n\nOn the right side, show the same caterpillar, but this time it's happily munching on fresh fruits and vegetables, with a visible glow of health and happiness. The colors on this side should be more vibrant, with a variety of brightly colored fruits and vegetables growing.\n\nThe caterpillar should be large and in the center of the image, acting as the main focal point. The caterpillar should be designed in a way that suggests movement, as if it's wriggling its way across the screen. This will serve as a visual representation of the 'moving chain' or 'caterpillar' from the oblique strategy. \n\nStyle Suggestions:\n\nThe pixel art style should be colorful and charming, with a touch of whimsy. Think of old-school video game covers that have a playful, inviting feel to them. The caterpillar should be cute and expressive, with large, emotive eyes. Each pixel should be carefully placed to create a detailed and engaging scene that invites the viewer in. \n\nCaterpillar Contrast text should be at the top of the image, designed in a fun, chunky pixel font. The colors of the text should be a contrast of muted and vibrant colors, reflecting the theme of the image. \n\nRemember, the cover image is the first thing potential players will see, so it should be enticing and representative of the game's themes and gameplay."
+    },
+    "task": "Develop a basic 'Spot the Difference' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Imagine the music as a moving chain or caterpillar'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Spot the Difference",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Caterpillar Contrast",
+    "game_id": "CaterpillarContrast_20250628062904",
+    "branding_data": {
+        "short_description": "Spot differences in images reflecting healthy habits with a musical twist.",
+        "detailed_description": "Caterpillar Contrast is a unique 'Spot the Difference' game focused on promoting healthy habits. Players are presented with pairs of images that feature scenes depicting various healthy activities and lifestyles. The goal is to identify subtle differences between the pairs, enhancing both attention to detail and awareness of positive lifestyle choices. What sets this game apart is its dynamic soundtrack, cleverly designed to emulate the movement of a chain or caterpillar, evolving as the player progresses. This musical element not only engages players but also creates a rhythmic and immersive atmosphere, reinforcing the game's theme of continuous improvement and growth.",
+        "tags": [
+            "Spot the Difference",
+            "Puzzle",
+            "Healthy Habits",
+            "Music",
+            "Educational",
+            "Family-friendly",
+            "Casual"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

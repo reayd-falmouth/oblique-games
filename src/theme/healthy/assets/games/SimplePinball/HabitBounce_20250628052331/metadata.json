@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/SimplePinball/HabitBounce_20250628052331/cover.png",
+        "image_prompt": "Title: Habit Bounce\n\nImage Specifications: The image should be 1024x1024 pixels in size to ensure high resolution and allow for resizing without loss of quality. Itch.io requires a minimum size of 315x250, but a size of 630x500 is recommended for a more visually appealing cover image.\n\nImage Design: \n\nThe artwork should be a pixel art illustration that encapsulates the theme of the game: 'Healthy Habits' in a 'Simple Pinball' setting. The game's title, \"Habit Bounce\", should be written in bold, vibrant pixelated letters at the top of the cover.\n\nForeground: Central to the image should be a pixel art depiction of a pinball machine. Inside the pinball machine, instead of the traditional obstacles and bumpers, incorporate symbols of healthy habits. These could include icons such as a water bottle, an apple, a dumbbell, a toothbrush, a book, and a sleeping moon. A silver ball, representing the pinball, should be bouncing off these icons, symbolizing the player engaging in these healthy habits.\n\nBackground: For the background, incorporate the 'Spectrum Analysis' oblique strategy. Use a gradation of colors, starting from deep red at the bottom and gradually transitioning through the colors of the spectrum to a deep violet at the top. This effect will give an impression of the player progressing through various stages of developing healthy habits.\n\nStyle Suggestions: \n\n1. The pixel art style should incorporate a range of colors, adhering to the spectrum analysis theme. This will give the image a vibrant and engaging quality. \n\n2. Use shading and dithering techniques to give depth to the objects and make them pop against the gradation of the background.\n\n3. Apply a retro arcade aesthetic to the design to match the pinball game theme. This can be achieved by using pixel art fonts and elements reminiscent of classic arcade games.\n\n4. The healthy habit symbols should be easily identifiable and appealing. Use brighter colors for these symbols to make them stand out from the rest of the pinball machine.\n\n5. Keep the overall look cheerful and energetic, in line with the positive theme of healthy habit formation."
+    },
+    "task": "Develop a basic 'Simple Pinball' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Spectrum analysis'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Simple Pinball",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Bounce",
+    "game_id": "HabitBounce_20250628052331",
+    "branding_data": {
+        "short_description": "Habit Bounce is a themed pinball game that promotes healthy habits through colorful levels and engaging gameplay.",
+        "detailed_description": "Habit Bounce is a unique twist on the classic pinball game, designed to encourage players to adopt healthy habits through interactive gameplay. Each level of the game represents a different aspect of a healthy lifestyle, such as nutrition, exercise, mental well-being, and hydration. By applying the concept of 'Spectrum analysis,' each habit is color-coded and represented with different tones and visuals, making each level a vibrant and educational experience. Players score points by hitting targets that reflect these habits, while learning tips and facts. The game incorporates elements like balanced meals, meditation, and water intake as rewarding targets, offering both fun and education.",
+        "tags": [
+            "Pinball",
+            "Health",
+            "Educational",
+            "Family-friendly",
+            "Casual",
+            "Colorful",
+            "Theme-based"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

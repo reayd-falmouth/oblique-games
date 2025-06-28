@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/PaperFoldingPuzzle/FoldWellne_20250628054400/cover.png",
+        "image_prompt": "Title: Fold Wellne\n\nImage Dimensions: 1024x1024 pixels\n\nStyle: Pixel Art\n\nGame Cover Description:\n\nThe cover image should be set in a serene, homely environment. The main focus of the image is a hand folding a piece of origami paper on a wooden table. The hand is in the process of folding the paper into the shape of an apple, representing 'Healthy Habits'. \n\nThe paper should be textured to give it a tactile feel. Each fold should be clearly visible, emphasizing the careful precision involved in the art of origami. The wooden table should have rich, warm hues to add a sense of comfort and domesticity to the scene. \n\nIn the background, you can see a window revealing a sunny day outside with a clear blue sky and a few fluffy white clouds. There should also be a houseplant on the windowsill, enhancing the overall health and wellness theme.\n\nAround the table, scatter other objects that represent healthy habits, like a water bottle, a yoga mat rolled up, a pair of running shoes, a plate of fruits, etc. These objects should be subtly placed so as not to detract from the main focus, but still contribute to the overall theme.\n\nThe title 'Fold Wellne' should be written in bold, white, pixelated letters at the top of the cover image. The letters should be stylized to look as if they're made of folded paper, consistent with the game's theme. \n\nIncorporating the oblique strategy 'Trust in the you of now', a small pixelated character of a meditating person can be added in the corner of the image. This character signifies the player's current self, emphasizing the importance of present actions towards building healthier habits.\n\nEssential Cover Requirements for itch.io:\n\nEnsure that the image is fully visible and clear when resized to the minimum dimensions of 315x250 pixels, recommended 630x500 pixels. The title of the game, the origami apple, and the meditating character should remain the focal points even in the smaller sizes."
+    },
+    "task": "Develop a basic 'Paper Folding Puzzle' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Trust in the you of now'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Paper Folding Puzzle",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Fold Wellness",
+    "game_id": "FoldWellne_20250628054400",
+    "branding_data": {
+        "short_description": "Fold Wellness is a paper folding puzzle game themed around building healthy habits.",
+        "detailed_description": "Fold Wellness challenges players to engage in paper folding puzzles that incorporate the theme of healthy habits. Each level requires players to fold virtual sheets of paper into shapes representing various aspects of wellness, such as exercise, nutrition, and mindfulness. With the strategy 'Trust in the you of now', players are encouraged to use intuitive thinking and their current understanding of healthy practices. The game emphasizes mindfulness as players delicately manipulate the paper, rewarding creativity and present-moment awareness.",
+        "tags": [
+            "puzzle",
+            "paper folding",
+            "healthy habits",
+            "mindfulness",
+            "creative thinking",
+            "intuitive gameplay",
+            "wellness"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

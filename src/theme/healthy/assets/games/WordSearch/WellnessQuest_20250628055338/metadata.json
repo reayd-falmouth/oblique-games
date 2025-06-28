@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/WordSearch/WellnessQuest_20250628055338/cover.png",
+        "image_prompt": "Title: Wellness Quest\n\nImage Specifications: The pixel art cover should be designed in a 1024x1024 resolution, which would fit well for itch.io's recommended cover size of 630x500 and minimum requirement of 315x250.\n\nDetailed Image Prompt:\n\nThe cover should be a vibrant and colorful pixel art representation of the game 'Wellness Quest'. The primary scene should be a word search puzzle, presented on an old parchment paper, with words related to healthy habits such as 'exercise', 'organic', 'hydration', 'sleep', 'meditation', etc. clearly visible in the grid. The grid should use bold, dark outlines for easy visibility.\n\nThe oblique strategy of 'Do we need holes?' can be incorporated in the design by adding 'holes' or blank spaces in the word search, a clever way to depict the idea of 'missing' healthy habits that the player needs to find. These holes could be filled with a darker shade, giving an illusion of depth.\n\nSurrounding the word search, place pixel art illustrations of healthy lifestyle elements. These could include a water bottle, an apple, a dumbbell, a meditation mat, and a clock to represent sleep. These items can be exaggerated in size and placed partially behind the word search for a dynamic layered effect.\n\nTo frame the scene, use a thick border with a rustic wooden texture, referencing the idea of a vintage board game. At the top of the border, the game title 'Wellness Quest' should be prominently displayed in bold, pixelated letters, with a gradient of green and blue, symbolizing health and tranquility.\n\nStyle Suggestions:\n\n1. Color Palette: Use a palette of bright and cheerful colors, with dominant shades of green and blue to represent wellness and tranquility. The pixel art should be colorful yet soothing to the eye.\n\n2. Typography: Use a bold, pixelated font for the game title and any other text on the cover. The font should be easily readable and have a playful, game-like appeal.\n\n3. Texture: Employ a variety of textures in your pixel art, such as the rustic texture for the wooden frame, a smooth texture for the parchment paper, and unique textures for the healthy lifestyle elements.\n\n4. Lighting: Use soft, diffused lighting to give a warm, inviting feel to the cover. The light source could be placed at the top, casting subtle shadows and highlights on the elements for a three-dimensional effect."
+    },
+    "task": "Develop a basic 'Word Search' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Do we need holes?'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Word Search",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellness Quest",
+    "game_id": "WellnessQuest_20250628055338",
+    "branding_data": {
+        "short_description": "Engage in a word search adventure themed around healthy habits with a twist in Wellness Quest.",
+        "detailed_description": "Wellness Quest offers players a unique word search experience centered around embracing and learning about healthy habits. In this game, the traditional grid-based word search puzzle is transformed with the application of 'Do we need holes?', resulting in an innovative layout where words are interwoven in a continuous loop, devoid of gaps typically found in word searches. Players journey through themed levels, uncovering words related to nutrition, exercise, mindfulness, and sleep, fostering both entertainment and education. This fresh take on a classic encourages players to think differently about both puzzles and wellness.",
+        "tags": [
+            "Word Search",
+            "Puzzle",
+            "Education",
+            "Healthy Habits",
+            "Mindfulness",
+            "Innovative",
+            "Family-friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Bomberman/BoostBlast_20250628043840/cover.png",
+        "image_prompt": "Title: Boost Blast\n\nGame Cover Specifications: 1024x1024 pixels\n\nEssential Cover Requirements for Itch.io: Minimum 315x250 pixels, recommended 630x500 pixels\n\nPixel Art Cover Description:\n\nThe composition of the cover art should be carefully framed, adopting the oblique strategy of 'making a blank valuable by putting it in an exquisite frame'. The 'frame' here will represent the gameplay arena or the game world, which will be exquisitely detailed, while the 'blank' will represent the central theme of the game - 'Boost Blast', signifying the explosive action at the core of the game.\n\nIn the foreground, make the central character who should resemble a pixelated version of 'Bomberman', but with a twist - this character should be composed of fruits and vegetables to align with the 'Healthy Habits' theme. For example, an apple for a head, a broccoli body, with arms and legs made of carrots and bananas. In one hand, the character should be holding a bomb made of a watermelon, with a fuse lit up, ready to be thrown. \n\nThe background should be a richly detailed pixelated landscape, representing the game world. The landscape should include elements like pixel art trees, flowers, and other greenery, depicting a healthy and vibrant environment. A few pixelated enemies, composed of junk food items like burgers and fries, should be shown fleeing in fear from the bomb.\n\nThe title of the game 'Boost Blast' should be prominently displayed in bold, bright, pixelated letters at the top of the cover art. The font should be playful and energetic, evoking a sense of fun and excitement.\n\nStyle Suggestions:\n\nThe overall style should be vibrant and colourful, with a fun and playful vibe. The pixel art should be detailed and intricate, showcasing a richly imagined world. The colours should be bright and bold, with the main character standing out against the background. The game title should be in a colour that contrasts with the background, ensuring it catches the viewer's eye.\n\nRemember to adhere to the size specifications, ensuring the image is 1024x1024 pixels for the game cover, and at least 315x250 pixels, preferably 630x500 pixels, for itch.io. The design should ensure that the composition still makes sense and looks good when resized to these smaller dimensions."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Make a blank valuable by putting it in an exquisite frame'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Boost Blast",
+    "game_id": "BoostBlast_20250628043840",
+    "branding_data": {
+        "short_description": "Boost Blast is a 'Bomberman'-style game where players practice healthy habits to unlock powerful boosts and defeat opponents.",
+        "detailed_description": "In Boost Blast, players navigate mazes reminiscent of the classic 'Bomberman' style, but with a unique twist: the emphasis is on practicing and promoting healthy habits. Players collect items representing healthy practices, such as fruits, exercises, and mindfulness techniques. These items, when placed in special ‘frames’ or zones within the maze, become powerful boosts that enhance player abilities or hinder opponents. The game challenges players to strategically place these 'healthy habits' in the right frames to gain an advantage, effectively illustrating the idea of making something common valuable by presenting it creatively. The combination of classic bomb-dropping mechanics with educational health elements provides a fun yet informative gameplay experience.",
+        "tags": [
+            "Bomberman",
+            "Puzzle",
+            "Strategy",
+            "Health",
+            "Educational",
+            "Multiplayer",
+            "Family-Friendly",
+            "Action"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/ClassicSnake/NourishQuest_20250628052249/cover.png",
+        "image_prompt": "Title: Nourish Quest\n\nImage Size: 1024x1024 pixels\n\nTheme: Develop a basic 'Classic Snake' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Decorate, decorate'. \n\nStyle Suggestions:\n\n1. Retro Pixel Art: As the game is a modified version of the classic Snake game, it would be fitting to use retro pixel art. This would provide a nostalgic appeal and would fit well with the game's theme.\n\n2. Vibrant Colors: Use vibrant and contrasting colors to make the game cover appealing and eye-catching. This would also help in differentiating various elements in the game cover.\n\n3. Detailed Background: As per the 'Decorate, decorate' strategy, use detailed pixel art in the background to create a vibrant environment. This could include pixel art of fruits, vegetables, and other healthy foods to go along with the 'Healthy Habits' theme.\n\nDetailed Image Prompt:\n\n1. At the center of the cover, depict a pixel art version of the classic snake, but instead of a regular snake, make it green to represent a health-oriented game. The snake should be composed of pixelated fruits and vegetables, representing that it grows by consuming healthy food.\n\n2. The snake should be in an active motion, curving around the scene to create a dynamic image. It should also be shown munching on a pixelated apple, symbolizing the healthy eating aspect of the game.\n\n3. The background should be decorated with pixel art of various fruits, vegetables, and other healthy foods, applying the 'Decorate, decorate' strategy. These could be floating around or placed on pixelated trees and bushes to create a rich, lush environment.\n\n4. The top of the cover should feature the game title 'Nourish Quest' in bold, vibrant pixelated letters. The title should stand out against the background, so choose a contrasting color.\n\n5. At the bottom, put a pixelated scoreboard showing a high score to represent the game's competitive aspect.\n\nCover Requirements for itch.io:\n\n1. Minimum Size: The cover image should be at least 315x250 pixels.\n2. Recommended Size: For the best results, the cover image should be 630x500 pixels. \n3. The cover image should be clear and well-defined even at smaller sizes, as it would represent the game on the platform. It should be able to convey the game's primary theme and objective even when viewed in the smallest thumbnail size."
+    },
+    "task": "Develop a basic 'Classic Snake' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Decorate, decorate'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Classic Snake",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Nourish Quest",
+    "game_id": "NourishQuest_20250628052249",
+    "branding_data": {
+        "short_description": "Nourish Quest is a classic-inspired Snake game focused on healthy eating and decoration.",
+        "detailed_description": "Nourish Quest reimagines the classic Snake game with a focus on healthy habits. Players guide their snake through a vibrant, decorated environment to collect healthy foods like fruits and vegetables. Each collected item adds to the snake's length, as well as its overall health meter. The game features beautifully decorated levels with thematic backgrounds that promote wellness and healthy living, encouraging players to indulge in nutritious choices. The 'Decorate, decorate' theme embellishes each stage with visually stunning graphics and lively animations, making the path to wellness as enjoyable as it is important. Collect food items to grow your snake and maintain your health, while appreciating the visual beauty of each stage.",
+        "tags": [
+            "Classic Snake",
+            "Healthy Habits",
+            "Decorative",
+            "Casual",
+            "Arcade",
+            "Single-player",
+            "Educational",
+            "Family-friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

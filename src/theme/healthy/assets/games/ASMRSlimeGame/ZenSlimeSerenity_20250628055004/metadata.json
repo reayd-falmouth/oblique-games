@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/ASMRSlimeGame/ZenSlimeSerenity_20250628055004/cover.png",
+        "image_prompt": "Title: Zen Slime Serenity\n\nImage Size: 1024x1024 pixels (minimum 315x250, recommended 630x500 for itch.io)\n\nStyle: Pixel art with vibrant colors but a calming palette - think soft blues, gentle purples, and soothing greens. The pixel density should be high for a smooth, detailed look.\n\nImage Description:\n\nThe main part of the image is a circular journey around the edge, representing the \"Go slowly all the way round the outside\" oblique strategy. In the center, a large hand is gently stretching a shiny, glistening slime, with tiny pixel art sparkles around it to give an ASMR, calming effect. The slime should be a soothing green color.\n\nFrom the bottom and moving clockwise, the outer part of the image should depict various healthy habits. Start with a pixel art character in a meditating position, with peaceful waves of energy radiating outwards. Next to it, show another character doing yoga, bending and stretching with grace. Following this, depict a character jogging with a happy, determined facial expression, and then a character reading a book under a tree, symbolizing mental health. Finally, end the circle with a character cooking healthy food.\n\nThe game title, 'Zen Slime Serenity', should be at the top of the image, in a simple but elegant pixel art font. The letters should be in the same calming color palette as the rest of the image.\n\nRemember to leave room for the itch.io requirements - the cover needs to be easily viewed at a smaller size (minimum 315x250, recommended 630x500), so ensure that the main elements are clear and legible even when the image is downsized. The title, characters, and hand with slime should be the most prominent elements in the image.\n\nOverall, the image should be peaceful and inviting, reflecting the relaxing nature of the game. The pixel art style should give a nostalgic, retro feel while still being modern and engaging."
+    },
+    "task": "Develop a basic 'ASMR Slime Game' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Go slowly all the way round the outside'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "ASMR Slime Game",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Zen Slime Serenity",
+    "game_id": "ZenSlimeSerenity_20250628055004",
+    "branding_data": {
+        "short_description": "Experience tranquil ASMR slime play with a focus on cultivating healthy habits.",
+        "detailed_description": "Zen Slime Serenity offers players a calming ASMR slime experience, with each session focusing on a 'Healthy Habits' theme. Engage with virtual slimes that encourage mindfulness, such as sleep hygiene, balanced nutrition, and stress management. Using the oblique strategy 'Go slowly all the way round the outside,' the game gently guides players to explore outer aspects of their lifestyle, promoting gradual, holistic changes. The visuals and soothing sounds enhance relaxation, allowing players to immerse themselves in a serene environment where they can reshape and nurture healthier habits.",
+        "tags": [
+            "ASMR",
+            "Slime",
+            "Healthy Habits",
+            "Relaxation",
+            "Mindfulness",
+            "Simulation",
+            "Lifestyle",
+            "Stress Management"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

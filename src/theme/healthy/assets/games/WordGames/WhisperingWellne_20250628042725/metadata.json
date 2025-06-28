@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/WordGames/WhisperingWellne_20250628042725/cover.png",
+        "image_prompt": "Title: Whispering Wellne\n\nImage Size: 1024x1024 pixels\n\nStyle: Retro Pixel Art\n\nTheme: Healthy Habits and Word Games\n\nDescription:\n\nEnvisage a pixel art cover that encapsulates the essence of Whispering Wellne, a game that combines word puzzles and healthy habits. \n\nThe central focus of the cover should be a large, ancient well, intricately designed with pixelated stones and moss. This well symbolizes the source of wisdom and healthy habits. The well's rim should be wide enough to accommodate two pixel characters, one on each side. One character is a muscular figure, representing physical wellness, holding a pixelated barbell. The other character, an enlightened figure sitting in a meditation pose, represents mental wellness.\n\nWords, representing healthy habits like 'exercise', 'meditate', 'eat well', 'sleep', etc., should be subtly flowing out of the well. The words can be designed using pixelated bubbles or leaves to maintain the game's health theme. \n\nTo incorporate the oblique strategy of 'Listen to the quiet voice,' consider placing a small, pixelated ear next to the well, listening to whispers of the well. This can be further enhanced by adding subtle sound waves or musical notes in pixel art emanating from the well, hinting at the whispering aspect.\n\nThe game's title, \"Whispering Wellne\", should be prominently displayed at the top of the cover in bold, pixelated letters. The colors should be soothing, with different shades of green and blue, representing calmness and wellness.\n\nWhen resizing for itch.io requirements (minimum 315x250, recommended 630x500), ensure that the well, the characters, and the title remain the focal points of the image. The word bubbles and the listening ear can be made less prominent or removed if necessary for smaller sizes, but the overarching theme of 'Healthy Habits' should be evident.\n\nThe overall style should adhere to a retro pixel art style, with a charming and calming aesthetic, in line with the health and wellness theme of the game. The color palette should be pleasing to the eyes, using pastel shades to ensure the cover is inviting and not too overpowering."
+    },
+    "task": "Develop a basic 'Word Games' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Listen to the quiet voice'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Word Games",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Whispering Wellness",
+    "game_id": "WhisperingWellne_20250628042725",
+    "branding_data": {
+        "short_description": "Whispering Wellness is a word game centered around healthy habits, where players solve puzzles inspired by subtle, introspective themes.",
+        "detailed_description": "Whispering Wellness invites players to engage in word puzzles that explore the theme of healthy habits. In this game, players are encouraged to 'listen to the quiet voice'—to focus on serene, introspective challenges that promote mindfulness and well-being. Each level presents a puzzle where words related to health, such as 'breath', 'balance', and 'calm', must be unscrambled or matched. The game's gentle ambiance and ethereal soundscape guide players into a soothing experience, emphasizing personal growth and inner transformation through quiet contemplation. With each puzzle completed, players receive gentle encouragement and tips on incorporating healthy habits into their daily lives. The journey is not only about solving word puzzles, but also about nurturing a deeper connection to one's own inner wellness.",
+        "tags": [
+            "word game",
+            "puzzle",
+            "healthy habits",
+            "mindfulness",
+            "introspection",
+            "educational",
+            "serene"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

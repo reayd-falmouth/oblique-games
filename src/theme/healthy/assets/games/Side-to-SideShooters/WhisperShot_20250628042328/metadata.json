@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Side-to-SideShooters/WhisperShot_20250628042328/cover.png",
+        "image_prompt": "Title: Whisper Shot\n\nImage Specifications: 1024x1024 pixels for high definition, but ensure it remains clear and recognizable at the minimum itch.io requirements of 315x250 pixels, with the recommended size being 630x500 pixels.\n\nCover Art Description:\nThe cover art will be styled in a pixelated 8-bit aesthetic, reminiscent of classic side-to-side shooters, with a contemporary nod toward the theme of 'Healthy Habits'. The color palette should be vibrant and engaging, leaning heavily on greens for a healthy, natural feel. \n\nBegin with a dark indigo backdrop, symbolizing the quiet voice one needs to listen to. In the center, render a large, pixelated avatar, our game's protagonist. This avatar should be a humanoid figure, with a bright green color scheme, representing a health-conscious individual. The figure should be depicted in a dynamic pose, running to the right side of the cover, with one arm stretched forward, holding a large, pixelated carrot like a gun, illustrating the 'Whisper Shot'. \n\nThe carrot-gun should be firing a stream of smaller, pixelated vegetables (like broccoli, tomatoes, and peppers), representing the side-to-side shooting mechanism. These vegetables should be heading toward a large, menacing, pixelated figure on the right side of the cover, symbolizing unhealthy habits. This figure should be in shades of unhealthy greys and purples, and could be composed of junk food items like chips, soda cans, and candy bars, to maintain the theme. \n\nAt the top of the cover, place the game's title \"Whisper Shot\" in bold, pixelated letters, standing out against the darker background. At the bottom, provide space for the game's tagline or developer's name. \n\nStyle Suggestions:\nThe overall style should be playful and engaging, drawing on the aesthetics of retro gaming while delivering a serious message about health. Pixel shading techniques can be used to give depth and definition to the figures and action. Despite the overall darkness of the background, the protagonist should be well-lit, emphasizing the positive light of healthy choices against the darkness of unhealthy habits. The title's lettering should be in a contrasting color, perhaps a bright yellow or white, to ensure it stands out against the backdrop."
+    },
+    "task": "Develop a basic 'Side-to-Side Shooters' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Listen to the quiet voice'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Side-to-Side Shooters",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Whisper Shot",
+    "game_id": "WhisperShot_20250628042328",
+    "branding_data": {
+        "short_description": "Whisper Shot is a side-to-side shooter game emphasizing healthy habits, guided by the subtle voice of positive choices.",
+        "detailed_description": "Whisper Shot blends classic side-to-side shooter mechanics with an educational theme focused on promoting healthy habits. Players navigate through a series of levels, controlling a character that travels horizontally across the screen while combating obstacles associated with unhealthy lifestyle choices. The game uniquely incorporates the oblique strategy 'Listen to the quiet voice,' encouraging players to pay attention to subtle clues and choices that lead to healthier decisions. As players progress, they must listen carefully to the 'whispers'—soft, gentle prompts that suggest actions promoting better living, such as choosing healthy foods, exercising, or taking breaks for mindfulness. Incorporating these educational elements, Whisper Shot challenges players to enhance their strategic thinking while fostering awareness of their everyday choices.",
+        "tags": [
+            "Shooter",
+            "Educational",
+            "Healthy Habits",
+            "Strategy",
+            "Side-scrolling",
+            "Single Player",
+            "Mindfulness",
+            "Choices",
+            "Puzzle",
+            "Casual Game"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

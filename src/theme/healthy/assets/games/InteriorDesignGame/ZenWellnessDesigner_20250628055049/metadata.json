@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/InteriorDesignGame/ZenWellnessDesigner_20250628055049/cover.png",
+        "image_prompt": "Title: Zen Wellness Designer\n\nGame Theme: Interior Design Game with Healthy Habits\n\nOblique Strategy: Discover the recipes you are using and abandon them\n\nImage Specifications: 1024x1024 pixels (minimum 315x250, recommended 630x500 for itch.io)\n\nImage Prompt:\n\nGo for a tranquil, zen-like setting for the cover image. The foreground should feature a well-designed room in a pixel art style. This room should exemplify a healthy living environment with elements like indoor plants, yoga mats, a well-lit room, and minimalist design. The room should have a variety of colors, but with a muted, pastel palette to evoke a calm and peaceful feeling.\n\nIn the center of the room, place a pixel character, the player's avatar, holding a blueprint in one hand and a pencil in the other, signifying the designing aspect. The character should be dressed casually, perhaps in cozy loungewear, to fit with the relaxed atmosphere of the game.\n\nIn the background, instead of a typical wall, depict a serene outdoor scene visible through a large window. Include elements like a tranquil garden, a small waterfall, or a Zen rock garden. This background should be less detailed than the room itself, but still visible enough to create depth and add to the overall peaceful atmosphere.\n\nIn one corner of the image, add the title of the game 'Zen Wellness Designer' in a pixelated font. The title should be in a color that stands out against the background, but it should also complement the overall color scheme.\n\nStyle Suggestions:\n\nThe overall style should be minimalist and clean, representing the Zen aesthetic. Use a pixel art style with a limited color palette to create a cohesive design. The colors should be soft and calming, with a lot of whites, greens, and earth tones. Make sure to use shading and highlighting effectively to create a three-dimensional feel within the pixel art restrictions.\n\nAbandoning the typical 'recipes' of game art, the cover should not be too crowded or flashy. Instead, it should evoke a sense of calm and tranquility, enticing potential players with the promise of a relaxing and unique game experience."
+    },
+    "task": "Develop a basic 'Interior Design Game' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Discover the recipes you are using and abandon them'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Interior Design Game",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Zen Wellness Designer",
+    "game_id": "ZenWellnessDesigner_20250628055049",
+    "branding_data": {
+        "short_description": "Create harmonious living spaces while embracing healthy habits in Zen Wellness Designer.",
+        "detailed_description": "Zen Wellness Designer blends interior design creativity with the promotion of healthy living. As an expert designer, you are tasked with transforming various living spaces for clients seeking a lifestyle boost through their environment. However, the challenge lies in breaking away from traditional design methods and strategies, instead drawing inspiration from unconventional sources. Guiding players to think outside the box, the game encourages exploration of new materials, configurations, and layouts that focus on mental and physical health. Embrace unique, sustainable design elements and reimagine wellness-focused spaces that support restorative lifestyles, mindfulness, and natural beauty. Players will tackle diverse projects, each requiring innovative thinking and abandoning old 'recipes' for fresh, inspired solutions.",
+        "tags": [
+            "Interior Design",
+            "Healthy Habits",
+            "Creative Strategy",
+            "Simulation",
+            "Mindfulness",
+            "Wellness",
+            "Puzzle",
+            "Innovative Design"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

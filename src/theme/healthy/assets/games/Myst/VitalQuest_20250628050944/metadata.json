@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Myst/VitalQuest_20250628050944/cover.png",
+        "image_prompt": "Image Prompt:\nThe game cover for \"Vital Quest\" should be a pixel art image that combines the mystical aura of 'Myst' with themes of 'Healthy Habits'. The image dimensions are 1024x1024 pixels, which are compatible with itch.io's essential cover requirements (minimum 315x250, maximum 1024x1024, recommended 630x500).\n\nThe cover should feature a vast, sprawling landscape with a mix of nature and architectural elements. The architecture should be reminiscent of the mysterious structures in 'Myst', but with a twist. They should be built from fruits, vegetables, and other symbols of healthy habits, like a broccoli forest, an apple house, or a river flowing with water denoting hydration. \n\nIn the center, place a prominent figure, the game’s protagonist, embarking on their quest. They could be holding a staff with a glowing orb at the top, signifying the vitality they are seeking on their quest. The protagonist should be shown in mid-step, signifying action, movement, and the beginning of their journey. \n\nThe protagonist and the landscape should be surrounded by a border. This could be a series of interconnected hexagonal cells, representing a honeycomb. This not only ties in with the theme of health (as honey is often associated with health benefits), but also fills the oblique strategy requirement: 'Do we need holes?'. Each cell could also contain smaller images related to health habits, like a yoga pose, a bicycle, a water bottle, etc.\n\nStyle Suggestions:\nThe pixel art should have a vibrant color palette, with a heavy emphasis on greens and other natural hues. Use shading and gradients to give depth to the image. The protagonist can be more detailed, with discernible features and clothing. The overall style should be whimsical yet inviting, reflecting the adventurous and beneficial nature of the game. \n\nRemember to leave space for the game's title and make sure it stands out against the background. The title can be placed at the top or bottom of the image depending on where it fits best. The font should be bold and easily readable, possibly with a glow effect to mimic the mystic theme."
+    },
+    "task": "Develop a basic 'Myst' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Do we need holes?'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Myst",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Vital Quest",
+    "game_id": "VitalQuest_20250628050944",
+    "branding_data": {
+        "short_description": "Embark on a mysterious adventure to discover healthy habits in Vital Quest.",
+        "detailed_description": "Vital Quest takes players on a serene, yet mysterious journey through a series of enchanting environments. Inspired by classic exploration and puzzle-solving games, players must uncover the secrets of healthy living. The game introduces a unique twist with the oblique strategy 'Do we need holes?' by presenting challenges that require players to think creatively about gaps in their lifestyle choices. The lush landscapes are filled with intriguing puzzles that explore themes like nutrition, exercise, and mental wellness, inviting players to reflect on their own habits in an engaging and thought-provoking way.",
+        "tags": [
+            "Myst-like",
+            "Puzzle",
+            "Adventure",
+            "Exploration",
+            "Healthy Habits",
+            "Creative Problem Solving",
+            "Mystery",
+            "Single Player"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/MazeNavigation&Collection/SereneQuest_20250628043038/cover.png",
+        "image_prompt": "Title: Serene Quest\n\nImage Dimensions: 1024x1024 pixels\n\nStyle: Retro pixel art with soft, pastel color palette\n\nCover Requirements: As per itch.io, the image should be at least 315x250 pixels. However, it is recommended to make it 630x500 pixels for better visibility.\n\nImage Prompt:\n\nThe cover art should depict a tranquil, maze-like garden filled with various healthy items scattered throughout. The garden should be rich and lush with greenery, featuring pixel art representations of different types of fruit-bearing trees, vegetable patches, and herb gardens. This symbolizes the 'Healthy Habits' theme.\n\nIn the center of the maze, place a small character, the game's protagonist, who is dressed in comfortable adventurer's clothing. The character should appear calm and serene, standing still, respecting the 'Don't break the silence' oblique strategy. \n\nThe protagonist should be holding a basket filled with fruits and vegetables that they've collected, representing the 'Collection' aspect of the game. Perhaps the character could be animated to look like they're about to take a step forward, indicating the start of their 'Quest'.\n\nIncorporate subtle visual cues that the character is navigating the maze, such as a trail of footprints behind them or a hand-drawn map fluttering to one side.\n\nThe game's title, 'Serene Quest,' should be placed at the top of the image in large, legible pixel art letters. Opt for a font style that evokes a sense of calm and tranquility, and choose colors that complement the overall pastel color scheme of the cover.\n\nIn the bottom right corner, add a pixel art rendition of a pair of headphones, symbolizing the silent aspect of the game. This could also serve as a hint to the player that the game might involve sound-based puzzles or challenges.\n\nRemember to keep the image well-balanced and not too cluttered, as the cover needs to be clear and attractive even at smaller sizes."
+    },
+    "task": "Develop a basic 'Maze Navigation & Collection' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Don't break the silence'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Maze Navigation & Collection",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Serene Quest",
+    "game_id": "SereneQuest_20250628043038",
+    "branding_data": {
+        "short_description": "Navigate through serene mazes while maintaining silence and gathering healthy habits.",
+        "detailed_description": "Serene Quest is a unique maze navigation game with a focus on promoting healthy habits in a tranquil setting. Players guide their character through beautifully crafted mazes, collecting items that represent different aspects of a healthy lifestyle, such as fruits, water bottles, and exercise equipment. The key challenge is to move through the maze without making noise, as disturbing the silence could trigger obstacles or slow your progress. Each level provides a progressively complex labyrinth with new healthy habit themes and subtle environmental storytelling. The game encourages mindfulness, careful planning, and strategic thinking to successfully complete the serene quest.",
+        "tags": [
+            "Maze",
+            "Puzzle",
+            "Strategy",
+            "Mindfulness",
+            "Healthy Habits",
+            "Silent Gameplay",
+            "Single Player",
+            "Family Friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

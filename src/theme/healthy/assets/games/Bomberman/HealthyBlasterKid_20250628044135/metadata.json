@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Bomberman/HealthyBlasterKid_20250628044135/cover.png",
+        "image_prompt": "Title: Healthy Blaster Kid\n\nGame Cover Image Dimensions: 1024x1024 pixels (keeping in mind itch.io's minimum requirements of 315x250 pixels and recommended 630x500 pixels)\n\nStyle: Pixel Art\n\nDetailed Image Prompt:\n\nEnvision a vibrant and energetic game cover that portrays the essence of the game - Healthy Blaster Kid. The main character, a young kid equipped with a unique blaster, should be in the center of the composition. This blaster is not an ordinary one, it's a 'Fruit Blaster' that shoots different types of colorful fruits like apples, bananas, strawberries, etc. \n\nThe kid should be depicted as lively and joyful, with a bright smile on their face. They should be in an action pose, blasting fruits towards enemies. The enemies could be junk food items like burgers, fries, or soda cans, portrayed in a comical, non-threatening manner. \n\nThe background should encompass a park scene with trees, flowers, and a clear sky, which can be represented in pixel art style to match the theme of the game. The sun should be shining brightly, casting a beautiful, warm glow over the scene.\n\nTo incorporate the oblique strategy of 'Children's voices - speaking - singing', consider adding speech bubbles near the kid. One could show them saying an encouraging phrase like \"Eat Healthy, Stay Strong!\" and another could show them singing a fun, catchy tune about health. This can be represented visually using musical notes coming out of a bubble. \n\nThe game's title, 'Healthy Blaster Kid', should be at the top of the cover in bold, vibrant letters, while the bottom should have space for necessary details like the developer's name and game rating.\n\nStyle Suggestions:\n\n1. Make use of bright and cheerful colors to evoke a sense of joy and fun.\n2. Keep the pixel art style consistent throughout the cover to match the game's theme.\n3. Use simple and clean pixel art designs for the characters and background elements, making sure they are easily recognizable.\n4. For the text, consider using a pixelated font to match the overall style of the game cover. \n\nRemember to balance all the elements on the cover to create a visually appealing image that accurately reflects the game's theme and concept."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Children's voices - speaking - singing'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Healthy Blaster Kid",
+    "game_id": "HealthyBlasterKid_20250628044135",
+    "branding_data": {
+        "short_description": "A 'Bomberman'-inspired game promoting healthy habits with a playful twist involving children's voices.",
+        "detailed_description": "Healthy Blaster Kid is a vibrant, strategy game where players navigate mazes inspired by classic 'Bomberman' mechanics. The game introduces a theme of healthy habits, where instead of bombs, players use 'health blasts' to clear obstacles like junk food or sedentary barriers. As a unique twist, the game incorporates children’s voices as both narration and soundtrack, infusing a playful, sing-song atmosphere. Players work through levels guided by cheerful voices, encouraging healthy choices, and celebrating successes with jubilant songs. This game aims to teach kids about healthy living through interactive and engaging play.",
+        "tags": [
+            "Bomberman",
+            "Strategy",
+            "Children",
+            "Educational",
+            "Healthy Living",
+            "Puzzle",
+            "Maze",
+            "Family-Friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/BubbleShooter/HabitualPopParade_20250628062656/cover.png",
+        "image_prompt": "Title: Habitual Pop Parade\n\nPixel Art Cover Image Description:\n\nThe image dimensions should be 1024x1024 pixels to provide a detailed view. It should also be flexible to scale down to the minimum cover requirements for itch.io (315x250 pixels, but 630x500 pixels recommended) without losing its essence.\n\nForeground:\nPlace a young, determined character at the bottom center of the canvas, with a bubble shooter in hand, aimed upwards. The character should be in a dynamic pose, with one foot forward, implying movement. The shooter should be a toothbrush, reinforcing the theme of healthy habits. \n\nIn front of the character and a little towards the right, create a small, pixelated dog, eagerly watching the bubbles. The dog is a symbol of habitual routines, further emphasizing the game's theme. \n\nMidground:\nThe center and top area of the image should be filled with colorful bubbles in different sizes, representing the 'Bubble Shooter' game element. Some bubbles should have small pixel art icons of healthy habits inside them, such as a fruit, a glass of water, a tooth, a dumbbell, etc. \n\nTo apply the oblique strategy 'Repetition is a form of change', repeat the healthy habit icons in the bubbles but change their colors and sizes. The repetition, variation in size and color should create a visually appealing pattern and a sense of depth. \n\nBackground:\nCreate an abstract, vibrant background that contrasts with the bubbles and makes them stand out. Add a subtle pattern of pixelated stars or sparkles to imply the 'parade' part of the title.\n\nStyle Suggestions:\nUse a vibrant, contrasting color palette with bright pastels for the bubbles and a darker tone for the background. The art style should be fun and playful, with clean pixel lines and shading to give a three-dimensional effect to the bubbles and characters. \n\nText:\nPlace the game title 'Habitual Pop Parade' at the top of the image in bold, pixelated letters. The font color should contrast with the background for readability. The tagline 'Develop a basic 'Bubble Shooter' game with the theme 'Healthy Habits'' should be placed just below the title but in a smaller font size.\n\nRemember to keep the essential elements of the image clear and recognizable even when the image is scaled down to the minimum size."
+    },
+    "task": "Develop a basic 'Bubble Shooter' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Repetition is a form of change'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bubble Shooter",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habitual Pop Parade",
+    "game_id": "HabitualPopParade_20250628062656",
+    "branding_data": {
+        "short_description": "Pop bubbles in this health-themed game to promote and practice healthy habits.",
+        "detailed_description": "Habitual Pop Parade is a vibrant 'Bubble Shooter' style game where players aim to connect three or more bubbles of the same color to pop them. The game is infused with a healthy habits theme, encouraging players to engage with concepts of exercise, nutrition, and wellness through gameplay. Each bubble color represents a different healthy habit, such as green for vegetables or blue for hydration. The oblique strategy 'Repetition is a form of change' is implemented by having the same bubbles appear in sequences more frequently, reinforcing the importance of repetitive practice in building lasting habits. As players progress, they will encounter various levels that highlight different aspects of a healthy lifestyle, motivating them to adopt these habits in real life.",
+        "tags": [
+            "Bubble Shooter",
+            "Puzzle",
+            "Casual",
+            "Health",
+            "Educational",
+            "Wellness",
+            "Color Matching",
+            "Family Friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

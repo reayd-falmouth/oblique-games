@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/TheElderScrolls/WhispersofWellne_20250628045512/cover.png",
+        "image_prompt": "Image Prompt:\n\nTitle: 'Whispers of Wellne'\n\nDimensions: 1024x1024 pixels\n\nTheme: A health-focused adaptation of 'The Elder Scrolls'\n\nStyle: Pixel art with a mystical and tranquil atmosphere.\n\nComposition:\n\n1. Central Figure: A character, resembling a typical 'Elder Scrolls' protagonist, in a meditative pose. Their attire is a mixture of a monk's robe and a traditional 'Elder Scrolls' armor, symbolizing the combination of health and gaming themes. They are glowing with a soft, gentle light, representing the 'quiet voice' of wellness they are listening to.\n\n2. Environment: The character is situated in a serene, forest-like setting. Pixelated trees, plants, and a flowing river fill the surroundings. The color palette is dominated by shades of green, blue, and brown, promoting a sense of calm and tranquility.\n\n3. Foreground Elements: Pixel art representations of healthy habits are scattered around. These could include illustrations of fruits and vegetables, a water flask, a pair of running shoes, a yoga mat, etc. These items should be subtly blended into the environment to avoid appearing too blatant or distracting.\n\n4. Sky: The sky above is a gradient of soft blues and purples, indicating either dawn or dusk. A few pixelated stars are visible, adding to the mystic ambiance.\n\n5. Game Title: The game's title, 'Whispers of Wellne,' is placed at the top of the image in a stylized, pixelated font. It is glowing slightly, mirroring the glow of the central character.\n\nRequirements:\n\nEnsure that the cover's essential elements, such as the title and central character, are clearly visible and well-distributed in a 315x250 pixel version for itch.io's minimum requirements. Ideally, aim for a 630x500 pixel version to ensure that the cover looks good on multiple platforms.\n\nStyle Suggestions:\n\n1. Use a pixel art style reminiscent of 'The Elder Scrolls' games, with a slightly softer and more tranquil aesthetic to reflect the game's health and wellness themes.\n\n2. Use shading and color gradients to give depth and dimension to the pixel art. \n\n3. Characters and items should have a detailed, hand-drawn look to make them stand out against the more simplistic, pixelated background.\n\n4. Maintain a balance between detail and simplicity to ensure that the image remains clear and readable at smaller sizes."
+    },
+    "task": "Develop a basic 'The Elder Scrolls' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Listen to the quiet voice'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "The Elder Scrolls",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Whispers of Wellness",
+    "game_id": "WhispersofWellne_20250628045512",
+    "branding_data": {
+        "short_description": "Whispers of Wellness is an RPG set in a fantasy world where players embark on a journey to embrace healthy habits by listening to the subtle guidance of inner whisperings.",
+        "detailed_description": "Whispers of Wellness immerses players in a fantastical realm inspired by 'The Elder Scrolls', where the peace and balance of the world hinge on the adoption and promotion of healthy habits. In this unique RPG, players create their own characters and explore vast landscapes, ancient ruins, and bustling towns. Guided by a 'quiet voice', an enigmatic presence that gently nudges players towards choices promoting wellness, they undertake quests that challenge their physical endurance, mental acuity, and emotional resilience. Choices affect not only the character's health and abilities but also the environment and broader community, emphasizing the interconnectedness of personal health and societal well-being. As players delve deeper, they build relationships with allies who share insights into adopting beneficial routines and overcoming obstacles to health, culminating in a world transformed by the collective embrace of healthy habits.",
+        "tags": [
+            "RPG",
+            "Fantasy",
+            "Health",
+            "Wellness",
+            "Adventure",
+            "Single Player",
+            "Exploration",
+            "Quest-based",
+            "Character Development",
+            "Community Impact"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

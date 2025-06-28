@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/PipePuzzle/FlowofWellne_20250628054229/cover.png",
+        "image_prompt": "Title: Flow of Wellne\n\nImage Size: 1024x1024 pixels\n\nTheme: Healthy Habits in a Pipe Puzzle Game\n\nThe cover image should be designed in a pixel art style and should be intriguing enough to capture the attention of potential players. The cover art should also be able to communicate the game's main theme and mechanics, which revolves around the concept of maintaining healthy habits.\n\nPrompt Description:\n\nIn the foreground, start with a large, stylized character who is a plumber. He wears a blue uniform, and a red cap with a big white 'W' on it, symbolizing 'Wellness'. He is smiling, holding a big wrench in one hand, symbolizing the tools necessary to maintain healthy habits. \n\nIn the background, use a lighter shade to depict a series of pipes forming a complex maze, representing the pipe puzzle aspect of the game. The pipes should be in various colors, each color representing different healthy habits like nutrition (green for vegetables), physical activity (red for heart rate), hydration (blue for water), and sleep (yellow for energy).\n\nFor the game's title, place it at the top of the cover in large, bold, pixelated font. Below the game title, in smaller pixelated font, include the tagline: \"Connect Your Way to Better Health!\"\n\nIncorporate the Oblique Strategy:\n\nConsidering the oblique strategy, \"What are you really thinking about just now? Incorporate\", imagine you're thinking about the importance of mental health. Add another pipe in the maze in a calming lavender color, representing stress management and mental health.\n\nStyle Suggestions:\n\nUse vibrant and contrasting colors to make the cover visually appealing. Keep the pixel art style consistent throughout the design. The style should be fun and engaging to evoke the playful nature of the game.\n\nCover Requirements for itch.io:\n\nEnsure the image is not less than the minimum itch.io requirement size of 315x250. Ideally, the pixel art cover should be at the recommended size of 630x500. However, since the image is 1024x1024, it will be suitable for itch.io's platform. Make sure that the key elements (the plumber, the pipes, and the game title) are well positioned and will still be recognizable and readable if the image is resized or viewed as a thumbnail."
+    },
+    "task": "Develop a basic 'Pipe Puzzle' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'What are you really thinking about just now? Incorporate'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Pipe Puzzle",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Flow of Wellness",
+    "game_id": "FlowofWellne_20250628054229",
+    "branding_data": {
+        "short_description": "Connect the pipes to promote healthy habits in this engaging puzzle game.",
+        "detailed_description": "Flow of Wellness is a unique pipe puzzle game where players are invited to connect various pieces of pipe to establish a continuous flow of water, symbolically promoting different 'Healthy Habits'. The game employs an oblique strategy by incorporating elements that players might be subconsciously thinking about related to wellness, mindfulness, or daily health routines, such as reminders to drink water, take deep breaths, or perform stretches. Each level presents a new challenge with intricately designed puzzles that represent different aspects of a healthy lifestyle. The theme not only engages players mentally but also subtly nudges them towards a more mindful state of being.",
+        "tags": [
+            "Puzzle",
+            "Casual",
+            "Educational",
+            "Mindfulness",
+            "Healthy Lifestyle",
+            "Strategy",
+            "Single-player"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

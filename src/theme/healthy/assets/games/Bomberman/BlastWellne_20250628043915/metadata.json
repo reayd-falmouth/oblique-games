@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Bomberman/BlastWellne_20250628043915/cover.png",
+        "image_prompt": "Image Prompt:\n\nTitle: 'Blast Wellne'\n\nDimensions: 1024x1024 pixels to ensure high quality and versatility. It should be able to scale down to itch.io's recommended size of 630x500 and its minimum requirement of 315x250 without losing essential details.\n\nStyle: The art style should be retro pixel art, reminiscent of classic games like 'Bomberman'. Bright, bold colors are encouraged to make the cover stand out and attract attention. \n\nImage Description:\nThe main focus should be the protagonist, a pixel art version of a fitness enthusiast wearing a headband, a track suit, and sneakers. He should be positioned in the center of the game cover, holding a bomb made out of a watermelon in one hand and a broccoli in the other. These bombs symbolize the 'Healthy Habits' theme of the game. The protagonist's facial expression should be determined and focused, yet friendly, inviting players to join his quest for wellness.\n\nIn the background, depict different levels of the game, each representing a different healthy habit. For instance, one level could be a gym, another could be a kitchen filled with healthy food, and another could be a peaceful outdoor park for meditating. These details should be smaller to not overpower the main character but still noticeable enough to provide context.\n\nThe game's title, 'Blast Wellne', should be displayed prominently at the top of the cover in a bold, pixelated font. The font color should contrast with the background for easy readability. \n\nOblique Strategy: 'Don't be afraid of things because they're easy to do'. Reflect this strategy by illustrating simplicity in the design. Despite the complexity of the game, the cover should be easy to understand at a glance. The main character, theme, and title should be instantly recognizable. \n\nOverall, the cover should encapsulate the excitement, fun, and healthiness the game promises to deliver. It should be inviting and intriguing, prompting potential players to learn more about the game."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Don't be afraid of things because they're easy to do'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Blast Wellness",
+    "game_id": "BlastWellne_20250628043915",
+    "branding_data": {
+        "short_description": "Blast Wellness is a healthy habits themed 'Bomberman' game that encourages players to embrace simplicity in routine tasks.",
+        "detailed_description": "Blast Wellness is a vibrant twist on the classic 'Bomberman' formula, set amidst a colorful world of healthy living. Players navigate through intricate maze-like grids, planting 'health bombs' that promote good habits such as exercise, nutritious eating, and mindfulness. The unique challenge lies in overcoming the obstacles of everyday habits by not fearing their simplicity. Power-ups like fresh fruit shields and meditation invincibility add strategic depth and a playful nod to well-being. With its easy-to-grasp mechanics and uplifting message, Blast Wellness not only entertains but inspires real-world healthy living.",
+        "tags": [
+            "Bomberman",
+            "Puzzle",
+            "Strategy",
+            "Healthy Habits",
+            "Family-friendly",
+            "Power-ups",
+            "Simple Gameplay",
+            "Colorful",
+            "Inspiring"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

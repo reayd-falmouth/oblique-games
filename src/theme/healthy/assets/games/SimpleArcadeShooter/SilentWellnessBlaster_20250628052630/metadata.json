@@ -1,0 +1,28 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/SimpleArcadeShooter/SilentWellnessBlaster_20250628052630/cover.png",
+        "image_prompt": "Title: Silent Wellness Blaster\n\nImage Size: 1024x1024 pixels (to meet itch.io cover requirements minimum 315x250, recommended 630x500)\n\nStyle: 8-bit pixel art, vibrant colors, detailed yet minimalist\n\nImage Prompt:\n\nThe cover for 'Silent Wellness Blaster' will be a visualization of a 'Simple Arcade Shooter' game with a twist - the theme is 'Healthy Habits'. \n\n1. Background: A gradient of light blue at the top, transitioning into a darker blue at the bottom to represent the sky, with small white pixel stars scattered about. Add a layer of green pixelated hills at the bottom to depict a healthy, serene landscape.\n\n2. Central Image: A pixelated character at the bottom center of the image. The character is in a simple, white spacesuit, holding a futuristic blaster gun. The gun is shooting out beams of light, which are actually pixelated representations of healthy habits - a water droplet, a dumbbell, an apple, a toothbrush, and a sleep icon. The beams should be in vibrant colors, each matching the healthy habit they represent.\n\n3. Enemies: Above the character, depict pixelated, grey, mutant-like viruses and bacteria being blasted apart by the beams of healthy habits.\n\n4. Game Title: Place the game title, 'Silent Wellness Blaster', at the top of the image in large, pixelated, bold letters. The title color should be a gradient matching the background, transitioning from light blue to dark blue. \n\n5. Oblique Strategy: To incorporate the 'Mute and Continue' strategy, the character's helmet should be depicted as opaque, with no facial features visible, implying the silent aspect. The character's forward-facing stance and the continued blasting represent persistence and progress despite being silent.\n\nThis image should be detailed enough to draw the viewer's attention, yet simple enough to clearly communicate the game's core concept. The overall style should be reminiscent of classic arcade games, with a modern twist to engage a broader audience."
+    },
+    "task": "Develop a basic 'Simple Arcade Shooter' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Mute and continue'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Simple Arcade Shooter",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Silent Wellness Blaster",
+    "game_id": "SilentWellnessBlaster_20250628052630",
+    "branding_data": {
+        "short_description": "Silent Wellness Blaster is an arcade shooter focused on promoting healthy habits, with a unique twist of a silent challenge.",
+        "detailed_description": "Silent Wellness Blaster is a simple arcade shooter game that combines fast-paced action with the innovative theme of healthy habits. Players must navigate through various levels, shooting down obstacles that represent unhealthy habits, such as junk food and sedentary behavior. The twist comes from the oblique strategy 'Mute and continue,' which strips away the game's sound, adding a layer of difficulty and forcing players to rely on visual cues and intuition to succeed. As players progress, they collect power-ups that symbolize good habits like regular exercise and nutritious eating, which help them defeat the unhealthy habits more efficiently. The game is designed to subtly encourage the player to reflect on their own habits while enjoying an engaging and challenging experience.",
+        "tags": [
+            "Arcade",
+            "Shooter",
+            "Healthy Habits",
+            "Mute Challenge",
+            "Educational",
+            "Skill-based"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

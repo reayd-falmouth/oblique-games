@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/SimpleRhythmTapper/HealthyGroove_20250628055254/cover.png",
+        "image_prompt": "Image Prompt for Pixel Art Cover Image for 'Healthy Groove' Game\n\nTheme: 'Simple Rhythm Tapper' game with a twist of 'Healthy Habits' and the oblique strategy: 'Honor thy error as a hidden intention'.\n\nEssential Cover Requirements: The final image should be 1024x1024 pixels to ensure high resolution. However, keep in mind itch.io's minimum requirement of 315x250 pixels and recommended size of 630x500 pixels.\n\nSetting: A city park during a vibrant sunrise. A jogging track winds through the park, leading to different fitness zones like a yoga mat, a set of dumbbells, a fruit stand, and a hydration station.\n\nMain Characters: Two characters are in focus - a male and female character. The male character is tapping on a giant drum, intuitively matching the rhythm of the heartbeats shown above him. The female character is dancing, her movements matching the rhythm. Both characters are dressed in sporty attire, sweating but smiling, indicating the enjoyment of healthy physical activity.\n\nForeground: Illustrate a variety of healthy foods like fruits, vegetables, and water bottles. They're rhythmically bouncing to the beat, reinforcing the theme of 'Healthy Habits'.\n\nBackground: Other park-goers are seen engaging in various activities like yoga, stretching, and weightlifting, maintaining social distance.\n\nStyle suggestion: Use a warm, vibrant color palette to evoke positivity and energy. The pixel art should be detailed but not overly complex, maintaining a balance between simplicity and depth. The rhythm element can be depicted using musical notes and heartbeats. Use a slight blur effect on the background characters to bring the main characters into focus.\n\nOblique Strategy: 'Honor thy error as a hidden intention' can be portrayed by incorporating a character in the background who stumbles while jogging but quickly recovers and turns it into a dance move, continuing to enjoy the rhythm and the workout, hence honoring the stumble as a new dance move.\n\nTitle: The game title 'Healthy Groove' should be prominently displayed at the top or bottom in bold, bright letters, matching the lively energy of the cover.\n\nThis cover should ideally capture the energetic, rhythmic, and healthy essence of the game, making it appealing to potential players."
+    },
+    "task": "Develop a basic 'Simple Rhythm Tapper' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Honor thy error as a hidden intention'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Simple Rhythm Tapper",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Healthy Groove",
+    "game_id": "HealthyGroove_20250628055254",
+    "branding_data": {
+        "short_description": "Tap your way to healthy habits in 'Healthy Groove', where each mistake is a move towards improvement.",
+        "detailed_description": "'Healthy Groove' is a simple rhythm-based game that encourages players to develop healthy habits through a fun and interactive experience. With a unique twist inspired by the oblique strategy 'Honor thy error as a hidden intention,' the game integrates mistakes into progression. Players tap to the beat, selecting actions that correspond to healthy habits such as exercising, eating well, and meditating. When players make mistakes, instead of failing, they unlock alternative paths that highlight the importance of learning from errors and adapting. This innovative mechanic teaches players that every slip-up can lead to growth and better understanding, aligning perfectly with the theme of nurturing healthy routines.",
+        "tags": [
+            "Rhythm Game",
+            "Healthy Habits",
+            "Music",
+            "Educational",
+            "Casual",
+            "Single-player",
+            "Family-friendly",
+            "Error-based Progression",
+            "Interactive",
+            "Adaptation"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

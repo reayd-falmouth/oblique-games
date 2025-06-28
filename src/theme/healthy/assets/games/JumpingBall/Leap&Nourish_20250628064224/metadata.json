@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/JumpingBall/Leap&Nourish_20250628064224/cover.png",
+        "image_prompt": "Title: Leap & Nourish\n\nImage Dimensions: 1024x1024 pixels (Maintain aspect ratio for itch.io requirements: minimum 315x250, recommended 630x500)\n\nStyle: Pixel Art, Colorful, Vibrant and Playful\n\nDescription:\n\nThe cover image will feature a brave, lively bouncing ball character in the center, right in the middle of a leap. The ball should be designed with a look of determination and joy, personifying the spirit of an enthusiastic gamer. Add an oblique touch by giving the ball a human-like trait, such as a pair of eyes and a mouth. \n\nThe ball should be created in a way that it suggests a healthy habit, for instance, it could be colored green to represent a vegetable (like a pea) or designed with a texture that resembles an orange's skin, symbolizing healthy eating.\n\nThe background will be a lively playground with different pixelated obstacles designed as junk food items (like burgers, sodas, and candies) and healthy food items (like fruits, vegetables, and water bottles). The healthy foods should be portrayed as power-ups or rewards, while the junk food items could be obstacles that the ball character has to leap over. \n\nTo incorporate the 'Ask your body' oblique strategy, include a pixel art representation of a heart or a brain somewhere in the playground, indicating that the body's health is the ultimate judge of our habits.  \n\nMake sure there is a clear path showing the journey of the ball, with a starting point and an end goal. The end goal could be a gleaming trophy or a medal, signifying victory and achievement.\n\nIn terms of color scheme, use a vibrant palette of colors. The healthy foods should be bright and appealing, while the junk foods could be more dull or muted. \n\nAt the top of the cover, design a catchy, pixelated title logo for 'Leap & Nourish'. The title should be bold and prominent, with the '&' symbol cleverly designed as a plus sign (+) to indicate the addition of health or benefits in the game. \n\nMake sure the image is clear and eye-catching, even at smaller sizes to meet itch.io cover requirements. \n\nOverall, the cover should be fun, engaging, and encapsulate the essence of the game 'Leap & Nourish'."
+    },
+    "task": "Develop a basic 'Jumping Ball' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Ask your body'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Jumping Ball",
+    "model": "gpt-4o",
+    "count": 8,
+    "name": "Leap & Nourish",
+    "game_id": "Leap&Nourish_20250628064224",
+    "branding_data": {
+        "short_description": "Leap & Nourish is a jumping ball game that incorporates healthy habit themes, encouraging players to tune into their physical well-being.",
+        "detailed_description": "In Leap & Nourish, players control a vibrant, bouncing ball navigating through a world inspired by healthy habits. The game encourages players to 'ask your body' at each jump, intuitively feeling the rhythm and timing needed to progress. Obstacles and power-ups are modeled after elements of nutrition, exercise, and mindfulness, guiding players through levels that teach and inspire healthy lifestyle choices. With intuitive controls and colorful graphics, Leap & Nourish combines fun platformer mechanics with the educational aspect of developing and maintaining healthy habits.",
+        "tags": [
+            "jumping ball",
+            "platformer",
+            "healthy habits",
+            "educational",
+            "intuitive controls",
+            "mindfulness",
+            "nutrition",
+            "exercise",
+            "obstacles",
+            "power-ups"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

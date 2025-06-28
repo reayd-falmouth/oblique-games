@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/PixelArtColoring/HabitBridge_20250628055550/cover.png",
+        "image_prompt": "Title: \"Habit Bridge\"\n\nStyle: Pixel Art\n\nDimensions: 1024x1024 pixels (minimum 315x250, recommended 630x500 for itch.io)\n\nImage Description:\n\nThe game cover should visually represent the game's title and theme, 'Habit Bridge', in a symbolic and engaging way. The design should be clear and legible, even at smaller sizes. \n\nThe foreground of the image should depict a pixel art character standing at the start of a bridge. The character should be illustrated in a simple, minimalistic style, with bright, eye-catching colors. The character should be holding a paintbrush, dripping with pixelated paint, to represent the 'Pixel Art Coloring' aspect of the game.\n\nThe bridge, which is the main element of the composition, should be designed with a mix of colored and blank pixels. This represents the 'Healthy Habits' theme of the game. The colored sections of the bridge should represent good habits like eating healthy, exercising, and meditating, represented by pixel art symbols like fruits, a dumbbell, and a meditating figure. The blank sections should represent the areas players need to color in-game to build the habit bridge.\n\nIn the background, show a contrasting scenario of a burnt bridge, reflecting the 'Bridges - build - burn' oblique strategy. This bridge should be in shades of grey, black, and red, symbolizing bad habits.\n\nThe game title \"Habit Bridge\" should be placed at the top of the design. The text should be bold and colorful, making it stand out against the background.\n\nThe overall color palette should be vibrant and engaging, with a mix of warm and cool colors to create a sense of balance and visual interest. Use shading and texture to give depth to the pixel art and make the image more immersive.\n\nRemember to keep the design simple and clean, focusing on the symbolic representation of the game's theme. The design should evoke the joy of coloring and the importance of building healthy habits."
+    },
+    "task": "Develop a basic 'Pixel Art Coloring' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Bridges - build - burn'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Pixel Art Coloring",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Habit Bridge",
+    "game_id": "HabitBridge_20250628055550",
+    "branding_data": {
+        "short_description": "Color pixel art and learn healthy habits in Habit Bridge.",
+        "detailed_description": "Habit Bridge is a pixel art coloring game centered around promoting healthy habits. Players use a simple palette of colors to fill in pixel art that depicts various healthy activities and lifestyle choices. Each level represents a different habit, and as players complete images, they metaphorically build 'bridges' by gaining knowledge and insight into incorporating these habits into their lives. Once mastered, players 'burn' these bridges by transcending the need for guidance, having internalized the benefits of the habits. The art style is charmingly nostalgic, and the overall experience is meditative, reinforcing positive lifestyle changes.",
+        "tags": [
+            "pixel art",
+            "coloring",
+            "healthy habits",
+            "educational",
+            "casual",
+            "relaxing",
+            "meditative",
+            "lifestyle",
+            "nostalgic"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

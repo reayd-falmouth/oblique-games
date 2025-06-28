@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Bomberman/SilentDetonator_20250628043546/cover.png",
+        "image_prompt": "Title: Silent Detonator\n\nImage Size: 1024x1024 pixels\n\nEssential Cover Requirements: The image should be at least 315x250 pixels, but it is recommended to be 630x500 pixels for optimal viewing on itch.io.\n\nImage Description:\n\nThe game cover should depict a pixel art scene of a Bomberman-like character in a healthy environment. This environment could be a park or a garden full of greenery, with elements of nature such as trees, flowers, and plants, promoting the theme 'Healthy Habits'. Even the bombs could be replaced with healthier items like fruits or vegetables, symbolizing the elimination of unhealthy habits. \n\nIn the center of the cover, place the character, a pixel-art style Bomberman, with a finger on his lips, signifying silence or a 'silent detonator'. This character should have a vibrant design, with clear outlines and contrasting colors to make him stand out against the backdrop. \n\nIn the character's other hand, he could be holding a fruit or vegetable bomb, ready to be thrown. This could be an apple or a tomato, colored vividly to catch the viewer's attention. \n\nThe title of the game, 'Silent Detonator', should appear at the top or bottom of the image, written in pixelated letters, matching the overall style of the cover. Use bold, contrasting colors for the title to make it stand out. \n\nConsidering the oblique strategy 'Tape your mouth', the character could have a pixelated piece of tape over his mouth, further emphasizing the 'Silent' aspect of the title. \n\nStyle Suggestions:\n\n1. Use a limited color palette to give the cover a retro feel. This could include bright, contrasting colors for the character and the title, and more subdued, natural colors for the background.\n\n2. Use pixelated textures for all the elements in the cover, sticking to the pixel art theme. \n\n3. Consider incorporating some light and shadow effects to give the image depth and make it more visually appealing.\n\n4. Use a unique pixel font for the title to make it more interesting and in line with the game's theme.\n\n5. The overall style should be fun and lively, appealing to a wide range of audiences, and conveying the theme of the game effectively."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Tape your mouth (given by Ritva Saarikko)'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Silent Detonator",
+    "game_id": "SilentDetonator_20250628043546",
+    "branding_data": {
+        "short_description": "Silent Detonator merges classic Bomberman mechanics with a healthy habits twist and a unique communication challenge.",
+        "detailed_description": "Silent Detonator is a unique spin on the classic Bomberman formula, themed around promoting healthy habits. In this game, players navigate a maze, placing 'bombs' to clear paths and eliminate obstacles. The twist is the introduction of the Oblique Strategy: 'Tape your mouth'. This metaphorical challenge requires players to focus on non-verbal communication and strategic silence. Players must work together while being mindful of their actions, promoting the theme of healthy habits such as cooperation, patience, and mindful planning. The game environment encourages a playful yet thoughtful exploration of how actions speak louder than words.",
+        "tags": [
+            "Bomberman",
+            "Puzzle",
+            "Strategy",
+            "Co-op",
+            "Healthy Habits",
+            "Communication",
+            "Silent Strategy",
+            "Maze"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

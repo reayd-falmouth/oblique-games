@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Bomberman/WellnessBomberQuest_20250628051152/cover.png",
+        "image_prompt": "Title: Wellness Bomber Quest\n\nCover Image Size: 1024x1024 pixels\n\nEssential Cover Requirements for itch.io: Minimum 315x250 pixels, Recommended 630x500 pixels\n\nImage Description:\nThe cover image for the game 'Wellness Bomber Quest' should capture the essence of the game – a Bomberman-style game with a theme of healthy habits. The image should be vibrant and energetic, filled with pixel art that mirrors the game's style.\n\nForeground:\nThe central character is a Bomberman-style figure but with a twist - instead of a traditional Bomberman, this character is dressed as a fitness enthusiast, wearing a sweatband on their forehead, sneakers, and holding a bomb made out of an apple. The character should appear to be in mid-action, showing some speed lines behind them to signify the \"Work at a different speed\" philosophy. \n\nBackground:\nThe background should be a maze-like field, typical to Bomberman games, but instead of destructible walls, use objects like soda cans and junk food packets. Replace the power-ups with healthier alternatives like fruits, vegetables, and water bottles. \n\nTop Half:\nThe top half should feature the game's title 'Wellness Bomber Quest'. The title should be in bold, pixelated font that stands out against the background. Preferably, use contrasting colors to make the title pop.\n\nBottom Half:\nThe bottom half should contain the tagline: \"Blast away unhealthy habits\". Ensure this text fits into the overall design and color scheme without overshadowing the main art.\n\nStyle Suggestions:\nUse high contrast colors to make the pixel art stand out. The color scheme should be bright and lively, mirroring the game's theme of promoting healthy habits. The apple bomb, the main character, and the healthy power-ups should be more prominent and colorful than the junk food walls, subtly promoting the game's wellness theme. \n\nRemember that the image's minimum size should be 315x250 pixels, with the recommended size being 630x500 pixels for itch.io. However, the image should ideally be created at 1024x1024 pixels to maintain the best quality."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Work at a different speed'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Title: Wellness Bomber Quest",
+    "game_id": "Title:WellnessBomberQuest_20250628051152",
+    "branding_data": {
+        "short_description": "Engage in explosive fun while promoting healthy habits in Wellness Bomber Quest.",
+        "detailed_description": "Wellness Bomber Quest is a twist on the classic Bomberman gameplay, infused with the theme of healthy habits. Players traverse intricate mazes, planting bombs to clear paths and defeat opponents. However, the game emphasizes working at a different speed, encouraging players to strategize their movements and actions carefully. As players navigate the levels, they collect various health-themed power-ups, such as fruits and fitness equipment, which enhance their abilities and promote wellness. The game challenges players to balance the pace of the action with thoughtful planning, teaching that hasty decisions can sometimes lead to setbacks. With vibrant graphics and engaging gameplay, Wellness Bomber Quest offers both excitement and a positive message.",
+        "tags": [
+            "Bomberman",
+            "Healthy Habits",
+            "Strategy",
+            "Puzzle",
+            "Action",
+            "Family-Friendly",
+            "Fitness",
+            "Maze",
+            "Oblique Strategies"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

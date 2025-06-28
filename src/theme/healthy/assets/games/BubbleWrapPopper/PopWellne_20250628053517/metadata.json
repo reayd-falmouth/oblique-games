@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/BubbleWrapPopper/PopWellne_20250628053517/cover.png",
+        "image_prompt": "Title: Pop Wellne\n\nGame Cover Size: 1024x1024 pixels\n\nTheme: Developing a basic 'Bubble Wrap Popper' game with the theme 'Healthy Habits'\n\nOblique Strategy: Blank white card \n\nStyle Suggestions: Retro 8-bit pixel art style. Use bright and lively colors to signify health and wellness. The overall color palette should lean towards green and blue shades, symbolizing tranquility and positivity. \n\nDetailed Image Description: \n\nThe central image should be a stylized, pixelated hand popping bubble wrap. The bubbles that are being popped should transform into pixelated icons representing healthy habits like an apple, a water bottle, a dumbbell, or a bicycle. \n\nIn the upper part of the cover, place the game's title 'Pop Wellne' in bold, pixelated letters, with each letter a different color from your bright palette. Above the title, place a smaller subtitle that reads 'Pop your way to wellness!'\n\nIn the lower part of the cover, depict a pixelated scene of a healthy lifestyle - a park with trees, a person doing yoga, or someone riding a bicycle. \n\nIn the background, use the oblique strategy of a blank white card to create a simple, clean, and minimalist backdrop, allowing the vibrant pixel art to stand out. \n\nEnsure that the cover remains clear and legible even when scaled down to itch.io's essential cover requirements (minimum 315x250, recommended 630x500). \n\nRemember, the aim is to create a pixel art game cover that is not only eye-catching but also communicates the game's key themes of health, wellness, and fun."
+    },
+    "task": "Develop a basic 'Bubble Wrap Popper' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: '[blank white card]'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Bubble Wrap Popper",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Pop Wellness",
+    "game_id": "PopWellne_20250628053517",
+    "branding_data": {
+        "short_description": "Pop bubbles to learn and promote healthy habits in 'Pop Wellne'.",
+        "detailed_description": "'Pop Wellne' is a unique bubble wrap popping game centered around the theme of cultivating healthy habits. Players engage in the relaxing task of popping virtual bubble wrap, but each bubble also contains health tips, wellness challenges, or fun facts about maintaining a healthy lifestyle. Inspired by the oblique strategy '[blank white card]', the game offers players the opportunity to create their own healthy habit tips and share them within the game. This interactive experience not only provides a stress-relieving activity but also educates and encourages players to incorporate wellness practices into their daily lives.",
+        "tags": [
+            "casual",
+            "puzzle",
+            "educational",
+            "health",
+            "wellness",
+            "interactive",
+            "creative",
+            "family-friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

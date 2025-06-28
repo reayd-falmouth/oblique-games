@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/GardeningGame/SproutPuzzle_20250628063121/cover.png",
+        "image_prompt": "Title: \"Sprout Puzzle\"\n\nTheme: \"Healthy Habits Gardening Game\"\n\nOblique Strategy: \"Do we need holes?\"\n\nImage Size: 1024x1024 pixels \n\nStyle Suggestions: Pixel Art, Vibrant Pastel Colors, Cute Character Design\n\nDetailed Image Prompt:\n\nThe cover image for 'Sprout Puzzle' should be vibrant and full of life, inviting players into a world of gardening and healthy habits. The image should be in pixel art style and should use pastel colors to make it appealing and suitable for all ages. \n\nStart with a lush, verdant garden background full of pixelated flowers, plants, vegetables, and trees. Make sure to add holes in the garden plot, highlighting the oblique strategy. The holes can be in different shapes and sizes to add variety and show that they are ready for planting seeds. \n\nIn the center, place a cute, pixelated character holding a watering can in one hand and a sprout in the other. The character should be dressed in gardening attire, such as a straw hat, gloves, and a gardening apron. The sprout should be a vibrant green, symbolizing life and growth. \n\nTo emphasize the healthy habits theme, scatter various gardening tools and fresh produce around the garden. Show a compost bin, a pile of organic waste, watering cans, garden forks, and trowels. Fresh fruits and vegetables like pixelated carrots, tomatoes, apples, and lettuce can be shown growing in the garden or in a basket next to the character. \n\nAt the top of the image, incorporate the game's title, 'Sprout Puzzle', in a playful, pixel font. The title should be in a bright color that stands out against the garden backdrop but still complements the overall pastel color scheme.\n\nEssential Cover Requirements for itch.io: \n\nEnsure that the main elements – the character, the sprout, and the title – are clearly visible and recognizable even when the image is scaled down to the minimum size of 315x250 pixels for itch.io. For the recommended size of 630x500 pixels, make sure that the details of the garden, the character's expressions, and the tools are still clear and not too clustered."
+    },
+    "task": "Develop a basic 'Gardening Game' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Do we need holes?'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Gardening Game",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Sprout Puzzle",
+    "game_id": "SproutPuzzle_20250628063121",
+    "branding_data": {
+        "short_description": "Sprout Puzzle is a gardening game focused on promoting healthy habits without the need for holes.",
+        "detailed_description": "Sprout Puzzle is an innovative gardening game where players engage with the theme of 'Healthy Habits.' Unlike traditional gardening games where digging holes is essential, Sprout Puzzle challenges this concept by allowing players to plant and cultivate their garden on raised beds and platforms. Players must strategically place seeds, manage resources, and ensure that their plants receive adequate sunlight and water to grow. As they progress, players learn about the importance of healthy habits like nutrition, mindfulness, and sustainability. Each level is a puzzle that requires thoughtful planning and execution, encouraging players to cultivate wellness both in the game and in real life.",
+        "tags": [
+            "gardening",
+            "puzzle",
+            "healthy habits",
+            "strategy",
+            "sustainability",
+            "mindfulness",
+            "educational",
+            "non-violent"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

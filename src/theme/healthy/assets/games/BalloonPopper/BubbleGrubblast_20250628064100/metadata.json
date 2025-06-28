@@ -1,0 +1,29 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/BalloonPopper/BubbleGrubblast_20250628064100/cover.png",
+        "image_prompt": "Title: Bubble Grubblast\n\nImage Size: 1024x1024 pixels\n\nStyle: Pixel Art with a retro, vibrant, and colorful approach\n\nCover Requirements: The image should have a minimum size of 315x250 pixels, but a size of 630x500 pixels is recommended for itch.io.\n\nImage Prompt:\n\nThe image should be a lively and quirky representation of the game 'Bubble Grubblast'. The main scene should depict an abstract, playful garden filled with oversized, colorful healthy food items like fruits, vegetables, and whole grains. These food items should be floating in large bubbles that are waiting to be popped.\n\nIn the foreground, there should be a main character, a cheeky-looking grub. The grub should have a wacky yet adorable appearance, with its body parts exaggerated for a fun effect - think big eyes, a broad smile filled with teeth, and a tiny body. The grub should be holding a dart – it's primary tool for popping the bubbles. \n\nNow, to apply the 'Be Dirty' oblique strategy, let's add some grit. The garden can show signs of being slightly unkempt, with patches of mud, weeds, and fallen leaves. The grub itself can be depicted as a bit scruffy and mischievous, with patches of dirt on its body, emphasizing its 'dirty' strategy to promote 'Healthy Habits'.\n\nThe game title 'Bubble Grubblast' should be at the top in large, bold, pixelated letters, designed in a style that complements the colorful and vibrant scene below. The letters can be made to look like they are made of dirt and mud, adhering to the 'Be Dirty' theme.\n\nThe bottom of the cover should contain a small, pixelated tagline or description of the game. For instance, \"Pop your way to Health!\" or \"Blast Bubbles, Blast Calories!\" to maintain the 'Healthy Habits' theme.\n\nColors should be vibrant and engaging, using a lot of greens for the garden, a variety of colors for the food items, and earthy tones for the 'dirty' aspects of the design.\n\nThis cover image should be carefully designed to fit within the minimum and recommended size requirements for itch.io while ensuring the main elements are clear and not too cluttered."
+    },
+    "task": "Develop a basic 'Balloon Popper' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Be dirty'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Balloon Popper",
+    "model": "gpt-4o",
+    "count": 8,
+    "name": "Bubble Grubblast",
+    "game_id": "BubbleGrubblast_20250628064100",
+    "branding_data": {
+        "short_description": "A lively balloon-popping game teaching healthy habits with a messy twist.",
+        "detailed_description": "Bubble Grubblast is an engaging balloon-popping game centered around the theme of 'Healthy Habits', but with a unique, messy twist. Players pop balloons that represent various healthy habits, such as eating vegetables and exercising. However, an oblique strategy titled 'Be dirty' introduces an unexpected element: some balloons release playful blobs of virtual 'mud' or grime, challenging players to balance cleanliness with chaos. Players must navigate through levels where they maintain their health score while managing the increasing mess on the screen. The game combines fun and learning by emphasizing the importance of healthy living in a whimsical and slightly chaotic environment.",
+        "tags": [
+            "Balloon Popping",
+            "Healthy Habits",
+            "Casual",
+            "Educational",
+            "Fun",
+            "Messy",
+            "Chaos"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

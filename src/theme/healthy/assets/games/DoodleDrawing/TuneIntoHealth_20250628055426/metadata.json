@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/DoodleDrawing/TuneIntoHealth_20250628055426/cover.png",
+        "image_prompt": "Image Prompt:\n\nBegin with a 1024x1024 resolution for the pixel art game cover. This drawing should be designed in a colorful and playful 8-bit style that appeals to both children and adults. The color palette should be vibrant, with a strong use of greens and blues to represent health and wellness. \n\nVisualize a large, retro-style radio at the center of the composition, signifying the game's title 'Tune In to Health'. This radio should have a friendly anthropomorphic face, with the speaker as its mouth, and the knobs as its eyes. The radio should also have tiny pixel art hands holding a doodle drawing pencil on the right and a sketchpad on the left. The sketchpad should have simple doodles of fruits, vegetables, water bottles, and other symbols of healthy habits on it.\n\nSurround the radio with smaller pixel art doodles of other healthy habits, such as a person jogging, a yoga pose, a bike, a salad, a water bottle, and a sleeping moon. These elements should be sprinkled around the radio, almost like they are tunes being played out of it.\n\nThe game title \"Tune In to Health\" should be written in bold, pixelated letters at the top of the image. The letters should be in a color that pops against the background, perhaps a bright, health-inspired apple green.\n\nFor itch.io's essential cover requirements, a section of the image that best represents the game (preferably containing the radio, the title, and a few doodles of healthy habits) should be selected and resized to a minimum of 315x250, but ideally 630x500. This will ensure that the game cover remains engaging and visually appealing, even at smaller sizes.\n\nStyle Suggestions:\n\nRemember to maintain a consistent and playful 8-bit style throughout, with a strong focus on the colors representing wellness and health. The anthropomorphic elements should be cute and friendly, making the game more appealing to the target audience. The doodles on the sketchpad and around the radio should be simple and easily recognizable, each representing a different aspect of healthy living."
+    },
+    "task": "Develop a basic 'Doodle Drawing' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Think of the radio'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Doodle Drawing",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Tune In to Health",
+    "game_id": "TuneIntoHealth_20250628055426",
+    "branding_data": {
+        "short_description": "Create doodles to promote healthy living in Tune In to Health.",
+        "detailed_description": "Tune In to Health is a whimsical doodle drawing game that encourages players to explore and learn about healthy habits through interactive and creative gameplay. Set against a backdrop of a radio-themed world, players tune into different 'stations' that each represent a unique aspect of wellness, such as nutrition, exercise, mental health, and rest. As players engage with these stations, they are tasked with completing doodle challenges that illustrate key health concepts. By thinking of the radio, players collect tunes and apply them to their drawings, unlocking new levels and educational content. The game fosters both creativity and awareness of healthy living, making it suitable for all ages seeking to improve their lifestyle in a fun, interactive environment.",
+        "tags": [
+            "doodle drawing",
+            "educational",
+            "healthy habits",
+            "creativity",
+            "interactive",
+            "wellness",
+            "radio theme",
+            "family-friendly"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

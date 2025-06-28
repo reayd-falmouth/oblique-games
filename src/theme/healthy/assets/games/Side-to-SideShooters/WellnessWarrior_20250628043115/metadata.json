@@ -1,0 +1,32 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Side-to-SideShooters/WellnessWarrior_20250628043115/cover.png",
+        "image_prompt": "Title: Wellness Warrior\n\nDimensions: The image should have a dimension of 1024x1024 pixels to fit the game cover properly. However, the essential cover requirements for itch.io should be kept in mind, which are a minimum of 315x250 pixels, but a recommended size of 630x500 pixels.\n\nImage Description:\n\nThe cover art should feature a central character - a Wellness Warrior, in pixel art design. The Warrior should be portrayed as a healthy, strong figure with a radiant glow, symbolizing good health. The warrior should be dressed in a warrior outfit made of fruits and vegetables, symbolizing the importance of a healthy diet. In one hand, the warrior should be holding a shield designed like a food plate with various healthy food items, and in the other hand, a sword made of a toothbrush, symbolizing oral hygiene.\n\nOn each side of the warrior, depict various harmful elements like pixelated representations of junk food, viruses, and bacteria, symbolizing the unhealthy habits that the warrior fights against. The Warrior should be shown shooting beams of light from the shield towards these harmful elements, symbolizing the fight against unhealthy habits.\n\nGiven the oblique strategy 'Cluster analysis', group these harmful elements into clusters based on their nature. For instance, a cluster of fast food items, a cluster of sugary drinks, and a cluster of virus/bacteria. This will also provide a sense of organization and structure to the chaotic fight scene.\n\nStyle Suggestions:\n\nThe color scheme should be vibrant and engaging. Use bright, appealing colors for the Wellness Warrior and the beams of light, contrasting with darker, muted colors for the harmful elements. The Warrior should be the most colorful and prominent figure on the cover, drawing the viewer's attention instantly. \n\nThe pixel art style should be detailed and meticulous, with each pixel contributing to the overall image. The style should not be too simplistic, as the cover needs to convey the complexity of the game's theme.\n\nThe title \"Wellness Warrior\" should be placed at the top of the design in bold, pixelated letters, with a color that stands out against the background. \n\nThe background could be a simple gradient, going from a darker shade at the top to a lighter one towards the bottom, allowing the central action to really stand out. \n\nOverall, the cover art should convey the game's theme of promoting healthy habits, the battle against unhealthy ones, and the oblique strategy of 'Cluster Analysis' in an engaging and visually appealing way."
+    },
+    "task": "Develop a basic 'Side-to-Side Shooters' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Cluster analysis'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Side-to-Side Shooters",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Wellness Warrior",
+    "game_id": "WellnessWarrior_20250628043115",
+    "branding_data": {
+        "short_description": "Battle bad habits as a warrior promoting health in this side-to-side shooter.",
+        "detailed_description": "In Wellness Warrior, players take on the role of a health-conscious hero navigating a dynamic side-to-side shooter environment. The game creatively integrates the theme of 'Healthy Habits' by transforming harmful habits into enemies that must be defeated. The innovative application of the 'Cluster analysis' strategy adds depth to gameplay, as players group and organize health-promoting actions for maximum impact. Each level challenges the player to identify clusters of negative behaviors, such as junk food cravings and sedentary lifestyles, and combat them with clusters of positive habits like exercise and balanced nutrition. Players must strategically use power-ups that represent vitamins and healthy foods to enhance their capabilities while progressing through increasingly complex levels designed to test their reflexes and strategic planning.",
+        "tags": [
+            "Shooter",
+            "Side-to-Side",
+            "Healthy Habits",
+            "Strategy",
+            "Action",
+            "Educational",
+            "Health",
+            "Brawler",
+            "Arcade",
+            "Wellness"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

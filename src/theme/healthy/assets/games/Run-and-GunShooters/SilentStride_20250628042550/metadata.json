@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/Run-and-GunShooters/SilentStride_20250628042550/cover.png",
+        "image_prompt": "Title: Silent Stride\n\nImage Specifications: 1024x1024 pixels\n\nPlatform: itch.io (cover requirements: minimum 315x250 pixels, recommended 630x500 pixels)\n\nTheme: Run-and-Gun Shooter Game with the theme 'Healthy Habits'\n\nOblique Strategy: 'Tape your mouth (given by Ritva Saarikko)'\n\nStyle Suggestions: Pixel Art \n\nImage Prompt: \n\nThe cover art for \"Silent Stride\" should be an intriguing blend of action and health-conscious imagery, rendered in a vibrant pixel art style. The scene is set in a futuristic cityscape at dusk, with towering, sleek buildings and glowing neon signs. The sky is a gradient of deep purple and sunset orange, dotted with pixelated stars.\n\nIn the center of the cover, depict the main character - a stealthy, athletic figure dressed in a form-fitting, high-tech suit, mid-stride in a dynamic running pose. The character is holding a futuristic gun in one hand, with a bright, pixelated blast of energy being shot out towards an unseen enemy. The other hand is holding a green apple, symbolizing the game's theme of healthy habits.\n\nThe character's mouth is covered with a piece of tape, a nod to the oblique strategy 'Tape your mouth'. This serves as a metaphor for the silent stride, also implying the game's emphasis on stealth and strategy. \n\nIn the foreground, depict healthy foods like fruits and vegetables, but transformed into pixelated power-ups or ammunition. The background features enemies shaped like junk food items - a hot dog, a soda can, a bag of chips - all being blasted away by the character.\n\nThe game title, \"Silent Stride\", is positioned at the top of the cover in bold, pixelated letters. The font is sleek and modern, matching the futuristic theme of the game. The colors should be bright and eye-catching, contrasting with the darker cityscape backdrop.\n\nThe bottom of the cover should have a banner showcasing the tagline, \"Run, Gun, and Get Healthy!\" in a slightly smaller, but still bold and eye-catching font. \n\nRemember to leave space for other elements like the game studio logo and age rating in the corners of the cover. All elements should be rendered in high contrast for visibility at smaller sizes."
+    },
+    "task": "Develop a basic 'Run-and-Gun Shooters' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Tape your mouth (given by Ritva Saarikko)'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Run-and-Gun Shooters",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Silent Stride",
+    "game_id": "SilentStride_20250628042550",
+    "branding_data": {
+        "short_description": "Silent Stride is a unique run-and-gun shooter where players promote healthy habits by collecting nutritious items in silence.",
+        "detailed_description": "Silent Stride puts a refreshing twist on the run-and-gun shooter genre with its 'Healthy Habits' theme. Players traverse vibrant worlds collecting fruits, vegetables, and other nutritious items to boost their character's health and abilities. The game introduces a unique mechanic inspired by the oblique strategy: 'Tape your mouth.' Players must navigate each level without making a sound, using stealth tactics to avoid detection by enemy forces that populate the landscape. Silence is key, encouraging players to think strategically about when to attack and when to remain unseen. This dual focus on action and stealth creates a captivating gameplay experience that rewards healthy choices and encourages strategic thinking.",
+        "tags": [
+            "Run-and-Gun",
+            "Shooter",
+            "Stealth",
+            "Healthy Habits",
+            "Action",
+            "Strategy",
+            "Silent Gameplay",
+            "Nutritious Collectibles",
+            "Adventure"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}

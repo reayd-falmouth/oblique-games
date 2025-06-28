@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/healthyhabitsapp/BalanceStacker/TippingScalesJam_20250628062823/cover.png",
+        "image_prompt": "Title: Tipping Scales Jam\n\nDimensions: 1024x1024 pixels, to be resized to a minimum of 315x250 pixels, recommended 630x500 pixels per itch.io requirements.\n\nImage Description:\nThe cover art will feature a stylized pixel art depiction of a classic balance scale in the center, with both sides of the scale holding different icons related to healthy habits. One side of the scale contains fruits and vegetables to symbolize a balanced diet, and the other side holds exercise equipment like a dumbbell and a jump rope, symbolizing physical activity. \n\nThe background should be a gradient of light blues and greens, giving a sense of calm and harmony. The title, \"Tipping Scales Jam\", will be at the top of the image in a fun, chunky pixel font, colored in a vibrant shade of orange to contrast the cool background hues. \n\nTo humanize something free of error, a pixelated human character will be placed near the balance scale. The character is seen adjusting the weights on the scale, symbolizing the continual effort to maintain healthy habits. This character should be designed to be gender-neutral and have a friendly, inviting look to promote inclusivity. \n\nStyle Suggestions:\nUse different shades and tones of colors to give depth and character to your pixel art. For example, use darker shades to indicate shadows and lighter shades for highlights. Try to create a 3D effect for the scale and the weights. The pixelated human character can have a simple animation like blinking or a waving hand to make the cover more lively. \n\nOverall, aim for a clean, vibrant, and engaging pixel art style that communicates the fun and challenge of the game, while also emphasizing the importance of maintaining healthy habits. It should be visually striking to attract potential players on platforms like itch.io."
+    },
+    "task": "Develop a basic 'Balance Stacker' game with the theme 'Healthy Habits'. Modify it by applying the oblique strategy: 'Humanize something free of error'.",
+    "path": "ideas/healthyhabitsapp",
+    "game_type": "Balance Stacker",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Tipping Scales Jam",
+    "game_id": "TippingScalesJam_20250628062823",
+    "branding_data": {
+        "short_description": "Tipping Scales Jam is a stacker game that combines the theme of healthy habits with a touch of human imperfection.",
+        "detailed_description": "Tipping Scales Jam is a unique take on the classic balance stacker game, where players must stack various objects representing healthy habits without causing the tower to tip over. The theme revolves around cultivating healthy habits in daily life, such as eating balanced meals, getting enough sleep, and exercising regularly. Inspired by the oblique strategy 'Humanize something free of error', the game introduces slight imperfections to the player's control, mimicking the natural human struggle to attain a perfectly balanced life. Players must adjust and learn from small slips to gradually improve their stacking skills, offering a playful reflection on the pursuit of a healthy lifestyle. Each level presents new challenges and different objects to balance, providing a fun and engaging experience for players of all ages.",
+        "tags": [
+            "Puzzle",
+            "Casual",
+            "Indie",
+            "Stacking",
+            "Balance",
+            "Healthy Habits",
+            "Physics",
+            "Single Player"
+        ]
+    },
+    "strategy": "Healthy Habits"
+}
