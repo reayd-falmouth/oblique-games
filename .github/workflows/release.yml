@@ -81,7 +81,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        theme: [ original, aquatic ]
+        theme: [original, aquatic, healthy]
     steps:
       - name: Download Artifacts
         uses: actions/download-artifact@v4
