@@ -1,0 +1,31 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Hex-BasedArmyStrategy/SingularSiege_20250314094453/cover.png",
+        "image_prompt": "Title: Singular Siege - Hex-Based Army Strategy Game\n\nStyle: Pixel Art - Retro 90s Game Cover\n\nImage Size: 1024x1024 pixels (maintain aspect ratio to scale down for itch.io requirements)\n\nCover Requirements: Minimum size of 315x250 pixels, but 630x500 pixels is recommended by itch.io for better visibility.\n\nImage Description:\n\nThe image should depict a bird's eye view of a hexagonal grid battlefield. The grid should be filled with various terrain types, but only one of each kind. These could include a forest hex, a hill hex, a water hex, a desert hex, a mountain hex and a city hex.\n\nIn the center of the grid, place a singular, towering castle, which is the focal point of the image. The castle should be detailed and unique, with pixel art flags waving atop its turrets, symbolizing the game's strategic elements.\n\nAt the edges of the grid, depict various pixel art army units - one of each kind: a knight on a horse, an archer, a pikeman, a wizard, and a catapult. Each unit should be preparing to siege the castle, illustrating the game's combat mechanics.\n\nThe game title \"Singular Siege\" should be at the top of the cover in bold, pixelated letters, evoking a retro gaming feel. The subtitle \"Hex-Based Army Strategy\" should be placed just below the main title, in smaller pixelated letters.\n\nThe background should be a starry night sky, adding a sense of time and urgency to the image. The stars should twinkle in various colors, adding life to the static image.\n\nStyle Suggestions:\n\nMake use of a limited color palette, perhaps 16 colors, to truly give it that retro pixel art feel. The colors should be bold and vibrant to draw the eye and make the cover stand out.\n\nEnsure that the pixel art is detailed and well-crafted, with clear outlines and shading to give depth to the image. The units and terrain should be easily identifiable, despite the pixelated style.\n\nThe overall composition should balance the elements of strategy, combat, and planning, reflecting the game's core mechanics and themes."
+    },
+    "task": "Develop a basic 'Hex-Based Army Strategy' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Only one element of each kind'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Hex-Based Army Strategy",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Singular Siege",
+    "game_id": "SingularSiege_20250314094453",
+    "branding_data": {
+        "short_description": "Singular Siege is a unique hex-based strategy game where players command diverse armies with singular units to outsmart opponents in tactical warfare.",
+        "detailed_description": "Singular Siege challenges players to strategize on a hex-based grid, guiding a limited army where each unit type is unique. Set against a backdrop of careful planning, players must utilize every singular unit's strengths and weaknesses to achieve victory. The game emphasizes strategic foresight and adaptability, as each move must be meticulously calculated to counter the actions of opponents who also command their own distinct set of units. Boasting a variety of terrains and scenarios, each battle in Singular Siege offers a new puzzle for the tactically minded player, blending classic strategic elements with a fresh twist.",
+        "tags": [
+            "strategy",
+            "hex-based",
+            "turn-based",
+            "tactical",
+            "army",
+            "unique units",
+            "singular elements",
+            "planning",
+            "warfare",
+            "board game-like"
+        ]
+    }
+}

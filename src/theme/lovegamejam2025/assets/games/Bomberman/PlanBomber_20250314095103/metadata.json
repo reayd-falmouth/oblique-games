@@ -1,0 +1,27 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Bomberman/PlanBomber_20250314095103/cover.png",
+        "image_prompt": "Title: Plan Bomber\n\nImage Dimensions: 1024x1024 pixels\n\nStyle: Retro pixel art, utilizing a vibrant and eye-catching color palette. The art style should feel reminiscent of classic 8-bit games but with a modern touch. \n\nCover Requirements for itch.io: The cover art should be designed keeping in mind the minimum required dimensions of 315x250 pixels, but it is recommended to go with the optimal size of 630x500 pixels.\n\nImage Description:\n\nForeground:\nThe image should feature a pixel art version of the main character, a cunning and determined bomber holding a lit bomb in his hand. The bomber should be depicted wearing a black bandana covering his mouth, a hat, and a pair of big round eye goggles. His outfit should consist of a utility vest packed with various types of bombs, each representing a different plan. The character's eyes should be wide open, showcasing his readiness and alertness.\n\nBackground:\nThe background should be an intricate labyrinth made of destructible and indestructible blocks. Some blocks should be cracked, signifying the destructive power of the bombs. Within this labyrinth, place pixel art versions of different types of enemies frozen in fear or running in panic. \n\nCenterpiece:\nThe title \"Plan Bomber\" should be prominently displayed at the top of the image. The text should be bold, large, and easy to read. Go for a slightly jagged, pixelated font to match the retro game aesthetic. \n\nOblique Strategy (What is the reality of the situation?):\nTo reflect the reality of the situation, incorporate an element of strategy within the cover art. Show a faint, pixelated overlay of a blueprint or map on the maze, symbolizing the plans and strategies used by the character. This overlay should feature scribbles, arrows, and X marks at strategic points, hinting at the bomber's careful planning. \n\nFinally, make sure to leave a little space at the bottom of the image for a small tagline or brief game description."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'What is the reality of the situation?'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Plan Bomber",
+    "game_id": "PlanBomber_20250314095103",
+    "branding_data": {
+        "short_description": "A strategic twist on the classic Bomberman gameplay with elements of planning and real-world consequences.",
+        "detailed_description": "Plan Bomber is a reimagined version of the classic Bomberman game, where the theme of planning is central to the gameplay. Players navigate a grid-like map filled with obstacles and opponents, strategically placing bombs to clear paths and defeat enemies. However, in this version, every move and bomb placement is influenced by real-world considerations and consequences. Players must plan their moves carefully, taking into account limited resources and the environment's impact, reflecting the oblique strategy 'What is the reality of the situation?'. The game's challenge lies in making strategic decisions under pressure, simulating scenarios where players balance ideal plans with practical limitations.",
+        "tags": [
+            "Bomberman",
+            "Strategy",
+            "Planning",
+            "Puzzle",
+            "Realistic Consequences",
+            "Oblique Strategies"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "randomize": true,
+    "ideation_technique": "oblique_strategy",
+    "cover": {
+        "image_path": "ideas/lovegamejam2025/Bomberman/BlastHarmony_20250314094644/cover.png",
+        "image_prompt": "Title: Blast Harmony\n\nImage Size: 1024x1024 pixels\n\nEssential Cover Requirements: Minimum 315x250 pixels, recommended 630x500 pixels\n\nImage Prompt:\n\nThe main element of this cover should be a pixel art representation of a 'Bomberman'-like game character. This character should be in the center, surrounded by a semi-circle of dynamite sticks, each with a lit fuse. The character, rather than carrying more explosives, should be holding a baton as if conducting an orchestra. The dynamite sticks should mimic the look of an explosive musical staff.\n\nThe character should be portrayed in a playful and energetic style, reflecting the theme of 'Children's voices - speaking - singing'. To achieve this, consider illustrating the character as a young, enthusiastic child, with a wide grin and twinkling eyes. This will add a fun, engaging touch to the game cover.\n\nThe background should be a basic grid pattern, reminiscent of the classic 'Bomberman' game grid. It should have various power-ups and obstacles scattered on it. The power-ups could include musical notes, records, or small pixelated instruments. \n\nAbove the character, the game title 'Blast Harmony' should be displayed in bold, pixelated letters that mimic the style of classic arcade game logos. The title should be in a bright, contrasting color to the background to make it stand out. \n\nStyle Suggestions:\n\n1. Color Palette: Use vibrant colors that are attractive to children. The main character can be colored in bright and cheerful colors, with the background being a bit dimmer to highlight the character and the dynamite sticks.\n\n2. Typography: Use a bold, pixelated font for the game title to reflect the game's retro, arcade-style feel.\n\n3. Art Style: The art should be done in a classic, 8-bit pixel art style to pay homage to the original 'Bomberman' game.\n\n4. Tone: The overall tone of the image should be fun, playful, and energetic, reflecting the game's theme and the oblique strategy applied. \n\nRemember to make sure the key elements of the cover are visible and clear at the minimum size of 315x250 pixels, but are detailed and engaging at the larger size of 1024x1024 pixels."
+    },
+    "task": "Develop a basic 'Bomberman' game with the theme 'Plan'. Modify it by applying the oblique strategy: 'Children's voices - speaking - singing'.",
+    "path": "ideas/lovegamejam2025",
+    "game_type": "Bomberman",
+    "model": "gpt-4o",
+    "count": 10,
+    "name": "Blast Harmony",
+    "game_id": "BlastHarmony_20250314094644",
+    "branding_data": {
+        "short_description": "Blast Harmony is a strategic Bomberman-style game with a unique focus on planning and strategy, set amidst a chorus of children's voices.",
+        "detailed_description": "Blast Harmony transforms the classic Bomberman formula by introducing a plan-themed environment where players must carefully strategize their moves to outsmart opponents and navigate labyrinthine levels. The gameplay is elevated by a whimsical ambiance created by the incorporation of children's voices, which accompany the action through speaking and singing. This innovative auditory element adds an engaging layer of immersion, as players must not only focus on placing bombs and dodging explosions but also pay attention to the guiding voices that provide hints and narrative context. The game challenges players to think ahead and synchronize their actions to achieve victory in a series of cleverly designed levels.",
+        "tags": [
+            "Bomberman",
+            "strategy",
+            "planning",
+            "children",
+            "voices",
+            "music",
+            "puzzle",
+            "arcade",
+            "multiplayer"
+        ]
+    }
+}
